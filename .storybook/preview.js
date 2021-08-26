@@ -1,3 +1,6 @@
+import '../src/assets/styles/pentacle.scss';
+
+
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
