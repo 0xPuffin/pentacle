@@ -1,0 +1,2579 @@
+{
+  "name": "ethereum",
+  "children": [
+    {
+      "name": "Insurance",
+      "img": "https://pentacle.ai/images/SVG/insurance.svg",
+      "children": [
+        {
+          "name": "Cover",
+          "img": "https://assets.coingecko.com/coins/images/13563/thumb/1_eWBbDaqpxXqt7WYPSP4qSw.jpeg?1609822578",
+          "value": 10,
+          "url": "https://www.coverprotocol.com/"
+        },
+        {
+          "name": "Nexus mutual",
+          "img": "https://assets.coingecko.com/coins/images/11890/thumb/wrapped-nexus-mutual.jpg?1595811559",
+          "value": 10,
+          "url": "https://nexustracker.io/"
+        }
+      ]
+    },
+    {
+      "name": "Learn",
+      "img": "https://pentacle.ai/images/SVG/learning.svg",
+      "children": [
+        {
+          "name": "Crypto Testers",
+          "img": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Crypto Testers Website",
+                  "url": "https://cryptotesters.com/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Crypto Testers Twitter",
+                  "url": "https://twitter.com/cryptotesters",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tx Street",
+          "img": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Tx Street Website",
+                  "url": "https://txstreet.com/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Tx Street Twitter",
+                  "url": "https://twitter.com/txstreetCom",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Portfolio",
+      "img": "https://pentacle.ai/images/SVG/portfolio.svg",
+      "children": [
+        {
+          "name": "Blockfolio",
+          "img": "",
+          "value": 10,
+          "url": "https://blockfolio.com/"
+        },
+        {
+          "name": "Coingecko",
+          "img": "",
+          "value": 10,
+          "url": "https://www.coingecko.com/"
+        },
+        {
+          "name": "Rotki",
+          "img": "",
+          "value": 10,
+          "url": "https://rotki.com/"
+        }
+      ]
+    },
+    {
+      "name": "Defi",
+      "img": "https://pentacle.ai/images/SVG/defi.svg",
+      "children": [
+        {
+          "name": "0x",
+          "img": "https://assets.coingecko.com/coins/images/863/thumb/0x.png?1547034672",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "0x Website",
+                  "url": "https://0x.org/",
+                  "value": 2
+                },
+                {
+                  "name": "0x Webapp",
+                  "url": "https://matcha.xyz/",
+                  "value": 2
+                },
+                {
+                  "name": "0x Contract",
+                  "url": "https://etherscan.io/token/0xe41d2489571d322189246dafa5ebde1f4699f498",
+                  "value": 2
+                },
+                {
+                  "name": "0x Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/0x",
+                  "value": 2
+                },
+                {
+                  "name": "0x Whitepaper",
+                  "url": "https://0x.org/docs/core-concepts",
+                  "value": 2
+                },
+                {
+                  "name": "0x Github",
+                  "url": "https://github.com/0xProject",
+                  "value": 2
+                },
+                {
+                  "name": "0x Docs",
+                  "url": "https://0x.org/docs",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "0x Twitter",
+                  "url": "https://twitter.com/0xproject",
+                  "value": 2
+                },
+                {
+                  "name": "0x Discord",
+                  "url": "https://discord.gg/d3FTX3M",
+                  "value": 2
+                },
+                {
+                  "name": "0x Telegram",
+                  "url": "https://discord.gg/d3FTX3M",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "0x Dune Dashboard",
+                  "url": "https://duneanalytics.com/0x/0x-trading-activity",
+                  "value": 2
+                },
+                {
+                  "name": "0x Messari Dashboard",
+                  "url": "https://messari.io/asset/0x",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AAVE",
+          "img": "https://assets.coingecko.com/coins/images/12645/thumb/AAVE.png?1601374110",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "AAVE Website",
+                  "url": "https://aave.com/",
+                  "value": 2
+                },
+                {
+                  "name": "AAVE Webapp",
+                  "url": "https://app.aave.com/markets",
+                  "value": 2
+                },
+                {
+                  "name": "AAVE Contract",
+                  "url": "https://docs.aave.com/developers/the-core-protocol/aave-token",
+                  "value": 2
+                },
+                {
+                  "name": "AAVE Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/aave",
+                  "value": 2
+                },
+                {
+                  "name": "AAVE Whitepaper",
+                  "url": "https://github.com/aave/aave-protocol/blob/master/docs/Aave_Protocol_Whitepaper_v1_0.pdf",
+                  "value": 2
+                },
+                {
+                  "name": "AAVE Github",
+                  "url": "https://github.com/aave",
+                  "value": 2
+                },
+                {
+                  "name": "AAVE Docs",
+                  "url": "https://docs.aave.com/developers/",
+                  "value": 2
+                },
+                {
+                  "name": "AAVE Audits",
+                  "url": "https://docs.aave.com/developers/security-and-audits",
+                  "value": 2
+                },
+                {
+                  "name": "AAVE Medium",
+                  "url": "https://medium.com/aave",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "AAVE Twitter",
+                  "url": "https://twitter.com/AaveAave",
+                  "value": 2
+                },
+                {
+                  "name": "AAVE Discord",
+                  "url": "https://discord.com/invite/adPfquZDZc",
+                  "value": 2
+                },
+                {
+                  "name": "AAVE Telegram",
+                  "url": "https://t.me/Aavesome",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "AAVE Dune Dashboard",
+                  "url": "https://duneanalytics.com/projects/aave",
+                  "value": 2
+                },
+                {
+                  "name": "AAVE Messari Dashboard",
+                  "url": "https://messari.io/asset/aave",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Team",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Stani Kulechov",
+                  "url": "https://twitter.com/StaniKulechov",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alchemix",
+          "img": "https://app.alchemix.fi/static/media/AlchemixLogo.af98983b.png",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Alchemix Website",
+                  "url": "https://alchemix.fi/",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemix Webapp",
+                  "url": "https://app.alchemix.fi/",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemix Contract",
+                  "url": "https://etherscan.io/token/0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemix Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/alchemix",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemix Whitepaper",
+                  "url": "https://alchemix.fi/c76d1d663f6c8247b86a8fca83d5bd1b.pdf",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemix Github",
+                  "url": "https://github.com/alchemix-finance",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemix Audits",
+                  "url": "CertiK audit expected May 2021",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemix Medium",
+                  "url": "https://alchemixfi.medium.com/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Alchemix Twitter",
+                  "url": "https://twitter.com/alchemixfi",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemix Discord",
+                  "url": "https://discord.com/invite/zAd6dzgwaj",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Alchemix Messari Dashboard",
+                  "url": "https://messari.io/asset/alchemix",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Team",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Scoopy Trooples",
+                  "url": "https://twitter.com/scupytrooples",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alpha",
+          "img": "https://assets.coingecko.com/coins/images/12738/thumb/AlphaToken_256x256.png?1617160876",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Alpha Website",
+                  "url": "https://homora.alphafinance.io/",
+                  "value": 2
+                },
+                {
+                  "name": "Alpha Webapp",
+                  "url": "https://homora.alphafinance.io/",
+                  "value": 2
+                },
+                {
+                  "name": "Alpha Contract",
+                  "url": "https://etherscan.io/token/0xa1faa113cbe53436df28ff0aee54275c13b40975",
+                  "value": 2
+                },
+                {
+                  "name": "Alpha Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/alpha-finance",
+                  "value": 2
+                },
+                {
+                  "name": "Alpha Whitepaper",
+                  "url": "https://github.com/AlphaFinanceLab/alpha-lending-smart-contract/blob/master/documents/Alpha%20Lending%20Whitepaper.pdf",
+                  "value": 2
+                },
+                {
+                  "name": "Alpha Github",
+                  "url": "https://github.com/AlphaFinanceLab",
+                  "value": 2
+                },
+                {
+                  "name": "Alpha Docs",
+                  "url": "https://alphafinancelab.gitbook.io/alpha-finance-lab/",
+                  "value": 2
+                },
+                {
+                  "name": "Alpha Audits",
+                  "url": "https://github.com/AlphaFinanceLab/alphahomora/blob/master/audit_report/PeckShield-Security-Review-Alpha-Homora-v1.0.pdf",
+                  "value": 2
+                },
+                {
+                  "name": "Alpha Medium",
+                  "url": "https://blog.alphafinance.io/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Alpha Twitter",
+                  "url": "https://twitter.com/alphafinancelab",
+                  "value": 2
+                },
+                {
+                  "name": "Alpha Discord",
+                  "url": "https://discord.com/invite/Z2vuKDT",
+                  "value": 2
+                },
+                {
+                  "name": "Alpha Telegram",
+                  "url": "https://t.me/AlphaFinanceLab",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Alpha Messari Dashboard",
+                  "url": "https://messari.io/asset/alpha-finance",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Team",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Tascha Punyaneramitdee",
+                  "url": "https://twitter.com/tascha_panpan",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Badger",
+          "img": "https://assets.coingecko.com/coins/images/13287/thumb/badger_dao_logo.jpg?1607054976",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Badger Website",
+                  "url": "https://badger.finance/",
+                  "value": 2
+                },
+                {
+                  "name": "Badger Webapp",
+                  "url": "https://app.badger.finance/",
+                  "value": 2
+                },
+                {
+                  "name": "Badger Contract",
+                  "url": "https://etherscan.io/token/0x3472a5a71965499acd81997a54bba8d852c6e53d",
+                  "value": 2
+                },
+                {
+                  "name": "Badger Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/badger-dao",
+                  "value": 2
+                },
+                {
+                  "name": "Badger Github",
+                  "url": "https://github.com/Badger-Finance",
+                  "value": 2
+                },
+                {
+                  "name": "Badger Docs",
+                  "url": "https://badger-finance.gitbook.io/badger-finance/badger-dao/overview",
+                  "value": 2
+                },
+                {
+                  "name": "Badger Medium",
+                  "url": "https://badgerdao.medium.com/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Badger Twitter",
+                  "url": "https://twitter.com/badgerdao",
+                  "value": 2
+                },
+                {
+                  "name": "Badger Discord",
+                  "url": "https://discord.com/invite/xSPFHHS",
+                  "value": 2
+                },
+                {
+                  "name": "Badger Telegram",
+                  "url": "https://t.me/badger_dao",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Badger Messari Dashboard",
+                  "url": "https://messari.io/asset/badger-dao",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bancor",
+          "description": "Bancor is a decentralized exchange. It is distinguished from other DEX protocols by its automated market maker, which lets people deposit liquidity in a single-sided fashion, whereas many other platforms require its visitors to provide liquidity with their tokens in an inherently two-sided way. Bancor's automated market maker mechanism achieves this through its native token, BNT, which is dynamically minted and co-invested by the protocol when visitors deposit their collateral as liquidity. Besides having BNT as the unitary counterpart asset of exchange for trading on the platform, the protocol also offers a unique solution against Impermanent Loss to its liquidity providers.",
+          "img": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C/logo.png",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Bancor Website",
+                  "url": "https://bancor.network/",
+                  "value": 2
+                },
+                {
+                  "name": "Bancor Webapp",
+                  "url": "https://app.bancor.network/eth/data",
+                  "value": 2
+                },
+                {
+                  "name": "Bancor Contract",
+                  "url": "https://docs.bancor.network/ethereum-contracts/addresses",
+                  "value": 2
+                },
+                {
+                  "name": "Bancor Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/bancor-network",
+                  "value": 2
+                },
+                {
+                  "name": "Bancor Whitepaper",
+                  "url": "https://storage.googleapis.com/website-bancor/2018/04/01ba8253-bancor_protocol_whitepaper_en.pdf",
+                  "value": 2
+                },
+                {
+                  "name": "Bancor Github",
+                  "url": "https://github.com/bancorprotocol",
+                  "value": 2
+                },
+                {
+                  "name": "Bancor Docs",
+                  "url": "https://docs.bancor.network/",
+                  "value": 2
+                },
+                {
+                  "name": "Bancor Audits",
+                  "url": "https://docs.bancor.network/ethereum-contracts/security",
+                  "value": 2
+                },
+                {
+                  "name": "Bancor Medium",
+                  "url": "https://bancor.medium.com/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Bancor Twitter",
+                  "url": "https://twitter.com/Bancor",
+                  "value": 2
+                },
+                {
+                  "name": "Bancor Discord",
+                  "url": "https://discord.com/invite/2ynKu8h5uV",
+                  "value": 2
+                },
+                {
+                  "name": "Bancor Telegram",
+                  "url": "https://t.me/bancor",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Bancor Dune Dashboard",
+                  "url": "https://duneanalytics.com/projects/bancor",
+                  "value": 2
+                },
+                {
+                  "name": "Bancor Messari Dashboard",
+                  "url": "https://messari.io/asset/bancor",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Basket DAO",
+          "img": "https://assets.coingecko.com/coins/images/14636/small/BASK_200_CIRCLE.png?1617494952",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Basket DAO Website",
+                  "url": "https://basketdao.org/dashboard",
+                  "value": 2
+                },
+                {
+                  "name": "Basket DAO Webapp",
+                  "url": "https://basketdao.org/baskets/BDI",
+                  "value": 2
+                },
+                {
+                  "name": "Basket DAO Contract",
+                  "url": "https://github.com/basketdao/contracts/blob/main/README.md",
+                  "value": 2
+                },
+                {
+                  "name": "Basket DAO Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/basketdao/usd",
+                  "value": 2
+                },
+                {
+                  "name": "Basket DAO Github",
+                  "url": "https://github.com/basketdao",
+                  "value": 2
+                },
+                {
+                  "name": "Basket DAO Audits",
+                  "url": "https://github.com/basketdao/contracts/tree/main/audits",
+                  "value": 2
+                },
+                {
+                  "name": "Basket DAO Medium",
+                  "url": "https://basketdao.medium.com/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Basket DAO Twitter",
+                  "url": "https://twitter.com/BasketDAOOrg",
+                  "value": 2
+                },
+                {
+                  "name": "Basket DAO Discord",
+                  "url": "https://discord.com/invite/28ZNtj2aW5",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Compound",
+          "img": "https://assets.coingecko.com/coins/images/10775/thumb/COMP.png?1592625425",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Compound Website",
+                  "url": "https://compound.finance/",
+                  "value": 2
+                },
+                {
+                  "name": "Compound Webapp",
+                  "url": "https://app.compound.finance/",
+                  "value": 2
+                },
+                {
+                  "name": "Compound Contract",
+                  "url": "https://compound.finance/docs#networks",
+                  "value": 2
+                },
+                {
+                  "name": "Compound Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/compound",
+                  "value": 2
+                },
+                {
+                  "name": "Compound Whitepaper",
+                  "url": "https://compound.finance/documents/Compound.Whitepaper.pdf",
+                  "value": 2
+                },
+                {
+                  "name": "Compound Github",
+                  "url": "https://github.com/compound-finance",
+                  "value": 2
+                },
+                {
+                  "name": "Compound Docs",
+                  "url": "https://github.com/compound-finance/compound-protocol",
+                  "value": 2
+                },
+                {
+                  "name": "Compound Audits",
+                  "url": "https://compound.finance/docs/security#audits",
+                  "value": 2
+                },
+                {
+                  "name": "Compound Medium",
+                  "url": "https://medium.com/compound-finance",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Compound Twitter",
+                  "url": "https://twitter.com/compoundfinance",
+                  "value": 2
+                },
+                {
+                  "name": "Compound Discord",
+                  "url": "https://discord.com/invite/cU7vmVW",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Compound Dune Dashboard",
+                  "url": "https://duneanalytics.com/projects/compound",
+                  "value": 2
+                },
+                {
+                  "name": "Compound Messari Dashboard",
+                  "url": "https://messari.io/asset/compound",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Team",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Robert Leshner",
+                  "url": "https://twitter.com/rleshner?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Curve",
+          "img": "https://assets.coingecko.com/coins/images/12124/thumb/Curve.png?1597369484",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Curve Website",
+                  "url": "https://www.curve.fi/",
+                  "value": 2
+                },
+                {
+                  "name": "Curve Webapp",
+                  "url": "https://curve.fi/",
+                  "value": 2
+                },
+                {
+                  "name": "Curve Contract",
+                  "url": "https://curve.fi/contracts",
+                  "value": 2
+                },
+                {
+                  "name": "Curve Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/curve-dao-token",
+                  "value": 2
+                },
+                {
+                  "name": "Curve Whitepaper",
+                  "url": "https://curve.fi/whitepaper",
+                  "value": 2
+                },
+                {
+                  "name": "Curve Github",
+                  "url": "https://github.com/curvefi",
+                  "value": 2
+                },
+                {
+                  "name": "Curve Docs",
+                  "url": "https://curve.readthedocs.io/",
+                  "value": 2
+                },
+                {
+                  "name": "Curve Audits",
+                  "url": "https://curve.fi/audits",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Curve Twitter",
+                  "url": "https://twitter.com/curvefinance",
+                  "value": 2
+                },
+                {
+                  "name": "Curve Discord",
+                  "url": "https://discord.com/invite/9uEHakc",
+                  "value": 2
+                },
+                {
+                  "name": "Curve Telegram",
+                  "url": "https://t.me/curvefi",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Curve Dune Dashboard",
+                  "url": "https://duneanalytics.com/projects/curvefi",
+                  "value": 2
+                },
+                {
+                  "name": "Curve Messari Dashboard",
+                  "url": "https://messari.io/asset/curve",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Team",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Julien Bouteloup",
+                  "url": "https://twitter.com/bneiluj",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dodo",
+          "img": "https://assets.coingecko.com/coins/images/12651/thumb/dodo_logo.png?1601433025",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Dodo Website",
+                  "url": "https://dodoex.io/",
+                  "value": 2
+                },
+                {
+                  "name": "Dodo Webapp",
+                  "url": "https://app.dodoex.io/exchange/ETH-USDC?network=mainnet",
+                  "value": 2
+                },
+                {
+                  "name": "Dodo Contract",
+                  "url": "https://dodoex.github.io/docs/docs/deployedInfo/",
+                  "value": 2
+                },
+                {
+                  "name": "Dodo Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/dodo",
+                  "value": 2
+                },
+                {
+                  "name": "Dodo Whitepaper",
+                  "url": "https://dodoex.github.io/docs/docs/whitepaper/",
+                  "value": 2
+                },
+                {
+                  "name": "Dodo Github",
+                  "url": "https://github.com/DODOEX",
+                  "value": 2
+                },
+                {
+                  "name": "Dodo Docs",
+                  "url": "https://dodoex.github.io/docs/docs/",
+                  "value": 2
+                },
+                {
+                  "name": "Dodo Audits",
+                  "url": "https://dodoex.github.io/docs/docs/audit",
+                  "value": 2
+                },
+                {
+                  "name": "Dodo Medium",
+                  "url": "https://medium.com/dodoex",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Dodo Twitter",
+                  "url": "https://twitter.com/BreederDodo",
+                  "value": 2
+                },
+                {
+                  "name": "Dodo Discord",
+                  "url": "https://discord.com/invite/tyKReUK",
+                  "value": 2
+                },
+                {
+                  "name": "Dodo Telegram",
+                  "url": "https://t.me/dodoex_official",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Dodo Messari Dashboard",
+                  "url": "https://messari.io/asset/dodo",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Team",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Diane Dai",
+                  "url": "https://twitter.com/Diane_0320",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Harvest Finance",
+          "img": "https://assets.coingecko.com/coins/images/12304/thumb/Harvest.png?1613016180",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Harvest Finance Website",
+                  "url": "https://harvest.finance/",
+                  "value": 2
+                },
+                {
+                  "name": "Harvest Finance Webapp",
+                  "url": "https://harvest.finance/",
+                  "value": 2
+                },
+                {
+                  "name": "Harvest Finance Contract",
+                  "url": "https://farm.chainwiki.dev/en/contracts",
+                  "value": 2
+                },
+                {
+                  "name": "Harvest Finance Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/harvest-finance",
+                  "value": 2
+                },
+                {
+                  "name": "Harvest Finance Github",
+                  "url": "https://github.com/harvest-finance",
+                  "value": 2
+                },
+                {
+                  "name": "Harvest Finance Docs",
+                  "url": "https://farm.chainwiki.dev/en/home",
+                  "value": 2
+                },
+                {
+                  "name": "Harvest Finance Audits",
+                  "url": "https://farm.chainwiki.dev/en/security",
+                  "value": 2
+                },
+                {
+                  "name": "Harvest Finance Medium",
+                  "url": "https://medium.com/harvest-finance",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Harvest Finance Twitter",
+                  "url": "https://twitter.com/harvest_finance",
+                  "value": 2
+                },
+                {
+                  "name": "Harvest Finance Discord",
+                  "url": "https://discord.com/invite/R5SeTVR",
+                  "value": 2
+                },
+                {
+                  "name": "Harvest Finance Telegram",
+                  "url": "https://t.me/Breadforthepeople",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Harvest Finance Messari Dashboard",
+                  "url": "https://messari.io/asset/harvest-finance",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Indexed finance",
+          "img": "https://assets.coingecko.com/coins/images/13546/thumb/indexed-light.74bb5471.png?1609712728",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Indexed finance Website",
+                  "url": "https://indexed.finance/",
+                  "value": 2
+                },
+                {
+                  "name": "Indexed finance Webapp",
+                  "url": "https://indexed.finance/",
+                  "value": 2
+                },
+                {
+                  "name": "Indexed finance Contract",
+                  "url": "https://etherscan.io/token/0x86772b1409b61c639eaac9ba0acfbb6e238e5f83",
+                  "value": 2
+                },
+                {
+                  "name": "Indexed finance Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/indexed-finance",
+                  "value": 2
+                },
+                {
+                  "name": "Indexed finance Github",
+                  "url": "https://github.com/indexed-finance",
+                  "value": 2
+                },
+                {
+                  "name": "Indexed finance Docs",
+                  "url": "https://github.com/indexed-finance/docs",
+                  "value": 2
+                },
+                {
+                  "name": "Indexed finance Audits",
+                  "url": "unaudited",
+                  "value": 2
+                },
+                {
+                  "name": "Indexed finance Medium",
+                  "url": "https://ndxfi.medium.com/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Indexed finance Twitter",
+                  "url": "https://twitter.com/ndxfi",
+                  "value": 2
+                },
+                {
+                  "name": "Indexed finance Discord",
+                  "url": "https://discord.com/invite/jaeSTNPNt9",
+                  "value": 2
+                },
+                {
+                  "name": "Indexed finance Telegram",
+                  "url": "https://t.me/ndxfi",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Indexed finance Messari Dashboard",
+                  "url": "https://messari.io/asset/ndx/profile",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maker",
+          "img": "https://assets.coingecko.com/coins/images/1364/thumb/Mark_Maker.png?1585191826",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Maker Website",
+                  "url": "https://makerdao.com/",
+                  "value": 2
+                },
+                {
+                  "name": "Maker Webapp",
+                  "url": "https://oasis.app/",
+                  "value": 2
+                },
+                {
+                  "name": "Maker Contract",
+                  "url": "https://etherscan.io/token/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
+                  "value": 2
+                },
+                {
+                  "name": "Maker Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/maker",
+                  "value": 2
+                },
+                {
+                  "name": "Maker Whitepaper",
+                  "url": "https://makerdao.com/en/whitepaper/",
+                  "value": 2
+                },
+                {
+                  "name": "Maker Github",
+                  "url": "https://github.com/makerdao",
+                  "value": 2
+                },
+                {
+                  "name": "Maker Docs",
+                  "url": "https://github.com/makerdao/documentation",
+                  "value": 2
+                },
+                {
+                  "name": "Maker Audits",
+                  "url": "https://github.com/makerdao/audits",
+                  "value": 2
+                },
+                {
+                  "name": "Maker Medium",
+                  "url": "https://medium.com/@MakerDAO",
+                  "value": 2
+                },
+                {
+                  "name": "Maker Blog",
+                  "url": "https://blog.makerdao.com/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Maker Twitter",
+                  "url": "https://twitter.com/MakerDAO",
+                  "value": 2
+                },
+                {
+                  "name": "Maker Telegram",
+                  "url": "https://t.me/makerdaoOfficial",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Maker Messari Dashboard",
+                  "url": "https://messari.io/asset/maker",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Numeraire",
+          "img": "https://assets.coingecko.com/coins/images/752/thumb/numeraire.png?1592538976",
+          "value": 10,
+          "url": "https://numer.ai/"
+        },
+        {
+          "name": "Paraswap",
+          "img": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Paraswap Website",
+                  "url": "https://paraswap.io/",
+                  "value": 2
+                },
+                {
+                  "name": "Paraswap Webapp",
+                  "url": "https://paraswap.io/#/?network=ethereum",
+                  "value": 2
+                },
+                {
+                  "name": "Paraswap Github",
+                  "url": "https://github.com/paraswap",
+                  "value": 2
+                },
+                {
+                  "name": "Paraswap Docs",
+                  "url": "https://doc.paraswap.network/",
+                  "value": 2
+                },
+                {
+                  "name": "Paraswap Audits",
+                  "url": "https://github.com/solidified-platform/audits/blob/master/Audit%20Report%20-%20ParaSwap%20%5B20.01.2021%5D.pdf",
+                  "value": 2
+                },
+                {
+                  "name": "Paraswap Medium",
+                  "url": "https://paraswap.medium.com/",
+                  "value": 2
+                },
+                {
+                  "name": "Paraswap API Docs",
+                  "url": "https://paraswapv2.docs.apiary.io/#introduction/smart-contract/interface:",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Paraswap Twitter",
+                  "url": "https://twitter.com/paraswap",
+                  "value": 2
+                },
+                {
+                  "name": "Paraswap Discord",
+                  "url": "https://discord.com/invite/wYePFfR",
+                  "value": 2
+                },
+                {
+                  "name": "Paraswap Telegram",
+                  "url": "https://t.me/paraswap",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Premia",
+          "img": "https://premia.finance/icon.png",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Premia Website",
+                  "url": "https://premia.finance/",
+                  "value": 2
+                },
+                {
+                  "name": "Premia Webapp",
+                  "url": "https://premia.finance/",
+                  "value": 2
+                },
+                {
+                  "name": "Premia Contract",
+                  "url": "https://github.com/PremiaFinance/premia-contracts",
+                  "value": 2
+                },
+                {
+                  "name": "Premia Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/premia",
+                  "value": 2
+                },
+                {
+                  "name": "Premia Github",
+                  "url": "https://github.com/PremiaFinance",
+                  "value": 2
+                },
+                {
+                  "name": "Premia Audits",
+                  "url": "https://solidity.finance/audits/Premia/",
+                  "value": 2
+                },
+                {
+                  "name": "Premia Medium",
+                  "url": "https://premia.medium.com/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Premia Twitter",
+                  "url": "https://twitter.com/PremiaFinance",
+                  "value": 2
+                },
+                {
+                  "name": "Premia Discord",
+                  "url": "https://discord.com/invite/xun5EWJFhH",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rari Capital",
+          "img": "https://assets.coingecko.com/coins/images/12900/thumb/Rari_Logo_Transparent.png?1613978014",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Rari Capital Website",
+                  "url": "https://rari.capital/",
+                  "value": 2
+                },
+                {
+                  "name": "Rari Capital Webapp",
+                  "url": "https://app.rari.capital/",
+                  "value": 2
+                },
+                {
+                  "name": "Rari Capital Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/rari-governance-token",
+                  "value": 2
+                },
+                {
+                  "name": "Rari Capital Github",
+                  "url": "https://github.com/Rari-Capital",
+                  "value": 2
+                },
+                {
+                  "name": "Rari Capital Docs",
+                  "url": "https://github.com/Rari-Capital/docs",
+                  "value": 2
+                },
+                {
+                  "name": "Rari Capital Audits",
+                  "url": "https://www.notion.so/Rari-Capital-Audit-Quantstamp-December-2020-24a1d1df94894d6881ee190686f47bc7",
+                  "value": 2
+                },
+                {
+                  "name": "Rari Capital Medium",
+                  "url": "https://medium.com/rari-capital",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Rari Capital Twitter",
+                  "url": "https://twitter.com/RariCapital",
+                  "value": 2
+                },
+                {
+                  "name": "Rari Capital Discord",
+                  "url": "https://discord.com/invite/HzUMPuT",
+                  "value": 2
+                },
+                {
+                  "name": "Rari Capital Telegram",
+                  "url": "https://t.me/RariCapitalChat",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Rari Capital Messari Dashboard",
+                  "url": "https://messari.io/asset/rari-governance-token",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Team",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Jai Bhavnani",
+                  "url": "https://twitter.com/jai_bhavnani",
+                  "value": 2
+                },
+                {
+                  "name": "t11s",
+                  "url": "https://twitter.com/transmissions11",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unit",
+          "img": "https://assets.coingecko.com/coins/images/11862/thumb/Unit.png?1595580755",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Unit Website",
+                  "url": "https://unit.xyz/",
+                  "value": 2
+                },
+                {
+                  "name": "Unit Webapp",
+                  "url": "https://unit.xyz/",
+                  "value": 2
+                },
+                {
+                  "name": "Unit Contract",
+                  "url": "https://github.com/unitprotocol/core/blob/master/CONTRACTS.md",
+                  "value": 2
+                },
+                {
+                  "name": "Unit Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/unit-protocol",
+                  "value": 2
+                },
+                {
+                  "name": "Unit Github",
+                  "url": "https://github.com/unitprotocol",
+                  "value": 2
+                },
+                {
+                  "name": "Unit Docs",
+                  "url": "https://docs.unit.xyz/",
+                  "value": 2
+                },
+                {
+                  "name": "Unit Medium",
+                  "url": "https://unitprotocol.medium.com/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Unit Twitter",
+                  "url": "https://twitter.com/unitprotocol",
+                  "value": 2
+                },
+                {
+                  "name": "Unit Discord",
+                  "url": "https://discord.com/invite/7ry3GH53gm",
+                  "value": 2
+                },
+                {
+                  "name": "Unit Telegram",
+                  "url": "https://t.me/unit_en",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Unit Messari Dashboard",
+                  "url": "https://messari.io/asset/unit-protocol/news",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Yam finance",
+          "img": "https://assets.coingecko.com/coins/images/12179/thumb/YAM-v2.png?1597892396",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Yam finance Website",
+                  "url": "https://yam.finance/",
+                  "value": 2
+                },
+                {
+                  "name": "Yam finance Webapp",
+                  "url": "https://yam.finance/dashboard",
+                  "value": 2
+                },
+                {
+                  "name": "Yam finance Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/yam",
+                  "value": 2
+                },
+                {
+                  "name": "Yam finance Github",
+                  "url": "https://github.com/yam-finance",
+                  "value": 2
+                },
+                {
+                  "name": "Yam finance Audits",
+                  "url": "https://github.com/yam-finance/audits",
+                  "value": 2
+                },
+                {
+                  "name": "Yam finance Medium",
+                  "url": "https://yamfinance.medium.com/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Yam finance Twitter",
+                  "url": "https://twitter.com/YamFinance",
+                  "value": 2
+                },
+                {
+                  "name": "Yam finance Discord",
+                  "url": "https://discord.com/invite/nKKhBbk",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Yam finance Dune Dashboard",
+                  "url": "https://duneanalytics.com/hagaetc/yams-",
+                  "value": 2
+                },
+                {
+                  "name": "Yam finance Messari Dashboard",
+                  "url": "https://messari.io/asset/yam/metrics",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Yearn",
+          "img": "https://assets.coingecko.com/coins/images/11849/thumb/yfi-192x192.png?1598325330",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Yearn Website",
+                  "url": "https://yearn.finance/",
+                  "value": 2
+                },
+                {
+                  "name": "Yearn Webapp",
+                  "url": "https://yearn.finance/vaults",
+                  "value": 2
+                },
+                {
+                  "name": "Yearn Contract",
+                  "url": "https://docs.yearn.finance/developers/deployed-contracts-registry",
+                  "value": 2
+                },
+                {
+                  "name": "Yearn Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/yearn-finance",
+                  "value": 2
+                },
+                {
+                  "name": "Yearn Github",
+                  "url": "https://github.com/yearn",
+                  "value": 2
+                },
+                {
+                  "name": "Yearn Docs",
+                  "url": "https://docs.yearn.finance/",
+                  "value": 2
+                },
+                {
+                  "name": "Yearn Audits",
+                  "url": "https://github.com/yearn/yearn-audits",
+                  "value": 2
+                },
+                {
+                  "name": "Yearn Medium",
+                  "url": "https://medium.com/iearn",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Yearn Twitter",
+                  "url": "https://twitter.com/iearnfinance",
+                  "value": 2
+                },
+                {
+                  "name": "Yearn Discord",
+                  "url": "https://discord.com/invite/93PHbB4",
+                  "value": 2
+                },
+                {
+                  "name": "Yearn Telegram",
+                  "url": "https://t.me/yearnfinance",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Yearn Dune Dashboard",
+                  "url": "https://duneanalytics.com/projects/yearn",
+                  "value": 2
+                },
+                {
+                  "name": "Yearn Messari Dashboard",
+                  "url": "https://messari.io/asset/yearn-finance",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Team",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Andre Cronje",
+                  "url": "https://twitter.com/AndreCronjeTech",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wallets",
+      "img": "https://pentacle.ai/images/SVG/wallets.svg",
+      "children": [
+        {
+          "name": "Rainbow",
+          "img": "https://pbs.twimg.com/profile_images/1230771588380782595/lC-xrjES.png",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Rainbow Website",
+                  "url": "https://rainbow.me/",
+                  "value": 2
+                },
+                {
+                  "name": "Rainbow Github",
+                  "url": "https://github.com/rainbow-me/rainbow",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Rainbow Twitter",
+                  "url": "https://twitter.com/rainbowdotme",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Team",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Mike DeMarais",
+                  "url": "https://twitter.com/mikedemarais",
+                  "value": 2
+                },
+                {
+                  "name": "Jin Chung",
+                  "url": "https://twitter.com/jinrummie",
+                  "value": 2
+                },
+                {
+                  "name": "Christian Baroni",
+                  "url": "https://twitter.com/chrisbaroni",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ledger",
+          "img": "",
+          "value": 10,
+          "url": "https://www.ledger.com/"
+        },
+        {
+          "name": "Trezor",
+          "img": "",
+          "value": 10,
+          "url": "https://trezor.io/"
+        },
+        {
+          "name": "Onto",
+          "img": "",
+          "value": 10,
+          "url": "https://www.onto.app/"
+        },
+        {
+          "name": "MyCrypto",
+          "img": "",
+          "value": 10,
+          "url": "https://mycrypto.com/"
+        },
+        {
+          "name": "Edge",
+          "img": "",
+          "value": 10,
+          "url": "https://edge.app/"
+        },
+        {
+          "name": "Loopring",
+          "img": "https://assets.coingecko.com/coins/images/913/thumb/LRC.png?1572852344",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Loopring Website",
+                  "url": "https://loopring.io/#/",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring Webapp",
+                  "url": "https://exchange.loopring.io/swap",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring Contract",
+                  "url": "https://loopring.readthedocs.io/en/latest/English/token/",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/loopring",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring Whitepaper",
+                  "url": "https://loopring.org/resources/en_whitepaper.pdf",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring Github",
+                  "url": "https://github.com/Loopring",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring Docs",
+                  "url": "https://docs.loopring.io/en/",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring Audits",
+                  "url": "https://consensys.github.io/blockchainSecurityDB/projects/loopring/",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring Medium",
+                  "url": "https://medium.com/loopring-protocol",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Loopring Twitter",
+                  "url": "https://twitter.com/loopringorg",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring Discord",
+                  "url": "https://discord.com/invite/KkYccYp",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring Telegram",
+                  "url": "https://t.me/loopring_en",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Loopring Dune Dashboard",
+                  "url": "https://duneanalytics.com/projects/loopring",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring Messari Dashboard",
+                  "url": "https://messari.io/asset/loopring",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Team",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Loopring Team",
+                  "url": "https://loopring.org/#/team",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Math wallet",
+          "img": "https://assets.coingecko.com/coins/images/11335/small/2020-05-19-token-200.png?1589940590",
+          "value": 10,
+          "url": "https://mathwallet.org/"
+        },
+        {
+          "name": "MEW",
+          "img": "",
+          "value": 10,
+          "url": "https://www.myetherwallet.com/"
+        },
+        {
+          "name": "Metamask",
+          "img": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Metamask Website",
+                  "url": "https://metamask.io/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Metamask Twitter",
+                  "url": "https://twitter.com/MetaMask",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Trust wallet",
+          "img": "https://assets.coingecko.com/coins/images/11085/small/Trust.png?1588062702",
+          "value": 10,
+          "url": "https://trustwallet.com/"
+        }
+      ]
+    },
+    {
+      "name": "Analysis and insight",
+      "img": "https://pentacle.ai/images/SVG/analysis.svg",
+      "children": [
+        {
+          "name": "Coin98",
+          "img": "",
+          "value": 10,
+          "url": "https://twitter.com/Coin98Analytics"
+        },
+        {
+          "name": "Crypto art data",
+          "img": "",
+          "value": 10,
+          "url": "https://cryptoart.io/data"
+        },
+        {
+          "name": "Crypto fees",
+          "img": "",
+          "value": 10,
+          "url": "https://cryptofees.info/"
+        },
+        {
+          "name": "Decrypt",
+          "img": "",
+          "value": 10,
+          "url": "https://decrypt.co"
+        },
+        {
+          "name": "Defiant",
+          "img": "",
+          "value": 10,
+          "url": "https://thedefiant.io/"
+        },
+        {
+          "name": "Deribit insights",
+          "img": "",
+          "value": 10,
+          "url": "https://insights.deribit.com/"
+        },
+        {
+          "name": "Dune analytics",
+          "img": "",
+          "value": 10,
+          "url": "https://duneanalytics.com/"
+        },
+        {
+          "name": "Gabriel Haines",
+          "img": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Gabriel Haines Website",
+                  "url": "http://YouTube.com/gabrielhaines",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Gabriel Haines Twitter",
+                  "url": "https://twitter.com/gabrielhaines",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Messari",
+          "img": "https://pbs.twimg.com/profile_images/1085325338685640704/TNls9ggU_400x400.jpg",
+          "value": 10,
+          "url": "https://messari.io/"
+        },
+        {
+          "name": "Rebase",
+          "img": "",
+          "value": 10,
+          "url": "https://rebase.foundation/"
+        },
+        {
+          "name": "Rekt",
+          "img": "",
+          "value": 10,
+          "url": "https://rekt.eth.link/"
+        },
+        {
+          "name": "Santiment",
+          "img": "",
+          "value": 10,
+          "url": "https://app.santiment.net/"
+        },
+        {
+          "name": "The daily gwei",
+          "img": "",
+          "value": 10,
+          "url": "https://thedailygwei.substack.com/"
+        },
+        {
+          "name": "Token daily",
+          "img": "",
+          "value": 10,
+          "url": "https://www.tokendaily.co/"
+        }
+      ]
+    },
+    {
+      "name": "NFT",
+      "img": "https://pentacle.ai/images/SVG/nft.svg",
+      "children": [
+        {
+          "name": "Aavegotchi",
+          "img": "https://assets.coingecko.com/coins/images/12467/thumb/ghst_200.png?1600750321",
+          "value": 10,
+          "url": "https://aavegotchi.com/"
+        },
+        {
+          "name": "Alchemy DAO",
+          "img": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Alchemy DAO Website",
+                  "url": "https://alchemydao.com/",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemy DAO Contract",
+                  "url": "https://etherscan.io/address/0xdc2778E19C7F32D2Cf0c4c90B705Fb702Aa94150#code",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemy DAO Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/alchemy-dao",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemy DAO Github",
+                  "url": "https://github.com/AlchemyDAO",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemy DAO Docs",
+                  "url": "https://docs.alchemydao.com",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemy DAO Forum",
+                  "url": "https://forum.alchemydao.com/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Alchemy DAO Twitter",
+                  "url": "https://twitter.com/alchemydao",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemy DAO Discord",
+                  "url": "https://discord.gg/mMMGBrbqHG",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemy DAO Telegram",
+                  "url": "https://t.me/AlchemyOfficial",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemy DAO Substack",
+                  "url": "https://alchemydao.substack.com/",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Axie infinity",
+          "img": "https://assets.coingecko.com/coins/images/13029/thumb/axie_infinity_logo.png?1604471082",
+          "value": 10,
+          "url": "https://axieinfinity.com/"
+        },
+        {
+          "name": "Blackpool",
+          "img": "",
+          "value": 10,
+          "url": "https://www.blackpool.finance/"
+        },
+        {
+          "name": "Cryptovoxels",
+          "img": "",
+          "value": 10,
+          "url": "https://www.cryptovoxels.com/"
+        },
+        {
+          "name": "Cometh",
+          "img": "",
+          "value": 10,
+          "url": "https://www.cometh.io/"
+        },
+        {
+          "name": "Degendata",
+          "img": "",
+          "value": 10,
+          "url": "https://degendata.io/"
+        },
+        {
+          "name": "Doki doki",
+          "img": "https://assets.coingecko.com/coins/images/12759/thumb/doki_logo.png?1602338064",
+          "value": 10,
+          "url": "https://dokidoki.finance/"
+        },
+        {
+          "name": "Ethereum Name Service",
+          "img": "",
+          "value": 10,
+          "url": "https://ens.domains/"
+        },
+        {
+          "name": "Mycospace",
+          "img": "",
+          "value": 10,
+          "url": "https://myco.space/"
+        },
+        {
+          "name": "Neon district",
+          "img": "",
+          "value": 10,
+          "url": "https://neondistrict.io/"
+        },
+        {
+          "name": "Palm",
+          "img": "",
+          "value": 10,
+          "url": "https://palm.io/"
+        },
+        {
+          "name": "Nifty ink",
+          "img": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Nifty ink Website",
+                  "url": "https://nifty.ink/",
+                  "value": 2
+                },
+                {
+                  "name": "How to get xdai",
+                  "url": "https://support.mycrypto.com/general-knowledge/scaling/how-to-get-xdai",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ASCII Punks",
+          "img": "",
+          "value": 10,
+          "url": "https://asciipunks.com/"
+        },
+        {
+          "name": "Mandalas",
+          "img": "",
+          "value": 10,
+          "url": "https://mandalas.eth.link/"
+        },
+        {
+          "name": "Rarible",
+          "img": "https://assets.coingecko.com/coins/images/11845/thumb/Rari.png?1594946953",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Rarible Website",
+                  "url": "https://rarible.com",
+                  "value": 2
+                },
+                {
+                  "name": "Compusophy",
+                  "url": "https://rarible.com/compusophy",
+                  "value": 2
+                },
+                {
+                  "name": "Ratwell",
+                  "url": "https://rarible.com/ratwassie",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Opensea",
+          "img": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Opensea Website",
+                  "url": "https://opensea.io/",
+                  "value": 2
+                },
+                {
+                  "name": "Cryptopunks",
+                  "url": "https://opensea.io/collection/cryptopunks",
+                  "value": 2
+                },
+                {
+                  "name": "The Pixel Portraits",
+                  "url": "https://opensea.io/collection/the-pixel-portraits",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Decentraland",
+          "img": "https://assets.coingecko.com/coins/images/878/thumb/decentraland-mana.png?1550108745",
+          "value": 10,
+          "url": "https://decentraland.org/"
+        },
+        {
+          "name": "Mooncats",
+          "img": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Colour Chart",
+                  "url": "https://www.reddit.com/r/MoonCatRescue/comments/m4h7lx/visual_of_the_huebased_color_whee_how_mooncats/",
+                  "value": 2
+                },
+                {
+                  "name": "Rarity Sheet",
+                  "url": "https://rarity.studio/cats.html",
+                  "value": 2
+                },
+                {
+                  "name": "Adoption Centre",
+                  "url": "https://mooncatrescue.com/adopt.html",
+                  "value": 2
+                },
+                {
+                  "name": "Degen Data",
+                  "url": "https://degendata.io/",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seascape",
+          "img": "",
+          "value": 10,
+          "url": "https://app.seascape.network/"
+        },
+        {
+          "name": "Superrare",
+          "img": "",
+          "value": 10,
+          "url": "https://www.superrare.co/"
+        },
+        {
+          "name": "Foundation",
+          "img": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Foundation Website",
+                  "url": "https://foundation.app",
+                  "value": 2
+                },
+                {
+                  "name": "Nyan Cat",
+                  "url": "https://foundation.app/NyanCat",
+                  "value": 2
+                },
+                {
+                  "name": "Pussy Riot",
+                  "url": "https://foundation.app/PussyRiot",
+                  "value": 2
+                },
+                {
+                  "name": "IX Shells",
+                  "url": "https://foundation.app/ixshells",
+                  "value": 2
+                },
+                {
+                  "name": "Zach Lieberman",
+                  "url": "https://foundation.app/zach.lieberman",
+                  "value": 2
+                },
+                {
+                  "name": "Blake Kathryn",
+                  "url": "https://foundation.app/blakekathryn",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SAK3",
+          "img": "",
+          "value": 10,
+          "url": "https://sake.sushi.com/"
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "img": "https://pentacle.ai/images/SVG/security.svg",
+      "children": [
+        {
+          "name": "Crypto security 101",
+          "img": "",
+          "value": 10,
+          "url": "https://medium.com/mycrypto/the-10-best-things-you-can-do-to-not-lose-your-crypto-dba4f5c05c7"
+        },
+        {
+          "name": "Crypto scam db",
+          "img": "",
+          "value": 10,
+          "url": "https://www.cryptoscamdb.org/scams"
+        },
+        {
+          "name": "DNS checker",
+          "img": "",
+          "value": 10,
+          "url": "https://dnschecker.org/"
+        },
+        {
+          "name": "UrlScan",
+          "img": "",
+          "value": 10,
+          "url": "https://urlscan.io/"
+        }
+      ]
+    },
+    {
+      "name": "Ownership and DAOs",
+      "img": "https://pentacle.ai/images/SVG/ownership-daos.svg",
+      "children": [
+        {
+          "name": "Colony",
+          "img": "",
+          "value": 10,
+          "url": "https://colony.io/"
+        },
+        {
+          "name": "Daohaus",
+          "img": "",
+          "value": 10,
+          "url": "https://daohaus.club/"
+        },
+        {
+          "name": "Fairmint",
+          "img": "",
+          "value": 10,
+          "url": "https://fairmint.co/"
+        },
+        {
+          "name": "Opolis",
+          "img": "",
+          "value": 10,
+          "url": "https://opolis.co/"
+        }
+      ]
+    },
+    {
+      "name": "Merch",
+      "img": "https://pentacle.ai/images/SVG/merch.svg",
+      "children": [
+        {
+          "name": "APE SZN",
+          "img": "",
+          "value": 10,
+          "url": "https://apeszn.com/"
+        },
+        {
+          "name": "Cryptolife",
+          "img": "",
+          "value": 10,
+          "url": "https://cryptolife.shop/"
+        },
+        {
+          "name": "loldefi",
+          "img": "",
+          "value": 10,
+          "url": "https://loldefi.com/"
+        },
+        {
+          "name": "Metafactory",
+          "img": "",
+          "value": 10,
+          "url": "https://metafactory.ai/"
+        },
+        {
+          "name": "Sushiswag",
+          "img": "",
+          "value": 10,
+          "url": "https://sushiswag.com/"
+        }
+      ]
+    }
+  ]
+}

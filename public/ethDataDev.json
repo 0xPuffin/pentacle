@@ -1,0 +1,403 @@
+{
+  "name": "ethereumdev",
+  "children": [
+    {
+      "name": "Identity",
+      "img": "https://pentacle.xyz/images/SVG/identity.svg",
+      "children": [
+        {
+          "name": "Bright id",
+          "img": "https://pbs.twimg.com/profile_images/1204130517253160960/Yu5Aw2Co.jpg",
+          "description": "",
+          "value": 10,
+          "url": "https://www.brightid.org/"
+        },
+        {
+          "name": "Serto",
+          "img": "https://uploads-ssl.webflow.com/5d8bc34a60283f28948dd30d/5fda7f13fcbea0dbff13f8a9_New%20serto%20logo%20blurple.svg",
+          "description": "",
+          "value": 10,
+          "url": "https://www.serto.id/"
+        }
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "img": "https://pentacle.xyz/images/SVG/infra.svg",
+      "children": [
+        {
+          "name": "AMP",
+          "img": "https://assets.coingecko.com/coins/images/12409/large/amp-200x200.png?1599625397",
+          "description": "",
+          "value": 10,
+          "url": "https://amptoken.org/"
+        },
+        {
+          "name": "Aragon",
+          "img": "https://s2.coinmarketcap.com/static/img/coins/200x200/1680.png",
+          "description": "",
+          "value": 10,
+          "url": "https://aragon.org/"
+        },
+        {
+          "name": "Arbitrum",
+          "img": "https://portal.arbitrum.io/assets/arbitrum_logo.png",
+          "description": "",
+          "value": 10,
+          "url": "https://arbitrum.io/"
+        },
+        {
+          "name": "Chainlink",
+          "img": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
+          "description": "",
+          "value": 10,
+          "url": "https://chain.link/"
+        },
+        {
+          "name": "Consensys",
+          "img": "https://miro.medium.com/max/3150/1*HWsBYAT2n833Op1P3T_Osw.png",
+          "description": "",
+          "value": 10,
+          "url": "https://consensys.net/"
+        },
+        {
+          "name": "Bison Trails",
+          "img": "https://bisontrails.co/images/assets/brand-assets-2020/lockup/bison-trails-lockup-blue-transparent.png",
+          "description": "",
+          "value": 10,
+          "url": "https://bisontrails.co/"
+        },
+        {
+          "name": "Ethereum",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/1200px-Ethereum-icon-purple.svg.png",
+          "description": "",
+          "value": 10,
+          "url": "https://ethereum.org/en/"
+        },
+        {
+          "name": "Nucypher",
+          "img": "https://assets.coingecko.com/coins/images/3318/thumb/photo1198982838879365035.jpg?1547037916",
+          "description": "",
+          "value": 10,
+          "url": "https://www.nucypher.com/"
+        },
+        {
+          "name": "Get block",
+          "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--w47F9dJZ--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/488641/e44bcbd3-4b23-4235-98c0-0771a1e54ecc.png",
+          "description": "",
+          "value": 10,
+          "url": "https://getblock.io/"
+        },
+        {
+          "name": "Loom",
+          "img": "https://cdn-images-1.medium.com/max/1200/1*K76UVoLq-FOL7l-_Fag-Qw@2x.png",
+          "description": "",
+          "value": 10,
+          "url": "https://loomx.io/"
+        },
+        {
+          "name": "Polygon",
+          "img": "https://cryptologos.cc/logos/polygon-matic-logo.png",
+          "description": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Polygon website",
+                  "url": "https://polygon.technology/",
+                  "value": 2
+                },
+                {
+                  "name": "Polygon webapp",
+                  "url": "https://polygon.technology/get-started/",
+                  "value": 2
+                },
+                {
+                  "name": "Polygon Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/polygon",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ren",
+          "img": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x408e41876cCCDC0F92210600ef50372656052a38/logo.png",
+          "description": "",
+          "value": 10,
+          "url": "https://renproject.io/"
+        },
+        {
+          "name": "Ramp",
+          "img": "https://s2.coinmarketcap.com/static/img/coins/200x200/7463.png",
+          "description": "",
+          "value": 10,
+          "url": "https://ramp.network/"
+        },
+        {
+          "name": "Skynet",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Skynet website",
+                  "url": "https://siasky.net/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Skynet Twitter",
+                  "url": "https://twitter.com/SkynetLabs",
+                  "value": 2
+                },
+                {
+                  "name": "Skynet Discord",
+                  "url": "https://discord.com/invite/skynetlabs",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Synthetix",
+          "img": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo.png",
+          "description": "Synthetix is a decentralized synthetic asset issuance protocol. It allows people to stake its native token, SNX, over periods of time, in exchange of synthetic assets, which may reflect fiat (or crypto-) currencies, commodities, and other sorts of financial assets. By cultivating an ecosystem of synths backed by a single collateral, the protocol allows people to gain exposure to a variety of assets, as well as trade them for one another in an efficient way.",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Synthetix website",
+                  "url": "https://synthetix.io/",
+                  "value": 2
+                },
+                {
+                  "name": "Synthetix webapp",
+                  "url": "https://www.synthetix.io/synths",
+                  "value": 2
+                },
+                {
+                  "name": "Synthetix contract",
+                  "url": "https://docs.synthetix.io/addresses/",
+                  "value": 2
+                },
+                {
+                  "name": "Synthetix Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/synthetix-network-token",
+                  "value": 2
+                },
+                {
+                  "name": "Synthetix whitepaper",
+                  "url": "https://www.synthetix.io/uploads/synthetix_whitepaper.pdf",
+                  "value": 2
+                },
+                {
+                  "name": "Synthetix Github",
+                  "url": "https://github.com/Synthetixio",
+                  "value": 2
+                },
+                {
+                  "name": "Synthetix docs",
+                  "url": "https://docs.synthetix.io/",
+                  "value": 2
+                },
+                {
+                  "name": "Synthetix audits",
+                  "url": "https://docs.synthetix.io/contracts/audits/",
+                  "value": 2
+                },
+                {
+                  "name": "Synthetix Medium",
+                  "url": "https://blog.synthetix.io/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Synthetix Twitter",
+                  "url": "https://twitter.com/synthetix_io",
+                  "value": 2
+                },
+                {
+                  "name": "Synthetix Discord",
+                  "url": "https://discord.com/invite/AEdUHzt",
+                  "value": 2
+                },
+                {
+                  "name": "Synthetix Telegram",
+                  "url": "https://t.me/havven_news",
+                  "value": 2
+                },
+                {
+                  "name": "Synthetix Reddit",
+                  "url": "https://www.reddit.com/r/synthetix_io/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Synthetix Messari Dashboard",
+                  "url": "https://messari.io/asset/synthetix",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Team",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Kain Warwick",
+                  "url": "https://twitter.com/kaiynne",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UMA",
+          "img": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828/logo.png",
+          "description": "",
+          "value": 10,
+          "url": "https://umaproject.org/"
+        },
+        {
+          "name": "Wallet connect",
+          "img": "https://walletconnect.org/walletconnect-logo.svg",
+          "description": "",
+          "value": 10,
+          "url": "https://walletconnect.org/"
+        }
+      ]
+    },
+    {
+      "name": "Dev tools",
+      "img": "https://pentacle.xyz/images/SVG/dev-tools.svg",
+      "children": [
+        {
+          "name": "Austin Griffith's ETH repos",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://github.com/austintgriffith"
+        },
+        {
+          "name": "Graph protocol",
+          "img": "https://miro.medium.com/fit/c/160/160/1*uOUrHJwAlNPBiGzl3slkWw.png",
+          "description": "",
+          "value": 10,
+          "url": "https://thegraph.com/"
+        },
+        {
+          "name": "Ethers-io",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://github.com/ethers-io"
+        },
+        {
+          "name": "Hardhat",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://hardhat.org/"
+        },
+        {
+          "name": "Infura",
+          "img": "https://static.blockgeeks.com/wp-content/uploads/2020/03/infura_logo_black.png",
+          "description": "",
+          "value": 10,
+          "url": "https://infura.io/"
+        },
+        {
+          "name": "Near",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVFmgnvg6_dGKjIulPaNZcfPY4oK5WOWPAj-BNzy6OWYa4cd-rsFjspw_VybBmzQo1svA&usqp=CAU",
+          "description": "",
+          "value": 10,
+          "url": "https://near.org/"
+        },
+        {
+          "name": "Open zeppelin",
+          "img": "https://openzeppelin.com/images/card.jpg",
+          "description": "",
+          "value": 10,
+          "url": "https://openzeppelin.com/"
+        },
+        {
+          "name": "Solidity",
+          "img": "https://docs.soliditylang.org/en/v0.4.24/_images/logo.svg",
+          "description": "",
+          "value": 10,
+          "url": "https://soliditylang.org/"
+        },
+        {
+          "name": "Radicle",
+          "img": "https://pbs.twimg.com/profile_images/1372563232850870274/aREQff_C_400x400.jpg",
+          "description": "",
+          "value": 10,
+          "url": "https://radicle.xyz/"
+        }
+      ]
+    },
+    {
+      "name": "Ownership and DAOs",
+      "img": "https://pentacle.xyz/images/SVG/ownership-daos.svg",
+      "children": [
+        {
+          "name": "Colony",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://colony.io/"
+        },
+        {
+          "name": "Daohaus",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://daohaus.club/"
+        },
+        {
+          "name": "Fairmint",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://fairmint.co/"
+        },
+        {
+          "name": "Opolis",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://opolis.co/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,726 @@
+{
+    "name": "solana-hackathon",
+    "children": [
+        {
+            "name": "Hackathon",
+            "icon": "",
+            "children": [
+                {
+                    "name": "Zeta Markets",
+                    "img": "",
+                    "description": "",
+                    "value": 10,
+                    "children": [
+                        {
+                            "name": "Links",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Zeta Markets website",
+                                    "url": "https://zeta.markets/#/",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Zeta Markets webapp",
+                                    "url": "https://trade.zeta.markets/#/",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Zeta Markets whitepaper",
+                                    "url": "https://zetamarkets.gitbook.io/zeta/zeta-protocol/whitepaper",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Zeta Markets docs",
+                                    "url": "https://zetamarkets.gitbook.io/zeta/",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Zeta Markets Medium",
+                                    "url": "https://zetamarkets.medium.com",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Demo Day Clip",
+                                    "url": "https://youtu.be/PKC9Kuc9Bw4?t=2713",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Social",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Zeta Markets Twitter",
+                                    "url": "https://twitter.com/ZetaMarkets",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Zeta Markets Discord",
+                                    "url": "https://discord.com/invite/vBe6gkgBV4",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Zeta Markets Instagram",
+                                    "url": "https://www.instagram.com/zetamarkets/",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Slope Finance",
+                    "img": "",
+                    "description": "",
+                    "value": 10,
+                    "children": [
+                        {
+                            "name": "Links",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Slope Finance website",
+                                    "url": "https://slope.finance/#/",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Slope Finance whitepaper",
+                                    "url": "https://slope.finance/Slope%20Finance%20Lightpaper%20EN.pdf",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Demo Day Clip",
+                                    "url": "https://youtu.be/PKC9Kuc9Bw4?t=2098",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Social",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Slope Finance Twitter",
+                                    "url": "https://twitter.com/slope_finance",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Slope Finance Discord",
+                                    "url": "https://discord.com/invite/MyRsa",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Slope Finance Telegram",
+                                    "url": "https://t.me/Slope_community",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Defi Land",
+                    "img": "",
+                    "description": "",
+                    "value": 10,
+                    "children": [
+                        {
+                            "name": "Links",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Defi Land website",
+                                    "url": "https://defiland.app",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Defi Land Medium",
+                                    "url": "https://defiland.medium.com",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Demo Day Clip",
+                                    "url": "https://youtu.be/PKC9Kuc9Bw4?t=1572",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Social",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Defi Land Twitter",
+                                    "url": "https://twitter.com/DeFi_Land",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Defi Land Discord",
+                                    "url": "https://discord.com/invite/defiland",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Defi Land Telegram",
+                                    "url": "https://t.me/defiland_official",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Francium",
+                    "img": "",
+                    "description": "",
+                    "value": 10,
+                    "children": [
+                        {
+                            "name": "Links",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Francium website",
+                                    "url": "https://francium-protocol.io",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Francium webapp",
+                                    "url": "https://francium-protocol.io/app/",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Francium Github",
+                                    "url": "https://github.com/Francium-DeFi",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Francium docs",
+                                    "url": "https://docs.francium-protocol.io",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Francium Medium",
+                                    "url": "https://francium-defi.medium.com/",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Demo Day Clip",
+                                    "url": "https://youtu.be/PKC9Kuc9Bw4?t=3375",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Social",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Francium Twitter",
+                                    "url": "https://twitter.com/Francium_Defi",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Francium Discord",
+                                    "url": "https://discord.com/invite/53rrwuRFra",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Francium Telegram",
+                                    "url": "https://t.me/franciumprotoc",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "All Art",
+                    "img": "",
+                    "description": "",
+                    "value": 10,
+                    "children": [
+                        {
+                            "name": "Links",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "All Art website",
+                                    "url": "https://all.art",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "All Art whitepaper",
+                                    "url": "https://docs.all.art/library/litepaper",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "All Art docs",
+                                    "url": "https://docs.all.art/protocol/all-art-protocol",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "All Art Medium",
+                                    "url": "https://allart.medium.com",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Demo Day Clip",
+                                    "url": "https://youtu.be/PKC9Kuc9Bw4?t=3974",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Social",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "All Art Twitter",
+                                    "url": "https://twitter.com/AllArtProtocol",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "All Art Discord",
+                                    "url": "https://discord.com/invite/WrHUhqgnBd",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "All Art Telegram",
+                                    "url": "https://t.me/allartprotocol",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "All Art Reddit",
+                                    "url": "https://www.reddit.com/r/AllArtProtocol/",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "UNQ Club",
+                    "img": "",
+                    "description": "",
+                    "value": 10,
+                    "children": [
+                        {
+                            "name": "Links",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "UNQ Club website",
+                                    "url": "https://unq.club/#/",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "UNQ Club Medium",
+                                    "url": "https://unq.medium.com",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Demo Day Clip",
+                                    "url": "https://youtu.be/PKC9Kuc9Bw4?t=4891",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "PitchDeck",
+                                    "url": "https://docsend.com/view/keiyswe5wfhpvd4s",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Social",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "UNQ Club Twitter",
+                                    "url": "https://twitter.com/ClubUnq",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "UNQ Club Discord",
+                                    "url": "https://discord.com/invite/hbuDW9WmnW",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "UNQ Club Telegram",
+                                    "url": "https://t.me/unq_club",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Sonar Watch",
+                    "img": "",
+                    "description": "",
+                    "value": 10,
+                    "children": [
+                        {
+                            "name": "Links",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Sonar Watch website",
+                                    "url": "https://sonar.watch",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Sonar Watch Github",
+                                    "url": "https://github.com/sonar-watch",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Demo Day Clip",
+                                    "url": "https://youtu.be/PKC9Kuc9Bw4?t=5999",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "NFT Creator",
+                                    "url": "https://nft-creator.sonar.watch/#/",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Social",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Sonar Watch Twitter",
+                                    "url": "https://twitter.com/Sonarwatch",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Sonar Watch Discord",
+                                    "url": "https://discord.com/invite/gG4DvM2JGw",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Jet Protocol",
+                    "img": "",
+                    "description": "",
+                    "value": 10,
+                    "children": [
+                        {
+                            "name": "Links",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Jet Protocol website",
+                                    "url": "https://www.jetprotocol.io",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Jet Protocol Medium",
+                                    "url": "https://medium.com/jetprotocol",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Demo Day Clip",
+                                    "url": "https://youtu.be/PKC9Kuc9Bw4?t=6646",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Social",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Jet Protocol Twitter",
+                                    "url": "https://twitter.com/JetProtocol",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Jet Protocol Discord",
+                                    "url": "https://discord.com/invite/RW2hsqwfej",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Jet Protocol Substack",
+                                    "url": "https://twitter.com/JetProtocol",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Switchboard",
+                    "img": "",
+                    "description": "",
+                    "value": 10,
+                    "children": [
+                        {
+                            "name": "Links",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Switchboard website",
+                                    "url": "https://switchboard.xyz",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Switchboard webapp",
+                                    "url": "https://switchboard.xyz/#/explorer",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Switchboard docs",
+                                    "url": "https://getting-started.switchboard.xyz",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Switchboard Medium",
+                                    "url": "https://switchboardxyz.medium.com",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Demo Day Clip",
+                                    "url": "https://youtu.be/PKC9Kuc9Bw4?t=7413",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Social",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Switchboard Twitter",
+                                    "url": "https://twitter.com/switchboardxyz",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Switchboard Discord",
+                                    "url": "https://discord.com/invite/sNeGymrabT",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Switchboard Telegram",
+                                    "url": "https://t.me/switchboardxyz",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "ApolloDAO",
+                    "img": "",
+                    "description": "",
+                    "value": 10,
+                    "children": [
+                        {
+                            "name": "Links",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "ApolloDAO website",
+                                    "url": "https://apollo.farm",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "ApolloDAO Medium",
+                                    "url": "https://twitter.com/ApolloDAO",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Demo Day Clip",
+                                    "url": "https://youtu.be/PKC9Kuc9Bw4?t=8024",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Social",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "ApolloDAO Twitter",
+                                    "url": "https://twitter.com/ApolloDAO",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "ApolloDAO Discord",
+                                    "url": "https://discord.com/invite/hHvrqk6qTT",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Boring Protocol",
+                    "img": "",
+                    "description": "",
+                    "value": 10,
+                    "children": [
+                        {
+                            "name": "Links",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Boring Protocol website",
+                                    "url": "https://boringprotocol.io",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Boring Protocol whitepaper",
+                                    "url": "https://boringprotocol.io/assets/files/Boring_LitePaper.pdf",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Demo Day Clip",
+                                    "url": "https://youtu.be/PKC9Kuc9Bw4?t=8746",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Merch",
+                                    "url": "https://boring-protocol.creator-spring.com",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "PitchDeck",
+                                    "url": "https://boringprotocol.io/assets/files/Boring_Pitchdeck.pdf",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Social",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Boring Protocol Twitter",
+                                    "url": "https://twitter.com/BoringProtocol",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Boring Protocol Discord",
+                                    "url": "https://discord.com/invite/mbVasQCRAV",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Boring Protocol Telegram",
+                                    "url": "https://t.me/tunnelgram",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Nina",
+                    "img": "",
+                    "description": "",
+                    "value": 10,
+                    "children": [
+                        {
+                            "name": "Links",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Nina website",
+                                    "url": "https://nina.market",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Nina whitepaper",
+                                    "url": "https://docs.nina.market/info/",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Demo Day Clip",
+                                    "url": "https://youtu.be/PKC9Kuc9Bw4?t=9472",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Social",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Nina Twitter",
+                                    "url": "https://twitter.com/nina_market_",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Nina Discord",
+                                    "url": "https://discord.com/invite/JSKKcrPUQx",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Soteria",
+                    "img": "",
+                    "description": "",
+                    "value": 10,
+                    "children": [
+                        {
+                            "name": "Links",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Soteria website",
+                                    "url": "https://www.soteria.xyz",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Soteria whitepaper",
+                                    "url": "https://1645912c-07bd-4b23-ac38-33fe46743551.filesusr.com/ugd/3d4723_48c388cfea444647b8e26022f4ca8439.pdf",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Soteria Github",
+                                    "url": "https://github.com/SoteriaTech",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Soteria Medium",
+                                    "url": "https://soteria-currency.medium.com",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Demo Day Clip",
+                                    "url": "https://youtu.be/PKC9Kuc9Bw4?t=10212",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Social",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Soteria Twitter",
+                                    "url": "https://twitter.com/SoteriaCurrency",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Soteria Discord",
+                                    "url": "https://discord.com/invite/EEBmZmbvFv",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

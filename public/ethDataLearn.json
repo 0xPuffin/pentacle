@@ -1,0 +1,254 @@
+{
+  "name": "ethereumlearn",
+  "children": [
+    {
+      "name": "Education",
+      "icon": "",
+      "children": [
+        {
+          "name": "Crypto testers",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Crypto Testers website",
+                  "url": "https://cryptotesters.com/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Crypto Testers Twitter",
+                  "url": "https://twitter.com/cryptotesters",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tx Street",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Tx Street website",
+                  "url": "https://txstreet.com/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Tx Street Twitter",
+                  "url": "https://twitter.com/txstreetCom",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gitcoin quests",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://gitcoin.co/quests"
+        },
+        {
+          "name": "Rabbithole",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://rabbithole.gg/"
+        },
+        {
+          "name": "Unmask crypto",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://unmaskcrypto.com/"
+        },
+        {
+          "name": "Binance academy",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://academy.binance.com/en"
+        },
+        {
+          "name": "Gemini cryptopedia",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://www.gemini.com/cryptopedia"
+        },
+        {
+          "name": "The daily ape",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://thedailyape.notion.site/thedailyape/Directory-c96c0b6727c0433a962e897ef43efb7e"
+        },
+        {
+          "name": "Blockchain glossary",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://bisontrails.co/terminology/"
+        },
+        {
+          "name": "StakeDAO",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://academy.stakedao.org/"
+        }
+      ]
+    },
+    {
+      "name": "Analysis and insight",
+      "icon": "",
+      "children": [
+        {
+          "name": "Coin98",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://twitter.com/Coin98Analytics"
+        },
+        {
+          "name": "Crypto art data",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://cryptoart.io/data"
+        },
+        {
+          "name": "Crypto fees",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://cryptofees.info/"
+        },
+        {
+          "name": "Decrypt",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://decrypt.co"
+        },
+        {
+          "name": "Defiant",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://thedefiant.io/"
+        },
+        {
+          "name": "Deribit insights",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://insights.deribit.com/"
+        },
+        {
+          "name": "Dune analytics",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://duneanalytics.com/"
+        },
+        {
+          "name": "Gabriel Haines",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Gabriel Haines website",
+                  "url": "http://YouTube.com/gabrielhaines",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Gabriel Haines Twitter",
+                  "url": "https://twitter.com/gabrielhaines",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Messari",
+          "img": "https://pbs.twimg.com/profile_images/1085325338685640704/TNls9ggU_400x400.jpg",
+          "description": "",
+          "value": 10,
+          "url": "https://messari.io/"
+        },
+        {
+          "name": "Rebase",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://rebase.foundation/"
+        },
+        {
+          "name": "Rekt",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://rekt.eth.link/"
+        },
+        {
+          "name": "Santiment",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://app.santiment.net/"
+        },
+        {
+          "name": "The daily gwei",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://thedailygwei.substack.com/"
+        },
+        {
+          "name": "Token daily",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://www.tokendaily.co/"
+        }
+      ]
+    }
+  ]
+}

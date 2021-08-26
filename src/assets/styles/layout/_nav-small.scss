@@ -1,0 +1,37 @@
+.ecosystem {
+  .nav-small {
+    position: fixed;
+    top: 1.75rem;
+  }
+}
+
+.nav-small {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: _color(bg-header);
+  text-align: left;
+  color: _color(primary);
+  position: initial;
+
+  a {
+    font-size: .875rem;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: _breakpoint(step-three)) {
+
+  .nav-small {
+    text-align: left;
+    padding: 0;
+  }
+
+}

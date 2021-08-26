@@ -1,33 +1,53 @@
 {
-  "name": "ephemeris",
+  "name": "pentacle",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@observablehq/runtime": "^4.8.2",
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
+    "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^7.1.2",
+    "@types/react-dom": "^17.0.9",
+    "babel-loader": "8.1.0",
     "d3": "^6.5.0",
+    "d3moji": "^0.1.0",
     "history": "^5.0.0",
-    "pentacle-css": "^1.0.22",
     "react": "^16.13.1",
     "react-dev-utils": "^11.0.4",
-    "react-dom": "^16.13.1",
+    "react-dom": "^17.0.2",
     "react-router": "^6.0.0-beta.0",
     "react-router-dom": "^6.0.0-beta.0",
     "react-router-outlet": "^0.1.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "4.0.3",
+    "regenerator-runtime": "^0.13.9",
     "sass": "^1.32.5",
-    "typescript": "^4.0.2"
+    "typescript": "^4.0.2",
+    "use-debounce": "^6.0.1",
+    "yarn": "^1.22.11"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "download-images:eth": "node ./bin/fetch-images.js public/ethEcosystem.json ./src/assets/images/eth",
+    "download-images:sol": "node ./bin/fetch-images.js public/solEcosystem.json ./src/assets/images/sol",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
   },
   "browserslist": {
     "production": [
@@ -42,6 +62,21 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-syntax-import-meta": "^7.10.4"
+    "@babel/plugin-syntax-import-meta": "^7.10.4",
+    "@babel/plugin-transform-react-jsx": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@jest/globals": "^27.0.6",
+    "@storybook/addon-actions": "^6.3.7",
+    "@storybook/addon-essentials": "^6.3.7",
+    "@storybook/addon-links": "^6.3.7",
+    "@storybook/node-logger": "^6.3.7",
+    "@storybook/preset-create-react-app": "^3.2.0",
+    "@storybook/react": "^6.3.7",
+    "@testing-library/react": "^12.0.0",
+    "jest-extended": "^0.11.5",
+    "react-test-renderer": "^17.0.2",
+    "request": "^2.88.2",
+    "sharp": "^0.28.3"
   }
 }

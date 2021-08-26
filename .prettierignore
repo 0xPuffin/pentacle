@@ -1,0 +1,11 @@
+# Ignore artifacts:
+coverage
+test
+
+# Ignore it all
+*.css
+*.html
+*.js
+*.scss
+*.ts
+*.tsx

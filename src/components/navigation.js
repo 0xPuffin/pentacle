@@ -4,9 +4,9 @@ import {Link} from "react-router-dom";
 class Navigation extends Component {
     render() {
         return <nav>
-            <ul className={"nav-content"}>
+            <ul className={"nav-content align-right"}>
                 <li><Link to="/about">About</Link></li>
-                <li><Link to="/creator">Team</Link></li>
+                <li></li>
             </ul>
         </nav>
     }

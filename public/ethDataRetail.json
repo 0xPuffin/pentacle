@@ -1,0 +1,473 @@
+{
+  "name": "ethereumretail",
+  "children": [
+    {
+      "name": "Buy and trade crypto",
+      "img": "https://pentacle.xyz/images/SVG/fiatonramps.svg",
+      "children": [
+        {
+          "name": "Rainbow",
+          "img": "https://pbs.twimg.com/profile_images/1230771588380782595/lC-xrjES.png",
+          "description": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Rainbow website",
+                  "url": "https://rainbow.me/",
+                  "value": 2
+                },
+                {
+                  "name": "Rainbow Github",
+                  "url": "https://github.com/rainbow-me/rainbow",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Rainbow Twitter",
+                  "url": "https://twitter.com/rainbowdotme",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Team",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Mike DeMarais",
+                  "url": "https://twitter.com/mikedemarais",
+                  "value": 2
+                },
+                {
+                  "name": "Jin Chung",
+                  "url": "https://twitter.com/jinrummie",
+                  "value": 2
+                },
+                {
+                  "name": "Christian Baroni",
+                  "url": "https://twitter.com/chrisbaroni",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Binance",
+          "img": "https://cryptologos.cc/logos/binance-coin-bnb-logo.png",
+          "description": "",
+          "value": 10,
+          "url": "https://www.binance.com/en/register?ref=VNP1A8SR"
+        },
+        {
+          "name": "Coinbase",
+          "img": "https://assets.coinbase.com/assets/coinbase.d491999a12d7c093ec6cd83ad64a1e23.png",
+          "description": "",
+          "value": 10,
+          "url": "https://www.coinbase.com/"
+        },
+        {
+          "name": "FTX",
+          "img": "https://i.imgur.com/yQDvfFn.png",
+          "description": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "FTX website",
+                  "url": "https://ftx.com/",
+                  "value": 2
+                },
+                {
+                  "name": "FTX Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/ftx-token",
+                  "value": 2
+                },
+                {
+                  "name": "FTX whitepaper",
+                  "url": "https://ftx.com/static/media/ftt-white-paper.92bb0d80.pdf",
+                  "value": 2
+                },
+                {
+                  "name": "FTX Medium",
+                  "url": "https://ftx.medium.com/",
+                  "value": 2
+                },
+                {
+                  "name": "FTX blog",
+                  "url": "https://blog.ftx.com/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "FTX Twitter",
+                  "url": "https://twitter.com/FTX_Official",
+                  "value": 2
+                },
+                {
+                  "name": "FTX Telegram",
+                  "url": "https://t.me/FTX_Official",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "FTX Messari Dashboard",
+                  "url": "https://messari.io/asset/ftx-token",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Team",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Sam Bankman-Fried",
+                  "url": "https://twitter.com/SBF_Alameda",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gate io",
+          "img": "https://www.gate.io/images/gateio.svg",
+          "description": "",
+          "value": 10,
+          "url": "https://www.gate.io/signup/3303835"
+        },
+        {
+          "name": "Gemini",
+          "img": "https://s2.coinmarketcap.com/static/img/coins/200x200/3306.png",
+          "description": "",
+          "value": 10,
+          "url": "https://gemini.com/share/86yng7t9"
+        },
+        {
+          "name": "Moonpay",
+          "img": "https://pbs.twimg.com/profile_images/1331730558146240514/-RZtxIFl_400x400.jpg",
+          "description": "",
+          "value": 10,
+          "url": "https://www.moonpay.com/"
+        },
+        {
+          "name": "OKEx",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png",
+          "description": "",
+          "value": 10,
+          "url": "https://www.okex.com/join/4945328"
+        },
+        {
+          "name": "OKCoin",
+          "img": "https://i.pinimg.com/736x/80/9e/7d/809e7d9f8f2201646b11cc69c0c875c5.jpg",
+          "description": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "OKCoin website",
+                  "url": "https://www.okcoin.com/join?channelId=600054339",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "OKCoin Telegram",
+                  "url": "https://t.me/okcoin_en",
+                  "value": 2
+                },
+                {
+                  "name": "OKCoin Facebook",
+                  "url": "https://facebook.com/OKCoinOfficial",
+                  "value": 2
+                },
+                {
+                  "name": "OKCoin Instagram",
+                  "url": "https://www.instagram.com/okcoinofficial/",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Merch",
+      "icon": "",
+      "children": [
+        {
+          "name": "APE SZN",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://apeszn.com/"
+        },
+        {
+          "name": "Cryptolife",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://cryptolife.shop/"
+        },
+        {
+          "name": "loldefi",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://loldefi.com/"
+        },
+        {
+          "name": "Metafactory",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://metafactory.ai/"
+        },
+        {
+          "name": "Sushiswag",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://sushiswag.com/"
+        }
+      ]
+    },
+    {
+      "name": "Wallets",
+      "img": "https://pentacle.xyz/images/SVG/wallets.svg",
+      "children": [
+        {
+          "name": "Rainbow",
+          "img": "https://rainbow.me/resources/css/images/rainbow-logo.png",
+          "description": "",
+          "value": 10,
+          "url": "https://rainbow.me/"
+        },
+        {
+          "name": "Ledger",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://www.ledger.com/"
+        },
+        {
+          "name": "Trezor",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://trezor.io/"
+        },
+        {
+          "name": "Onto",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://www.onto.app/"
+        },
+        {
+          "name": "MyCrypto",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://mycrypto.com/"
+        },
+        {
+          "name": "Edge",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://edge.app/"
+        },
+        {
+          "name": "Loopring",
+          "img": "https://assets.coingecko.com/coins/images/913/thumb/LRC.png?1572852344",
+          "description": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Loopring website",
+                  "url": "https://loopring.io/#/",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring webapp",
+                  "url": "https://exchange.loopring.io/swap",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring contract",
+                  "url": "https://loopring.readthedocs.io/en/latest/English/token/",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/loopring",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring whitepaper",
+                  "url": "https://loopring.org/resources/en_whitepaper.pdf",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring Github",
+                  "url": "https://github.com/Loopring",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring docs",
+                  "url": "https://docs3.loopring.io/en/",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring audits",
+                  "url": "https://consensys.github.io/blockchainSecurityDB/projects/loopring/",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring Medium",
+                  "url": "https://medium.com/loopring-protocol",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Loopring Twitter",
+                  "url": "https://twitter.com/loopringorg",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring Discord",
+                  "url": "https://discord.com/invite/KkYccYp",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring Telegram",
+                  "url": "https://t.me/loopring_en",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Analytics",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Loopring Dune Dashboard",
+                  "url": "https://duneanalytics.com/projects/loopring",
+                  "value": 2
+                },
+                {
+                  "name": "Loopring Messari Dashboard",
+                  "url": "https://messari.io/asset/loopring",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Team",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Loopring Team",
+                  "url": "https://loopring.org/#/team",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Math wallet",
+          "img": "https://assets.coingecko.com/coins/images/11335/small/2020-05-19-token-200.png?1589940590",
+          "description": "",
+          "value": 10,
+          "url": "https://mathwallet.org/"
+        },
+        {
+          "name": "MEW",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://www.myetherwallet.com/"
+        },
+        {
+          "name": "Metamask",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Metamask website",
+                  "url": "https://metamask.io/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Metamask Twitter",
+                  "url": "https://twitter.com/MetaMask",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Trust wallet",
+          "img": "https://assets.coingecko.com/coins/images/11085/small/Trust.png?1588062702",
+          "description": "",
+          "value": 10,
+          "url": "https://trustwallet.com/"
+        }
+      ]
+    }
+  ]
+}

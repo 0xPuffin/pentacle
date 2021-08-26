@@ -1,0 +1,360 @@
+{
+  "name": "ethereumnft",
+  "children": [
+    {
+      "name": "NFT",
+      "icon": "",
+      "children": [
+        {
+          "name": "Aavegotchi",
+          "img": "https://assets.coingecko.com/coins/images/12467/thumb/ghst_200.png?1600750321",
+          "description": "",
+          "value": 10,
+          "url": "https://aavegotchi.com/"
+        },
+        {
+          "name": "Alchemy DAO",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Alchemy DAO website",
+                  "url": "https://alchemydao.com/",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemy DAO contract",
+                  "url": "https://etherscan.io/address/0xdc2778E19C7F32D2Cf0c4c90B705Fb702Aa94150#code",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemy DAO Coingecko",
+                  "url": "https://www.coingecko.com/en/coins/alchemy-dao",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemy DAO Github",
+                  "url": "https://github.com/AlchemyDAO",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemy DAO docs",
+                  "url": "https://docs.alchemydao.com",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemy DAO forum",
+                  "url": "https://forum.alchemydao.com/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Alchemy DAO Twitter",
+                  "url": "https://twitter.com/alchemydao",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemy DAO Discord",
+                  "url": "https://discord.gg/mMMGBrbqHG",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemy DAO Telegram",
+                  "url": "https://t.me/AlchemyOfficial",
+                  "value": 2
+                },
+                {
+                  "name": "Alchemy DAO Substack",
+                  "url": "https://alchemydao.substack.com/",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Axie infinity",
+          "img": "https://assets.coingecko.com/coins/images/13029/thumb/axie_infinity_logo.png?1604471082",
+          "description": "",
+          "value": 10,
+          "url": "https://axieinfinity.com/"
+        },
+        {
+          "name": "Blackpool",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://www.blackpool.finance/"
+        },
+        {
+          "name": "Cryptovoxels",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://www.cryptovoxels.com/"
+        },
+        {
+          "name": "Cometh",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://www.cometh.io/"
+        },
+        {
+          "name": "Degendata",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://degendata.io/"
+        },
+        {
+          "name": "Doki doki",
+          "img": "https://assets.coingecko.com/coins/images/12759/thumb/doki_logo.png?1602338064",
+          "description": "",
+          "value": 10,
+          "url": "https://dokidoki.finance/"
+        },
+        {
+          "name": "Ethereum Name Service",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://ens.domains/"
+        },
+        {
+          "name": "Mycospace",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://myco.space/"
+        },
+        {
+          "name": "Neon district",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://neondistrict.io/"
+        },
+        {
+          "name": "Palm",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://palm.io/"
+        },
+        {
+          "name": "Nifty ink",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Nifty ink website",
+                  "url": "https://nifty.ink/",
+                  "value": 2
+                },
+                {
+                  "name": "How to get xdai",
+                  "url": "https://support.mycrypto.com/general-knowledge/scaling/how-to-get-xdai",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ASCII Punks",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://asciipunks.com/"
+        },
+        {
+          "name": "Mandalas",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://mandalas.eth.link/"
+        },
+        {
+          "name": "Rarible",
+          "img": "https://assets.coingecko.com/coins/images/11845/thumb/Rari.png?1594946953",
+          "description": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Rarible website",
+                  "url": "https://rarible.com",
+                  "value": 2
+                },
+                {
+                  "name": "Compusophy",
+                  "url": "https://rarible.com/compusophy",
+                  "value": 2
+                },
+                {
+                  "name": "Ratwell",
+                  "url": "https://rarible.com/ratwassie",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Opensea",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Opensea website",
+                  "url": "https://opensea.io/",
+                  "value": 2
+                },
+                {
+                  "name": "Cryptopunks",
+                  "url": "https://opensea.io/collection/cryptopunks",
+                  "value": 2
+                },
+                {
+                  "name": "The Pixel Portraits",
+                  "url": "https://opensea.io/collection/the-pixel-portraits",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Decentraland",
+          "img": "https://assets.coingecko.com/coins/images/878/thumb/decentraland-mana.png?1550108745",
+          "description": "",
+          "value": 10,
+          "url": "https://decentraland.org/"
+        },
+        {
+          "name": "Mooncats",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Colour chart",
+                  "url": "https://www.reddit.com/r/MoonCatRescue/comments/m4h7lx/visual_of_the_huebased_color_whee_how_mooncats/",
+                  "value": 2
+                },
+                {
+                  "name": "Rarity Sheet",
+                  "url": "https://rarity.studio/cats.html",
+                  "value": 2
+                },
+                {
+                  "name": "Adoption Centre",
+                  "url": "https://mooncatrescue.com/adopt.html",
+                  "value": 2
+                },
+                {
+                  "name": "Degen Data",
+                  "url": "https://degendata.io/",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seascape",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://app.seascape.network/"
+        },
+        {
+          "name": "Superrare",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://www.superrare.co/"
+        },
+        {
+          "name": "Foundation",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Foundation website",
+                  "url": "https://foundation.app",
+                  "value": 2
+                },
+                {
+                  "name": "Nyan Cat",
+                  "url": "https://foundation.app/NyanCat",
+                  "value": 2
+                },
+                {
+                  "name": "Pussy Riot",
+                  "url": "https://foundation.app/PussyRiot",
+                  "value": 2
+                },
+                {
+                  "name": "IX Shells",
+                  "url": "https://foundation.app/ixshells",
+                  "value": 2
+                },
+                {
+                  "name": "Zach Lieberman",
+                  "url": "https://foundation.app/zach.lieberman",
+                  "value": 2
+                },
+                {
+                  "name": "Blake Kathryn",
+                  "url": "https://foundation.app/blakekathryn",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SAK3",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://sake.sushi.com/"
+        }
+      ]
+    }
+  ]
+}

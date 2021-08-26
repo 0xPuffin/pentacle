@@ -1,0 +1,27 @@
+.shield-container {
+  height: 1.5rem;
+}
+
+.shield {
+  display: inline-block;
+  border-radius: .2rem;
+  padding: 0 .35rem;
+  letter-spacing: .025rem;
+
+  &.ethereum {
+    color: _color(ethereum);
+    background-color: _color(ethereum-30)
+  }
+  &.solana {
+    color: _color(solana);
+    background-color: _color(solana-30)
+  }
+  &.bad-things {
+    color: _color(bad-things);
+    background-color: _color(bad-things-30)
+  }
+  &.external {
+    color: _color(external);
+    background-color: _color(external-30)
+  }
+}

@@ -1,17 +1,16 @@
 import React, {Component} from "react"
-import Navigation from "./navigation";
+import {Link} from "react-router-dom";
 
 class Footer extends Component {
     render() {
-        return <footer>
-            <article className={"footer-content flex-group space-between"}>
-                <div>
-                    © 2020 - {new Date().getFullYear()}
-                    <a href={"https://twitter.com/pentacleai"} target={"_blank"} rel="noopener noreferrer">twitter</a>
-                    {/*<a href={"https://github.com/pentacleai"} target={"_blank"} rel="noopener noreferrer">github</a>*/}
+        return <footer className={"p-footer"}>
+            <article className={"footer-content flex-group space-between flex-align-center"}>
+                <div>© {new Date().getFullYear()} Pentacle
+                    <a href={"https://github.com/pentacledotai"} target={"_blank"} rel="noopener noreferrer">GitHub</a>
+                    <Link to="/about">About</Link>
+                    <Link to="/terms">Terms</Link>
+                    <a href={"https://twitter.com/pentaclexyz"} target={"_blank"} rel="noopener noreferrer">Twitter</a>
                 </div>
-                <p>Quote from Albert Einstein</p>
-                <Navigation/>
             </article>
         </footer>
     }
