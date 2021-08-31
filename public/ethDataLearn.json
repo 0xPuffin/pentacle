@@ -115,6 +115,13 @@
           "url": "https://bisontrails.co/terminology/"
         },
         {
+          "name": "Rainbow Learn",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://rainbow.me/learn"
+        },
+        {
           "name": "StakeDAO",
           "img": "",
           "description": "",
