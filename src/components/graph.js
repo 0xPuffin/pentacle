@@ -170,7 +170,7 @@ export default function SunburstGraph({type, colorScheme}) {
                         <div className={"fieldset inline boxed"}>
                             <label aria-labelledby={"search"} className={"display-none"} htmlFor={"search"}>Search</label>
                             <input id="search" type="text" placeholder="Search" onChange={(e) => filter(e.target.value)}/>
-                            <input className={"padding-left-0-75"} type="reset" value="reset" onClick={handleReset()}/>
+                            <input className={"padding-left-0-75"} type="reset" value="Clear" onClick={handleReset()}/>
                         </div>
                     </div>
                 </article>
@@ -178,15 +178,17 @@ export default function SunburstGraph({type, colorScheme}) {
 
             <main>
                 <article className={"margin-top-1"} ref={filterRef}>
-                    <div className={"flex-group flex-center"}>
+                    <div className={"flex justify-center"}>
                         {categories && categories.map(button)}
-                        <div className={"margin-left-1 fit-to-screen"} onClick={() => setIsFitToScreen(!isFitToScreen)}>
+                    </div>
+                    <div className={"margin-left-1 fit-to-screen"} onClick={() => setIsFitToScreen(!isFitToScreen)}>
                             <span
                                 className="material-icons cursor-pointer">{isFitToScreen ? 'zoom_out_map' : 'fit_screen'}</span>
-                        </div>
                     </div>
                 </article>
-                {loading && <Spinner/>}
+                <article className={"flex justify-center"}>
+                    {loading && <Spinner/>}
+                </article>
                 <article className={"sunburst margin-top-1 flex justify-center"} ref={diagramRef}/>
             </main>
         </>

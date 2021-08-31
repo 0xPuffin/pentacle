@@ -1,14 +1,27 @@
 input {
   font-size: _size(regular);
-  border: 3px solid _color(border-input);
+  border: 1px solid _color(border-input);
 
   &[type=text], &[type=number], &[type=search] {
     border-radius: .5rem;
     padding: .35rem .75rem;
     font-size: _font(size-regular);
     width: 15rem;
-    color: _color(text-input);
+    color: _color(tertiary);
     background-color: _color(bg-input);
+
+    &::placeholder {
+      color: _color(body-text);
+    }
+
+    &:focus {
+      outline: none;
+      border-radius: .5rem;
+      border: 1px solid _color(border-input);
+        &::placeholder {
+          color: _color(secondary);
+        }
+    }
   }
 
     &[type="reset"] {
@@ -22,7 +35,7 @@ input {
   }
 
   &:-moz-focusring {
-    border: 3px solid _color(border-input);
+    border: 1px solid _color(border-input);
     outline: none;
   }
 

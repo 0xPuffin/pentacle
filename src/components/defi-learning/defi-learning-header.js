@@ -28,7 +28,7 @@ this.setState({
       this.setState({
         selectedName: name
     })
-    
+
     const filteredData = this.state.dataCardBig.filter(() => (itemName === this.state.selectedName)
       );
       console.log(filteredData)
@@ -44,22 +44,22 @@ this.setState({
             <form>
               <label>Search</label>
                <input type="text"/>
-              <input type="reset"  name="placeholder"  value="Clear"/>
+              <input type="padding-left-0-75reset"  name="placeholder"  value="Clear"/>
             </form>
             </div>
          </div>
-         
+
         <section className="flex-group  margin-top-1">
                 {data.map((data) => (
-                    <AssetCard 
+                    <AssetCard
                     key={data.name}
                     {...data}
                     onClick={() => {
                         this.setSelection(data.name);
                       }}/>
                 ))}
-            <AssetCardBig 
-            key={data.name} 
+            <AssetCardBig
+            key={data.name}
             {...data}
             />
         </section>

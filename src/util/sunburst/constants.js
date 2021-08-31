@@ -1,4 +1,4 @@
-export const IMG_SIZE = 64;
+export const IMG_SIZE = 120;
 
 export const LOGOS = {
   solData: 'https://cryptologos.cc/logos/solana-sol-logo.png?v=010',
