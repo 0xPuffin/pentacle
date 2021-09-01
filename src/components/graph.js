@@ -189,7 +189,7 @@ export default function SunburstGraph({type, colorScheme}) {
                 <article className={"flex flex-center"}>
                     {loading && <Spinner/>}
                 </article>
-                <article className={"sunburst margin-top-1 flex flex-center"} ref={diagramRef}/>
+                <article className={"sunburst margin-top-1 align-center"} ref={diagramRef}/>
             </main>
         </>
     );
