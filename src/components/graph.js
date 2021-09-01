@@ -186,10 +186,10 @@ export default function SunburstGraph({type, colorScheme}) {
                                 className="material-icons cursor-pointer">{isFitToScreen ? 'zoom_out_map' : 'fit_screen'}</span>
                     </div>
                 </article>
-                <article className={"flex justify-center"}>
+                <article className={"flex flex-center"}>
                     {loading && <Spinner/>}
                 </article>
-                <article className={"sunburst margin-top-1 flex justify-center"} ref={diagramRef}/>
+                <article className={"sunburst margin-top-1 flex flex-center"} ref={diagramRef}/>
             </main>
         </>
     );
