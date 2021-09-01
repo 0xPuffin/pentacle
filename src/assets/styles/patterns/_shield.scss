@@ -5,6 +5,7 @@
 .shield {
   display: inline-block;
   border-radius: .2rem;
+  line-height: 1.5rem;
   padding: 0 .35rem;
   letter-spacing: .025rem;
 
@@ -12,9 +13,17 @@
     color: _color(ethereum);
     background-color: _color(ethereum-30)
   }
+  &.ethereum-reversed {
+    color: _color(white);
+    background-color: _color(primary)
+  }
   &.solana {
     color: _color(solana);
     background-color: _color(solana-30)
+  }
+  &.solana-reversed {
+    color: _color(white);
+    background-color: _color(solana)
   }
   &.bad-things {
     color: _color(bad-things);

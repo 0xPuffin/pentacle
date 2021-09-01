@@ -9,7 +9,7 @@ export const Terms = () => {
             <Layout>
                 <section className={"editorial-content one-col"}>
 
-                    <article className={"box feature box-padding"}>
+                    <article className={"box feature dark box-padding"}>
                         <h1>Terms of use</h1>
                         <h2>Links to other sites</h2>
                         <p>This Site may contain links to other independent third-party Web sites ("Linked Sites").
@@ -25,7 +25,7 @@ export const Terms = () => {
                             own independent judgment regarding your interaction with these Linked Sites.</p>
                     </article>
 
-                    <article className={"box feature box-padding"}>
+                    <article className={"box feature dark box-padding"}>
                         <h2>Disclaimers</h2>
                         <p>Pentacle does not promise that the site or any content of the site, will be error-free, or
                             that
@@ -47,7 +47,7 @@ export const Terms = () => {
                         </p>
                     </article>
 
-                    <article className={"box feature box-padding"}>
+                    <article className={"box feature dark box-padding"}>
                         <h2>Affiliate links</h2>
                         <ul>
                             <li>Links to exchanges on pentacle.xyz are affiliate links, which generate commission from

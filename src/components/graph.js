@@ -166,7 +166,7 @@ export default function SunburstGraph({type, colorScheme}) {
                     <div>
                         <HeaderSimple/>
                     </div>
-                    <div className={"align-content-start justify-end"}>
+                    <div className={"align-center flex justify-end align-items-center"}>
                         <div className={"fieldset inline boxed"}>
                             <label aria-labelledby={"search"} className={"display-none"} htmlFor={"search"}>Search</label>
                             <input id="search" type="text" placeholder="Search" onChange={(e) => filter(e.target.value)}/>

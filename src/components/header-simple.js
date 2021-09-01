@@ -3,7 +3,11 @@ import {Link} from "react-router-dom";
 
 class HeaderSimple extends Component {
     render() {
-        return  <Link className={"p-header-simple logo"} to="/">Pentacle</Link>
+        return <>
+            <div className={"p-header flex-1"}>
+                <Link to="/"><img alt="Pentacle Logo" className={"logo"} src={"pentacle-logo-2.svg"}/></Link>
+            </div>
+        </>
     }
 }
 

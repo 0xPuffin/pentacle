@@ -93,6 +93,10 @@
       align-content: flex-start;
     }
 
+    &.align-items-center {
+      align-items: center;
+    }
+
     &.align-end {
       align-items: flex-end;
     }
@@ -193,6 +197,10 @@
       align-items: flex-start;
     }
 
+    &.align-items-center {
+      align-items: center;
+    }
+
     &.align-end {
       align-items: flex-end;
     }
@@ -221,7 +229,7 @@
 
     > * {
       flex: 1;
-      margin-right: .75rem;
+      margin-right: 2rem;
 
       &:last-child {
         margin-right: 0;

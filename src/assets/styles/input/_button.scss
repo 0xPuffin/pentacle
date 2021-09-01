@@ -2,7 +2,7 @@ button {
   padding: .35rem 1rem;
   border-radius: 1.5rem;
   font-size: .75rem;
-  font-family: _font(family-default);
+  font-family: _font(family-body);
   letter-spacing: .0125rem;
   border: none;
   line-height: 1rem;
@@ -14,7 +14,7 @@ button {
   }
 
   &.link {
-    color: _color(red);
+    color: _color(primary);
     background-color: transparent;
     text-decoration: underline;
   }

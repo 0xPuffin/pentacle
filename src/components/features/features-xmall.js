@@ -11,31 +11,29 @@ const FeaturesXsmlLayout = () => {
         <section className="flex flex-wrap">
             {features
                 .map(feature => isExternal(feature.link) ?
-                    <a className={"margin-bottom-1"} href={feature.link} target={"_blank"} rel="noopener noreferrer"
+                    <a className={"margin-bottom-1 text-link"} href={feature.link} target={"_blank"} rel="noopener noreferrer"
                        key={feature.title}>
-                        <article className={"editorial-content box feature link tertiary box-padding"}>
+                        <article className={"editorial-content box feature dark link tertiary box-padding"}>
                             <div className={"flex column align-center align-space-between height-100 boxed"}>
-                                <h3>{feature.title}</h3>
+                                <h3 className={"boxed"}>{feature.title}</h3>
                                 <p>{feature.text}</p>
-                                <span className={"shield-container"}> <span
-                                    className={`shield ${feature.tag}`}>{feature.tag}</span>
-                                <span className={`material-icons small ${feature.icon}`}>{feature.icon}</span>
-                                </span>
-
+                                <div className={"shield-container align-items-center"}>
+                                    <span className={`shield ${feature.tag}`}>{feature.tag}</span>
+                                    <span className={`material-icons ${feature.icon}`}>{feature.icon}</span>
+                                </div>
                             </div>
                         </article>
                     </a>
                     :
-                    <Link className={"margin-bottom-1"} to={feature.link} key={feature.title}>
-                        <article className={"editorial-content box feature link tertiary box-padding"}>
+                    <Link className={"margin-bottom-1 text-link"} to={feature.link} key={feature.title}>
+                        <article className={"editorial-content box feature dark link tertiary box-padding"}>
                             <div className={"flex column align-center align-space-between height-100 boxed"}>
-                                <h3>{feature.title}</h3>
+                                <h3 className={"boxed"}>{feature.title}</h3>
                                 <p>{feature.text}</p>
-                                <span className={"shield-container"}> <span
-                                    className={`shield ${feature.tag}`}>{feature.tag}</span>
-                                    <span className={`material-icons small ${feature.icon}`}>{feature.icon}</span>
-                                </span>
-
+                                <div className={"shield-container align-items-center"}>
+                                    <span className={`shield ${feature.tag}`}>{feature.tag}</span>
+                                    <span className={`material-icons ${feature.icon}`}>{feature.icon}</span>
+                                </div>
                             </div>
                         </article>
                     </Link>

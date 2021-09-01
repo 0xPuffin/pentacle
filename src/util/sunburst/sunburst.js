@@ -87,7 +87,7 @@ export default function createNotebook(name, colorScheme) {
                 })
                 .style("text-decoration", "none")
                 .attr('font-size', "0.6rem")
-                .attr("font-family", "'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Helvetica-neue', Helvetica, sans-serif")
+                .attr("font-family", "'matter', arial, 'Helvetica-neue', Helvetica, sans-serif")
                 .attr('color', "white")
                 .attr("dy", "0.35em")
                 .on("click", clicked)

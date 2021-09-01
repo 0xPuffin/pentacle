@@ -2605,6 +2605,13 @@
       "img": "https://pentacle.xyz/images/SVG/defihelpers.svg",
       "children": [
         {
+          "name": "L2 beat",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://l2beat.com/?view=risk"
+        },
+        {
           "name": "dex tools",
           "img": "",
           "description": "",

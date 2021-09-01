@@ -256,6 +256,36 @@
           "url": "https://www.tokendaily.co/"
         }
       ]
+    },
+    {
+      "name": "Security",
+      "img": "https://pentacle.ai/images/SVG/security.svg",
+      "children": [
+        {
+          "name": "Crypto security 101",
+          "img": "",
+          "value": 10,
+          "url": "https://medium.com/mycrypto/the-10-best-things-you-can-do-to-not-lose-your-crypto-dba4f5c05c7"
+        },
+        {
+          "name": "Crypto scam db",
+          "img": "",
+          "value": 10,
+          "url": "https://www.cryptoscamdb.org/scams"
+        },
+        {
+          "name": "DNS checker",
+          "img": "",
+          "value": 10,
+          "url": "https://dnschecker.org/"
+        },
+        {
+          "name": "UrlScan",
+          "img": "",
+          "value": 10,
+          "url": "https://urlscan.io/"
+        }
+      ]
     }
   ]
 }

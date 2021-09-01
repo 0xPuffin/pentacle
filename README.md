@@ -1,3 +1,7 @@
+# Pentacle
+
+See more notes in the wiki 
+
 ## quick setup
 
 ```
@@ -45,11 +49,6 @@ test('renders a message', () => {
   `)
 })
 ```
-
-## Clear snapshots
-$ yarn test -u
-
-
 
 ## All commits need to be signed
 

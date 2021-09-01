@@ -7,7 +7,7 @@ body {
   margin: 0;
   width: 100%;
   min-width: _breakpoint(step-min);
-  line-height: 1.5rem;
   background-color: _color(body-bg);
-  background-image: url(../../images/bg.gif);
+  background-image: url(../../images/pentaBgDark.jpg);
+  background-size: cover;
 }

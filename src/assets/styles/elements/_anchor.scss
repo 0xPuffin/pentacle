@@ -2,31 +2,20 @@ a {
   text-decoration: none;
 
   &.text-link {
-    color: _color(body-text);
-    text-decoration: underline;
-  }
 
-  h2 {
-    text-decoration: none;
-  }
-
-  h3 {
-    //text-decoration: underline;
-    text-decoration-color: rgb(253,198,225);
-    text-underline-offset: 0.15rem;
-  }
-
-  &:hover {
-
-    h2 {
-      color: rgb(253,198,225);
-      transition: 1.5s;
+    h2, h3 {
+      color: _color(body-text);
+      text-decoration: underline;
+      text-decoration-color: transparent;
+      text-underline-offset: 0.15rem;
     }
 
-    h3 {
-      color: rgb(253,198,225);
-      text-decoration-color: _color(primary);
-      transition: 1.5s;
+    &:hover {
+      h1, h2, h3 {
+        color: rgb(253, 198, 225);
+        text-decoration-color: rgb(253, 198, 225);
+        transition: 1.5s;
+      }
     }
   }
 }

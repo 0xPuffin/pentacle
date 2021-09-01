@@ -8,14 +8,14 @@ export const About = () => {
             <Header/>
             <Layout>
                 <section className={"editorial-content one-col"}>
-                    <article className={"box feature box-padding margin-top-1 hero"}>
+                    <article className={"box feature dark box-padding margin-top-1 hero"}>
                         <h1>People often ask, where to begin in Crypto</h1>
                         <p>Information overload causes confusion and doubt. And there's only so far
                             technology can go to protect people from fraud, scams and risky investing. Pentacle's aim is
                             to help people in their quest for knowledge - as a talisman of protection</p>
                     </article>
 
-                    <article className={"box feature box-padding"}>
+                    <article className={"box feature dark box-padding"}>
                         <h2>Discoverability</h2>
                         <h3>Pentacle is</h3>
                         <ul>
@@ -27,7 +27,7 @@ export const About = () => {
                         </ul>
                     </article>
 
-                    <article className={"box feature box-padding"}>
+                    <article className={"box feature dark box-padding"}>
                         <h2>Security</h2>
                         <h3>Pentacle will</h3>
                         <ul>
@@ -38,7 +38,7 @@ export const About = () => {
                         </ul>
                     </article>
 
-                    <article className={"box feature box-padding"}>
+                    <article className={"box feature dark box-padding"}>
                         <h2>Roadmap 2021</h2>
                         <h3>Q1</h3>
                         <ul>

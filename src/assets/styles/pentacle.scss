@@ -38,6 +38,7 @@
 @import 'elements/grid';
 @import 'elements/tweet';
 
+@import 'patterns/background';
 @import 'patterns/describe';
 @import 'patterns/icon';
 @import 'patterns/secondary';
@@ -52,10 +53,11 @@
 @import 'utility/highlight';
 @import 'utility/margin';
 
-@import 'utility/padding';
-@import 'utility/position';
-@import 'utility/width';
-
 @import 'widgets/modal';
 @import 'widgets/sunburst';
 @import 'utility/markup';
+
+@import 'utility/height';
+@import 'utility/padding';
+@import 'utility/position';
+@import 'utility/width';

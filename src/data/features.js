@@ -3,7 +3,7 @@ export const features = [
     "title": "Discover crypto",
     "text": "Set up a wallet, buy crypto, swap tokens and admire your NFTs",
     "buttonText": "Rainbow wallet",
-    "link": "https://rainbow.me/"
+    "link": "https://rainbow.me/learn"
   },
   {
     "title": "Secure your crypto",

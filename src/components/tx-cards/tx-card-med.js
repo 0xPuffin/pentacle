@@ -44,7 +44,7 @@ const TxCardMed = () => {
                     .map((item, i) => <a key={i}
                                          href={`https://etherscan.io/tx/${item.hash}`} target={"_blank"}
                                          rel="noopener noreferrer">
-                            <div className="box feature link box-padding padding-bottom-0-5">
+                            <div className="box feature dark link box-padding padding-bottom-0-5">
                                 <div
                                     className={item.address === '0xC8a65Fadf0e0dDAf421F28FEAb69Bf6E2E589963' ? 'haxorgreen' : 'info'}>
                                     <p>{item.message === '[2m(unintelligible)[0m' ? '(unintelligible)' : item.message}</p>

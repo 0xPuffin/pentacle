@@ -1,11 +1,10 @@
 header {
   box-sizing: border-box;
   width: 100%;
-  padding: 1.5rem 0 0 0;
+  padding: .75rem 0 0 0;
   color: _color(white-50);
 
   .header-content {
-    padding-top: .5rem;
 
     > div {
       text-align: center;
@@ -19,35 +18,45 @@ header {
   }
 
   .logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: white;
+    max-width: 15rem;
+  }
+
+  .icon {
+    max-width: 5rem;
   }
 }
 
 @media only screen and (min-width: _breakpoint(step-one)) {
 
-  .header-content {
-    > div:nth-of-type(1) {
-      text-align: left;
-    }
+  header {
+    padding: 2rem 0 0rem 0;
 
-    > div:nth-of-type(2) {
-      text-align: right;
+    .header-content {
+      > div:nth-of-type(1) {
+        text-align: left;
+      }
+
+      > div:nth-of-type(2) {
+        text-align: right;
+      }
     }
   }
 }
 
 @media only screen and (max-width: _breakpoint(step-two)) {
 
-  .header-content {
-    &.flex-small {
-      > div:nth-of-type(1) {
-        text-align: center;
-      }
+  header {
+    padding: 2rem 0 0rem 0;
 
-      > div:nth-of-type(2) {
-        text-align: center;
+    .header-content {
+      &.flex-small {
+        > div:nth-of-type(1) {
+          text-align: center;
+        }
+
+        > div:nth-of-type(2) {
+          text-align: center;
+        }
       }
     }
   }

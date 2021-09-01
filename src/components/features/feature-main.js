@@ -5,27 +5,11 @@ const features = require("../../data/featuresMain.json");
 const FeatureMainLayout = () => {
 
     return (<>
-            <section className="flex-large margin-top-1">
+            <section className="flex-large">
                 {features
-                    .map(feature => <Link className={"margin-bottom-1"} to={feature.link} key={feature.text}>
-                            <article className={"editorial-content box feature link secondary box-padding"}>
-                                <article className={"flex column align-space-between height-100 boxed"}>
-                                    <div className={"flex"}>
-                                        <article>
-                                            <div><h2>{feature.title}</h2></div>
-                                            <div><p className={"padding-bottom-1"}>{feature.text}</p></div>
-                                        </article>
-                                        <div className={"align-center"}>
-                                            <img className={feature.logoClass} alt={feature.alt}
-                                                 src={feature.logoUrl}/>
-                                        </div>
-                                    </div>
-                                    <div className={"flex justify-start align-end shield-container"}>
-                                        <div>
-                                            <div className={`shield ${feature.protocol}`}>{feature.protocol}</div>
-                                        </div>
-                                    </div>
-                                </article>
+                    .map(feature => <Link className={"margin-y-2 text-link"} to={feature.link} key={feature.text}>
+                            <article className={`box secondary feature main link padding-1 height-15 flex-center  ${feature.bgImgClass}`}>
+                                <h2>{feature.title}</h2>
                             </article>
                         </Link>
                     )}

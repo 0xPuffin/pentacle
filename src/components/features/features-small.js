@@ -7,11 +7,11 @@ const FeaturesSmlLayout = () => {
         <>
             <section className="flex flex-wrap">
                 {features
-                    .map(feature => <a className={"margin-bottom-1"} href={feature.link} target={"_blank"}
+                    .map(feature => <a className={"margin-bottom-1 text-link"} href={feature.link} target={"_blank"}
                                        rel="noopener noreferrer" key={feature.title}>
-                            <article className={"editorial-content box feature link primary box-padding"}>
+                            <article className={"editorial-content box feature dark link primary box-padding"}>
                                 <div className={"flex column align-center align-space-between height-100 boxed"}>
-                                    <h3>{feature.title}</h3>
+                                    <h3 className={"boxed"}>{feature.title}</h3>
                                     <p>{feature.text}</p>
                                     <div><img src={feature.imageUrl} alt={feature.imageAlt}/></div>
                                     <div className={"flex flex-center"}>

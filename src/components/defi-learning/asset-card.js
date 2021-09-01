@@ -7,7 +7,7 @@ const AssetCard = ({name, onClick}) => {
             <section className="flex-group margin-top-1"
             onClick={(onClick)
             }>
-                <article className="editorial-content box feature link large align-center padding-1">
+                <article className="editorial-content box feature dark link large align-center padding-1">
                     <h3>{name}</h3>
                 </article>
             </section>

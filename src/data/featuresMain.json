@@ -7,7 +7,8 @@
     "logoUrl": "https://pentacle.xyz/images/eth-img.gif",
     "logoClass": "max-height-10",
     "logoAlt": "Ethereum logo",
-    "protocol": "ethereum"
+    "protocol": "ethereum",
+    "bgImgClass": "eth-bg"
   },
   {
     "title": "Sol DeFi",
@@ -17,6 +18,7 @@
     "logoUrl": "https://pentacle.xyz/images/solana-img.gif",
     "logoClass": "max-height-10",
     "logoAlt": "Solana logo",
-    "protocol": "solana"
+    "protocol": "solana",
+    "bgImgClass": "sol-bg"
   }
 ]
