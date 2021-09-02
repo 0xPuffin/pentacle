@@ -1,7 +1,7 @@
 header {
   box-sizing: border-box;
   width: 100%;
-  padding: .75rem 0 0 0;
+  padding: .75rem 0;
   color: _color(white-50);
 
   .header-content {
@@ -46,7 +46,7 @@ header {
 @media only screen and (max-width: _breakpoint(step-two)) {
 
   header {
-    padding: 2rem 0 0rem 0;
+    padding: .75rem 0;
 
     .header-content {
       &.flex-small {
