@@ -66,7 +66,8 @@
 
   .flex {
     display: flex;
-    flex-direction: row;
+    row-gap: 0;
+    column-gap: .75rem;
 
     &.column {
       flex-direction: column;
@@ -75,10 +76,6 @@
     &.flex-center {
       align-items: center;
       justify-content: center;
-
-      &:last-of-type {
-        margin-right: 0;
-      }
     }
 
     &.align-space-between {
@@ -125,11 +122,6 @@
 
     > * {
       flex: 1;
-      margin-right: .75rem;
-
-      &:last-child {
-        margin-right: 0;
-      }
 
       &.flex-2 {
         flex: 2;
@@ -170,8 +162,11 @@
   .flex-large {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
 
     &.column {
+      display: flex;
       flex-direction: column;
     }
 
@@ -179,10 +174,6 @@
       align-items: center;
       flex-wrap: wrap;
       justify-content: center;
-
-      &:last-of-type {
-        margin-right: 0;
-      }
     }
 
     &.justify-start {
@@ -229,11 +220,6 @@
 
     > * {
       flex: 1;
-      margin-right: 2rem;
-
-      &:last-child {
-        margin-right: 0;
-      }
 
       &.flex-2 {
         flex: 2;

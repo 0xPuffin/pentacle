@@ -32,7 +32,6 @@ $color: (
         box-bg:                rgba(255,255,255,1),
         box-feature-bg-dark:   rgba(5,18,27, .35),
         box-feature-bg-light:  rgba(255,255,255,.8),
-        white-30:              rgba(255,255,255,.3),
 
         bg-box:                rgb(10,10,40, .1),
         bg-box-secondary:      rgba(230,179,255,.5),
@@ -86,6 +85,8 @@ $color: (
         white:                 rgb(255,255,255),
         white-50:              rgb(250,250,250),
         white-50-op:           rgba(250,250,250, .5),
+        white-30:              rgba(250,250,250, .3),
+        white-10:              rgba(250,250,250, .1),
         transparent:           transparent,
 
         bg-fancy-lilac:        linear-gradient(135deg,rgba(59,39,120, .75) -25%,rgba(59,39,120, .35) 150%)

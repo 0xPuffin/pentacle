@@ -10,4 +10,12 @@ body {
   background-color: _color(body-bg);
   background-image: url(../../images/pentaBgDark.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: _breakpoint(step-one)) {
+  body {
+    //background-image: url(../../images/pentaBgDarkVert.jpg);
+    //background-size: 100% 100%;
+  }
 }

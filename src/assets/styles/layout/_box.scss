@@ -49,7 +49,7 @@
     &.main {
       h2 {
         color: _color(white);
-        font-size: 4rem;
+        font-size: 2.5rem;
         text-shadow: 0 0 .5rem rgba(5,18,27, 1);
       }
     }
@@ -102,8 +102,21 @@
   }
 }
 
+@media screen and (min-width: _breakpoint(step-one)) {
+  .box.feature.main {
+      h2 {
+        color: _color(white);
+        font-size: 4rem;
+        text-shadow: 0 0 .5rem rgba(5, 18, 27, 1);
+      }
+    }
+  }
+
 @media only screen and (max-width: _breakpoint(step-two)) {
   .box {
     margin-bottom: 1rem;
+    &.feature {
+      border: 2px solid _color(white-10);
+    }
   }
 }

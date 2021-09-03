@@ -7,8 +7,8 @@ const FeatureMainLayout = () => {
     return (<>
             <section className="flex-large">
                 {features
-                    .map(feature => <Link className={"margin-y-2 text-link"} to={feature.link} key={feature.text}>
-                            <article className={`box secondary feature main link padding-1 height-15 flex-center  ${feature.bgImgClass}`}>
+                    .map(feature => <Link className={"margin-bottom-2 text-link"} to={feature.link} key={feature.text}>
+                            <article className={`box secondary feature main link padding-1 height-med flex-center  ${feature.bgImgClass}`}>
                                 <h2>{feature.title}</h2>
                             </article>
                         </Link>

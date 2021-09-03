@@ -308,6 +308,13 @@
           "url": "https://github.com/austintgriffith"
         },
         {
+          "name": "Tenderly ETH explorer",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://dashboard.tenderly.co/explorer"
+        },
+        {
           "name": "Graph protocol",
           "img": "https://miro.medium.com/fit/c/160/160/1*uOUrHJwAlNPBiGzl3slkWw.png",
           "description": "",
