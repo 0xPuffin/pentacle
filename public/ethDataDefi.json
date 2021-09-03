@@ -860,7 +860,7 @@
         {
           "name": "Dodo",
           "img": "https://assets.coingecko.com/coins/images/12651/thumb/dodo_logo.png?1601433025",
-          "description": "",
+          "description": "DODO is a liquidity protocol powered by the Proactive Market Maker (PMM) algorithm and built for capital efficiency ",
           "value": 10,
           "children": [
             {

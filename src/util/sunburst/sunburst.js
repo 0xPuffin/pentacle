@@ -143,6 +143,7 @@ export default function createNotebook(name, colorScheme) {
 
           descriptionEl
             .attr('pointer-events', 'none')
+            .attr('style', 'text-align: left;')
             .attr('width', '45%')
             .attr('height', '35%')
             .attr('x', '0%')

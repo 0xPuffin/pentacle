@@ -1,21 +1,13 @@
 {
   "name": "ethereumnft",
   "children": [
-    {
-      "name": "NFT",
-      "icon": "",
+    { "name": "NFT platforms",
+      "img": "",
       "children": [
-        {
-          "name": "Aavegotchi",
-          "img": "https://assets.coingecko.com/coins/images/12467/thumb/ghst_200.png?1600750321",
-          "description": "",
-          "value": 10,
-          "url": "https://aavegotchi.com/"
-        },
         {
           "name": "Alchemy DAO",
           "img": "",
-          "description": "",
+          "description": "Turn your NFTs into liquid, community controlled assets that can be traded, vote and control all your NFTs.Create funds, communities, split collections between friends and all with no coding or technical experience.",
           "value": 10,
           "children": [
             {
@@ -83,74 +75,11 @@
           ]
         },
         {
-          "name": "Axie infinity",
-          "img": "https://assets.coingecko.com/coins/images/13029/thumb/axie_infinity_logo.png?1604471082",
-          "description": "",
-          "value": 10,
-          "url": "https://axieinfinity.com/"
-        },
-        {
-          "name": "Blackpool",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://www.blackpool.finance/"
-        },
-        {
-          "name": "Cryptovoxels",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://www.cryptovoxels.com/"
-        },
-        {
-          "name": "Cometh",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://www.cometh.io/"
-        },
-        {
-          "name": "Degendata",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://degendata.io/"
-        },
-        {
-          "name": "Doki doki",
-          "img": "https://assets.coingecko.com/coins/images/12759/thumb/doki_logo.png?1602338064",
-          "description": "",
-          "value": 10,
-          "url": "https://dokidoki.finance/"
-        },
-        {
           "name": "Ethereum Name Service",
           "img": "",
           "description": "",
           "value": 10,
           "url": "https://ens.domains/"
-        },
-        {
-          "name": "Mycospace",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://myco.space/"
-        },
-        {
-          "name": "Neon district",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://neondistrict.io/"
-        },
-        {
-          "name": "Palm",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://palm.io/"
         },
         {
           "name": "Nifty ink",
@@ -175,20 +104,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "ASCII Punks",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://asciipunks.com/"
-        },
-        {
-          "name": "Mandalas",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://mandalas.eth.link/"
         },
         {
           "name": "Rarible",
@@ -256,40 +171,6 @@
           "url": "https://decentraland.org/"
         },
         {
-          "name": "Mooncats",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "children": [
-            {
-              "name": "Links",
-              "value": 2,
-              "children": [
-                {
-                  "name": "Colour chart",
-                  "url": "https://www.reddit.com/r/MoonCatRescue/comments/m4h7lx/visual_of_the_huebased_color_whee_how_mooncats/",
-                  "value": 2
-                },
-                {
-                  "name": "Rarity Sheet",
-                  "url": "https://rarity.studio/cats.html",
-                  "value": 2
-                },
-                {
-                  "name": "Adoption Centre",
-                  "url": "https://mooncatrescue.com/adopt.html",
-                  "value": 2
-                },
-                {
-                  "name": "Degen Data",
-                  "url": "https://degendata.io/",
-                  "value": 2
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Seascape",
           "img": "",
           "description": "",
@@ -341,6 +222,192 @@
                 {
                   "name": "Blake Kathryn",
                   "url": "https://foundation.app/blakekathryn",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    { "name": "NFT projects",
+      "img": "",
+      "children": [
+        {
+          "name": "Etherphrocks",
+          "img": "",
+          "description": "Ether Phrocks - right facing rocks on the blockchain",
+          "value": 10,
+          "url": "https://etherphrock.com/"
+        },
+        {
+          "name": "Ratwell",
+          "img": "",
+          "description": "Ether Phrocks - right facing rocks on the blockchain",
+          "value": 10,
+          "url": "https://zora.co/ratwell"
+        },
+        {
+          "name": "Meebits",
+          "img": "",
+          "description": "The Meebits are 20,000 unique 3D voxel characters, created by a custom generative algorithm, then registered on the Ethereum blockchain.",
+          "value": 10,
+          "url": "https://opensea.io/collection/meebits"
+        },
+        {
+          "name": "Loot",
+          "img": "",
+          "description": "Loot is randomized adventurer gear generated and stored on chain. Stats, images, and other functionality are intentionally omitted for others to interpret. Feel free to use Loot in any way you want.",
+          "value": 10,
+          "url": "https://opensea.io/collection/lootproject"
+        },
+        {
+          "name": "Bored Ape Yacht Club",
+          "img": "",
+          "description": "The Bored Ape Yacht Club is a collection of 10,000 unique Bored Ape NFTs— unique digital collectibles living on the Ethereum blockchain.",
+          "value": 10,
+          "url": "https://opensea.io/collection/boredapeyachtclub"
+        },
+        {
+          "name": "Cool cats",
+          "img": "",
+          "description": "Cool Cats is a collection of 9,999 randomly generated and stylistically curated NFTs",
+          "value": 10,
+          "url": "https://opensea.io/collection/cool-cats-nft"
+        },
+        {
+          "name": "Punks",
+          "img": "",
+          "description": "CryptoPunks launched as a fixed set of 10,000 items in mid-2017 and became one of the inspirations for the ERC-721 standard",
+          "value": 10,
+          "url": "https://opensea.io/collection/cryptopunks"
+        },
+        {
+          "name": "Mutant Ape Yacht Club",
+          "img": "",
+          "description": "The MUTANT APE YACHT CLUB is a collection of up to 20,000 Mutant Apes that can only be created by exposing an existing Bored Ape to a vial of MUTANT SERUM",
+          "value": 10,
+          "url": "https://opensea.io/collection/mutant-ape-yacht-club"
+        },
+        {
+          "name": "Art blocks curated",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://opensea.io/collection/art-blocks"
+        },
+        {
+          "name": "Aavegotchi",
+          "img": "https://assets.coingecko.com/coins/images/12467/thumb/ghst_200.png?1600750321",
+          "description": "",
+          "value": 10,
+          "url": "https://aavegotchi.com/"
+        },
+        {
+          "name": "Axie infinity",
+          "img": "https://assets.coingecko.com/coins/images/13029/thumb/axie_infinity_logo.png?1604471082",
+          "description": "",
+          "value": 10,
+          "url": "https://axieinfinity.com/"
+        },
+        {
+          "name": "Blackpool",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://www.blackpool.finance/"
+        },
+        {
+          "name": "Cryptovoxels",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://www.cryptovoxels.com/"
+        },
+        {
+          "name": "Cometh",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://www.cometh.io/"
+        },
+        {
+          "name": "Degendata",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://degendata.io/"
+        },
+        {
+          "name": "Doki doki",
+          "img": "https://assets.coingecko.com/coins/images/12759/thumb/doki_logo.png?1602338064",
+          "description": "",
+          "value": 10,
+          "url": "https://dokidoki.finance/"
+        },
+        {
+          "name": "Mycospace",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://myco.space/"
+        },
+        {
+          "name": "Neon district",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://neondistrict.io/"
+        },
+        {
+          "name": "Palm",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://palm.io/"
+        },
+        {
+          "name": "ASCII Punks",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://asciipunks.com/"
+        },
+        {
+          "name": "Mandalas",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://mandalas.eth.link/"
+        },
+        {
+          "name": "Mooncats",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Colour chart",
+                  "url": "https://www.reddit.com/r/MoonCatRescue/comments/m4h7lx/visual_of_the_huebased_color_whee_how_mooncats/",
+                  "value": 2
+                },
+                {
+                  "name": "Rarity Sheet",
+                  "url": "https://rarity.studio/cats.html",
+                  "value": 2
+                },
+                {
+                  "name": "Adoption Centre",
+                  "url": "https://mooncatrescue.com/adopt.html",
+                  "value": 2
+                },
+                {
+                  "name": "Degen Data",
+                  "url": "https://degendata.io/",
                   "value": 2
                 }
               ]
