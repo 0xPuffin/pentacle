@@ -1,7 +1,19 @@
 {
   "name": "ethereumnft",
   "children": [
-    { "name": "NFT platforms",
+    { "name": "Tools and analysis",
+      "img": "",
+      "children": [
+        {
+          "name": "DeFi Llama jpegged",
+          "img": "",
+          "description": "",
+          "value": 10,
+          "url": "https://defillama.com/jpegged/"
+        }
+      ]
+    },
+    { "name": "Platforms",
       "img": "",
       "children": [
         {
@@ -230,7 +242,7 @@
         }
       ]
     },
-    { "name": "NFT projects",
+    { "name": "Projects",
       "img": "",
       "children": [
         {
