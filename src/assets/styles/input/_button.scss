@@ -9,6 +9,11 @@ button {
   cursor: pointer;
   max-width: 15rem;
 
+  &:hover {
+    border-color: _color(primary);
+    box-shadow: 0 0 30px 10px _color(primary-30);
+  }
+
   &.small {
     padding: .25rem .75rem;
   }
@@ -22,11 +27,19 @@ button {
   &.primary {
     background: _color(button-primary);
     color: _color(button-text-primary);
+    &.active {
+      background: _color(secondary);
+    }
   }
 
   &.primary-gradient {
     background: _color(bg-fancy-lilac);
     color: _color(button-text-gradient);
+
+    &.active {
+      background: _color(secondary);
+      color: _color(body-text-inv);
+    }
   }
 
   &.secondary {

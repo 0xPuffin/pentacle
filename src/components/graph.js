@@ -128,7 +128,7 @@ export default function SunburstGraph({type, colorScheme}) {
                 key={label}
                 id={`btn-${formattedLabel}`}
                 testid={`p-${formattedLabel}`}
-                className={'primary-gradient toggle-button cursor-pointer margin-right-0-25 margin-bottom-0-25 ' + (selectedCategory === label ? 'active' : '')}
+                className={'primary-gradient toggle-button ' + (selectedCategory === label ? 'active' : '')}
                 onClick={() => {
                     const clickAll = () => document.querySelector('circle').dispatchEvent(new Event('click'));
                     clickAll();
@@ -137,8 +137,6 @@ export default function SunburstGraph({type, colorScheme}) {
                     if (formattedLabel !== 'all') {
                         setTimeout(() => {
                             setSelectedCategory(label);
-                            // NOTE: This is kinda hacky for now because at this point I personally did not know how
-                            // to achieve sth similar with @observablehq/runtime.
                             // @TODO proper state management
                             const linkedEl = diagramRef.current.querySelector(
                                 `#${formattedLabel}`
