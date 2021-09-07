@@ -21,6 +21,7 @@ export default function SunburstGraph({type, colorScheme}) {
     const params = new URLSearchParams(window.location.search);
     const q = params.get('q') || '';
     const item = params.get('item') || '';
+    const inputRef = useRef();
 
     /**
      * @function
@@ -28,6 +29,11 @@ export default function SunburstGraph({type, colorScheme}) {
      * Receives debounced input from the search field in order to filter the graph.
      */
     const filter = useDebouncedCallback((val) => {
+        if (!val) {
+          moduleRef.redefine('data', jsonData);
+          inputRef.current.value = '';
+          return;
+        }
         const filteredData = filterData(jsonData, val);
         const onlyFiltered = filteredData.children.filter((c) => c.filtered);
 
@@ -150,12 +156,6 @@ export default function SunburstGraph({type, colorScheme}) {
         );
     };
 
-    function handleReset() {
-        const reset = ""
-        return (
-            () => filter(reset)
-        )
-    }
 
     return (
         <>
@@ -167,8 +167,8 @@ export default function SunburstGraph({type, colorScheme}) {
                     <div className={"align-center flex justify-end align-items-center"}>
                         <div className={"fieldset inline boxed"}>
                             <label aria-labelledby={"search"} className={"display-none"} htmlFor={"search"}>Search</label>
-                            <input id="search" type="text" placeholder="Search" onChange={(e) => filter(e.target.value)}/>
-                            <input className={"padding-left-0-75"} type="reset" value="Clear" onClick={handleReset()}/>
+                            <input id="search" type="text" placeholder="Search" ref={inputRef} onChange={(e) => filter(e.target.value)}/>
+                            <input className={"padding-left-0-75"} type="reset" value="Clear" onClick={e =>  filter('')}/>
                         </div>
                     </div>
                 </article>
