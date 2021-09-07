@@ -156,6 +156,7 @@ export default function SunburstGraph({type, colorScheme}) {
         );
     };
 
+
     return (
         <>
             <header ref={headerRef}>
@@ -175,7 +176,7 @@ export default function SunburstGraph({type, colorScheme}) {
 
             <main>
                 <article ref={filterRef}>
-                    <div className={"flex flex-center"}>
+                    <div className={"flex align-center"}>
                         {categories && categories.map(button)}
                     </div>
                     <div className={"margin-left-1 fit-to-screen"} onClick={() => setIsFitToScreen(!isFitToScreen)}>
