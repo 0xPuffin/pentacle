@@ -18,7 +18,7 @@ test("the json file parses with no exceptions", () => {
 
 test('section titles are rendered', () => {
     expect(ethData.children[0].name).toBe('DeFi protocols');
-    expect(ethData.children[1].name).toBe('Decentralized exchanges');
+    expect(ethData.children[1].name).toBe('Decentralised exchanges');
     expect(ethData.children[2].name).toBe('DeFi tools');
     expect(ethData.children[3].name).toBe('DeFi insurance');
 });
