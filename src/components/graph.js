@@ -134,7 +134,7 @@ export default function SunburstGraph({type, colorScheme}) {
                 key={label}
                 id={`btn-${formattedLabel}`}
                 testid={`p-${formattedLabel}`}
-                className={'primary-gradient toggle-button ' + (selectedCategory === label ? 'active' : '')}
+                className={'primary-gradient toggle-button margin-bottom-0-5 ' + (selectedCategory === label ? 'active' : '')}
                 onClick={() => {
                     const clickAll = () => document.querySelector('circle').dispatchEvent(new Event('click'));
                     clickAll();
@@ -156,12 +156,11 @@ export default function SunburstGraph({type, colorScheme}) {
         );
     };
 
-
     return (
         <>
             <header ref={headerRef}>
-                <article className="header-content flex flex-small justify-space-between">
-                    <div>
+                <article className="header-content flex justify-space-between">
+                    <div className={"p-header-simple"}>
                         <HeaderSimple/>
                     </div>
                     <div className={"align-center flex justify-end align-items-center"}>
@@ -175,8 +174,8 @@ export default function SunburstGraph({type, colorScheme}) {
             </header>
 
             <main>
-                <article className={"margin-top-1"} ref={filterRef}>
-                    <div className={"flex justify-center"}>
+                <article ref={filterRef}>
+                    <div className={"flex align-center"}>
                         {categories && categories.map(button)}
                     </div>
                     <div className={"margin-left-1 fit-to-screen"} onClick={() => setIsFitToScreen(!isFitToScreen)}>

@@ -73,6 +73,10 @@ table button {
   padding: .25rem .5rem;
 }
 
+button + button {
+  margin-left: .5rem;
+}
+
 @media only screen and (min-width: _breakpoint(step-two)) {
 
   button {
