@@ -2,13 +2,13 @@
   "name": "ethereumlearn",
   "children": [
     {
-      "name": "Education",
+      "name": "Learn",
       "icon": "",
       "children": [
         {
-          "name": "Crypto testers",
+          "name": "Crypto Testers",
           "img": "",
-          "description": "",
+          "description": "Cryptotesters is your go-to resource to navigate the crypto universe. We help you find the best cryptocurrency exchanges, wallets and much more.",
           "value": 10,
           "children": [
             {
@@ -38,7 +38,7 @@
         {
           "name": "Tx Street",
           "img": "",
-          "description": "",
+          "description": "TxStreet is a live blockchain transaction and mempool visualizer. Each person represents a single transaction happening in real time. Each house represents a type of transaction. Each bus represents a future block.",
           "value": 10,
           "children": [
             {
@@ -68,65 +68,65 @@
         {
           "name": "Gitcoin quests",
           "img": "",
-          "description": "",
+          "description": "Gitcoin Quests is a fun, gamified way to learn about the web3 ecosystem, compete with your friends, earn rewards, and level up your decentralization-fu! Explore. Learn. Battle Baddies. Win Rewards.",
           "value": 10,
           "url": "https://gitcoin.co/quests"
         },
         {
           "name": "Rabbithole",
           "img": "",
-          "description": "",
+          "description": "Earn crypto by using the latest decentralized apps. Become an early adopter of new projects, and earn crypto as a reward.",
           "value": 10,
           "url": "https://rabbithole.gg/"
         },
         {
           "name": "Unmask crypto",
           "img": "",
-          "description": "",
+          "description": "Unmask Crypto is a platform that educates you on the many benefits and risks involved in owning and trading cryptocurrency.",
           "value": 10,
           "url": "https://unmaskcrypto.com/"
         },
         {
           "name": "Binance academy",
           "img": "",
-          "description": "",
+          "description": "Welcome to Binance Academy! We're on a mission to educate the masses on the transformative potential of cryptocurrency and blockchain technology. On this website, you'll find over 280 articles covering everything from computer security to economics. Oh, and they're in 21 different languages.",
           "value": 10,
           "url": "https://academy.binance.com/en"
         },
         {
           "name": "Gemini cryptopedia",
           "img": "",
-          "description": "",
+          "description": "Cryptopedia is a platform where experts can deliver a deeper level of knowledge about their crypto projects. Learn about some of the most prominent, promising, and innovative crypto protocols in the world directly from the people that created them. ",
           "value": 10,
           "url": "https://www.gemini.com/cryptopedia"
         },
         {
           "name": "The daily ape",
           "img": "",
-          "description": "",
+          "description": "The Daily Ape is your resource for all things degen. This free, resource-driven Telegram group aggregates the top tweets, stories and developments from established and rising projects and shares them in a daily update to stay informed on the latest progressions in DeFi and beyond.",
           "value": 10,
           "url": "https://thedailyape.notion.site/thedailyape/Directory-c96c0b6727c0433a962e897ef43efb7e"
         },
         {
-          "name": "Blockchain glossary",
+          "name": "Blockchain glossary by Bison Trails",
           "img": "",
-          "description": "",
+          "description": "This living document by Bison Trails is a non-exhaustive list of key blockchain terms. Click through on each term for a longer explanation.",
           "value": 10,
           "url": "https://bisontrails.co/terminology/"
         },
         {
-          "name": "Rainbow Learn",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://rainbow.me/learn"
-        },
-        {
           "name": "StakeDAO",
           "img": "",
-          "description": "",
+          "description": "Your end-to-end learning hub for all things Crypto and DeFi",
           "value": 10,
           "url": "https://academy.stakedao.org/"
+        },
+        {
+          "name": "Rainbow",
+          "img": "",
+          "description": "The perfect beginner's guide to crypto",
+          "value": 10,
+          "url": "https://rainbow.me/learn"
         }
       ]
     },
@@ -135,58 +135,93 @@
       "icon": "",
       "children": [
         {
+          "name": "Crypto fees",
+          "img": "",
+          "description": "CryptoFees.info is a website displaying fee data for blockchains and blockchain applications, like decentralized exchanges, lending protocols, etc.",
+          "value": 10,
+          "url": "https://cryptofees.info/"
+        },
+        {
+          "name": "Eth burned",
+          "img": "",
+          "description": "The more Ethereum is used... the more ETH is burned",
+          "value": 10,
+          "url": "https://ethburned.info/"
+        },
+        {
+          "name": "Money movers",
+          "img": "",
+          "description": "Which blockchain is settling more value?",
+          "value": 10,
+          "url": "https://money-movers.info/"
+        },
+        {
+          "name": "Open orgs",
+          "img": "",
+          "description": "DAOs are the new companies. What's on their balance sheets?",
+          "value": 10,
+          "url": "https://open-orgs.info/"
+        },
+        {
+          "name": "Ethereum nodes",
+          "img": "",
+          "description": "Dashboard of all Ethereum nodes and their current status",
+          "value": 10,
+          "url": "https://ethereumnodes.com/"
+        },
+        {
           "name": "Coin98",
           "img": "",
-          "description": "",
+          "description": "Coin98 is a multi-chain wallet & DeFi Gateway designed to seamlessly connect users to the crypto world in a safe and secure manner.",
           "value": 10,
           "url": "https://twitter.com/Coin98Analytics"
         },
         {
           "name": "Crypto art data",
           "img": "",
-          "description": "",
+          "description": "Crypto Art Data is a platform that aggredates multiple datasets and creates indicators about the NFT space. As well as this, it also showcases some of the most expensive NFTs across multiple platforms",
           "value": 10,
           "url": "https://cryptoart.io/data"
         },
         {
           "name": "Crypto fees",
           "img": "",
-          "description": "",
+          "description": "Crypto Fees aggrigates the generated fees of multiple crypto platforms (Layer 1's and Layer 2's) and displays them in a ranked order from highest generated fees to lowest.",
           "value": 10,
           "url": "https://cryptofees.info/"
         },
         {
           "name": "Decrypt",
           "img": "",
-          "description": "",
+          "description": "Decrypt is a journalistic platform that keeps its audience up to date with the lastest events happening in the cryptocurrency space.",
           "value": 10,
           "url": "https://decrypt.co"
         },
         {
           "name": "Defiant",
           "img": "",
-          "description": "",
+          "description": "Defiant is a journalistic platform that keeps its audience up to date with the lastest events happening in the cryptocurrency space.",
           "value": 10,
           "url": "https://thedefiant.io/"
         },
         {
           "name": "Deribit insights",
           "img": "",
-          "description": "",
+          "description": "Deribit Insights (subsidiary of Deribit Exchange) is a journalistic platform that keeps its audience up to date with the lastest events happening in the cryptocurrency space.",
           "value": 10,
           "url": "https://insights.deribit.com/"
         },
         {
           "name": "Dune analytics",
           "img": "",
-          "description": "",
+          "description": "Dune Analytics is a platform that aggredates multiple datasets and creates indicators about protocols in the DeFi space.",
           "value": 10,
           "url": "https://duneanalytics.com/"
         },
         {
           "name": "Gabriel Haines",
           "img": "",
-          "description": "",
+          "description": "Gabriel Haines is a public figure who creates both short and long form content to educate people about the cryptocurrency space ",
           "value": 10,
           "children": [
             {
@@ -216,42 +251,35 @@
         {
           "name": "Messari",
           "img": "https://pbs.twimg.com/profile_images/1085325338685640704/TNls9ggU_400x400.jpg",
-          "description": "",
+          "description": "Messari is a platform that aggredates multiple datasets and creates dashboards for users to explore information about asset prices, DeFi statistics, research papers and more.",
           "value": 10,
           "url": "https://messari.io/"
         },
         {
-          "name": "Rebase",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://rebase.foundation/"
-        },
-        {
           "name": "Rekt",
           "img": "",
-          "description": "",
+          "description": "Rekt is a exploit tracker on the Ethereum network - it tracks how much money was lost in the exploit and as well who audited the protocol (if any)",
           "value": 10,
           "url": "https://rekt.eth.link/"
         },
         {
           "name": "Santiment",
           "img": "",
-          "description": "",
+          "description": "Santiment is a platform that aggredates multiple datasets and creates dashboards for users to explore information about the cryptocurrency space.",
           "value": 10,
           "url": "https://app.santiment.net/"
         },
         {
           "name": "The daily gwei",
           "img": "",
-          "description": "",
+          "description": "The Daily Gwei is a daily newsletter created by influencer Anthony Sassano about the Ethereum ecosystem.",
           "value": 10,
           "url": "https://thedailygwei.substack.com/"
         },
         {
           "name": "Token daily",
           "img": "",
-          "description": "",
+          "description": "Token daily is a journalistic platform that keeps its audience up to date with the lastest events happening in the cryptocurrency space.",
           "value": 10,
           "url": "https://www.tokendaily.co/"
         }
@@ -259,29 +287,33 @@
     },
     {
       "name": "Security",
-      "img": "https://pentacle.ai/images/SVG/security.svg",
+      "icon": "",
       "children": [
         {
           "name": "Crypto security 101",
           "img": "",
+          "description": "A medium article for newcomers entering the space to gain some best-practices for crypto security.",
           "value": 10,
           "url": "https://medium.com/mycrypto/the-10-best-things-you-can-do-to-not-lose-your-crypto-dba4f5c05c7"
         },
         {
           "name": "Crypto scam db",
           "img": "",
+          "description": "CryptoScamDB is dedicated to creating a safer cryptospace by educating the public on best security practices, uncovering malicious actors, and exposing scams, as well as providing scam detection services that can be integrated into existing products.",
           "value": 10,
           "url": "https://www.cryptoscamdb.org/scams"
         },
         {
           "name": "DNS checker",
           "img": "",
+          "description": "Check DNS Propagation worldwide. DNS Checker provides name server propagation check instantly. Changed nameservers so do a DNS lookup and check if DNS and nameservers have propagated.",
           "value": 10,
           "url": "https://dnschecker.org/"
         },
         {
           "name": "UrlScan",
           "img": "",
+          "description": "urlscan.io - Website scanner for suspicious and malicious URLs",
           "value": 10,
           "url": "https://urlscan.io/"
         }

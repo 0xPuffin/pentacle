@@ -3,12 +3,12 @@
   "children": [
     {
       "name": "Buy and trade crypto",
-      "img": "https://pentacle.xyz/images/SVG/fiatonramps.svg",
+      "icon": "",
       "children": [
         {
           "name": "Rainbow",
           "img": "https://pbs.twimg.com/profile_images/1230771588380782595/lC-xrjES.png",
-          "description": "",
+          "description": "If you haven\u2019t gotten started with crypto or Ethereum yet, download Rainbow today and start exploring!",
           "value": 10,
           "children": [
             {
@@ -64,21 +64,21 @@
         {
           "name": "Binance",
           "img": "https://cryptologos.cc/logos/binance-coin-bnb-logo.png",
-          "description": "",
+          "description": "Binance is the world's largest centralised crypto exchange. Depending on your location they offer access to spot and futures markets, derivatives, finance and NFTs",
           "value": 10,
           "url": "https://www.binance.com/en/register?ref=VNP1A8SR"
         },
         {
           "name": "Coinbase",
           "img": "https://assets.coinbase.com/assets/coinbase.d491999a12d7c093ec6cd83ad64a1e23.png",
-          "description": "",
+          "description": "Coinbase is he most trusted cryptocurrency platform, and an ideal starting point if you're new to crypto. They started in 2012 with the idea that anyone, anywhere, should be able to easily and securely send and receive Bitcoin. Today, they offer a trusted and easy-to-use platform for accessing the broader cryptoeconomy.",
           "value": 10,
           "url": "https://www.coinbase.com/"
         },
         {
           "name": "FTX",
           "img": "https://i.imgur.com/yQDvfFn.png",
-          "description": "",
+          "description": "FTX is a cryptocurrency exchange built by traders, for traders. FTX offers products including industry-first derivatives, options, volatility products and leveraged tokens. FTX aims to develop a platform robust enough for professional trading firms and intuitive enough for first-time users.",
           "value": 10,
           "children": [
             {
@@ -155,35 +155,35 @@
         {
           "name": "Gate io",
           "img": "https://www.gate.io/images/gateio.svg",
-          "description": "",
+          "description": "Gate.io is an unregulated altcoin exchange",
           "value": 10,
           "url": "https://www.gate.io/signup/3303835"
         },
         {
           "name": "Gemini",
           "img": "https://s2.coinmarketcap.com/static/img/coins/200x200/3306.png",
-          "description": "",
+          "description": "Gemini is a regulated cryptocurrency exchange, wallet, and custodian that makes it simple and secure to buy bitcoin, ether, and other cryptocurrencies. They are a licensed New York trust company that undergoes regular bank exams and is subject to the cybersecurity audits conducted by the New York Department of Financial Services",
           "value": 10,
           "url": "https://gemini.com/share/86yng7t9"
         },
         {
           "name": "Moonpay",
           "img": "https://pbs.twimg.com/profile_images/1331730558146240514/-RZtxIFl_400x400.jpg",
-          "description": "",
+          "description": "MoonPay is a financial technology company that builds payments infrastructure for crypto. Their on-and-off-ramp suite of products allow for converting between fiat currencies and cryptocurrencies using all major payment methods including debit and credit card, local bank transfers, Apple Pay, Google Pay, and Samsung Pay. MoonPay is active in more than 160 countries and is trusted by 250+ leading wallets, websites, and applications to accept payments and defeat fraud.",
           "value": 10,
           "url": "https://www.moonpay.com/"
         },
         {
           "name": "OKEx",
           "img": "https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png",
-          "description": "",
+          "description": "A centralised exchanged with an extensive crypto academy in Mandarin",
           "value": 10,
           "url": "https://www.okex.com/join/4945328"
         },
         {
           "name": "OKCoin",
           "img": "https://i.pinimg.com/736x/80/9e/7d/809e7d9f8f2201646b11cc69c0c875c5.jpg",
-          "description": "",
+          "description": "Okcoin a globally licensed exchange with offices in San Francisco, Miami, Malta, Hong Kong, Singapore and Japan. They have a clean modern UI and an easy to use staking offering",
           "value": 10,
           "children": [
             {
@@ -229,35 +229,35 @@
         {
           "name": "APE SZN",
           "img": "",
-          "description": "",
+          "description": "APE SZN is a cryptocurrency related merchandise store created by Alex Wice",
           "value": 10,
           "url": "https://apeszn.com/"
         },
         {
           "name": "Cryptolife",
           "img": "",
-          "description": "",
+          "description": "CryptoLife offers a comprehensive portfolio of textiles, textile finishing and merchandise related to cryptocurrencies.",
           "value": 10,
           "url": "https://cryptolife.shop/"
         },
         {
           "name": "loldefi",
           "img": "",
-          "description": "",
+          "description": "loldefi is a crypto and defi inspired lifestyle brand that works closely with defi protocals to create cryptocurrency related merchandise ",
           "value": 10,
           "url": "https://loldefi.com/"
         },
         {
           "name": "Metafactory",
           "img": "",
-          "description": "",
+          "description": "Metafactory offers a comprehensive portfolio of textiles, textile finishing and merchandise related to cryptocurrencies.",
           "value": 10,
           "url": "https://metafactory.ai/"
         },
         {
           "name": "Sushiswag",
           "img": "",
-          "description": "",
+          "description": "SushiSwag is a community-driven merchandise program for the DeFi platform sushi.com",
           "value": 10,
           "url": "https://sushiswag.com/"
         }
@@ -265,54 +265,54 @@
     },
     {
       "name": "Wallets",
-      "img": "https://pentacle.xyz/images/SVG/wallets.svg",
+      "icon": "",
       "children": [
         {
           "name": "Rainbow",
           "img": "https://rainbow.me/resources/css/images/rainbow-logo.png",
-          "description": "",
+          "description": "If you haven\u2019t gotten started with crypto or Ethereum yet, download Rainbow today and start exploring!",
           "value": 10,
           "url": "https://rainbow.me/"
         },
         {
           "name": "Ledger",
           "img": "",
-          "description": "",
+          "description": "Buy, exchange and grow your crypto securely with a Ledger hardware wallet, combined with the Ledger Live app. It\u2019s never been easier to keep your crypto safe and accessible.",
           "value": 10,
           "url": "https://www.ledger.com/"
         },
         {
           "name": "Trezor",
           "img": "",
-          "description": "",
+          "description": "Hardware wallet is a special type of security device allowing users to store their cryptocurrency holdings. Trezor is the world\u2019s first and most secure cryptocurrency hardware wallet. It enables you to make secure payments and manage cryptocurrencies without exposing any sensitive information to a potentially compromised computer.",
           "value": 10,
           "url": "https://trezor.io/"
         },
         {
           "name": "Onto",
           "img": "",
-          "description": "",
+          "description": "ONTO is the first truly decentralized cross-chain wallet that allows users to manage their digital identities, data, and digital assets. It integrates various functions such as identity and credit, digital assets and NFTs, financial lending, cross-chain swap, news push, and various practical dApps, as well as supporting multiple mainstream public chains and their diversified digital assets.",
           "value": 10,
           "url": "https://www.onto.app/"
         },
         {
           "name": "MyCrypto",
           "img": "",
-          "description": "",
+          "description": "MyCrypto is a Ethereum based wallet that enables users to unify all their Ethereum accounts without giving up privary or security",
           "value": 10,
           "url": "https://mycrypto.com/"
         },
         {
           "name": "Edge",
           "img": "",
-          "description": "",
+          "description": "Edge is a multi-asset supported cryptocurrency wallet that enables users to safely store their assets on a single platform. Edge also offers the ability for users to swap assets between eachother as well as onboard fiat into the cryptocurrency ecosystem.",
           "value": 10,
           "url": "https://edge.app/"
         },
         {
           "name": "Loopring",
           "img": "https://assets.coingecko.com/coins/images/913/thumb/LRC.png?1572852344",
-          "description": "",
+          "description": "Loopring is a Ethereum based wallet that has zkRollup-based Trading, Transfers & AMMs implemented",
           "value": 10,
           "children": [
             {
@@ -419,21 +419,21 @@
         {
           "name": "Math wallet",
           "img": "https://assets.coingecko.com/coins/images/11335/small/2020-05-19-token-200.png?1589940590",
-          "description": "",
+          "description": "Math Wallet is a multi-asset wallet that enables users to store and trade cryptocurrencies on multiple platforms. Currently, mobile, browser extension, web wallet and hardware wallet is supported. Math Wallet also supports built in staking & swapping.",
           "value": 10,
           "url": "https://mathwallet.org/"
         },
         {
           "name": "MEW",
           "img": "",
-          "description": "",
+          "description": "MEW (MyEtherWallet) is a free, client-side interface helping you interact with the Ethereum blockchain. The easy-to-use, open-source platform allows you to generate wallets, interact with smart contracts, and so much more.",
           "value": 10,
           "url": "https://www.myetherwallet.com/"
         },
         {
           "name": "Metamask",
           "img": "",
-          "description": "",
+          "description": "MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows users to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications.",
           "value": 10,
           "children": [
             {
@@ -463,7 +463,7 @@
         {
           "name": "Trust wallet",
           "img": "https://assets.coingecko.com/coins/images/11085/small/Trust.png?1588062702",
-          "description": "",
+          "description": "Trust Wallet is a multi-functional wallet platform that lets users buy, store, collect NFTs as well as exchange assets between eachother. Over 160k supported coins.",
           "value": 10,
           "url": "https://trustwallet.com/"
         }

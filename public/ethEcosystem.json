@@ -8,7 +8,7 @@
                 {
                     "name": "Rainbow",
                     "img": "https://pbs.twimg.com/profile_images/1230771588380782595/lC-xrjES.png",
-                    "description": "",
+                    "description": "If you haven\u2019t gotten started with crypto or Ethereum yet, download Rainbow today and start exploring!",
                     "value": 10,
                     "children": [
                         {
@@ -64,21 +64,21 @@
                 {
                     "name": "Binance",
                     "img": "https://cryptologos.cc/logos/binance-coin-bnb-logo.png",
-                    "description": "",
+                    "description": "Binance is the world's largest centralised crypto exchange. Depending on your location they offer access to spot and futures markets, derivatives, finance and NFTs",
                     "value": 10,
                     "url": "https://www.binance.com/en/register?ref=VNP1A8SR"
                 },
                 {
                     "name": "Coinbase",
                     "img": "https://assets.coinbase.com/assets/coinbase.d491999a12d7c093ec6cd83ad64a1e23.png",
-                    "description": "",
+                    "description": "Coinbase is he most trusted cryptocurrency platform, and an ideal starting point if you're new to crypto. They started in 2012 with the idea that anyone, anywhere, should be able to easily and securely send and receive Bitcoin. Today, they offer a trusted and easy-to-use platform for accessing the broader cryptoeconomy.",
                     "value": 10,
                     "url": "https://www.coinbase.com/"
                 },
                 {
                     "name": "FTX",
                     "img": "https://i.imgur.com/yQDvfFn.png",
-                    "description": "",
+                    "description": "FTX is a cryptocurrency exchange built by traders, for traders. FTX offers products including industry-first derivatives, options, volatility products and leveraged tokens. FTX aims to develop a platform robust enough for professional trading firms and intuitive enough for first-time users.",
                     "value": 10,
                     "children": [
                         {
@@ -155,35 +155,35 @@
                 {
                     "name": "Gate io",
                     "img": "https://www.gate.io/images/gateio.svg",
-                    "description": "",
+                    "description": "Gate.io is an unregulated altcoin exchange",
                     "value": 10,
                     "url": "https://www.gate.io/signup/3303835"
                 },
                 {
                     "name": "Gemini",
                     "img": "https://s2.coinmarketcap.com/static/img/coins/200x200/3306.png",
-                    "description": "",
+                    "description": "Gemini is a regulated cryptocurrency exchange, wallet, and custodian that makes it simple and secure to buy bitcoin, ether, and other cryptocurrencies. They are a licensed New York trust company that undergoes regular bank exams and is subject to the cybersecurity audits conducted by the New York Department of Financial Services",
                     "value": 10,
                     "url": "https://gemini.com/share/86yng7t9"
                 },
                 {
                     "name": "Moonpay",
                     "img": "https://pbs.twimg.com/profile_images/1331730558146240514/-RZtxIFl_400x400.jpg",
-                    "description": "",
+                    "description": "MoonPay is a financial technology company that builds payments infrastructure for crypto. Their on-and-off-ramp suite of products allow for converting between fiat currencies and cryptocurrencies using all major payment methods including debit and credit card, local bank transfers, Apple Pay, Google Pay, and Samsung Pay. MoonPay is active in more than 160 countries and is trusted by 250+ leading wallets, websites, and applications to accept payments and defeat fraud.",
                     "value": 10,
                     "url": "https://www.moonpay.com/"
                 },
                 {
                     "name": "OKEx",
                     "img": "https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png",
-                    "description": "",
+                    "description": "A centralised exchanged with an extensive crypto academy in Mandarin",
                     "value": 10,
                     "url": "https://www.okex.com/join/4945328"
                 },
                 {
                     "name": "OKCoin",
                     "img": "https://i.pinimg.com/736x/80/9e/7d/809e7d9f8f2201646b11cc69c0c875c5.jpg",
-                    "description": "",
+                    "description": "Okcoin a globally licensed exchange with offices in San Francisco, Miami, Malta, Hong Kong, Singapore and Japan. They have a clean modern UI and an easy to use staking offering",
                     "value": 10,
                     "children": [
                         {
@@ -229,7 +229,7 @@
                 {
                     "name": "Airswap",
                     "img": "https://assets.coingecko.com/coins/images/1019/thumb/AST.png?1547034939",
-                    "description": "",
+                    "description": "AirSwap is an open developer community focused on decentralized trading systems. AirSwap technology powers peer-to-peer swap networks using de facto standard RFQ and Last Look protocols making it the weapon of choice for traditional market makers entering the decentralized financial system.",
                     "value": 10,
                     "children": [
                         {
@@ -508,7 +508,7 @@
                 {
                     "name": "Kyber",
                     "img": "https://cryptologos.cc/logos/kyber-network-knc-logo.png",
-                    "description": "",
+                    "description": "Kyber Network is a blockchain-based liquidity hub that connects liquidity from a wide range of sources to power instant and secure crypto exchange in any decentralized application.",
                     "value": 10,
                     "children": [
                         {
@@ -615,7 +615,7 @@
                 {
                     "name": "Loopring",
                     "img": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD/logo.png",
-                    "description": "",
+                    "description": "Loopring is a zkRollup exchange and payment protocolLoopring is an Ethereum Layer-2 scaling protocol. It allows for building high-throughput, low-cost, non-custodial AMMs, orderbook exchanges, and payment applications on Ethereum by leveraging Zero-Knowledge Proofs.",
                     "value": 10,
                     "children": [
                         {
@@ -722,7 +722,7 @@
                 {
                     "name": "Matcha",
                     "img": "https://dappimg.com/media/image/dapp/c1063804ac0547a698fc1aa29c01f9c0.blob",
-                    "description": "",
+                    "description": "Matcha aggregates all the offers from various liquidity sources and merges them into one trade",
                     "value": 10,
                     "url": "https://matcha.xyz/"
                 },
@@ -821,7 +821,7 @@
                 {
                     "name": "dydx",
                     "img": "",
-                    "description": "",
+                    "description": "Trade Perpetuals on a powerful open trading platform, backed by @a16z, @polychain, and Three Arrows Capital",
                     "value": 10,
                     "children": [
                         {
@@ -907,7 +907,7 @@
                 {
                     "name": "1inch",
                     "img": "https://assets.coingecko.com/coins/images/13469/thumb/1inch-token.png?1608803028",
-                    "description": "",
+                    "description": "DeFi / DEX aggregator that is interested in high liquidity and optimal rates on Ethereum, Binance Smart Chain, Optimism, Polygon",
                     "value": 10,
                     "children": [
                         {
@@ -1097,14 +1097,14 @@
                 {
                     "name": "Bright id",
                     "img": "https://pbs.twimg.com/profile_images/1204130517253160960/Yu5Aw2Co.jpg",
-                    "description": "",
+                    "description": "BrightID is a social identity network that allows you to prove that you\u2019re only using one account.",
                     "value": 10,
                     "url": "https://www.brightid.org/"
                 },
                 {
                     "name": "Serto",
                     "img": "https://uploads-ssl.webflow.com/5d8bc34a60283f28948dd30d/5fda7f13fcbea0dbff13f8a9_New%20serto%20logo%20blurple.svg",
-                    "description": "",
+                    "description": "Serto is decentralized identity platform aiming to make it easy for everyone to exchange data in a trusted, private and scalable way. Create decentralized identifiers (DIDs), and issue and validate verifiable credentials (VCs). Search and discover DIDs and VCs",
                     "value": 10,
                     "url": "https://www.serto.id/"
                 }
@@ -1117,77 +1117,77 @@
                 {
                     "name": "AMP",
                     "img": "https://assets.coingecko.com/coins/images/12409/large/amp-200x200.png?1599625397",
-                    "description": "",
+                    "description": "Amp is a decentralized collateral token, built on Ethereum, that enables instant transactions with digital assets",
                     "value": 10,
                     "url": "https://amptoken.org/"
                 },
                 {
                     "name": "Aragon",
                     "img": "https://s2.coinmarketcap.com/static/img/coins/200x200/1680.png",
-                    "description": "",
+                    "description": "Build your Decentralized Autonomous Organization on open-source infrastructure with governance plugins",
                     "value": 10,
                     "url": "https://aragon.org/"
                 },
                 {
                     "name": "Arbitrum",
                     "img": "https://portal.arbitrum.io/assets/arbitrum_logo.png",
-                    "description": "",
+                    "description": "Next generation layer 2 for Ethereum dApps. Use your favorite tools and scale your dApp at the lowest cost. Arbitrum is a suite of Ethereum scaling solutions that enables high-throughput, low cost smart contracts while remaining trustlessly secure",
                     "value": 10,
                     "url": "https://arbitrum.io/"
                 },
                 {
                     "name": "Chainlink",
                     "img": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
-                    "description": "",
+                    "description": "Chainlink decentralized oracle networks provide tamper-proof inputs, outputs, and computations to support advanced smart contracts on any blockchain",
                     "value": 10,
                     "url": "https://chain.link/"
                 },
                 {
                     "name": "Consensys",
                     "img": "https://miro.medium.com/max/3150/1*HWsBYAT2n833Op1P3T_Osw.png",
-                    "description": "",
+                    "description": "Consensys develops full-stack Ethereum products to help developers build next-generation networks and enable enterprises to launch more powerful financial infrastructure",
                     "value": 10,
                     "url": "https://consensys.net/"
                 },
                 {
                     "name": "Bison Trails",
                     "img": "https://bisontrails.co/images/assets/brand-assets-2020/lockup/bison-trails-lockup-blue-transparent.png",
-                    "description": "",
+                    "description": "Bison Trails provides a suite of easy-to-use infrastructure products and services on multiple blockchains. Run secure, fully managed node clusters; connect to blockchain data on 33 protocols to build Web3.0 applications; stake digital assets securely in 12 protocols; access structured blockchain data and transaction information",
                     "value": 10,
                     "url": "https://bisontrails.co/"
                 },
                 {
                     "name": "Ethereum",
                     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/1200px-Ethereum-icon-purple.svg.png",
-                    "description": "",
+                    "description": "Ethereum is open access to digital money and data-friendly services for everyone \u2013 no matter your background or location. It's a community-built technology behind the cryptocurrency ether (ETH) and thousands of applications you can use today",
                     "value": 10,
                     "url": "https://ethereum.org/en/"
                 },
                 {
                     "name": "Nucypher",
                     "img": "https://assets.coingecko.com/coins/images/3318/thumb/photo1198982838879365035.jpg?1547037916",
-                    "description": "",
+                    "description": "Cryptographic infrastructure for privacy-preserving applications",
                     "value": 10,
                     "url": "https://www.nucypher.com/"
                 },
                 {
                     "name": "Get block",
                     "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--w47F9dJZ--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/488641/e44bcbd3-4b23-4235-98c0-0771a1e54ecc.png",
-                    "description": "",
+                    "description": "GetBlock is a blockchain nodes provider. Connect to Bitcoin, Ethereum, Binance Smart Chain and other nodes with JSON-RPC, REST and WebSockets APIs",
                     "value": 10,
                     "url": "https://getblock.io/"
                 },
                 {
                     "name": "Loom",
                     "img": "https://cdn-images-1.medium.com/max/1200/1*K76UVoLq-FOL7l-_Fag-Qw@2x.png",
-                    "description": "",
+                    "description": "Loom Network is a multichain interoperability platform that's connected to other major blockchains such as Ethereum, Binance Chain, and Tron.",
                     "value": 10,
                     "url": "https://loomx.io/"
                 },
                 {
                     "name": "Polygon",
                     "img": "https://cryptologos.cc/logos/polygon-matic-logo.png",
-                    "description": "",
+                    "description": "Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks",
                     "value": 10,
                     "children": [
                         {
@@ -1216,21 +1216,21 @@
                 {
                     "name": "Ren",
                     "img": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x408e41876cCCDC0F92210600ef50372656052a38/logo.png",
-                    "description": "",
+                    "description": "Access tokens from any blockchain using your existing smart contracts without having to worry about wrapping or unwrapping tokens.",
                     "value": 10,
                     "url": "https://renproject.io/"
                 },
                 {
                     "name": "Ramp",
                     "img": "https://s2.coinmarketcap.com/static/img/coins/200x200/7463.png",
-                    "description": "",
+                    "description": "Allow people to buy crypto without leaving your dApp or wallet",
                     "value": 10,
                     "url": "https://ramp.network/"
                 },
                 {
                     "name": "Skynet",
                     "img": "",
-                    "description": "",
+                    "description": "Decentralized storage without needing to run a node or wallet. Skynet also includes SDKs for popular programming languages and APIs that integrate seamlessly with your existing apps",
                     "value": 10,
                     "children": [
                         {
@@ -1372,14 +1372,14 @@
                 {
                     "name": "UMA",
                     "img": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828/logo.png",
-                    "description": "",
+                    "description": "UMA builds open-source infrastructure for \u201cpriceless\u201d financial contracts on Ethereum. Specifically, this is two things: Priceless financial contract templates used to create synthetic tokens; Decentralized Oracle Service used to manage and enforce contracts on UMA. Together, these two technologies enable the creation of fast, efficient, and secure derivatives on Ethereum.",
                     "value": 10,
                     "url": "https://umaproject.org/"
                 },
                 {
                     "name": "Wallet connect",
                     "img": "https://walletconnect.org/walletconnect-logo.svg",
-                    "description": "",
+                    "description": "WalletConnect is an open source protocol for connecting decentralised applications to mobile wallets with QR code scanning or deep linking. People can interact securely with any Dapp from their mobile phone, making WalletConnect wallets a safer choice compared to desktop or browser extension wallets.",
                     "value": 10,
                     "url": "https://walletconnect.org/"
                 }
@@ -1392,70 +1392,63 @@
                 {
                     "name": "Austin Griffith's ETH repos",
                     "img": "",
-                    "description": "",
+                    "description": "Includes scaffold-etc, a forkable Ethereum dev stack focused on fast product iterations, eth.build an educational sandbox for building on web3. Visually understand how Ethereum works by doing",
                     "value": 10,
                     "url": "https://github.com/austintgriffith"
                 },
                 {
                     "name": "Graph protocol",
                     "img": "https://miro.medium.com/fit/c/160/160/1*uOUrHJwAlNPBiGzl3slkWw.png",
-                    "description": "",
+                    "description": "The Graph is an indexing protocol for querying networks like Ethereum and IPFS. Anyone can build and publish open APIs, called subgraphs, making data easily accessible.",
                     "value": 10,
                     "url": "https://thegraph.com/"
                 },
                 {
                     "name": "Ethers-io",
                     "img": "",
-                    "description": "",
+                    "description": "The ethers.js library aims to be a complete and compact library for interacting with the Ethereum Blockchain and its ecosystem. It was originally designed for use with ethers.io and has since expanded into a more general-purpose library",
                     "value": 10,
                     "url": "https://github.com/ethers-io"
                 },
                 {
                     "name": "Hardhat",
                     "img": "",
-                    "description": "",
+                    "description": "Ethereum development environment. Easily deploy your contracts, run tests and debug Solidity code without dealing with live environments. Hardhat Network is a local Ethereum network designed for development",
                     "value": 10,
                     "url": "https://hardhat.org/"
                 },
                 {
                     "name": "Infura",
                     "img": "https://static.blockgeeks.com/wp-content/uploads/2020/03/infura_logo_black.png",
-                    "description": "",
+                    "description": "The foundation for decentralized apps. Fast, high availability Ethereum infrastructure. Connect your app instantly, with a single line of code",
                     "value": 10,
                     "url": "https://infura.io/"
                 },
                 {
-                    "name": "Near",
-                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVFmgnvg6_dGKjIulPaNZcfPY4oK5WOWPAj-BNzy6OWYa4cd-rsFjspw_VybBmzQo1svA&usqp=CAU",
-                    "description": "",
-                    "value": 10,
-                    "url": "https://near.org/"
-                },
-                {
                     "name": "Open zeppelin",
                     "img": "https://openzeppelin.com/images/card.jpg",
-                    "description": "",
+                    "description": "OpenZeppelin provides security products to build, automate, and operate decentralized applications. We also protect leading organizations by performing security audits on their systems and products",
                     "value": 10,
                     "url": "https://openzeppelin.com/"
                 },
                 {
                     "name": "Solidity",
                     "img": "https://docs.soliditylang.org/en/v0.4.24/_images/logo.svg",
-                    "description": "",
+                    "description": "Solidity is a statically-typed curly-braces programming language designed for developing smart contracts that run on Ethereum",
                     "value": 10,
                     "url": "https://soliditylang.org/"
                 },
                 {
                     "name": "Radicle",
                     "img": "https://pbs.twimg.com/profile_images/1372563232850870274/aREQff_C_400x400.jpg",
-                    "description": "",
+                    "description": "Radicle is a peer-to-peer stack for building software together. For unstoppable, permissionless, decentralized open-source development. Forget platforms. Easily share your code without relying on a third party. No central servers, no censorship. Built on Git, backed by public-key crypto",
                     "value": 10,
                     "url": "https://radicle.xyz/"
                 },
                 {
                     "name": "Sourcify",
                     "img": "",
-                    "description": "",
+                    "description": "Sourcify is a decentralized automated contract verification service",
                     "value": 10,
                     "children": [
                         {
@@ -1486,6 +1479,13 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "name": "Tenderly",
+                    "img": "",
+                    "description": "Comprehensive Ethereum Developer Platform for real-time monitoring, alerting, debugging, and simulating Smart Contracts",
+                    "value": 10,
+                    "url": "https://dashboard.tenderly.co/explorer"
                 }
             ]
         },
@@ -1496,105 +1496,105 @@
                 {
                     "name": "dex tools",
                     "img": "",
-                    "description": "",
+                    "description": "Search for new pools, add or remove liquidity in a pair, find the best gems and avoid the scams. Follow the best pairs through this tool with real-time graphics and transactions, add your pairs to favorites and much more. Follow the most relevant swaps. View and interact with multiple pairs on a single screen. Save, track and research wallets. ",
                     "value": 10,
                     "url": "https://www.dextools.io/app/"
                 },
                 {
                     "name": "fees.wtf",
                     "img": "",
-                    "description": "",
+                    "description": "You've spent \ud83e\udd14 on gas. Right now, that's \ud83e\udd14. You used \ud83e\udd14 gas to send \ud83e\udd14 transactions, with an average price of \ud83e\udd14 gwei. \ud83e\udd14 of them failed, costing you \ud83e\udd14.",
                     "value": 10,
                     "url": "https://fees.wtf/"
                 },
                 {
                     "name": "vfat - pool tools",
                     "img": "",
-                    "description": "",
+                    "description": "It ain't much, but it's honest work",
                     "value": 10,
                     "url": "https://vfat.tools/all/"
                 },
                 {
                     "name": "Augur",
                     "img": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1985365e9f78359a9B6AD760e32412f4a445E862/logo.png",
-                    "description": "",
+                    "description": "Augur is a peer-to-peer, decentralized exchange, enabling universal and transparent access to its markets. Augur is powered by Ethereum, which enables payouts to run as an automated process that no person or organisation, including Augur, can interfere with",
                     "value": 10,
                     "url": "https://www.augur.net/"
                 },
                 {
                     "name": "Etherscan",
                     "img": "",
-                    "description": "",
+                    "description": "Etherscan is the leading BlockChain Explorer, Search, API and Analytics Platform for Ethereum, a decentralized smart contracts platform. Built and launched in 2015 it is one of the earliest and longest running independent project built around Ethereum and its community with the mission of providing equitable access to blockchain data.",
                     "value": 10,
                     "url": "https://etherscan.io/"
                 },
                 {
                     "name": "Defi llama",
                     "img": "",
-                    "description": "",
+                    "description": "DefiLlama is committed to accurate data without ads or sponsored content and transparency. They list DeFi projects from all chains.",
                     "value": 10,
                     "url": "https://defillama.com/home"
                 },
                 {
                     "name": "Enzyme",
                     "img": "",
-                    "description": "",
+                    "description": "Enzyme is a decentralised asset management infrastructure built on Ethereum. Using Enzyme Smart Vaults, individuals and communities can build, scale and monetise investment (or execution) strategies that employ the newest innovations in decentralised finance. Enzyme allows anyone to build, scale and monetise non-custodial Smart Vaults which can be used for creating interesting investment strategies - from discretionary and robo to ETF\u2019s, market making, lending, yield farming and more.",
                     "value": 10,
                     "url": "https://enzyme.finance/"
                 },
                 {
                     "name": "Liquidity folio",
                     "img": "",
-                    "description": "",
+                    "description": "Like-for-like comparisons and forecasts across $15B+ of liquidity pools assets",
                     "value": 10,
                     "url": "https://www.liquidityfolio.com/"
                 },
                 {
-                    "name": "Orchid",
-                    "img": "https://assets.coingecko.com/coins/images/3916/thumb/download_%285%29.png?1576624060",
-                    "description": "",
+                    "name": "Token terminal",
+                    "img": "",
+                    "description": "Token Terminal is a platform that aggregates financial data on the leading blockchains and decentralized applications (dapps). Their aim is to provide access to standardized metrics that enable users to easily quantify and compare the performance of different blockchains and decentralized applications.",
                     "value": 10,
-                    "url": "https://www.orchid.com/oxt"
+                    "url": "https://www.tokenterminal.com/"
                 },
                 {
                     "name": "Stake dao",
                     "img": "https://assets.coingecko.com/coins/images/13724/thumb/stakedao_logo.jpg?1611195011",
-                    "description": "",
+                    "description": "Stake DAO curates the top strategies, staking protocols, and more, into one intuitive dashboard, offering users an easy way to earn more from their assets. Every strategy has a carefully weighted risk score, enabling everyone to participate on their own terms and risk appetites. From strategies based on stablecoins to Bitcoin and a comprehensive range of ERC-20 tokens, our platform has everything users need to secure higher returns on their crypto.",
                     "value": 10,
                     "url": "https://stakedao.org/"
                 },
                 {
                     "name": "Staking rewards",
                     "img": "https://www.stakingrewards.com/static/images/icon.svg",
-                    "description": "",
+                    "description": "Staking Rewards is the leading data provider for staking and crypto-growth tools. They are currently tracking 230 yield-bearing assets with an average reward rate of 14.95% and 24783 qualified providers.",
                     "value": 10,
                     "url": "https://www.stakingrewards.com/"
                 },
                 {
                     "name": "Tokensets",
                     "img": "https://www.tokensets.com/static/media/set-and-tokensets-logo.872a2884.svg",
-                    "description": "",
+                    "description": "Set Protocol is an Ethereum-native DeFi primitive that leverages existing Open Finance protocols to allow for the bundling of crypto-assets into fully collateralised baskets, which are represented as ERC20 tokens on the Ethereum blockchain. These Set tokens act as structured products that represent the manager's strategy, which others can replicate by simply holding the Set.",
                     "value": 10,
                     "url": "https://www.tokensets.com/"
                 },
                 {
                     "name": "Zapper",
                     "img": "",
-                    "description": "",
+                    "description": "A simple dashboard for DeFi. Easily track and visualize all your DeFi assets and liabilities in one simple interface.",
                     "value": 10,
                     "url": "https://zapper.fi/"
                 },
                 {
                     "name": "Zerion",
                     "img": "",
-                    "description": "",
+                    "description": "Zerion is the ultimate DeFi investment interface, allowing you to discover every asset on the market, trade at the best rates and manage your entire DeFi portfolio from one place. Zerion tracks over 50 protocols, making it easy to find your tokens spread across multiple DeFi platforms and Ethereum addresses. ",
                     "value": 10,
                     "url": "https://zerion.io/"
                 },
                 {
                     "name": "TradingLite",
                     "img": "",
-                    "description": "",
+                    "description": "Next-generation charting and volume analysis platform. Advanced heatmap visualization, live data, indicator scripting, support for all major crypto exchanges and more.",
                     "value": 10,
                     "children": [
                         {
@@ -1625,6 +1625,168 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "name": "L2 beat",
+                    "img": "",
+                    "description": "L2BEAT was created to provide transparent and verifiable insights into emerging layer two (L2) technologies which, in line with the rollup-centric Ethereum scaling roadmap are aimed at scaling Ethereum.",
+                    "value": 10,
+                    "url": "https://l2beat.com/?view=risk"
+                }
+            ]
+        },
+        {
+            "name": "Analysis and insight",
+            "icon": "",
+            "children": [
+                {
+                    "name": "Crypto fees",
+                    "img": "",
+                    "description": "CryptoFees.info is a website displaying fee data for blockchains and blockchain applications, like decentralized exchanges, lending protocols, etc.",
+                    "value": 10,
+                    "url": "https://cryptofees.info/"
+                },
+                {
+                    "name": "Eth burned",
+                    "img": "",
+                    "description": "The more Ethereum is used... the more ETH is burned",
+                    "value": 10,
+                    "url": "https://ethburned.info/"
+                },
+                {
+                    "name": "Money movers",
+                    "img": "",
+                    "description": "Which blockchain is settling more value?",
+                    "value": 10,
+                    "url": "https://money-movers.info/"
+                },
+                {
+                    "name": "Open orgs",
+                    "img": "",
+                    "description": "DAOs are the new companies. What's on their balance sheets?",
+                    "value": 10,
+                    "url": "https://open-orgs.info/"
+                },
+                {
+                    "name": "Ethereum nodes",
+                    "img": "",
+                    "description": "Dashboard of all Ethereum nodes and their current status",
+                    "value": 10,
+                    "url": "https://ethereumnodes.com/"
+                },
+                {
+                    "name": "Coin98",
+                    "img": "",
+                    "description": "Coin98 is a multi-chain wallet & DeFi Gateway designed to seamlessly connect users to the crypto world in a safe and secure manner.",
+                    "value": 10,
+                    "url": "https://twitter.com/Coin98Analytics"
+                },
+                {
+                    "name": "Crypto art data",
+                    "img": "",
+                    "description": "Crypto Art Data is a platform that aggredates multiple datasets and creates indicators about the NFT space. As well as this, it also showcases some of the most expensive NFTs across multiple platforms",
+                    "value": 10,
+                    "url": "https://cryptoart.io/data"
+                },
+                {
+                    "name": "Crypto fees",
+                    "img": "",
+                    "description": "Crypto Fees aggrigates the generated fees of multiple crypto platforms (Layer 1's and Layer 2's) and displays them in a ranked order from highest generated fees to lowest.",
+                    "value": 10,
+                    "url": "https://cryptofees.info/"
+                },
+                {
+                    "name": "Decrypt",
+                    "img": "",
+                    "description": "Decrypt is a journalistic platform that keeps its audience up to date with the lastest events happening in the cryptocurrency space.",
+                    "value": 10,
+                    "url": "https://decrypt.co"
+                },
+                {
+                    "name": "Defiant",
+                    "img": "",
+                    "description": "Defiant is a journalistic platform that keeps its audience up to date with the lastest events happening in the cryptocurrency space.",
+                    "value": 10,
+                    "url": "https://thedefiant.io/"
+                },
+                {
+                    "name": "Deribit insights",
+                    "img": "",
+                    "description": "Deribit Insights (subsidiary of Deribit Exchange) is a journalistic platform that keeps its audience up to date with the lastest events happening in the cryptocurrency space.",
+                    "value": 10,
+                    "url": "https://insights.deribit.com/"
+                },
+                {
+                    "name": "Dune analytics",
+                    "img": "",
+                    "description": "Dune Analytics is a platform that aggredates multiple datasets and creates indicators about protocols in the DeFi space.",
+                    "value": 10,
+                    "url": "https://duneanalytics.com/"
+                },
+                {
+                    "name": "Gabriel Haines",
+                    "img": "",
+                    "description": "Gabriel Haines is a public figure who creates both short and long form content to educate people about the cryptocurrency space ",
+                    "value": 10,
+                    "children": [
+                        {
+                            "name": "Links",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Gabriel Haines website",
+                                    "url": "http://YouTube.com/gabrielhaines",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Social",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Gabriel Haines Twitter",
+                                    "url": "https://twitter.com/gabrielhaines",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Messari",
+                    "img": "https://pbs.twimg.com/profile_images/1085325338685640704/TNls9ggU_400x400.jpg",
+                    "description": "Messari is a platform that aggredates multiple datasets and creates dashboards for users to explore information about asset prices, DeFi statistics, research papers and more.",
+                    "value": 10,
+                    "url": "https://messari.io/"
+                },
+                {
+                    "name": "Rekt",
+                    "img": "",
+                    "description": "Rekt is a exploit tracker on the Ethereum network - it tracks how much money was lost in the exploit and as well who audited the protocol (if any)",
+                    "value": 10,
+                    "url": "https://rekt.eth.link/"
+                },
+                {
+                    "name": "Santiment",
+                    "img": "",
+                    "description": "Santiment is a platform that aggredates multiple datasets and creates dashboards for users to explore information about the cryptocurrency space.",
+                    "value": 10,
+                    "url": "https://app.santiment.net/"
+                },
+                {
+                    "name": "The daily gwei",
+                    "img": "",
+                    "description": "The Daily Gwei is a daily newsletter created by influencer Anthony Sassano about the Ethereum ecosystem.",
+                    "value": 10,
+                    "url": "https://thedailygwei.substack.com/"
+                },
+                {
+                    "name": "Token daily",
+                    "img": "",
+                    "description": "Token daily is a journalistic platform that keeps its audience up to date with the lastest events happening in the cryptocurrency space.",
+                    "value": 10,
+                    "url": "https://www.tokendaily.co/"
                 }
             ]
         },
@@ -1633,18 +1795,11 @@
             "icon": "",
             "children": [
                 {
-                    "name": "Cover",
-                    "img": "https://assets.coingecko.com/coins/images/13563/thumb/1_eWBbDaqpxXqt7WYPSP4qSw.jpeg?1609822578",
-                    "description": "",
-                    "value": 10,
-                    "url": "https://www.coverprotocol.com/"
-                },
-                {
                     "name": "Nexus mutual",
                     "img": "https://assets.coingecko.com/coins/images/11890/thumb/wrapped-nexus-mutual.jpg?1595811559",
-                    "description": "",
+                    "description": "People can join the mutual and become members. Members can buy cover to protect against material losses when transferring funds into a protocol\u2019s smart contracts or keeping funds with a custodian. Nexus Mutual is a discretionary mutual. Each member can hold NXM tokens, which represent proportional ownership of the mutual. The mutual runs on the Ethereum blockchain.",
                     "value": 10,
-                    "url": "https://nexustracker.io/"
+                    "url": "https://nexusmutual.io/"
                 }
             ]
         },
@@ -1655,7 +1810,7 @@
                 {
                     "name": "Crypto Testers",
                     "img": "",
-                    "description": "",
+                    "description": "Cryptotesters is your go-to resource to navigate the crypto universe. We help you find the best cryptocurrency exchanges, wallets and much more.",
                     "value": 10,
                     "children": [
                         {
@@ -1685,7 +1840,7 @@
                 {
                     "name": "Tx Street",
                     "img": "",
-                    "description": "",
+                    "description": "TxStreet is a live blockchain transaction and mempool visualizer. Each person represents a single transaction happening in real time. Each house represents a type of transaction. Each bus represents a future block.",
                     "value": 10,
                     "children": [
                         {
@@ -1715,58 +1870,65 @@
                 {
                     "name": "Gitcoin quests",
                     "img": "",
-                    "description": "",
+                    "description": "Gitcoin Quests is a fun, gamified way to learn about the web3 ecosystem, compete with your friends, earn rewards, and level up your decentralization-fu! Explore. Learn. Battle Baddies. Win Rewards.",
                     "value": 10,
                     "url": "https://gitcoin.co/quests"
                 },
                 {
                     "name": "Rabbithole",
                     "img": "",
-                    "description": "",
+                    "description": "Earn crypto by using the latest decentralized apps. Become an early adopter of new projects, and earn crypto as a reward.",
                     "value": 10,
                     "url": "https://rabbithole.gg/"
                 },
                 {
                     "name": "Unmask crypto",
                     "img": "",
-                    "description": "",
+                    "description": "Unmask Crypto is a platform that educates you on the many benefits and risks involved in owning and trading cryptocurrency.",
                     "value": 10,
                     "url": "https://unmaskcrypto.com/"
                 },
                 {
                     "name": "Binance academy",
                     "img": "",
-                    "description": "",
+                    "description": "Welcome to Binance Academy! We're on a mission to educate the masses on the transformative potential of cryptocurrency and blockchain technology. On this website, you'll find over 280 articles covering everything from computer security to economics. Oh, and they're in 21 different languages.",
                     "value": 10,
                     "url": "https://academy.binance.com/en"
                 },
                 {
                     "name": "Gemini cryptopedia",
                     "img": "",
-                    "description": "",
+                    "description": "Cryptopedia is a platform where experts can deliver a deeper level of knowledge about their crypto projects. Learn about some of the most prominent, promising, and innovative crypto protocols in the world directly from the people that created them. ",
                     "value": 10,
                     "url": "https://www.gemini.com/cryptopedia"
                 },
                 {
                     "name": "The daily ape",
                     "img": "",
-                    "description": "",
+                    "description": "The Daily Ape is your resource for all things degen. This free, resource-driven Telegram group aggregates the top tweets, stories and developments from established and rising projects and shares them in a daily update to stay informed on the latest progressions in DeFi and beyond.",
                     "value": 10,
                     "url": "https://thedailyape.notion.site/thedailyape/Directory-c96c0b6727c0433a962e897ef43efb7e"
                 },
                 {
                     "name": "Blockchain glossary by Bison Trails",
                     "img": "",
-                    "description": "",
+                    "description": "This living document by Bison Trails is a non-exhaustive list of key blockchain terms. Click through on each term for a longer explanation.",
                     "value": 10,
                     "url": "https://bisontrails.co/terminology/"
                 },
                 {
                     "name": "StakeDAO",
                     "img": "",
-                    "description": "",
+                    "description": "Your end-to-end learning hub for all things Crypto and DeFi",
                     "value": 10,
                     "url": "https://academy.stakedao.org/"
+                },
+                {
+                    "name": "Rainbow",
+                    "img": "",
+                    "description": "The perfect beginner's guide to crypto",
+                    "value": 10,
+                    "url": "https://rainbow.me/learn"
                 }
             ]
         },
@@ -1775,23 +1937,16 @@
             "icon": "",
             "children": [
                 {
-                    "name": "Blockfolio",
-                    "img": "",
-                    "description": "",
-                    "value": 10,
-                    "url": "https://blockfolio.com/"
-                },
-                {
                     "name": "Coingecko",
                     "img": "",
-                    "description": "",
+                    "description": "CoinGecko provides a fundamental analysis of the crypto market. In addition to tracking price, volume and market capitalization, CoinGecko tracks community growth, open-source code development, major events and on-chain metrics.",
                     "value": 10,
                     "url": "https://www.coingecko.com/"
                 },
                 {
                     "name": "Rotki",
                     "img": "",
-                    "description": "",
+                    "description": "A portfolio tracking, analytics, accounting and tax reporting application that protects your privacy.",
                     "value": 10,
                     "url": "https://rotki.com/"
                 }
@@ -1804,7 +1959,7 @@
                 {
                     "name": "0x",
                     "img": "https://assets.coingecko.com/coins/images/863/thumb/0x.png?1547034672",
-                    "description": "",
+                    "description": "0x is a protocol that facilitates the peer-to-peer exchange of Ethereum-based assets. The protocol serves as an open standard and common building block for any developer needing exchange functionality. 0x provides secure smart contracts that are externally audited; developer tools tailored to the 0x ecosystem; and open access to a pool of shared liquidity. Developers can integrate with 0x at the smart contract or application layer.",
                     "value": 10,
                     "children": [
                         {
@@ -2084,7 +2239,7 @@
                 {
                     "name": "Alpha",
                     "img": "https://assets.coingecko.com/coins/images/12738/thumb/AlphaToken_256x256.png?1617160876",
-                    "description": "",
+                    "description": "Alpha Homora V2 is a leveraged yield farming and leveraged liquidity providing protocol.",
                     "value": 10,
                     "children": [
                         {
@@ -2186,7 +2341,7 @@
                 {
                     "name": "Badger",
                     "img": "https://assets.coingecko.com/coins/images/13287/thumb/badger_dao_logo.jpg?1607054976",
-                    "description": "",
+                    "description": "Badger is a decentralized autonomous organization (DAO) with a single purpose: build the products and infrastructure necessary to accelerate Bitcoin as collateral across other blockchains.",
                     "value": 10,
                     "children": [
                         {
@@ -2363,7 +2518,7 @@
                 {
                     "name": "Basket DAO",
                     "img": "https://assets.coingecko.com/coins/images/14636/small/BASK_200_CIRCLE.png?1617494952",
-                    "description": "",
+                    "description": "Capital efficient baskets on Ethereum - $BDI $BMI $BASK",
                     "value": 10,
                     "children": [
                         {
@@ -2530,7 +2685,7 @@
                 {
                     "name": "Cozy",
                     "img": "",
-                    "description": "",
+                    "description": "Cozy is an open-source protocol for automated and trust-minimized Protection Markets. Protection Markets allow you to provide and receive protection against predefined conditions like a loss of funds due to a smart contract hack. Anybody can create and use Protection Markets.",
                     "value": 10,
                     "children": [
                         {
@@ -2656,7 +2811,7 @@
                 {
                     "name": "Dodo",
                     "img": "https://assets.coingecko.com/coins/images/12651/thumb/dodo_logo.png?1601433025",
-                    "description": "",
+                    "description": "DODO is a decentralized exchange platform powered by the Proactive Market Maker (PMM) algorithm. It features highly capital-efficient liquidity pools that support single-token provision, reduce impermanent loss, and minimize slippage for traders. The trading platform also offers SmartTrade, a decentralized liquidity aggregation service that routes to and compares various liquidity sources to quote the optimal swap rate between any two token.",
                     "value": 10,
                     "children": [
                         {
@@ -2758,7 +2913,7 @@
                 {
                     "name": "Harvest Finance",
                     "img": "https://assets.coingecko.com/coins/images/12304/thumb/Harvest.png?1613016180",
-                    "description": "",
+                    "description": "Harvest is an international cooperative of humble farmers pooling resources together in order to earn DeFi yields. When farmers deposit, Harvest automatically farms the highest yields with these deposits using the latest farming techniques.",
                     "value": 10,
                     "children": [
                         {
@@ -2844,7 +2999,7 @@
                 {
                     "name": "Indexed finance",
                     "img": "https://assets.coingecko.com/coins/images/13546/thumb/indexed-light.74bb5471.png?1609712728",
-                    "description": "",
+                    "description": "Indexed Finance is a project focused on the development of passive portfolio management strategies for the Ethereum network. Indexed Finance is managed by the holders of its governance token NDX, which is used to vote on proposals for protocol updates and high level index management such as the definition of market sectors and the creation of new management strategies.",
                     "value": 10,
                     "children": [
                         {
@@ -3026,14 +3181,14 @@
                 {
                     "name": "Numeraire",
                     "img": "https://assets.coingecko.com/coins/images/752/thumb/numeraire.png?1592538976",
-                    "description": "",
+                    "description": "The hardest data science tournament on the planet. Build the world's last hedge fund by predicting the stock market.",
                     "value": 10,
                     "url": "https://numer.ai/"
                 },
                 {
                     "name": "Paraswap",
                     "img": "",
-                    "description": "",
+                    "description": "ParaSwap aggregates decentralized exchanges and other DeFi services in one comprehensive interface to streamline and facilitate users' interactions with Ethereum's decentralized finance.",
                     "value": 10,
                     "children": [
                         {
@@ -3103,7 +3258,7 @@
                 {
                     "name": "Premia",
                     "img": "https://assets.coingecko.com/coins/images/13962/small/apple-touch-icon.png",
-                    "description": "",
+                    "description": "Premia's automated options market enables best-in-class pricing based on realtime supply and demand, bringing fully-featured peer-to-pool trading and capital efficiency to DeFi options.",
                     "value": 10,
                     "children": [
                         {
@@ -3168,7 +3323,7 @@
                 {
                     "name": "Rari Capital",
                     "img": "https://assets.coingecko.com/coins/images/12900/thumb/Rari_Logo_Transparent.png?1613978014",
-                    "description": "",
+                    "description": "Rari Capital is a suite of decentralized finance protocols on a mission to bridge the gap between technical and non-technical minds, in order to bring the next wave of mass users into this industry. We have built a series of products that create and deliver aggregate yield, allowing you a simple and safe avenue of value-accrual to your existing assets.",
                     "value": 10,
                     "children": [
                         {
@@ -3265,7 +3420,7 @@
                 {
                     "name": "Unit",
                     "img": "https://assets.coingecko.com/coins/images/11862/thumb/Unit.png?1595580755",
-                    "description": "",
+                    "description": "Unit protocol is a decentralized borrowing protocol that allows using a variety of tokens as collateral. $COL token. $USDP stable coin.",
                     "value": 10,
                     "children": [
                         {
@@ -3346,7 +3501,7 @@
                 {
                     "name": "Yam finance",
                     "img": "https://assets.coingecko.com/coins/images/12179/thumb/YAM-v2.png?1597892396",
-                    "description": "",
+                    "description": "Yam launched on August 12th, 2020 as An Experiment in Fair Farming, Governance, and Elasticity. Yam Protocol mashes up some of the most exciting innovations in programmable money and governance. Built by a team of DeFi natives, but now controlled by the community. On December 29th, 2020 the Yam community has voted to disable the rebasing / elastic supply function of Yam and the scaling factor of Yam has been fixed at 2.50.",
                     "value": 10,
                     "children": [
                         {
@@ -3535,49 +3690,49 @@
                 {
                     "name": "Rainbow",
                     "img": "https://rainbow.me/resources/css/images/rainbow-logo.png",
-                    "description": "",
+                    "description": "If you haven\u2019t gotten started with crypto or Ethereum yet, download Rainbow today and start exploring!",
                     "value": 10,
                     "url": "https://rainbow.me/"
                 },
                 {
                     "name": "Ledger",
                     "img": "",
-                    "description": "",
+                    "description": "Buy, exchange and grow your crypto securely with a Ledger hardware wallet, combined with the Ledger Live app. It\u2019s never been easier to keep your crypto safe and accessible.",
                     "value": 10,
                     "url": "https://www.ledger.com/"
                 },
                 {
                     "name": "Trezor",
                     "img": "",
-                    "description": "",
+                    "description": "Hardware wallet is a special type of security device allowing users to store their cryptocurrency holdings. Trezor is the world\u2019s first and most secure cryptocurrency hardware wallet. It enables you to make secure payments and manage cryptocurrencies without exposing any sensitive information to a potentially compromised computer.",
                     "value": 10,
                     "url": "https://trezor.io/"
                 },
                 {
                     "name": "Onto",
                     "img": "",
-                    "description": "",
+                    "description": "ONTO is the first truly decentralized cross-chain wallet that allows users to manage their digital identities, data, and digital assets. It integrates various functions such as identity and credit, digital assets and NFTs, financial lending, cross-chain swap, news push, and various practical dApps, as well as supporting multiple mainstream public chains and their diversified digital assets.",
                     "value": 10,
                     "url": "https://www.onto.app/"
                 },
                 {
                     "name": "MyCrypto",
                     "img": "",
-                    "description": "",
+                    "description": "MyCrypto is a Ethereum based wallet that enables users to unify all their Ethereum accounts without giving up privary or security",
                     "value": 10,
                     "url": "https://mycrypto.com/"
                 },
                 {
                     "name": "Edge",
                     "img": "",
-                    "description": "",
+                    "description": "Edge is a multi-asset supported cryptocurrency wallet that enables users to safely store their assets on a single platform. Edge also offers the ability for users to swap assets between eachother as well as onboard fiat into the cryptocurrency ecosystem.",
                     "value": 10,
                     "url": "https://edge.app/"
                 },
                 {
                     "name": "Loopring",
                     "img": "https://assets.coingecko.com/coins/images/913/thumb/LRC.png?1572852344",
-                    "description": "",
+                    "description": "Loopring is a Ethereum based wallet that has zkRollup-based Trading, Transfers & AMMs implemented",
                     "value": 10,
                     "children": [
                         {
@@ -3684,21 +3839,21 @@
                 {
                     "name": "Math wallet",
                     "img": "https://assets.coingecko.com/coins/images/11335/small/2020-05-19-token-200.png?1589940590",
-                    "description": "",
+                    "description": "Math Wallet is a multi-asset wallet that enables users to store and trade cryptocurrencies on multiple platforms. Currently, mobile, browser extension, web wallet and hardware wallet is supported. Math Wallet also supports built in staking & swapping.",
                     "value": 10,
                     "url": "https://mathwallet.org/"
                 },
                 {
                     "name": "MEW",
                     "img": "",
-                    "description": "",
+                    "description": "MEW (MyEtherWallet) is a free, client-side interface helping you interact with the Ethereum blockchain. The easy-to-use, open-source platform allows you to generate wallets, interact with smart contracts, and so much more.",
                     "value": 10,
                     "url": "https://www.myetherwallet.com/"
                 },
                 {
                     "name": "Metamask",
                     "img": "",
-                    "description": "",
+                    "description": "MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows users to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications.",
                     "value": 10,
                     "children": [
                         {
@@ -3728,136 +3883,9 @@
                 {
                     "name": "Trust wallet",
                     "img": "https://assets.coingecko.com/coins/images/11085/small/Trust.png?1588062702",
-                    "description": "",
+                    "description": "Trust Wallet is a multi-functional wallet platform that lets users buy, store, collect NFTs as well as exchange assets between eachother. Over 160k supported coins.",
                     "value": 10,
                     "url": "https://trustwallet.com/"
-                }
-            ]
-        },
-        {
-            "name": "Analysis and insight",
-            "icon": "",
-            "children": [
-                {
-                    "name": "Coin98",
-                    "img": "",
-                    "description": "",
-                    "value": 10,
-                    "url": "https://twitter.com/Coin98Analytics"
-                },
-                {
-                    "name": "Crypto art data",
-                    "img": "",
-                    "description": "",
-                    "value": 10,
-                    "url": "https://cryptoart.io/data"
-                },
-                {
-                    "name": "Crypto fees",
-                    "img": "",
-                    "description": "",
-                    "value": 10,
-                    "url": "https://cryptofees.info/"
-                },
-                {
-                    "name": "Decrypt",
-                    "img": "",
-                    "description": "",
-                    "value": 10,
-                    "url": "https://decrypt.co"
-                },
-                {
-                    "name": "Defiant",
-                    "img": "",
-                    "description": "",
-                    "value": 10,
-                    "url": "https://thedefiant.io/"
-                },
-                {
-                    "name": "Deribit insights",
-                    "img": "",
-                    "description": "",
-                    "value": 10,
-                    "url": "https://insights.deribit.com/"
-                },
-                {
-                    "name": "Dune analytics",
-                    "img": "",
-                    "description": "",
-                    "value": 10,
-                    "url": "https://duneanalytics.com/"
-                },
-                {
-                    "name": "Gabriel Haines",
-                    "img": "",
-                    "description": "",
-                    "value": 10,
-                    "children": [
-                        {
-                            "name": "Links",
-                            "value": 2,
-                            "children": [
-                                {
-                                    "name": "Gabriel Haines website",
-                                    "url": "http://YouTube.com/gabrielhaines",
-                                    "value": 2
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Social",
-                            "value": 2,
-                            "children": [
-                                {
-                                    "name": "Gabriel Haines Twitter",
-                                    "url": "https://twitter.com/gabrielhaines",
-                                    "value": 2
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Messari",
-                    "img": "https://pbs.twimg.com/profile_images/1085325338685640704/TNls9ggU_400x400.jpg",
-                    "description": "",
-                    "value": 10,
-                    "url": "https://messari.io/"
-                },
-                {
-                    "name": "Rebase",
-                    "img": "",
-                    "description": "",
-                    "value": 10,
-                    "url": "https://rebase.foundation/"
-                },
-                {
-                    "name": "Rekt",
-                    "img": "",
-                    "description": "",
-                    "value": 10,
-                    "url": "https://rekt.eth.link/"
-                },
-                {
-                    "name": "Santiment",
-                    "img": "",
-                    "description": "",
-                    "value": 10,
-                    "url": "https://app.santiment.net/"
-                },
-                {
-                    "name": "The daily gwei",
-                    "img": "",
-                    "description": "",
-                    "value": 10,
-                    "url": "https://thedailygwei.substack.com/"
-                },
-                {
-                    "name": "Token daily",
-                    "img": "",
-                    "description": "",
-                    "value": 10,
-                    "url": "https://www.tokendaily.co/"
                 }
             ]
         },
@@ -3868,14 +3896,14 @@
                 {
                     "name": "Aavegotchi",
                     "img": "https://assets.coingecko.com/coins/images/12467/thumb/ghst_200.png?1600750321",
-                    "description": "",
+                    "description": "Aavegotchi is a DeFi-enabled crypto collectibles game developed by Singapore-based Pixelcraft Studios that allows players to stake Non-fungible tokens (NFTs) avatars with interest-generating tokens and interact with the Aavegotchi metaverse. It is a unique combination of Decentralized Finance (DeFi) and NFTs.",
                     "value": 10,
                     "url": "https://aavegotchi.com/"
                 },
                 {
                     "name": "Alchemy DAO",
                     "img": "",
-                    "description": "",
+                    "description": "Turn your NFTs into liquid, community controlled assets that can be traded, vote and control all your NFTs.Create funds, communities, split collections between friends and all with no coding or technical experience.",
                     "value": 10,
                     "children": [
                         {
@@ -3945,77 +3973,70 @@
                 {
                     "name": "Axie infinity",
                     "img": "https://assets.coingecko.com/coins/images/13029/thumb/axie_infinity_logo.png?1604471082",
-                    "description": "",
+                    "description": "Axie Infinity is a Pok\u00e9mon-inspired universe NFT project where anyone can earn tokens through skilled gameplay and contributions to the ecosystem. Players can battle, collect, raise, and build a land-based kingdom for their pets.\n",
                     "value": 10,
                     "url": "https://axieinfinity.com/"
                 },
                 {
                     "name": "Blackpool",
                     "img": "",
-                    "description": "",
+                    "description": "BlackPool is the first decentralised autonomous organisation (DAO) built solely for NFT gaming and trading. Their strategies will be based on their long-term passion for gaming and art, as they combine professional data analytics and machine learning to provide the best returns for their users.",
                     "value": 10,
                     "url": "https://www.blackpool.finance/"
                 },
                 {
                     "name": "Cryptovoxels",
                     "img": "",
-                    "description": "",
+                    "description": "Cryptovoxels is a virtual world and metaverse, powered by the Ethereum blockchain. Players can buy land and build stores and art galleries. Editing tools, avatars and text chat are built in.",
                     "value": 10,
                     "url": "https://www.cryptovoxels.com/"
                 },
                 {
                     "name": "Cometh",
                     "img": "",
-                    "description": "",
+                    "description": "Cometh is a defi powered game with yield generating NFT. Get a spaceship, explore the galaxy and earn tokens.",
                     "value": 10,
                     "url": "https://www.cometh.io/"
                 },
                 {
                     "name": "Degendata",
                     "img": "",
-                    "description": "",
+                    "description": "Degendata is a platform that aggredates NFT projects and showcases them for users to gain easy access.",
                     "value": 10,
                     "url": "https://degendata.io/"
                 },
                 {
                     "name": "Doki doki",
                     "img": "https://assets.coingecko.com/coins/images/12759/thumb/doki_logo.png?1602338064",
-                    "description": "",
+                    "description": "Doki doki is a decentralized #NFT Vending Machine | Make collecting fun & inspire digital creations",
                     "value": 10,
                     "url": "https://dokidoki.finance/"
                 },
                 {
                     "name": "Ethereum Name Service",
                     "img": "",
-                    "description": "",
+                    "description": "Decentralised naming for wallets, websites, and more",
                     "value": 10,
                     "url": "https://ens.domains/"
                 },
                 {
-                    "name": "Mycospace",
-                    "img": "",
-                    "description": "",
-                    "value": 10,
-                    "url": "https://myco.space/"
-                },
-                {
                     "name": "Neon district",
                     "img": "",
-                    "description": "",
+                    "description": "Neon District is a cyberpunk role-playing adventure by blockade games. Strategize and fight to progress through a sci-fi dystopia while collecting characters and gear backed with blockchain technology.",
                     "value": 10,
                     "url": "https://neondistrict.io/"
                 },
                 {
                     "name": "Palm",
                     "img": "",
-                    "description": "",
+                    "description": "Palm is a new NFT ecosystem for culture and creativity, built efficiently with Ethereum. The Palm ecosystem features low gas costs, fast transaction finality, and is over 99.9% more energy efficient than Proof of Work systems.",
                     "value": 10,
                     "url": "https://palm.io/"
                 },
                 {
                     "name": "Nifty ink",
                     "img": "",
-                    "description": "",
+                    "description": "Nifty Ink is a platform that combines a lot of meta transactions, burner wallets, side chains, and bridges to create a Web2 like experience that \u201cupgrades\u201d to the Ethereum mainnet. This enables NFTs to be uploaded onto the Ethereum mainnet with little expense ",
                     "value": 10,
                     "children": [
                         {
@@ -4039,21 +4060,21 @@
                 {
                     "name": "ASCII Punks",
                     "img": "",
-                    "description": "",
+                    "description": "ASCII Punks is a NFT project that has created NFT avatars made of 12x12 lines of ASCII text and is generated entirely on-chain",
                     "value": 10,
                     "url": "https://asciipunks.com/"
                 },
                 {
                     "name": "Mandalas",
                     "img": "",
-                    "description": "",
+                    "description": "Mandalas are procedurelly generated bitmaps recorded as NFT on ethereum. There are millions of millions of them, (2^160)-1 to be exact.",
                     "value": 10,
                     "url": "https://mandalas.eth.link/"
                 },
                 {
                     "name": "Rarible",
                     "img": "https://assets.coingecko.com/coins/images/11845/thumb/Rari.png?1594946953",
-                    "description": "",
+                    "description": "Rarible is a NFT exchange platform that allows users to buy and sell NFTs on the ethereum network.",
                     "value": 10,
                     "children": [
                         {
@@ -4082,7 +4103,7 @@
                 {
                     "name": "Opensea",
                     "img": "",
-                    "description": "",
+                    "description": "Opensea is a NFT exchange platform that allows users to buy and sell NFTs on the ethereum network.",
                     "value": 10,
                     "children": [
                         {
@@ -4111,20 +4132,25 @@
                 {
                     "name": "Decentraland",
                     "img": "https://assets.coingecko.com/coins/images/878/thumb/decentraland-mana.png?1550108745",
-                    "description": "",
+                    "description": "Decentraland is a decentralized virtual reality platform powered by the Ethereum blockchain. Within the Decentraland platform, users can create, experience, and monetize their content and applications.",
                     "value": 10,
                     "url": "https://decentraland.org/"
                 },
                 {
                     "name": "Mooncats",
                     "img": "",
-                    "description": "",
+                    "description": "Mooncats is an early ethereum NFT project that has 25,600 NFTs minted.",
                     "value": 10,
                     "children": [
                         {
                             "name": "Links",
                             "value": 2,
                             "children": [
+                                {
+                                    "name": "Mooncats website",
+                                    "url": "https://mooncatrescue.com/",
+                                    "value": 2
+                                },
                                 {
                                     "name": "Colour chart",
                                     "url": "https://www.reddit.com/r/MoonCatRescue/comments/m4h7lx/visual_of_the_huebased_color_whee_how_mooncats/",
@@ -4152,21 +4178,21 @@
                 {
                     "name": "Seascape",
                     "img": "",
-                    "description": "",
+                    "description": "Seascape Network aims to create an environment that will allow users, developers and stakeholders to play, earn and share experiences in an incentivized way. The network is set to provide a method for self-education on blockchain and related finance in a fun and engaging way.",
                     "value": 10,
                     "url": "https://app.seascape.network/"
                 },
                 {
                     "name": "Superrare",
                     "img": "",
-                    "description": "",
+                    "description": "Superrare is a NFT exchange platform that allows users to buy and sell NFTs on the ethereum network.",
                     "value": 10,
                     "url": "https://www.superrare.co/"
                 },
                 {
                     "name": "Foundation",
                     "img": "",
-                    "description": "",
+                    "description": "Foundation is a NFT exchange platform that allows users to buy and sell NFTs on the ethereum network.",
                     "value": 10,
                     "children": [
                         {
@@ -4210,7 +4236,7 @@
                 {
                     "name": "SAK3",
                     "img": "",
-                    "description": "",
+                    "description": "Sak3 is a limited edition (200 Pieces) Sake that is tradeable on sushi.com",
                     "value": 10,
                     "url": "https://sake.sushi.com/"
                 }
@@ -4223,28 +4249,28 @@
                 {
                     "name": "Crypto security 101",
                     "img": "",
-                    "description": "",
+                    "description": "A medium article for newcomers entering the space to gain some best-practices for crypto security.",
                     "value": 10,
                     "url": "https://medium.com/mycrypto/the-10-best-things-you-can-do-to-not-lose-your-crypto-dba4f5c05c7"
                 },
                 {
                     "name": "Crypto scam db",
                     "img": "",
-                    "description": "",
+                    "description": "CryptoScamDB is dedicated to creating a safer cryptospace by educating the public on best security practices, uncovering malicious actors, and exposing scams, as well as providing scam detection services that can be integrated into existing products.",
                     "value": 10,
                     "url": "https://www.cryptoscamdb.org/scams"
                 },
                 {
                     "name": "DNS checker",
                     "img": "",
-                    "description": "",
+                    "description": "Check DNS Propagation worldwide. DNS Checker provides name server propagation check instantly. Changed nameservers so do a DNS lookup and check if DNS and nameservers have propagated.",
                     "value": 10,
                     "url": "https://dnschecker.org/"
                 },
                 {
                     "name": "UrlScan",
                     "img": "",
-                    "description": "",
+                    "description": "urlscan.io - Website scanner for suspicious and malicious URLs",
                     "value": 10,
                     "url": "https://urlscan.io/"
                 }
@@ -4257,28 +4283,28 @@
                 {
                     "name": "Colony",
                     "img": "",
-                    "description": "",
+                    "description": "The Colony Network is a suite of smart contracts, running on Ethereum. It provides a general purpose framework for the essential functions organizations require, such as ownership, structure, authority, and financial management.",
                     "value": 10,
                     "url": "https://colony.io/"
                 },
                 {
                     "name": "Daohaus",
                     "img": "",
-                    "description": "",
+                    "description": "DAOhaus is a no-code platform for launching and running DAOs. It is owned and operated by the community. All DAOs on the platform utilize the glorious open-source code of Moloch",
                     "value": 10,
                     "url": "https://daohaus.club/"
                 },
                 {
                     "name": "Fairmint",
                     "img": "",
-                    "description": "",
+                    "description": "With Fairmint, founders can launch a continuous securities offering based on a fixed percentage of their company's equity. Such offerings enable stakeholders to buy and earn convertible securities at any single time, directly from the company's website.",
                     "value": 10,
                     "url": "https://fairmint.co/"
                 },
                 {
                     "name": "Opolis",
                     "img": "",
-                    "description": "",
+                    "description": "Opolis is a next-generation Employment Cooperative offering high-quality, affordable employment benefits and shared services to independent contractors, freelancers, digital nomads, solopreneurs and sole-practitioners.\n",
                     "value": 10,
                     "url": "https://opolis.co/"
                 }
@@ -4291,35 +4317,35 @@
                 {
                     "name": "APE SZN",
                     "img": "",
-                    "description": "",
+                    "description": "APE SZN is a cryptocurrency related merchandise store created by Alex Wice",
                     "value": 10,
                     "url": "https://apeszn.com/"
                 },
                 {
                     "name": "Cryptolife",
                     "img": "",
-                    "description": "",
+                    "description": "CryptoLife offers a comprehensive portfolio of textiles, textile finishing and merchandise related to cryptocurrencies.",
                     "value": 10,
                     "url": "https://cryptolife.shop/"
                 },
                 {
                     "name": "loldefi",
                     "img": "",
-                    "description": "",
+                    "description": "loldefi is a crypto and defi inspired lifestyle brand that works closely with defi protocals to create cryptocurrency related merchandise ",
                     "value": 10,
                     "url": "https://loldefi.com/"
                 },
                 {
                     "name": "Metafactory",
                     "img": "",
-                    "description": "",
+                    "description": "Metafactory offers a comprehensive portfolio of textiles, textile finishing and merchandise related to cryptocurrencies.",
                     "value": 10,
                     "url": "https://metafactory.ai/"
                 },
                 {
                     "name": "Sushiswag",
                     "img": "",
-                    "description": "",
+                    "description": "SushiSwag is a community-driven merchandise program for the DeFi platform sushi.com",
                     "value": 10,
                     "url": "https://sushiswag.com/"
                 }

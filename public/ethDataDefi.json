@@ -2,13 +2,13 @@
   "name": "ethereumdefi",
   "children": [
     {
-      "name": "DeFi protocols",
-      "img": "https://pentacle.xyz/images/SVG/defi.svg",
+      "name": "Defi",
+      "icon": "",
       "children": [
         {
           "name": "0x",
           "img": "https://assets.coingecko.com/coins/images/863/thumb/0x.png?1547034672",
-          "description": "",
+          "description": "0x is a protocol that facilitates the peer-to-peer exchange of Ethereum-based assets. The protocol serves as an open standard and common building block for any developer needing exchange functionality. 0x provides secure smart contracts that are externally audited; developer tools tailored to the 0x ecosystem; and open access to a pool of shared liquidity. Developers can integrate with 0x at the smart contract or application layer.",
           "value": 10,
           "children": [
             {
@@ -288,7 +288,7 @@
         {
           "name": "Alpha",
           "img": "https://assets.coingecko.com/coins/images/12738/thumb/AlphaToken_256x256.png?1617160876",
-          "description": "",
+          "description": "Alpha Homora V2 is a leveraged yield farming and leveraged liquidity providing protocol.",
           "value": 10,
           "children": [
             {
@@ -390,7 +390,7 @@
         {
           "name": "Badger",
           "img": "https://assets.coingecko.com/coins/images/13287/thumb/badger_dao_logo.jpg?1607054976",
-          "description": "",
+          "description": "Badger is a decentralized autonomous organization (DAO) with a single purpose: build the products and infrastructure necessary to accelerate Bitcoin as collateral across other blockchains.",
           "value": 10,
           "children": [
             {
@@ -567,7 +567,7 @@
         {
           "name": "Basket DAO",
           "img": "https://assets.coingecko.com/coins/images/14636/small/BASK_200_CIRCLE.png?1617494952",
-          "description": "",
+          "description": "Capital efficient baskets on Ethereum - $BDI $BMI $BASK",
           "value": 10,
           "children": [
             {
@@ -734,7 +734,7 @@
         {
           "name": "Cozy",
           "img": "",
-          "description": "",
+          "description": "Cozy is an open-source protocol for automated and trust-minimized Protection Markets. Protection Markets allow you to provide and receive protection against predefined conditions like a loss of funds due to a smart contract hack. Anybody can create and use Protection Markets.",
           "value": 10,
           "children": [
             {
@@ -860,7 +860,7 @@
         {
           "name": "Dodo",
           "img": "https://assets.coingecko.com/coins/images/12651/thumb/dodo_logo.png?1601433025",
-          "description": "DODO is a liquidity protocol powered by the Proactive Market Maker (PMM) algorithm and built for capital efficiency ",
+          "description": "DODO is a decentralized exchange platform powered by the Proactive Market Maker (PMM) algorithm. It features highly capital-efficient liquidity pools that support single-token provision, reduce impermanent loss, and minimize slippage for traders. The trading platform also offers SmartTrade, a decentralized liquidity aggregation service that routes to and compares various liquidity sources to quote the optimal swap rate between any two token.",
           "value": 10,
           "children": [
             {
@@ -962,7 +962,7 @@
         {
           "name": "Harvest Finance",
           "img": "https://assets.coingecko.com/coins/images/12304/thumb/Harvest.png?1613016180",
-          "description": "",
+          "description": "Harvest is an international cooperative of humble farmers pooling resources together in order to earn DeFi yields. When farmers deposit, Harvest automatically farms the highest yields with these deposits using the latest farming techniques.",
           "value": 10,
           "children": [
             {
@@ -1048,7 +1048,7 @@
         {
           "name": "Indexed finance",
           "img": "https://assets.coingecko.com/coins/images/13546/thumb/indexed-light.74bb5471.png?1609712728",
-          "description": "",
+          "description": "Indexed Finance is a project focused on the development of passive portfolio management strategies for the Ethereum network. Indexed Finance is managed by the holders of its governance token NDX, which is used to vote on proposals for protocol updates and high level index management such as the definition of market sectors and the creation of new management strategies.",
           "value": 10,
           "children": [
             {
@@ -1230,14 +1230,14 @@
         {
           "name": "Numeraire",
           "img": "https://assets.coingecko.com/coins/images/752/thumb/numeraire.png?1592538976",
-          "description": "",
+          "description": "The hardest data science tournament on the planet. Build the world's last hedge fund by predicting the stock market.",
           "value": 10,
           "url": "https://numer.ai/"
         },
         {
           "name": "Paraswap",
           "img": "",
-          "description": "",
+          "description": "ParaSwap aggregates decentralized exchanges and other DeFi services in one comprehensive interface to streamline and facilitate users' interactions with Ethereum's decentralized finance.",
           "value": 10,
           "children": [
             {
@@ -1307,7 +1307,7 @@
         {
           "name": "Premia",
           "img": "https://assets.coingecko.com/coins/images/13962/small/apple-touch-icon.png",
-          "description": "",
+          "description": "Premia's automated options market enables best-in-class pricing based on realtime supply and demand, bringing fully-featured peer-to-pool trading and capital efficiency to DeFi options.",
           "value": 10,
           "children": [
             {
@@ -1372,7 +1372,7 @@
         {
           "name": "Rari Capital",
           "img": "https://assets.coingecko.com/coins/images/12900/thumb/Rari_Logo_Transparent.png?1613978014",
-          "description": "",
+          "description": "Rari Capital is a suite of decentralized finance protocols on a mission to bridge the gap between technical and non-technical minds, in order to bring the next wave of mass users into this industry. We have built a series of products that create and deliver aggregate yield, allowing you a simple and safe avenue of value-accrual to your existing assets.",
           "value": 10,
           "children": [
             {
@@ -1469,7 +1469,7 @@
         {
           "name": "Unit",
           "img": "https://assets.coingecko.com/coins/images/11862/thumb/Unit.png?1595580755",
-          "description": "",
+          "description": "Unit protocol is a decentralized borrowing protocol that allows using a variety of tokens as collateral. $COL token. $USDP stable coin.",
           "value": 10,
           "children": [
             {
@@ -1550,7 +1550,7 @@
         {
           "name": "Yam finance",
           "img": "https://assets.coingecko.com/coins/images/12179/thumb/YAM-v2.png?1597892396",
-          "description": "",
+          "description": "Yam launched on August 12th, 2020 as An Experiment in Fair Farming, Governance, and Elasticity. Yam Protocol mashes up some of the most exciting innovations in programmable money and governance. Built by a team of DeFi natives, but now controlled by the community. On December 29th, 2020 the Yam community has voted to disable the rebasing / elastic supply function of Yam and the scaling factor of Yam has been fixed at 2.50.",
           "value": 10,
           "children": [
             {
@@ -1733,13 +1733,13 @@
       ]
     },
     {
-      "name": "Decentralized exchanges",
-      "img": "https://pentacle.xyz/images/SVG/dex.svg",
+      "name": "Decentralised exchanges",
+      "icon": "",
       "children": [
         {
           "name": "Airswap",
           "img": "https://assets.coingecko.com/coins/images/1019/thumb/AST.png?1547034939",
-          "description": "",
+          "description": "AirSwap is an open developer community focused on decentralized trading systems. AirSwap technology powers peer-to-peer swap networks using de facto standard RFQ and Last Look protocols making it the weapon of choice for traditional market makers entering the decentralized financial system.",
           "value": 10,
           "children": [
             {
@@ -2018,7 +2018,7 @@
         {
           "name": "Kyber",
           "img": "https://cryptologos.cc/logos/kyber-network-knc-logo.png",
-          "description": "",
+          "description": "Kyber Network is a blockchain-based liquidity hub that connects liquidity from a wide range of sources to power instant and secure crypto exchange in any decentralized application.",
           "value": 10,
           "children": [
             {
@@ -2125,7 +2125,7 @@
         {
           "name": "Loopring",
           "img": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD/logo.png",
-          "description": "",
+          "description": "Loopring is a zkRollup exchange and payment protocolLoopring is an Ethereum Layer-2 scaling protocol. It allows for building high-throughput, low-cost, non-custodial AMMs, orderbook exchanges, and payment applications on Ethereum by leveraging Zero-Knowledge Proofs.",
           "value": 10,
           "children": [
             {
@@ -2232,7 +2232,7 @@
         {
           "name": "Matcha",
           "img": "https://dappimg.com/media/image/dapp/c1063804ac0547a698fc1aa29c01f9c0.blob",
-          "description": "",
+          "description": "Matcha aggregates all the offers from various liquidity sources and merges them into one trade",
           "value": 10,
           "url": "https://matcha.xyz/"
         },
@@ -2331,7 +2331,7 @@
         {
           "name": "dydx",
           "img": "",
-          "description": "",
+          "description": "Trade Perpetuals on a powerful open trading platform, backed by @a16z, @polychain, and Three Arrows Capital",
           "value": 10,
           "children": [
             {
@@ -2417,7 +2417,7 @@
         {
           "name": "1inch",
           "img": "https://assets.coingecko.com/coins/images/13469/thumb/1inch-token.png?1608803028",
-          "description": "",
+          "description": "DeFi / DEX aggregator that is interested in high liquidity and optimal rates on Ethereum, Binance Smart Chain, Optimism, Polygon",
           "value": 10,
           "children": [
             {
@@ -2601,133 +2601,119 @@
       ]
     },
     {
-      "name": "DeFi tools",
-      "img": "https://pentacle.xyz/images/SVG/defihelpers.svg",
+      "name": "Dev tools",
+      "icon": "",
       "children": [
         {
-          "name": "L2 beat",
+          "name": "Austin Griffith's ETH repos",
           "img": "",
-          "description": "",
+          "description": "Includes scaffold-etc, a forkable Ethereum dev stack focused on fast product iterations, eth.build an educational sandbox for building on web3. Visually understand how Ethereum works by doing",
           "value": 10,
-          "url": "https://l2beat.com/?view=risk"
+          "url": "https://github.com/austintgriffith"
         },
         {
-          "name": "dex tools",
+          "name": "Graph protocol",
+          "img": "https://miro.medium.com/fit/c/160/160/1*uOUrHJwAlNPBiGzl3slkWw.png",
+          "description": "The Graph is an indexing protocol for querying networks like Ethereum and IPFS. Anyone can build and publish open APIs, called subgraphs, making data easily accessible.",
+          "value": 10,
+          "url": "https://thegraph.com/"
+        },
+        {
+          "name": "Ethers-io",
           "img": "",
-          "description": "",
+          "description": "The ethers.js library aims to be a complete and compact library for interacting with the Ethereum Blockchain and its ecosystem. It was originally designed for use with ethers.io and has since expanded into a more general-purpose library",
           "value": 10,
-          "url": "https://www.dextools.io/app/"
+          "url": "https://github.com/ethers-io"
         },
         {
-          "name": "fees.wtf",
+          "name": "Hardhat",
           "img": "",
-          "description": "",
+          "description": "Ethereum development environment. Easily deploy your contracts, run tests and debug Solidity code without dealing with live environments. Hardhat Network is a local Ethereum network designed for development",
           "value": 10,
-          "url": "https://fees.wtf/"
+          "url": "https://hardhat.org/"
         },
         {
-          "name": "vfat - pool tools",
+          "name": "Infura",
+          "img": "https://static.blockgeeks.com/wp-content/uploads/2020/03/infura_logo_black.png",
+          "description": "The foundation for decentralized apps. Fast, high availability Ethereum infrastructure. Connect your app instantly, with a single line of code",
+          "value": 10,
+          "url": "https://infura.io/"
+        },
+        {
+          "name": "Open zeppelin",
+          "img": "https://openzeppelin.com/images/card.jpg",
+          "description": "OpenZeppelin provides security products to build, automate, and operate decentralized applications. We also protect leading organizations by performing security audits on their systems and products",
+          "value": 10,
+          "url": "https://openzeppelin.com/"
+        },
+        {
+          "name": "Solidity",
+          "img": "https://docs.soliditylang.org/en/v0.4.24/_images/logo.svg",
+          "description": "Solidity is a statically-typed curly-braces programming language designed for developing smart contracts that run on Ethereum",
+          "value": 10,
+          "url": "https://soliditylang.org/"
+        },
+        {
+          "name": "Radicle",
+          "img": "https://pbs.twimg.com/profile_images/1372563232850870274/aREQff_C_400x400.jpg",
+          "description": "Radicle is a peer-to-peer stack for building software together. For unstoppable, permissionless, decentralized open-source development. Forget platforms. Easily share your code without relying on a third party. No central servers, no censorship. Built on Git, backed by public-key crypto",
+          "value": 10,
+          "url": "https://radicle.xyz/"
+        },
+        {
+          "name": "Sourcify",
           "img": "",
-          "description": "",
+          "description": "Sourcify is a decentralized automated contract verification service",
           "value": 10,
-          "url": "https://vfat.tools/all/"
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Sourcify website",
+                  "url": "https://sourcify.dev/",
+                  "value": 2
+                },
+                {
+                  "name": "Sourcify Github",
+                  "url": "https://github.com/ethereum/sourcify",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Sourcify Twitter",
+                  "url": "https://twitter.com/sourcifyeth",
+                  "value": 2
+                }
+              ]
+            }
+          ]
         },
         {
-          "name": "Augur",
-          "img": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1985365e9f78359a9B6AD760e32412f4a445E862/logo.png",
-          "description": "",
-          "value": 10,
-          "url": "https://www.augur.net/"
-        },
-        {
-          "name": "Etherscan",
+          "name": "Tenderly",
           "img": "",
-          "description": "",
+          "description": "Comprehensive Ethereum Developer Platform for real-time monitoring, alerting, debugging, and simulating Smart Contracts",
           "value": 10,
-          "url": "https://etherscan.io/"
-        },
-        {
-          "name": "Defi llama",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://defillama.com/home"
-        },
-        {
-          "name": "Enzyme",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://enzyme.finance/"
-        },
-        {
-          "name": "Liquidity folio",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://www.liquidityfolio.com/"
-        },
-        {
-          "name": "Orchid",
-          "img": "https://assets.coingecko.com/coins/images/3916/thumb/download_%285%29.png?1576624060",
-          "description": "",
-          "value": 10,
-          "url": "https://www.orchid.com/oxt"
-        },
-        {
-          "name": "Stake dao",
-          "img": "https://assets.coingecko.com/coins/images/13724/thumb/stakedao_logo.jpg?1611195011",
-          "description": "",
-          "value": 10,
-          "url": "https://stakedao.org/"
-        },
-        {
-          "name": "Staking rewards",
-          "img": "https://www.stakingrewards.com/static/images/icon.svg",
-          "description": "",
-          "value": 10,
-          "url": "https://www.stakingrewards.com/"
-        },
-        {
-          "name": "Tokensets",
-          "img": "https://www.tokensets.com/static/media/set-and-tokensets-logo.872a2884.svg",
-          "description": "",
-          "value": 10,
-          "url": "https://www.tokensets.com/"
-        },
-        {
-          "name": "Zapper",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://zapper.fi/"
-        },
-        {
-          "name": "Zerion",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://zerion.io/"
+          "url": "https://dashboard.tenderly.co/explorer"
         }
       ]
     },
     {
-      "name": "DeFi insurance",
+      "name": "Insurance",
       "icon": "",
       "children": [
         {
-          "name": "Cover",
-          "img": "https://assets.coingecko.com/coins/images/13563/thumb/1_eWBbDaqpxXqt7WYPSP4qSw.jpeg?1609822578",
-          "description": "",
-          "value": 10,
-          "url": "https://www.coverprotocol.com/"
-        },
-        {
           "name": "Nexus mutual",
           "img": "https://assets.coingecko.com/coins/images/11890/thumb/wrapped-nexus-mutual.jpg?1595811559",
-          "description": "",
+          "description": "People can join the mutual and become members. Members can buy cover to protect against material losses when transferring funds into a protocol\u2019s smart contracts or keeping funds with a custodian. Nexus Mutual is a discretionary mutual. Each member can hold NXM tokens, which represent proportional ownership of the mutual. The mutual runs on the Ethereum blockchain.",
           "value": 10,
-          "url": "https://nexustracker.io/"
+          "url": "https://nexusmutual.io/"
         }
       ]
     }

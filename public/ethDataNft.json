@@ -89,38 +89,14 @@
         {
           "name": "Ethereum Name Service",
           "img": "",
-          "description": "",
+          "description": "Decentralised naming for wallets, websites, and more",
           "value": 10,
           "url": "https://ens.domains/"
         },
         {
-          "name": "Nifty ink",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "children": [
-            {
-              "name": "Links",
-              "value": 2,
-              "children": [
-                {
-                  "name": "Nifty ink website",
-                  "url": "https://nifty.ink/",
-                  "value": 2
-                },
-                {
-                  "name": "How to get xdai",
-                  "url": "https://support.mycrypto.com/general-knowledge/scaling/how-to-get-xdai",
-                  "value": 2
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Rarible",
           "img": "https://assets.coingecko.com/coins/images/11845/thumb/Rari.png?1594946953",
-          "description": "",
+          "description": "Rarible is a NFT exchange platform that allows users to buy and sell NFTs on the ethereum network.",
           "value": 10,
           "children": [
             {
@@ -149,7 +125,7 @@
         {
           "name": "Opensea",
           "img": "",
-          "description": "",
+          "description": "Opensea is a NFT exchange platform that allows users to buy and sell NFTs on the ethereum network.",
           "value": 10,
           "children": [
             {
@@ -178,28 +154,28 @@
         {
           "name": "Decentraland",
           "img": "https://assets.coingecko.com/coins/images/878/thumb/decentraland-mana.png?1550108745",
-          "description": "",
+          "description": "Decentraland is a decentralized virtual reality platform powered by the Ethereum blockchain. Within the Decentraland platform, users can create, experience, and monetize their content and applications.",
           "value": 10,
           "url": "https://decentraland.org/"
         },
         {
           "name": "Seascape",
           "img": "",
-          "description": "",
+          "description": "Seascape Network aims to create an environment that will allow users, developers and stakeholders to play, earn and share experiences in an incentivized way. The network is set to provide a method for self-education on blockchain and related finance in a fun and engaging way.",
           "value": 10,
           "url": "https://app.seascape.network/"
         },
         {
           "name": "Superrare",
           "img": "",
-          "description": "",
+          "description": "Superrare is a NFT exchange platform that allows users to buy and sell NFTs on the ethereum network.",
           "value": 10,
           "url": "https://www.superrare.co/"
         },
         {
           "name": "Foundation",
           "img": "",
-          "description": "",
+          "description": "Foundation is a NFT exchange platform that allows users to buy and sell NFTs on the ethereum network.",
           "value": 10,
           "children": [
             {
@@ -311,97 +287,119 @@
         {
           "name": "Aavegotchi",
           "img": "https://assets.coingecko.com/coins/images/12467/thumb/ghst_200.png?1600750321",
-          "description": "",
+          "description": "Aavegotchi is a DeFi-enabled crypto collectibles game developed by Singapore-based Pixelcraft Studios that allows players to stake Non-fungible tokens (NFTs) avatars with interest-generating tokens and interact with the Aavegotchi metaverse. It is a unique combination of Decentralized Finance (DeFi) and NFTs.",
           "value": 10,
           "url": "https://aavegotchi.com/"
         },
         {
           "name": "Axie infinity",
           "img": "https://assets.coingecko.com/coins/images/13029/thumb/axie_infinity_logo.png?1604471082",
-          "description": "",
+          "description": "Axie Infinity is a Pok\u00e9mon-inspired universe NFT project where anyone can earn tokens through skilled gameplay and contributions to the ecosystem. Players can battle, collect, raise, and build a land-based kingdom for their pets.\n",
           "value": 10,
           "url": "https://axieinfinity.com/"
         },
         {
           "name": "Blackpool",
           "img": "",
-          "description": "",
+          "description": "BlackPool is the first decentralised autonomous organisation (DAO) built solely for NFT gaming and trading. Their strategies will be based on their long-term passion for gaming and art, as they combine professional data analytics and machine learning to provide the best returns for their users.",
           "value": 10,
           "url": "https://www.blackpool.finance/"
         },
         {
           "name": "Cryptovoxels",
           "img": "",
-          "description": "",
+          "description": "Cryptovoxels is a virtual world and metaverse, powered by the Ethereum blockchain. Players can buy land and build stores and art galleries. Editing tools, avatars and text chat are built in.",
           "value": 10,
           "url": "https://www.cryptovoxels.com/"
         },
         {
           "name": "Cometh",
           "img": "",
-          "description": "",
+          "description": "Cometh is a defi powered game with yield generating NFT. Get a spaceship, explore the galaxy and earn tokens.",
           "value": 10,
           "url": "https://www.cometh.io/"
         },
         {
           "name": "Degendata",
           "img": "",
-          "description": "",
+          "description": "Degendata is a platform that aggredates NFT projects and showcases them for users to gain easy access.",
           "value": 10,
           "url": "https://degendata.io/"
         },
         {
           "name": "Doki doki",
           "img": "https://assets.coingecko.com/coins/images/12759/thumb/doki_logo.png?1602338064",
-          "description": "",
+          "description": "Doki doki is a decentralized #NFT Vending Machine | Make collecting fun & inspire digital creations",
           "value": 10,
           "url": "https://dokidoki.finance/"
         },
         {
-          "name": "Mycospace",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://myco.space/"
-        },
-        {
           "name": "Neon district",
           "img": "",
-          "description": "",
+          "description": "Neon District is a cyberpunk role-playing adventure by blockade games. Strategize and fight to progress through a sci-fi dystopia while collecting characters and gear backed with blockchain technology.",
           "value": 10,
           "url": "https://neondistrict.io/"
         },
         {
           "name": "Palm",
           "img": "",
-          "description": "",
+          "description": "Palm is a new NFT ecosystem for culture and creativity, built efficiently with Ethereum. The Palm ecosystem features low gas costs, fast transaction finality, and is over 99.9% more energy efficient than Proof of Work systems.",
           "value": 10,
           "url": "https://palm.io/"
         },
         {
-          "name": "ASCII Punks",
+          "name": "Nifty ink",
           "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://asciipunks.com/"
-        },
-        {
-          "name": "Mandalas",
-          "img": "",
-          "description": "",
-          "value": 10,
-          "url": "https://mandalas.eth.link/"
-        },
-        {
-          "name": "Mooncats",
-          "img": "",
-          "description": "",
+          "description": "Nifty Ink is a platform that combines a lot of meta transactions, burner wallets, side chains, and bridges to create a Web2 like experience that \u201cupgrades\u201d to the Ethereum mainnet. This enables NFTs to be uploaded onto the Ethereum mainnet with little expense ",
           "value": 10,
           "children": [
             {
               "name": "Links",
               "value": 2,
               "children": [
+                {
+                  "name": "Nifty ink website",
+                  "url": "https://nifty.ink/",
+                  "value": 2
+                },
+                {
+                  "name": "How to get xdai",
+                  "url": "https://support.mycrypto.com/general-knowledge/scaling/how-to-get-xdai",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ASCII Punks",
+          "img": "",
+          "description": "ASCII Punks is a NFT project that has created NFT avatars made of 12x12 lines of ASCII text and is generated entirely on-chain",
+          "value": 10,
+          "url": "https://asciipunks.com/"
+        },
+        {
+          "name": "Mandalas",
+          "img": "",
+          "description": "Mandalas are procedurelly generated bitmaps recorded as NFT on ethereum. There are millions of millions of them, (2^160)-1 to be exact.",
+          "value": 10,
+          "url": "https://mandalas.eth.link/"
+        },
+        {
+          "name": "Mooncats",
+          "img": "",
+          "description": "Mooncats is an early ethereum NFT project that has 25,600 NFTs minted.",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "Mooncats website",
+                  "url": "https://mooncatrescue.com/",
+                  "value": 2
+                },
                 {
                   "name": "Colour chart",
                   "url": "https://www.reddit.com/r/MoonCatRescue/comments/m4h7lx/visual_of_the_huebased_color_whee_how_mooncats/",
@@ -429,7 +427,7 @@
         {
           "name": "SAK3",
           "img": "",
-          "description": "",
+          "description": "Sak3 is a limited edition (200 Pieces) Sake that is tradeable on sushi.com",
           "value": 10,
           "url": "https://sake.sushi.com/"
         }
