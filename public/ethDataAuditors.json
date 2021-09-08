@@ -1,0 +1,110 @@
+{
+  "name": "ethereumauditors",
+  "children": [
+    {
+      "name": "Extropy",
+      "img": "",
+      "description": "Blockchain Consultancy, providing blockchain and zero knowledge proof development, security audits and training.",
+      "value": 10,
+      "url": "https://extropy.io/"
+    },
+    {
+      "name": "OpenZeppelin",
+      "img": "",
+      "description": "OpenZeppelin provides security products to build, automate, and operate decentralized applications. We also protect leading organizations by performing security audits on their systems and products.",
+      "value": 10,
+      "url": "https://openzeppelin.com/"
+    },
+    {
+      "name": "Trail of Bits",
+      "img": "",
+      "description": "Since 2012, Trail of Bits has helped secure some of the world’s most targeted organizations and products. We combine high-end security research with a real-world attacker mentality to reduce risk and fortify code.",
+      "value": 10,
+      "url": "https://www.trailofbits.com/"
+    },
+    {
+      "name": "Quantstamp",
+      "img": "",
+      "description": "Quantstamp’s mission is to secure the decentralized internet, and has protected over $100B in digital asset risk from hackers. More than 200 startups, foundations and enterprises work with Quantstamp to keep their innovative products safe.",
+      "value": 10,
+      "url": "https://quantstamp.com/"
+    },
+    {
+      "name": "Hacken",
+      "img": "",
+      "description": "Hacken is delivering cybersecurity services for businesses of any scale and end customers around the world.",
+      "value": 10,
+      "url": "https://hacken.io/"
+    },
+    {
+      "name": "ConsenSys Diligence",
+      "img": "",
+      "description": "Blockchain Security & Ethereum Smart Contract Audits – Security is critical in the blockchain space. Our comprehensive smart contract audit service helps everyone from startups to enterprises launch and maintain their Ethereum blockchain applications.",
+      "value": 10,
+      "url": "https://consensys.net/diligence/"
+    },
+    {
+      "name": "Certik",
+      "img": "",
+      "description": "Founded in 2018 by professors of Yale University and Columbia University, CertiK is a pioneer in blockchain security, utilizing best-in-class AI technology to secure and monitor blockchain protocols and smart contracts. CertiK’s mission is to secure the cyber world. Starting with blockchain, CertiK applies cutting-edge innovations from academia into enterprise, enabling mission-critical applications to be built with security and correctness.",
+      "value": 10,
+      "url": "https://www.certik.io/"
+    },
+    {
+      "name": "Least Authority",
+      "img": "",
+      "description": "We provide security consulting services to help others make their solutions more resistant to unauthorized access to data and unintended manipulation of their systems. We support teams from the design phase through the production launch and after through a variety of security consulting services.",
+      "value": 10,
+      "url": "https://leastauthority.com/"
+    },
+    {
+      "name": "SlowMist",
+      "img": "",
+      "description": "SlowMist Technology is a company focused on blockchain ecological security. It was founded in January 2018 and is headquartered in Xiamen. It was founded by a team with more than ten years of front-line network security attack-defense experiences, and the team members have created the security project with world-class influence.",
+      "value": 10,
+      "url": "https://www.slowmist.com/"
+    },
+    {
+      "name": "Chainsecurity",
+      "img": "",
+      "description": "Our mission is to build trust within the blockchain ecosystem to allow this emerging technology to reach its potential among established organizations, governments and blockchain companies alike. We identify security vulnerabilities and verify the functional correctness of smart contracts and blockchain projects. We have extensive experience with complex projects, for example in the decentralized finance (DeFi) space and in high-value enterprise systems.",
+      "value": 10,
+      "url": "https://chainsecurity.com/"
+    },
+    {
+      "name": "Runtime Verification",
+      "img": "",
+      "description": "Runtime Verification Inc. is a startup company aimed at using runtime verification-based techniques to perform security audits on virtual machines and smart contracts on public blockchains. It is dedicated to using its dynamic software analysis approach to improve the safety, reliability, and correctness of software systems in the blockchain field.",
+      "value": 10,
+      "url": "https://runtimeverification.com/"
+    },
+    {
+      "name": "PeckShield",
+      "img": "",
+      "description": "A blockchain security and data analytics company.",
+      "value": 10,
+      "url": "https://peckshield.com/en"
+    },
+    {
+      "name": "Techrate",
+      "img": "",
+      "description": "Techrate is an analytical and engineering agency focused on blockchain technology solutions and audits.",
+      "value": 10,
+      "url": "https://techrate.org/"
+    },
+    {
+      "name": "Omniscia",
+      "img": "",
+      "description": "Helping startups and enterprises design, build and secure complex decentralized networks & applications.",
+      "value": 10,
+      "url": "https://omniscia.io/"
+    },
+    {
+      "name": "Haechi Audit",
+      "img": "",
+      "description": "HAECHI AUDIT is a leading smart contract security audit and development firm. We are incubated by the Samsung Electronics and awarded Ethereum Foundation Grant.",
+      "value": 10,
+      "url": "https://audit.haechi.io/"
+    }
+  ]
+}
