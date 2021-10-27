@@ -1,5 +1,11 @@
 export const features = [
     {
+        "title": "CREAM hack",
+        "text": "Messages to the hacker",
+        "link": "/bad-things-cream",
+        "tag": "bad-things"
+    },
+    {
         "title": "Poly Network hack",
         "text": "The hacker's on-chain blog",
         "link": "/bad-things",

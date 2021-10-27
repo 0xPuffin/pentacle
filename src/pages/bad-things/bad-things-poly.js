@@ -1,9 +1,9 @@
 import React from "react";
-import Layout from "../components/layout";
-import Header from "../components/header";
-import TxCardMed from "../components/tx-cards/tx-card-med";
+import Layout from "../../components/layout";
+import Header from "../../components/header";
+import TxCardMed from "../../components/tx-cards/tx-card-med";
 
-export const BadThings = () => {
+export const BadThingsPoly = () => {
     return (
         <>
             <Header/>
@@ -20,7 +20,7 @@ export const BadThings = () => {
                             rel="noopener noreferrer">Post-mortem by @kelvinfichter</a></span>
                         </p>
                     </article>
-                    <TxCardMed/>
+                    <TxCardMed jsonUrl="https://raw.githubusercontent.com/penta-fun/polynetwork-hacker-chat/main/data.json"  hackerAddress="0xC8a65Fadf0e0dDAf421F28FEAb69Bf6E2E589963" />
                     <p className={"margin-top-1"}>Bad things™ naming credit <a className={"text-link"}
                                                                                href={"https://twitter.com/tayvano_"}>Tayvano</a>
                     </p>

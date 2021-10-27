@@ -9,7 +9,8 @@ import EthEcosystemDev from "./pages/eth-ecosystem/eth-ecosystem-dev";
 import EthEcosystemRetail from "./pages/eth-ecosystem/eth-ecosystem-retail";
 import SolEcosystem from "./pages/sol-ecosystem/sol-ecosystem";
 import SolHackathon from "./pages/sol-ecosystem/sol-hackathon"
-import {BadThings} from "./pages/bad-things";
+import {BadThingsPoly} from "./pages/bad-things/bad-things-poly";
+import {BadThingsCream} from "./pages/bad-things/bad-things-cream";
 import {DefiLearning} from "./pages/defilearning";
 import EthEcosystemLearn from "./pages/eth-ecosystem/eth-ecosystem-learn";
 import EthEcosystemNft from "./pages/eth-ecosystem/eth-ecosystem-nft";
@@ -25,7 +26,8 @@ export const Router = () => {
             <Route path="/ethereum-learning" element={<EthEcosystemLearn/>}/>
             <Route path="/ethereum-nft" element={<EthEcosystemNft/>}/>
             <Route path="/hackathon" element={<SolHackathon/>}/>
-            <Route path="/bad-things" element={<BadThings/>}/>
+            <Route path="/bad-things" element={<BadThingsPoly/>}/>
+            <Route path="/bad-things-cream" element={<BadThingsCream/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/terms" element={<Terms/>}/>
             <Route path="/defilearning" element={<DefiLearning/>}/>
