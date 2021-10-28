@@ -24,7 +24,7 @@ export const features = [
         "protocol": "ethereum",
     },
     {
-        "title": "Hackathon projects",
+        "title": "Solana Ignition Hackathon",
         "link": "/hackathon",
         "icon": "laptop",
         "protocol": "solana",
