@@ -3,6 +3,6 @@ import SunburstGraph from '../../components/graph';
 
 export default function SolHackathon() {
     return (
-        <SunburstGraph type="solDemoData" colorScheme="interpolateCool" />
+        <SunburstGraph type="solIgnition" colorScheme="interpolateCool" />
     )
 }
