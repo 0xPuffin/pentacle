@@ -587,7 +587,35 @@
                     "img": "",
                     "description": "Flash loans that work by inserting two instructions into any arbitrary transaction clientside",
                     "value": 10,
-                    "url": ""
+                    "children": [
+                        {
+                            "name": "Links",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Adobe Github",
+                                    "url": "https://github.com/2501babe",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Devpost Page",
+                                    "url": "https://devpost.com/software/adobe-tcg14s",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Team",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "hana",
+                                    "url": "https://twitter.com/dumbcontract2",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "name": "DEGA Exchange",
@@ -973,6 +1001,11 @@
                                 {
                                     "name": "Devpost Page",
                                     "url": "https://devpost.com/software/dflow",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Project Demo",
+                                    "url": "https://vimeo.com/633456420",
                                     "value": 2
                                 }
                             ]
@@ -2600,7 +2633,7 @@
                     ]
                 },
                 {
-                    "name": "\"01\"",
+                    "name": "01",
                     "img": "",
                     "description": "01 is a fully decentralized, cross-collateralized, and cross-margined derivatives protocol, offering the first implementation of everlasting options on Solana.",
                     "value": 10,
@@ -2610,7 +2643,7 @@
                             "value": 2,
                             "children": [
                                 {
-                                    "name": "\"01\" website",
+                                    "name": "01 website",
                                     "url": "http://01protocol.com",
                                     "value": 2
                                 },
@@ -2631,12 +2664,12 @@
                             "value": 2,
                             "children": [
                                 {
-                                    "name": "\"01\" Twitter",
+                                    "name": "01 Twitter",
                                     "url": "https://twitter.com/01_protocol",
                                     "value": 2
                                 },
                                 {
-                                    "name": "\"01\" Discord",
+                                    "name": "01 Discord",
                                     "url": "https://discord.gg/01protocol",
                                     "value": 2
                                 }
@@ -3471,13 +3504,6 @@
                     ]
                 },
                 {
-                    "name": "ADOPT",
-                    "img": "",
-                    "description": "With ADOPT you can virtually adopt a real shelter and the shelter will receive a donation.",
-                    "value": 10,
-                    "url": ""
-                },
-                {
                     "name": "Dead Pilotz Society",
                     "img": "",
                     "description": "Dead Pilotz Society is an action-adventure NFT game that takes place out in an archipelago of islands called The Forgotten Sea where Pilotz search and battle for hidden treasure worth cryptocurrency.",
@@ -3727,7 +3753,7 @@
                 {
                     "name": "MetaSafari",
                     "img": "",
-                    "description": "We\u201a\u00c4\u00f4re a multi-chain multi-tribe NFT based MetaVerse bridging digital & physical worlds, and gamifying hybrid finance. We're a platform where we'll launch many of our own brands, and more to come.",
+                    "description": "We're a multi-chain multi-tribe NFT based MetaVerse bridging digital & physical worlds, and gamifying hybrid finance. We're a platform where we'll launch many of our own brands, and more to come.",
                     "value": 10,
                     "children": [
                         {
@@ -4013,7 +4039,7 @@
                 {
                     "name": "ChainCrunch",
                     "img": "",
-                    "description": "\"The\" go-to place for on-chain data for Solana.",
+                    "description": "The go-to place for on-chain data for Solana.",
                     "value": 10,
                     "children": [
                         {
@@ -4093,7 +4119,7 @@
                 {
                     "name": "Chubby Chicks Art Club",
                     "img": "",
-                    "description": "ChubbyChicks (aka baby chickens)\r\n\r\nA community-led digital art and collectables project enabling holders to \"change their mood\" by changing their Avatar. Chubby Chicks are cutest NFT that ever hatched",
+                    "description": "ChubbyChicks (aka baby chickens). A community-led digital art and collectables project enabling holders to 'change their mood' by changing their Avatar. Chubby Chicks are cutest NFT that ever hatched",
                     "value": 10,
                     "children": [
                         {
@@ -4202,7 +4228,7 @@
                 {
                     "name": "Big Picture Crypto",
                     "img": "",
-                    "description": "Big Picture Crypto presents \"The Big Picture\": a dynamic, community created artwork on the Blockchain. Anyone can buy a space in The Big Picture and colour it however they like.",
+                    "description": "Big Picture Crypto presents 'The Big Picture': a dynamic, community created artwork on the Blockchain. Anyone can buy a space in The Big Picture and colour it however they like.",
                     "value": 10,
                     "children": [
                         {
@@ -4953,13 +4979,6 @@
                     ]
                 },
                 {
-                    "name": "INSTAR",
-                    "img": "",
-                    "description": "I wanted to make a full-proof wallet insurance policy that would protect me from hackers while also allowing me to recover my wallet if I forgot my passwords.",
-                    "value": 10,
-                    "url": ""
-                },
-                {
                     "name": "UNQ World",
                     "img": "",
                     "description": "UNQ World is a strategy game where any NFT affects the game world. Based on the real-world locations, it allows to create factions, develop cities, and participate in conflicts.",
@@ -4989,7 +5008,7 @@
                     ]
                 },
                 {
-                    "name": "\u0259no",
+                    "name": "eno",
                     "img": "",
                     "description": "A content publishing protocol that enables creators to monetize each consumption and turns content into a traceable bearer asset existing in a decentralized environment.",
                     "value": 10,
@@ -4999,17 +5018,17 @@
                             "value": 2,
                             "children": [
                                 {
-                                    "name": "\u0259no website",
+                                    "name": "eno website",
                                     "url": "https://www.eno.xyz/",
                                     "value": 2
                                 },
                                 {
-                                    "name": "\u0259no Github",
+                                    "name": "eno Github",
                                     "url": "https://github.com/shellrox/eno_demo_backend",
                                     "value": 2
                                 },
                                 {
-                                    "name": "\u0259no docs",
+                                    "name": "eno docs",
                                     "url": "https://enoprotocol.gitbook.io/eno-protocol/",
                                     "value": 2
                                 },
@@ -5030,12 +5049,12 @@
                             "value": 2,
                             "children": [
                                 {
-                                    "name": "\u0259no Twitter",
+                                    "name": "eno Twitter",
                                     "url": "https://twitter.com/enoprotocol",
                                     "value": 2
                                 },
                                 {
-                                    "name": "\u0259no Discord",
+                                    "name": "eno Discord",
                                     "url": "https://discord.gg/kk55Z8rmy3",
                                     "value": 2
                                 }
@@ -5081,7 +5100,7 @@
                 {
                     "name": "Gonna Make It",
                     "img": "",
-                    "description": "Play your favorie games to win your favorite assets. We provide the tooling and distribution - you focus on designing the experience. \u201a\u00e5\u00ae\u00d4\u220f\u00e8 with #Solana and love by gmiDAO.",
+                    "description": "Play your favorie games to win your favorite assets. We provide the tooling and distribution - you focus on designing the experience. Made with #Solana and love by gmiDAO.",
                     "value": 10,
                     "children": [
                         {
@@ -5141,7 +5160,7 @@
                 {
                     "name": "Kong Protocol",
                     "img": "",
-                    "description": "Simple loans on SOL with USD stable coin. Zero interest. Zero risk of liquidation.\r\n\r\nKong token holders stabilize USD token and earn interest on loans.",
+                    "description": "Simple loans on SOL with USD stable coin. Zero interest. Zero risk of liquidation. Kong token holders stabilize USD token and earn interest on loans.",
                     "value": 10,
                     "children": [
                         {
@@ -5263,7 +5282,7 @@
                 {
                     "name": "Portals",
                     "img": "",
-                    "description": "Animal Crossing meets Roblox \u201a\u00c4\u00ec bringing our metaverse project to Solana. Explore, build, chat, hangout, import NFTs \u201a\u00c4\u00ec right in your browser. Create your own space in the connected virtual city.",
+                    "description": "Animal Crossing meets Roblox - bringing our metaverse project to Solana. Explore, build, chat, hangout, import NFTs - right in your browser. Create your own space in the connected virtual city.",
                     "value": 10,
                     "children": [
                         {
@@ -5778,7 +5797,7 @@
                 {
                     "name": "Solpixels",
                     "img": "",
-                    "description": "Place color pixels on a canvas with other players! Each pixel is stored directly on the Solana blockchain forever! ...or at least until someone else paints over it \uf8ff\u00fc\u00a7\u2211",
+                    "description": "Place color pixels on a canvas with other players! Each pixel is stored directly on the Solana blockchain forever! ...or at least until someone else paints over it",
                     "value": 10,
                     "children": [
                         {
@@ -5827,13 +5846,6 @@
                             ]
                         }
                     ]
-                },
-                {
-                    "name": "Work Token",
-                    "img": "",
-                    "description": "A token that can only be minted through real work(out) in real life, and can only be traded/consumed in a blockchain based ecosystem/game. The perfect token for healthy games.",
-                    "value": 10,
-                    "url": ""
                 },
                 {
                     "name": "SpaceFalcon.io",
@@ -5893,7 +5905,7 @@
                 {
                     "name": "Arcadia",
                     "img": "",
-                    "description": "have you ever wanted to control monster-machine hybrids and just duke it out on a big arena? \r\n\r\nArcadia is a new crypto skill-based game that won't rely on rolling dices for battles.",
+                    "description": "have you ever wanted to control monster-machine hybrids and just duke it out on a big arena? Arcadia is a new crypto skill-based game that won't rely on rolling dices for battles.",
                     "value": 10,
                     "children": [
                         {
@@ -7288,7 +7300,7 @@
                 {
                     "name": "SolShop",
                     "img": "",
-                    "description": "SolShop is an NFT marketplace for creators that allows for \u201a\u00c4\u00fagas\u201a\u00c4\u00f9-less minting of NFTs (via meta transactions). Creators can mint/auction/sell NFTs on their own custom subdomain (<username>.solshop.io)",
+                    "description": "SolShop is an NFT marketplace for creators to create and sell their own NFT collection. Buyers can discover a list of popular Solana NFT projects",
                     "value": 10,
                     "children": [
                         {
@@ -7391,7 +7403,7 @@
                 {
                     "name": "Art Club 88",
                     "img": "",
-                    "description": "\u2013\u00ea bridge between digital assets and non-digital art. It contains a pool of world-famous art owners on one side and investors, who can buy art shares, on another.",
+                    "description": "A bridge between digital assets and non-digital art. It contains a pool of world-famous art owners on one side and investors, who can buy art shares, on another.",
                     "value": 10,
                     "children": [
                         {
@@ -7697,7 +7709,7 @@
                 {
                     "name": "Faktor",
                     "img": "",
-                    "description": "A program for issuing \"Venmo requests\" on Solana.",
+                    "description": "A program for issuing 'Venmo requests' on Solana.",
                     "value": 10,
                     "children": [
                         {
@@ -8568,7 +8580,24 @@
                     "img": "",
                     "description": "A simple DCA protocol built on top of Serum and any program that implements the instruction interface from the spl token-lending program.",
                     "value": 10,
-                    "url": ""
+                    "children": [
+                        {
+                            "name": "Links",
+                            "value": 2,
+                            "children": [
+                                {
+                                    "name": "Monaco Github",
+                                    "url": "https://github.com/RohanKapurDEV/monaco",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Devpost Page",
+                                    "url": "https://devpost.com/software/monaco",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "name": "MoneyStream",
@@ -8753,7 +8782,7 @@
                 {
                     "name": "SolanaSail",
                     "img": "",
-                    "description": "SAIL is the first ever community token built on Solana & fully distributed(airdrop). \r\n\r\nSAIL is the utility token, gSAIL the governance token.",
+                    "description": "SAIL is the first ever community token built on Solana & fully distributed(airdrop). SAIL is the utility token, gSAIL the governance token.",
                     "value": 10,
                     "children": [
                         {
@@ -9529,7 +9558,7 @@
                 {
                     "name": "StreamFlow Finance",
                     "img": "",
-                    "description": "Platform for organizations to distribute value in decentralized, permissionless, trust-minimized, efficient, effective and straightforward way.\r\n\r\nMade of composable and mutually compatible tools.",
+                    "description": "Platform for organizations to distribute value in decentralized, permissionless, trust-minimized, efficient, effective and straightforward way. Made of composable and mutually compatible tools.",
                     "value": 10,
                     "children": [
                         {
@@ -10807,7 +10836,7 @@
                 {
                     "name": "Hey Wallet!",
                     "img": "",
-                    "description": "We allow anybody to send & receive SOL directly through twitter. Just tweet \"@hey_wallet send 1 SOL to @theRock\" and boom, it works. On a mission to help Raj Gokal bring 100M ppl into Solana.",
+                    "description": "We allow anybody to send & receive SOL directly through twitter. Just tweet '@hey_wallet send 1 SOL to @theRock' and boom, it works. On a mission to help Raj Gokal bring 100M ppl into Solana.",
                     "value": 10,
                     "children": [
                         {
@@ -10951,7 +10980,7 @@
                 {
                     "name": "HIRO",
                     "img": "",
-                    "description": "The world\u201a\u00c4\u00f4s first fully decentralized fundraising platform, exploring ways to enable on-chain meritocracy.",
+                    "description": "The world's first fully decentralized fundraising platform, exploring ways to enable on-chain meritocracy.",
                     "value": 10,
                     "children": [
                         {
