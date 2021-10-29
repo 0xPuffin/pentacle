@@ -30,6 +30,7 @@ export const Router = () => {
             <Route path="/bad-things-cream" element={<BadThingsCream/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/terms" element={<Terms/>}/>
+            <Route path="/ignition" element={<Ignition/>}/>
             <Route path="/defilearning" element={<DefiLearning/>}/>
         </Routes>
     );

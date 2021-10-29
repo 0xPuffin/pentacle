@@ -12,6 +12,12 @@ export const features = [
         "protocol": "ethereum",
     },
     {
+        "title": "Solana Ignition Hackathon",
+        "link": "/hackathon",
+        "icon": "laptop",
+        "protocol": "solana",
+    },
+    {
         "title": "NFTs",
         "link": "/ethereum-nft",
         "icon": "favorite",
@@ -22,11 +28,5 @@ export const features = [
         "link": "/ethereum-dev",
         "icon": "laptop",
         "protocol": "ethereum",
-    },
-    {
-        "title": "Solana Ignition Hackathon",
-        "link": "/hackathon",
-        "icon": "laptop",
-        "protocol": "solana",
     }
 ]
