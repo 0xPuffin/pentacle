@@ -14,6 +14,7 @@ import {BadThingsCream} from "./pages/bad-things/bad-things-cream";
 import {DefiLearning} from "./pages/defilearning";
 import EthEcosystemLearn from "./pages/eth-ecosystem/eth-ecosystem-learn";
 import EthEcosystemNft from "./pages/eth-ecosystem/eth-ecosystem-nft";
+import {ProjectsPage} from "./pages/ignition/projects.page";
 
 export const Router = () => {
     return (
@@ -30,7 +31,7 @@ export const Router = () => {
             <Route path="/bad-things-cream" element={<BadThingsCream/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/terms" element={<Terms/>}/>
-            <Route path="/ignition" element={<Ignition/>}/>
+            <Route path="/ignition" element={<ProjectsPage/>}/>
             <Route path="/defilearning" element={<DefiLearning/>}/>
         </Routes>
     );

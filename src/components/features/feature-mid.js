@@ -6,7 +6,7 @@ const FeatureMidLayout = () => {
 
     return (<section className="flex flex-wrap">
             {features
-                .map(feature => <Link className={"margin-bottom-1 text-link"} to={feature.link} key={feature.title}>
+                .map(feature => <Link className={"margin-bottom-1"} to={feature.link} key={feature.title}>
                         <article
                             className={"editorial-content box feature dark link secondary box-padding"}>
                             <div className={"flex column align-center align-space-between height-100 boxed"}>

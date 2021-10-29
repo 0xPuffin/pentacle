@@ -13,7 +13,7 @@ export const features = [
     },
     {
         "title": "Solana Ignition Hackathon",
-        "link": "/hackathon",
+        "link": "/ignition",
         "icon": "laptop",
         "protocol": "solana",
     },

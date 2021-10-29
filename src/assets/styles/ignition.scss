@@ -1,0 +1,43 @@
+@import '~@pentacle/pentacleui/assets/styles/pentacle.scss';
+
+// tech debt
+
+//p {
+//  font-size: 0.875rem !important;
+//}
+
+.length-250 {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.padding-right-2 {
+  padding-right: 2rem;
+}
+
+.margin-bottom-2 {
+  margin-bottom: 2rem;
+}
+
+.padding-y-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.flex-mobile {
+  display: flex;
+  row-gap: 0;
+  column-gap: .5rem;
+}
+
+
+.overflow-x-scroll {
+  overflow-x: scroll;
+  -ms-overflow-x: scroll;
+}
+
+main {
+  background-color: _color(transparent)!important;
+}

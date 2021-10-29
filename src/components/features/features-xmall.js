@@ -11,7 +11,7 @@ const FeaturesXsmlLayout = () => {
         <section className="flex flex-wrap">
             {features
                 .map(feature => isExternal(feature.link) ?
-                    <a className={"margin-bottom-1 text-link"} href={feature.link} target={"_blank"} rel="noopener noreferrer"
+                    <a className={"margin-bottom-1"} href={feature.link} target={"_blank"} rel="noopener noreferrer"
                        key={feature.title}>
                         <article className={"editorial-content box feature dark link tertiary box-padding"}>
                             <div className={"flex column align-center align-space-between height-100 boxed"}>
@@ -25,7 +25,7 @@ const FeaturesXsmlLayout = () => {
                         </article>
                     </a>
                     :
-                    <Link className={"margin-bottom-1 text-link"} to={feature.link} key={feature.title}>
+                    <Link className={"margin-bottom-1"} to={feature.link} key={feature.title}>
                         <article className={"editorial-content box feature dark link tertiary box-padding"}>
                             <div className={"flex column align-center align-space-between height-100 boxed"}>
                                 <h3 className={"boxed"}>{feature.title}</h3>

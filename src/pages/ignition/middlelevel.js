@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import Project from "./lowerlevel";
 import ProjectTile from "./project-tile";
 
+
 const Projects = ({projects}) => {
     const [projectDetail, setProjectDetail] = useState(projects.children[0]);
 
