@@ -3,9 +3,6 @@ import Button from './project.button.component'
 import Link from './project.link.component'
 
 const Project = ({projectDetailLower}) => {
-
-    console.log(projectDetailLower)
-
     return (
         <section className={"box feature dark main-content editorial-content box-padding"}>
                 <span>{projectDetailLower.img &&
