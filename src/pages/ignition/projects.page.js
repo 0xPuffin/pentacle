@@ -1,17 +1,19 @@
 import React, {useEffect, useState} from 'react';
 import Layout from "../../components/layouts/layout";
-import { TopLevel } from './toplevel';
+import {TopLevel} from './toplevel';
 import Data from './solIgnition';
-import styles from '../../assets/styles/ignition.scss';
+import Header from "../../components/header";
 
 export const ProjectsPage = () => {
 
     const [projects, setProjects] = useState(Data.children);
 
     return (
-        <Layout className={styles}>
-            <TopLevel projects={projects}/>
-        </Layout>
+        <>
+            <Layout>
+                <TopLevel projects={projects}/>
+            </Layout>
+        </>
     );
 }
 

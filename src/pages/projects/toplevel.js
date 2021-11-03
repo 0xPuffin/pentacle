@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Projects from './middlelevel';
 import {Link} from "react-router-dom";
-import Header from "../../components/header";
 
 export const TopLevel = ({projects}) => {
     const [projectDetail, setProjectDetail] = useState(projects[0]);
@@ -12,7 +11,6 @@ export const TopLevel = ({projects}) => {
 
     return (
         <>
-            <Header/>
             <nav>
                 <article className={"nav-content overflow-scroll"}>
                     {projects.map((project, index) => (

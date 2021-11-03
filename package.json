@@ -14,7 +14,7 @@
     "@testing-library/user-event": "^7.1.2",
     "@types/react-dom": "^17.0.9",
     "babel-loader": "8.1.0",
-    "@pentacle/pentacleui": "^1.0.9",
+    "@pentacle/pentacleui": "^1.0.10",
     "d3": "^6.5.0",
     "d3moji": "^0.1.0",
     "history": "^5.0.0",

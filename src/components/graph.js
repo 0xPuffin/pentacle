@@ -30,9 +30,9 @@ export default function SunburstGraph({type, colorScheme}) {
      */
     const filter = useDebouncedCallback((val) => {
         if (!val) {
-          moduleRef.redefine('data', jsonData);
-          inputRef.current.value = '';
-          return;
+            moduleRef.redefine('data', jsonData);
+            inputRef.current.value = '';
+            return;
         }
         const filteredData = filterData(jsonData, val);
         const onlyFiltered = filteredData.children.filter((c) => c.filtered);
@@ -166,16 +166,19 @@ export default function SunburstGraph({type, colorScheme}) {
                     </div>
                     <div className={"align-center flex justify-end align-items-center"}>
                         <div className={"fieldset inline boxed"}>
-                            <label aria-labelledby={"search"} className={"display-none"} htmlFor={"search"}>Search</label>
-                            <input id="search" type="text" placeholder="Search" ref={inputRef} onChange={(e) => filter(e.target.value)}/>
-                            <input className={"padding-left-0-75"} type="reset" value="Clear" onClick={e =>  filter('')}/>
+                            <label aria-labelledby={"search"} className={"display-none"}
+                                   htmlFor={"search"}>Search</label>
+                            <input id="search" type="text" placeholder="Search" ref={inputRef}
+                                   onChange={(e) => filter(e.target.value)}/>
+                            <input className={"padding-left-0-75"} type="reset" value="Clear"
+                                   onClick={e => filter('')}/>
                         </div>
                     </div>
                 </article>
             </header>
 
             <main>
-                <article ref={filterRef}>
+                <section className={"main-content"} ref={filterRef}>
                     <div className={"flex flex-align-center"}>
                         {categories && categories.map(button)}
                     </div>
@@ -183,11 +186,11 @@ export default function SunburstGraph({type, colorScheme}) {
                             <span
                                 className="material-icons cursor-pointer">{isFitToScreen ? 'zoom_out_map' : 'fit_screen'}</span>
                     </div>
-                </article>
-                <article className={"flex flex-center"}>
-                    {loading && <Spinner/>}
-                </article>
-                <article className={"sunburst margin-top-1 align-center"} ref={diagramRef}/>
+                    <article className={"flex flex-center"}>
+                        {loading && <Spinner/>}
+                    </article>
+                    <article className={"sunburst margin-top-1 align-center"} ref={diagramRef}/>
+                </section>
             </main>
         </>
     );

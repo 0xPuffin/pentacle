@@ -1,5 +1,5 @@
 import React from 'react';
-import './assets/styles/pentacle.scss';
+import './App.scss';
 import {BrowserRouter} from "react-router-dom";
 
 import Footer from "./components/footer";

@@ -10,7 +10,7 @@ export const Main = () => {
     return (
         <div>
             <Header/>
-            <Layout className={"content-page"}>
+            <Layout>
                 <FeatureMainLayout/>
                 <FeaturesMidLayout/>
                 <FeaturesXsmlLayout/>
