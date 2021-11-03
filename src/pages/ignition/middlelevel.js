@@ -12,15 +12,17 @@ const Projects = ({projects}) => {
 
     return (
         <main>
-            <section className={"overflow-x-scroll padding-y-3 main-content"}>
-                <article className={"flex-mobile stretch"}>
-                    {projects.children.map((project, index) => (
-                        <ProjectTile
-                            key={index}
-                            {...project}
-                            onClick={() => setProjectDetail(projects.children[index])}
-                        />
-                    ))}
+            <section className={"main-container"}>
+                <article className={"overflow-x-scroll padding-y-3 main-content"}>
+                    <article className={"flex-mobile stretch"}>
+                        {projects.children.map((project, index) => (
+                            <ProjectTile
+                                key={index}
+                                {...project}
+                                onClick={() => setProjectDetail(projects.children[index])}
+                            />
+                        ))}
+                    </article>
                 </article>
             </section>
             <Project projectDetailLower={projectDetail}/>

@@ -40,17 +40,28 @@
 }
 
 .overflow-x-scroll {
-  overflow-x: scroll;
-  -ms-overflow-x: scroll;
+  overflow-x: auto;
+  -ms-overflow-x: auto;
+  //-ms-overflow-style: none;
 }
 
 main {
   background-color: _color(transparent)!important;
 }
 
+.main-container {
+  margin: 0 auto;
+  max-width: 80rem;
+}
+
 .main-content {
-  margin-left: 3rem;
-  margin-right: 3rem;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  //margin-left: 1.5rem!important;
+  //margin-right: 1.5rem!important;
+  max-width: unset!important;
+  //padding-left: 0 !important;
+  //padding-right: 0 !important;
+}
+
+.header-content, .footer-content, .main-content, .nav-content {
+  box-sizing: border-box;
 }

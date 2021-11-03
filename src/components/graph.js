@@ -178,18 +178,20 @@ export default function SunburstGraph({type, colorScheme}) {
             </header>
 
             <main>
-                <section className={"main-content"} ref={filterRef}>
-                    <div className={"flex flex-align-center"}>
-                        {categories && categories.map(button)}
-                    </div>
-                    <div className={"margin-left-1 fit-to-screen"} onClick={() => setIsFitToScreen(!isFitToScreen)}>
+                <section className={"main-container"}>
+                    <article className={"main-content"} ref={filterRef}>
+                        <div className={"flex flex-align-center"}>
+                            {categories && categories.map(button)}
+                        </div>
+                        <div className={"margin-left-1 fit-to-screen"} onClick={() => setIsFitToScreen(!isFitToScreen)}>
                             <span
                                 className="material-icons cursor-pointer">{isFitToScreen ? 'zoom_out_map' : 'fit_screen'}</span>
-                    </div>
-                    <article className={"flex flex-center"}>
-                        {loading && <Spinner/>}
+                        </div>
+                        <article className={"flex flex-center"}>
+                            {loading && <Spinner/>}
+                        </article>
+                        <article className={"sunburst margin-top-1 align-center"} ref={diagramRef}/>
                     </article>
-                    <article className={"sunburst margin-top-1 align-center"} ref={diagramRef}/>
                 </section>
             </main>
         </>

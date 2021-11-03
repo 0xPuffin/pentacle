@@ -4,8 +4,10 @@ import PropTypes from "prop-types"
 const Layout = ({children}) => {
     return (
         <main>
-            <section className={"main-content"}>
-                {children}
+            <section className={"main-container"}>
+                <article className={"main-content"}>
+                    {children}
+                </article>
             </section>
         </main>
     )

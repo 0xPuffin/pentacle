@@ -3,12 +3,9 @@ import Button from './project.button.component'
 import Link from './project.link.component'
 
 const Project = ({projectDetailLower}) => {
+
     return (
-        <section className={"main-content-container"}>
-        {/*<section className={"box feature dark main-content editorial-content"}>*/}
-            {/*<span>{projectDetailLower.img &&*/}
-            {/*    <img src={projectDetailLower.img} className={"width-1"}/>}{projectDetailLower.img}*/}
-            {/*</span>*/}
+        <section className={"main-container"}>
             <article className={"main-content"}>
                 <h2 className={"boxed"}>{projectDetailLower.name}</h2>
                 <article className={"margin-top-0-5"}>
