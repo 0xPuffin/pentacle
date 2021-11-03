@@ -12,7 +12,7 @@ export const TopLevel = ({projects}) => {
     return (
         <>
             <nav>
-                <article className={"nav-content overflow-scroll"}>
+                <article className={"nav-content overflow-x-scroll"}>
                     {projects.map((project, index) => (
                         <a className={"text-link padding-right-2"} key={index}
                            onClick={() => setProjectDetail(projects[index])}>{project.name}</a>

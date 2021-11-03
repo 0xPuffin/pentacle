@@ -60,3 +60,7 @@ main {
 .header-content, .footer-content, .main-content, .nav-content {
   box-sizing: border-box;
 }
+
+nav {
+  overflow-y: unset!important;
+}
