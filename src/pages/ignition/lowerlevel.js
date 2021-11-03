@@ -7,7 +7,7 @@ const Project = ({projectDetailLower}) => {
     return (
         <section className={"main-container"}>
             <article className={"main-content"}>
-                <h2 className={"boxed"}>{projectDetailLower.name}</h2>
+                <h2>{projectDetailLower.name}</h2>
                 <article className={"margin-top-0-5"}>
                     <ul className={"list-none"}>
                         {projectDetailLower.children[0]?.children[0]?.url && <Link url={projectDetailLower.children[0].children[0].url} title={projectDetailLower.children[0].children[0].name}/>}

@@ -42,7 +42,6 @@
 .overflow-x-scroll {
   overflow-x: auto;
   -ms-overflow-x: auto;
-  //-ms-overflow-style: none;
 }
 
 main {
@@ -55,11 +54,7 @@ main {
 }
 
 .main-content {
-  //margin-left: 1.5rem!important;
-  //margin-right: 1.5rem!important;
   max-width: unset!important;
-  //padding-left: 0 !important;
-  //padding-right: 0 !important;
 }
 
 .header-content, .footer-content, .main-content, .nav-content {
