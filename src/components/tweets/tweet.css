@@ -1,0 +1,43 @@
+/* TWEET IMAGE */
+.tweet-img__image {
+display: none;
+cursor: pointer;
+}
+
+
+/* TWEET */
+
+.tweet {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.twitterUserContainer {
+height: 3rem;
+border-radius: 99999rem;
+margin-right: 1rem;
+}
+
+.tweetDate {
+display: flex;
+flex-direction: row;
+width: 100%;
+align-items: flex-start;
+}
+
+.userNameText {
+font-size: 1rem;
+}
+
+.tweetTextParent {
+text-decoration: none;
+color: white;
+}
+
+.tweetText {
+margin: 0.5rem 0rem 0.75rem 0rem;
+font-size: 1rem;
+line-height: 1.5;
+text-decoration: none;
+}
