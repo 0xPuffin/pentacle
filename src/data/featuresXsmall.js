@@ -7,7 +7,7 @@ export const features = [
     },
     {
         "title": "ethers-rs",
-        "text": "Ethereum and Celo wallet utilities in Rust",
+        "text": "Ethereum and Celo wallet utilities in Rust by gakonst",
         "link": "https://github.com/gakonst/ethers-rs",
         "icon": "launch"
     },
