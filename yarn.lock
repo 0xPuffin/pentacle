@@ -2207,10 +2207,10 @@
     d3-dsv "^2.0.0"
     d3-require "^1.2.4"
 
-"@pentacle/pentacleui@^1.0.10":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@pentacle/pentacleui/-/pentacleui-1.0.10.tgz#a929bc2242f198150a0b870a314a97a9def7f8a8"
-  integrity sha512-UD1SVMnY4pzPkZbg6GZ6fl9Vho87tkzvgOqnahsbFXWM9wx6FThxn3KD3JMUkU3tIkKWA1x2T1l1ALslvD4ZIQ==
+"@pentacle/pentacleui@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@pentacle/pentacleui/-/pentacleui-1.0.11.tgz#e5378908c145960c7b85116b20f8371b837cc6e1"
+  integrity sha512-kld55uDyWPhR3Syu1d4K8midSqwz1bHvPt0DILMBMTU86ePMfJY6NDuADqkjdz0EpYHEHKMrZn1/J92IOPpnzw==
   dependencies:
     "@babel/runtime" "^7.8.3"
     "@testing-library/jest-dom" "^4.2.4"
