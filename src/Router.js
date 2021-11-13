@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 
 import {About} from "./pages/about";
 import {Terms} from "./pages/terms";
@@ -10,11 +10,11 @@ import EthEcosystemRetail from "./pages/eth-ecosystem/eth-ecosystem-retail";
 import SolEcosystem from "./pages/sol-ecosystem/sol-ecosystem";
 import SolHackathon from "./pages/sol-ecosystem/sol-hackathon"
 import {BadThingsPoly} from "./pages/bad-things/bad-things-poly";
-import {BadThingsCream} from "./pages/bad-things/bad-things-cream";
 import {DefiLearning} from "./pages/defilearning";
 import EthEcosystemLearn from "./pages/eth-ecosystem/eth-ecosystem-learn";
 import EthEcosystemNft from "./pages/eth-ecosystem/eth-ecosystem-nft";
 import {ProjectsPage} from "./pages/ignition/projects.page";
+import {TweetPage} from "./pages/tweet/tweet.page";
 
 export const Router = () => {
     return (
@@ -28,11 +28,11 @@ export const Router = () => {
             <Route path="/ethereum-nft" element={<EthEcosystemNft/>}/>
             <Route path="/hackathon" element={<SolHackathon/>}/>
             <Route path="/bad-things" element={<BadThingsPoly/>}/>
-            <Route path="/bad-things-cream" element={<BadThingsCream/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/terms" element={<Terms/>}/>
             <Route path="/ignition" element={<ProjectsPage/>}/>
             <Route path="/defilearning" element={<DefiLearning/>}/>
+            <Route path="/tweet" element={<TweetPage/>}/>
         </Routes>
     );
 }
