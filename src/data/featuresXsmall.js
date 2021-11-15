@@ -13,7 +13,7 @@ export const features = [
     },
     {
         "title": "ETH Denver 2022",
-        "text": "Hackathon appliations open soon",
+        "text": "Hackathon applications open soon",
         "link": "https://www.ethdenver.com/",
         "icon": "launch"
     },
