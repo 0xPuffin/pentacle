@@ -2,9 +2,10 @@
 node_modules
 .pytest_cache/
 .DS_Store
-!/yarn-error.log
-!/coverage/
+yarn-error.log
+coverage/
 coverage/
 coverage/*
 config.js
 .env
+config.js
