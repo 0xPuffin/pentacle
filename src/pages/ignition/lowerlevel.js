@@ -1,6 +1,5 @@
 import React from "react";
-import Button from './project.button.component'
-import Link from './project.link.component'
+import Link from '../../components/project/project.link.component'
 
 const Project = ({projectDetailLower}) => {
 
