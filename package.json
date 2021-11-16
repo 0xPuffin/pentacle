@@ -3,7 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "homepage": ".",
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "node ./server/bin/www",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "download-images:eth": "node ./bin/fetch-images.js public/ethEcosystem.json ./src/assets/images/eth",
+    "download-images:sol": "node ./bin/fetch-images.js public/solEcosystem.json ./src/assets/images/sol",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
   "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.13",
+    "pg": "^8.5.1",
     "@observablehq/runtime": "^4.8.2",
     "@storybook/components": "^6.3.8",
     "@storybook/core-events": "^6.3.0",
@@ -32,16 +50,7 @@
     "webpack": "4.44.2",
     "yarn": "^1.22.11"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "download-images:eth": "node ./bin/fetch-images.js public/ethEcosystem.json ./src/assets/images/eth",
-    "download-images:sol": "node ./bin/fetch-images.js public/solEcosystem.json ./src/assets/images/sol",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
-  },
+  "proxy": "http://localhost:3001",
   "browserslist": {
     "production": [
       ">0.2%",

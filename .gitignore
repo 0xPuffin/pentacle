@@ -6,4 +6,5 @@ node_modules
 !/coverage/
 coverage/
 coverage/*
+config.js
 .env
