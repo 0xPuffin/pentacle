@@ -6,11 +6,12 @@ import Link from '../../components/project/project.link.component'
 const Project = ({projectDetailLower}) => {
     const [usdValue, setUsdValue] = useState();
 
-
     const fetchPrice = async () => {
         const apiCall = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${projectDetailLower.name}&vs_currencies=usd`)
         const data = await apiCall.json()
-        var namedObject = await data[`${projectDetailLower.name}`];
+        const lowerCaseName = projectDetailLower.name.toLowerCase()
+        console.log(lowerCaseName)
+        var namedObject = await data[lowerCaseName];
         console.log(namedObject);
         setUsdValue(namedObject)
     }
@@ -23,7 +24,7 @@ const Project = ({projectDetailLower}) => {
         <section className={"main-container"}>
             <article className={"main-content"}>
                 <h2>{projectDetailLower.name}</h2>
-                {usdValue && <h2>{usdValue.usd}</h2>}
+                {usdValue && <h2>${usdValue.usd}</h2>}
                 <article className={"margin-top-0-5"}>
                     <ul className={"list-none"}>
                         {projectDetailLower.children[0]?.children[0]?.url && <Link url={projectDetailLower.children[0].children[0].url} title={projectDetailLower.children[0].children[0].name}/>}

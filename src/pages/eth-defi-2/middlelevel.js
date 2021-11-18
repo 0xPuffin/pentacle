@@ -4,7 +4,7 @@ import ProjectTile from "./project-tile";
 
 
 const Projects = ({projects}) => {
-    const [projectDetail, setProjectDetail] = useState(projects.children[0]);
+    const [projectDetail, setProjectDetail] = useState(projects.children[1]);
 
     useEffect(() => {
         setProjectDetail(projects.children[0]);
