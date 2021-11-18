@@ -17,13 +17,13 @@ const Project = ({projectDetailLower}) => {
 
     useEffect(() => {
         fetchPrice()
-    }, 5000)
+    }, 1000)
 
     return (
         <section className={"main-container"}>
             <article className={"main-content"}>
                 <h2>{projectDetailLower.name}</h2>
-                <h2>{usdValue.usd}</h2>
+                {usdValue && <h2>{usdValue.usd}</h2>}
                 <article className={"margin-top-0-5"}>
                     <ul className={"list-none"}>
                         {projectDetailLower.children[0]?.children[0]?.url && <Link url={projectDetailLower.children[0].children[0].url} title={projectDetailLower.children[0].children[0].name}/>}
