@@ -4,11 +4,31 @@ import ProjectTile from "./project-tile";
 
 
 const Projects = ({projects}) => {
-    const [projectDetail, setProjectDetail] = useState(projects.children[1]);
+    const [projectDetail, setProjectDetail] = useState(projects.children[0]);
+    const [projectName, setProjectName] = useState();
+    const [usdValue, setUsdValue] = useState();
 
     useEffect(() => {
         setProjectDetail(projects.children[0]);
+        fetchPrice(projects.children[0].name)
     }, [projects]);
+
+
+    const fetchPrice = async () => {
+        const apiCall = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${projectDetail.name}&vs_currencies=usd`)
+        const data = await apiCall.json()
+        const lowerCaseName = projectDetail.name.toLowerCase()
+        var namedObject = await data[lowerCaseName];
+        console.log(namedObject)
+        setUsdValue(namedObject)
+    }
+
+    function changeLowerLevelData(props) {
+        setProjectDetail(props)
+        setProjectName(projectDetail.name)
+        fetchPrice(projectName)
+        console.log(usdValue)
+    }
 
     return (
         <main>
@@ -19,13 +39,13 @@ const Projects = ({projects}) => {
                             <ProjectTile
                                 key={index}
                                 {...project}
-                                onClick={() => setProjectDetail(projects.children[index])}
+                                onClick={() => changeLowerLevelData(projects.children[index])}
                             />
                         ))}
                     </article>
                 </article>
             </section>
-            <Project projectDetailLower={projectDetail}/>
+            <Project projectDetailLower={projectDetail} usdValue={usdValue}/>
         </main>
     );
 };
