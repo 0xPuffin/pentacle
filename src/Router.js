@@ -16,6 +16,7 @@ import EthEcosystemNft from "./pages/eth-ecosystem/eth-ecosystem-nft";
 import {ProjectsPage} from "./pages/ignition/projects.page";
 import {EthDefi2} from "./pages/eth-defi-2/projects.page";
 import {TweetPage} from "./pages/tweet/tweet.page";
+import {EthDefiProtocolPage} from "./pages/eth-defi-protocol/EthDefiProtocolPage";
 
 export const Router = () => {
     return (
@@ -35,6 +36,7 @@ export const Router = () => {
             <Route path="/ethdefi2" element={<EthDefi2/>}/>
             <Route path="/defilearning" element={<DefiLearning/>}/>
             <Route path="/tweet" element={<TweetPage/>}/>
+            <Route path="/eth-defi-protocol" element={<EthDefiProtocolPage/>}/>
         </Routes>
     );
 }

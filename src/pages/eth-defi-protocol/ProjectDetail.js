@@ -1,7 +1,7 @@
 import React from "react";
 import Link from '../../components/project/project.link.component'
 
-const Project = ({projectDetailLower}) => {
+const ProjectDetail = ({projectDetailLower}) => {
 
     return (
         <section className={"main-container"}>
@@ -30,4 +30,4 @@ const Project = ({projectDetailLower}) => {
     );
 };
 
-export default Project;
+export default ProjectDetail;

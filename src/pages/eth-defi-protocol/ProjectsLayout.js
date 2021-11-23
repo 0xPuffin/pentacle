@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
-import Projects from './middlelevel';
-import {Link} from "react-router-dom";
+import Projects from './Projects';
 import Header from "../../components/header";
 
-export const TopLevel = ({projects}) => {
+
+export const ProjectsLayout = ({projects}) => {
     const [projectDetail, setProjectDetail] = useState(projects[0]);
 
     useEffect(() => {

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
-import Project from "./lowerlevel";
-import ProjectTile from "./project-tile";
+import Project from "./ProjectDetail";
+import ProjectTile from "./ProjectSummary";
 
 
 const Projects = ({projects}) => {

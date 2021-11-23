@@ -1,8 +1,27 @@
 # Pentacle
 
-See more notes in the wiki 
+## run
 
-## quick setup
+in one terminal
+
+`$ yarn start`
+
+in another terminal 
+
+`$ yarn server`
+
+view front-end in browser
+
+http://localhost:3000
+
+
+view back-end calls
+
+http://localhost:3001/projects
+
+
+
+## setup
 
 ```
 $ git checkout development
@@ -11,7 +30,6 @@ $ git pull --rebase
 
 $ yarn install
 
-$ yarn start
 ```
 
 ## when things go wrong
