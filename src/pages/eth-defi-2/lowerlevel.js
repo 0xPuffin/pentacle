@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import Link from '../../components/project/project.link.component'
+import Link from '../../components/project-elements/project.link.component'
 
 
 

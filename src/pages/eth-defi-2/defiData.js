@@ -1048,7 +1048,7 @@ module.exports = {
           {
             "name": "Indexed finance",
             "img": "https://assets.coingecko.com/coins/images/13546/thumb/indexed-light.74bb5471.png?1609712728",
-            "description": "Indexed Finance is a project focused on the development of passive portfolio management strategies for the Ethereum network. Indexed Finance is managed by the holders of its governance token NDX, which is used to vote on proposals for protocol updates and high level index management such as the definition of market sectors and the creation of new management strategies.",
+            "description": "Indexed Finance is a project-elements focused on the development of passive portfolio management strategies for the Ethereum network. Indexed Finance is managed by the holders of its governance token NDX, which is used to vote on proposals for protocol updates and high level index management such as the definition of market sectors and the creation of new management strategies.",
             "value": 10,
             "children": [
               {
@@ -2239,7 +2239,7 @@ module.exports = {
           {
             "name": "Sushi",
             "img": "https://assets.coingecko.com/coins/images/12271/thumb/512x512_Logo_no_chop.png?1606986688",
-            "description": "Sushiswap is a decentralized exchange protocol. While originally launching as a Uniswap fork, the project's community has since developed a wide range of features that make use of decentralized liquidity pools. The Kasi suite of the protocol allows people to lend and borrow tokens as well as to trade with leverage in a decentralized way, for example. The protocols native token, SUSHI, can be staked in order to claim a part of the protocol's fees.",
+            "description": "Sushiswap is a decentralized exchange protocol. While originally launching as a Uniswap fork, the project-elements's community has since developed a wide range of features that make use of decentralized liquidity pools. The Kasi suite of the protocol allows people to lend and borrow tokens as well as to trade with leverage in a decentralized way, for example. The protocols native token, SUSHI, can be staked in order to claim a part of the protocol's fees.",
             "value": 10,
             "children": [
               {
@@ -2635,7 +2635,7 @@ module.exports = {
           {
             "name": "Etherscan",
             "img": "",
-            "description": "Etherscan is the leading BlockChain Explorer, Search, API and Analytics Platform for Ethereum, a decentralized smart contracts platform. Built and launched in 2015 it is one of the earliest and longest running independent project built around Ethereum and its community with the mission of providing equitable access to blockchain data.",
+            "description": "Etherscan is the leading BlockChain Explorer, Search, API and Analytics Platform for Ethereum, a decentralized smart contracts platform. Built and launched in 2015 it is one of the earliest and longest running independent project-elements built around Ethereum and its community with the mission of providing equitable access to blockchain data.",
             "value": 10,
             "url": "https://etherscan.io/"
           },
@@ -2761,4 +2761,3 @@ module.exports = {
       }
     ]
   }
-  

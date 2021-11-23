@@ -102,7 +102,7 @@ module.exports = {
               {
                   "name": "Bancambios DeFi",
                   "img": "",
-                  "description": "First Anti-Plastic DeFi project in the World.",
+                  "description": "First Anti-Plastic DeFi project-elements in the World.",
                   "value": 10,
                   "children": [
                       {
@@ -3161,7 +3161,7 @@ module.exports = {
               {
                   "name": "Mango Heroes",
                   "img": "",
-                  "description": "Imagine a trading metaverse where traders are distinguished through NFTs based on a popular Solana network? This project aims to integrate Mango Hero NFTs in the Mango Markets to create a community.",
+                  "description": "Imagine a trading metaverse where traders are distinguished through NFTs based on a popular Solana network? This project-elements aims to integrate Mango Hero NFTs in the Mango Markets to create a community.",
                   "value": 10,
                   "children": [
                       {
@@ -4124,7 +4124,7 @@ module.exports = {
               {
                   "name": "Chubby Chicks Art Club",
                   "img": "",
-                  "description": "ChubbyChicks (aka baby chickens). A community-led digital art and collectables project enabling holders to 'change their mood' by changing their Avatar. Chubby Chicks are cutest NFT that ever hatched",
+                  "description": "ChubbyChicks (aka baby chickens). A community-led digital art and collectables project-elements enabling holders to 'change their mood' by changing their Avatar. Chubby Chicks are cutest NFT that ever hatched",
                   "value": 10,
                   "children": [
                       {
@@ -4198,7 +4198,7 @@ module.exports = {
               {
                   "name": "This World of Mine",
                   "img": "",
-                  "description": "Four players fight hordes of enemies while trying to collect as much gold (fungible token) as they can. The characters are unique NFTs via Stardust. This is a tech demo and not the full project.",
+                  "description": "Four players fight hordes of enemies while trying to collect as much gold (fungible token) as they can. The characters are unique NFTs via Stardust. This is a tech demo and not the full project-elements.",
                   "value": 10,
                   "children": [
                       {
@@ -5287,7 +5287,7 @@ module.exports = {
               {
                   "name": "Portals",
                   "img": "",
-                  "description": "Animal Crossing meets Roblox - bringing our metaverse project to Solana. Explore, build, chat, hangout, import NFTs - right in your browser. Create your own space in the connected virtual city.",
+                  "description": "Animal Crossing meets Roblox - bringing our metaverse project-elements to Solana. Explore, build, chat, hangout, import NFTs - right in your browser. Create your own space in the connected virtual city.",
                   "value": 10,
                   "children": [
                       {
@@ -6451,7 +6451,7 @@ module.exports = {
                 {
                     "name": "Rushdown Revolt",
                     "img": "",
-                    "description": "Our Solana Ignition project is the first collaboration of its kind between multiple established universes: Degen Ape Academy, CryptoKickers and Rushdown Revolt. Each is integrated as a piece of meaningful and expressive in-game equipment.",
+                    "description": "Our Solana Ignition project-elements is the first collaboration of its kind between multiple established universes: Degen Ape Academy, CryptoKickers and Rushdown Revolt. Each is integrated as a piece of meaningful and expressive in-game equipment.",
                     "value": 10,
                     "children": [
                         {
@@ -7898,7 +7898,7 @@ module.exports = {
               {
                   "name": "mango-v3-service",
                   "img": "",
-                  "description": "Bring your existing trading tools adapted for centralized exchanges to trade on Mango Markets version 3 by using the REST API and sample clients provided by this project!",
+                  "description": "Bring your existing trading tools adapted for centralized exchanges to trade on Mango Markets version 3 by using the REST API and sample clients provided by this project-elements!",
                   "value": 10,
                   "children": [
                       {
@@ -8138,7 +8138,7 @@ module.exports = {
               {
                   "name": "PerforMint",
                   "img": "",
-                  "description": "NFT is changing the whole art business. So what if an art performer can always get the necessary funds for his project while investors get a proportional yield from the revenues?",
+                  "description": "NFT is changing the whole art business. So what if an art performer can always get the necessary funds for his project-elements while investors get a proportional yield from the revenues?",
                   "value": 10,
                   "children": [
                       {
@@ -9835,7 +9835,7 @@ module.exports = {
               {
                   "name": "Owner Comp",
                   "img": "",
-                  "description": "Pay project contributors with token option grants. (Incentive Token Options).",
+                  "description": "Pay project-elements contributors with token option grants. (Incentive Token Options).",
                   "value": 10,
                   "children": [
                       {
@@ -10529,7 +10529,7 @@ module.exports = {
               {
                   "name": "Solana Stake Reward Tracker",
                   "img": "",
-                  "description": "The project will allow a user to access their earned income for staking rewards for a given address. Results can be download to a CSV file and given to a CPA for tax purposes.",
+                  "description": "The project-elements will allow a user to access their earned income for staking rewards for a given address. Results can be download to a CSV file and given to a CPA for tax purposes.",
                   "value": 10,
                   "children": [
                       {
@@ -10553,7 +10553,7 @@ module.exports = {
               {
                   "name": "SolanaFloor",
                   "img": "",
-                  "description": "Solana NFT data analysis platform with on-chain information about token distribution, price development and NFT data. This project provides valuable information for NFT holders and those interested.",
+                  "description": "Solana NFT data analysis platform with on-chain information about token distribution, price development and NFT data. This project-elements provides valuable information for NFT holders and those interested.",
                   "value": 10,
                   "children": [
                       {

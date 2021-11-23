@@ -1,5 +1,5 @@
 import React from "react";
-import Link from '../../components/project/project.link.component'
+import Link from '../project-elements/project.link.component'
 
 const ProjectDetail = ({projectDetailLower}) => {
 

@@ -8,7 +8,7 @@ const Button = (props: any) => {
 
     return(
         <div>
-            { props && <button className={"project-button flex-center"} onClick={handleClick}><img src={props.icon}></img><span>{props.title}</span></button> }
+            { props && <button className={"project-elements-button flex-center"} onClick={handleClick}><img src={props.icon}></img><span>{props.title}</span></button> }
         </div>
     )
 };

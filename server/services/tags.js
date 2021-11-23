@@ -26,19 +26,19 @@ function validateCreate(tag) {
         messages.push('No object is provided');
     }
 
-    // if (!project.quote) {
+    // if (!project-elements.quote) {
     //     messages.push('Quote is empty');
     // }
     //
-    // if (!project.author) {
+    // if (!project-elements.author) {
     //     messages.push('Author is empty');
     // }
     //
-    // if (project.quote && quote.quote.length > 255) {
+    // if (project-elements.quote && quote.quote.length > 255) {
     //     messages.push('Quote cannot be longer than 255 characters');
     // }
     //
-    // if (project.author && quote.author.length > 255) {
+    // if (project-elements.author && quote.author.length > 255) {
     //     messages.push('Author name cannot be longer than 255 characters');
     // }
 
