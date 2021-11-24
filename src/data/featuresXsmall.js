@@ -8,7 +8,7 @@ export const features = [
     {
         "title": "How to Survive (and Thrive) in Crypto",
         "text": "An essential guide for getting involved in cryptocurrency",
-        "link": "https://blog.mycrypto.com/how-to-survive-thrive-in-crypto/?utm_medium=social&utm_source=twitter&utm_campaign=blog",
+        "link": "https://blog.mycrypto.com/how-to-survive-thrive-in-crypto",
         "icon": "launch"
     },
     {
