@@ -1,10 +1,10 @@
 import React from "react"
 
-const ProjectSummary = (props) => {
+const ProjectSummary = ({name, description, onClick})  => {
     return (
-        <article className="project-tile box link secondary dark">
-            <h3>{props.name}</h3>
-            <p className={"length-250"}>{props.description}</p>
+        <article className="project-tile box link secondary dark" onClick={(onClick)}>
+            <h3>{name}</h3>
+            <p className={"length-250"}>{description}</p>
         </article>
     )
 }
