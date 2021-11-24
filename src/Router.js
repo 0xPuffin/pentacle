@@ -17,6 +17,7 @@ import {ProjectsPage} from "./pages/ignition/projects.page";
 import {EthDefi2} from "./pages/eth-defi-2/projects.page";
 import {TweetPage} from "./pages/tweet/tweet.page";
 import {EthDefiProtocolPage} from "./pages/eth-defi-protocol/EthDefiProtocolPage";
+import {YearnLinksPage} from "./pages/yearn-links/YearnLinksPage";
 
 export const Router = () => {
     return (
@@ -37,6 +38,7 @@ export const Router = () => {
             <Route path="/defilearning" element={<DefiLearning/>}/>
             <Route path="/tweet" element={<TweetPage/>}/>
             <Route path="/eth-defi-protocol" element={<EthDefiProtocolPage/>}/>
+            <Route path="/yearn" element={<YearnLinksPage/>}/>
         </Routes>
     );
 }
