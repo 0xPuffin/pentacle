@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import Header from "../../components/header";
 import ProjectDetail from "./ProjectDetail";
 
 
@@ -12,7 +11,6 @@ export const ProjectsLayout = ({projects}) => {
 
     return (
         <>
-            <Header/>
             <nav>
                 <article className={"nav-content overflow-x-scroll"}>
                     {projects.map((project, index) => (

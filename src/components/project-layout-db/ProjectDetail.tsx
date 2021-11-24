@@ -25,8 +25,9 @@ const ProjectDetail = ({name, website_url, webapp_url, description, twitter_url,
 
     return (
         <section className={"box feature dark link"}>
+            hello
             <article className={"main-content editorial-content box-padding"}>
-                <h2>{token_image_url && <img src={token_image_url} className={"width-1"}/>} {name}</h2>
+                <h2>{token_image_url && <img alt={name} src={token_image_url} className={"width-1"}/>} {name}</h2>
                 <article className={"flex"}>
                     <div className={"editorial-content"}>
                         <ul className={"list-none"}>
@@ -43,7 +44,7 @@ const ProjectDetail = ({name, website_url, webapp_url, description, twitter_url,
                     {medium_url && <Button url={medium_url} title="medium" icon={twitterblue}/>}
                     {contract_url && <Button url={contract_url} title="contract" icon={twitterblue}/>}
                     {coingecko_url && <Button url={coingecko_url} title="coingecko" icon={twitterblue}/>}
-                    {whitepaper_url && <Button url={whitepaper_url} title="Wwhitepaper" icon={twitterblue}/>}
+                    {whitepaper_url && <Button url={whitepaper_url} title="whitepaper" icon={twitterblue}/>}
                     {github_url && <Button url={github_url} title="github" icon={twitterblue}/>}
                     {docs_url && <Button url={docs_url} title="docs" icon={twitterblue}/>}
                 </article>
