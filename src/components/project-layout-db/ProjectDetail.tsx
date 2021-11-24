@@ -1,9 +1,7 @@
 import React from "react";
-import Button from './project.button.component'
-import Link from './project.link.component'
-import twitterwhite from '../../images/twitter-logo-white.svg'
-import twitterblue from '../../images/twitter-logo-blue.svg'
-
+import Button from "../project-elements/project.button.component";
+import Link from "../project-elements/project.link.component";
+import twitterblue from '../../images/twitter-logo-blue.svg';
 
 type Props = {
     name: string;
@@ -11,6 +9,7 @@ type Props = {
     webapp_url: string;
     discord_url: string;
     twitter_url: string;
+    twitterblue: string;
     telegram_url: string;
     medium_url: string;
     contract_url: string;
@@ -22,7 +21,8 @@ type Props = {
     token_image_url: string;
 }
 
-const Project = ({name, website_url, webapp_url, description, twitter_url, discord_url, telegram_url, medium_url, contract_url, coingecko_url, whitepaper_url, github_url, docs_url, token_image_url}: Props) => {
+const ProjectDetail = ({name, website_url, webapp_url, description, twitter_url, discord_url, telegram_url, medium_url, contract_url, coingecko_url, whitepaper_url, github_url, docs_url, token_image_url}: Props) => {
+
     return (
         <section className={"box feature dark link"}>
             <article className={"main-content editorial-content box-padding"}>
@@ -56,4 +56,4 @@ const Project = ({name, website_url, webapp_url, description, twitter_url, disco
     );
 };
 
-export default Project;
+export default ProjectDetail;

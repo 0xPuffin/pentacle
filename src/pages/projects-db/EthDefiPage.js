@@ -1,10 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import Layout from "../../components/layouts/layout";
-import Projects from "./projects.component";
 import {TagsNav} from "../../components/tags/tags-nav";
-import Search from "./project.search.component";
+import {ProjectsLayout} from "../../components/project-layout-db/ProjectsLayout";
 
-export const ProjectsPage = () => {
+export const EthDefiPage = () => {
 
     const [loading, setLoading] = useState(true);
     const [projects, setProjects] = useState([]);
@@ -18,7 +17,7 @@ export const ProjectsPage = () => {
         try {
             const response = await fetch("/projects")
             const res = await response.json()
-            // console.log(res)
+            console.log(res)
             setLoading(false)
             setProjects(res.data)
             setSearchResults(res.data)
@@ -60,7 +59,7 @@ export const ProjectsPage = () => {
             <TagsNav/>
             <main>
                 <section className={"main-content flex space-between padding-top-3"}>
-                    <h1>projects</h1>
+                    <h1>Projects</h1>
                     {/*<Search onChange={handleChange} onClick={handleClear}/>*/}
                     <article className={"fieldset inline boxed align-right"}>
                         <label aria-labelledby={"search"} className={"display-none"}
@@ -70,7 +69,7 @@ export const ProjectsPage = () => {
                         <input className={"padding-left-0-75"} type="reset" value="Clear" onClick={handleClear}/>
                     </article>
                 </section>
-                <Projects projects={searchResults}/>
+                <ProjectsLayout projects={searchResults}/>
             </main>
         </Layout>
     );

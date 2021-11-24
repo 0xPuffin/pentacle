@@ -5,7 +5,7 @@ const config = require('../../config');
 async function getMultiple(page = 1) {
     const offset = helper.getOffset(page, config.listPerPage);
     const rows = await db.query(
-        'SELECT * FROM project-elements OFFSET $1 LIMIT $2',
+        'SELECT * FROM project OFFSET $1 LIMIT $2',
         [offset, config.listPerPage]
     );
     const data = helper.emptyOrRows(rows);
@@ -26,19 +26,19 @@ function validateCreate(project) {
         messages.push('No object is provided');
     }
 
-    // if (!project-elements.quote) {
+    // if (!project.quote) {
     //     messages.push('Quote is empty');
     // }
     //
-    // if (!project-elements.author) {
+    // if (!project.author) {
     //     messages.push('Author is empty');
     // }
     //
-    // if (project-elements.quote && quote.quote.length > 255) {
+    // if (project.quote && quote.quote.length > 255) {
     //     messages.push('Quote cannot be longer than 255 characters');
     // }
     //
-    // if (project-elements.author && quote.author.length > 255) {
+    // if (project.author && quote.author.length > 255) {
     //     messages.push('Author name cannot be longer than 255 characters');
     // }
 
@@ -54,10 +54,10 @@ async function create(project){
     validateCreate(project);
 
     const result = await db.query(
-        'INSERT INTO project-elements(name) VALUES (bob) RETURNING *',
+        'INSERT INTO project(name) VALUES (bob) RETURNING *',
         [project.name]
     );
-    let message = 'Error in creating project-elements';
+    let message = 'Error in creating project';
 
     if (result.length) {
         message = 'Project created successfully';

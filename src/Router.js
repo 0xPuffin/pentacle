@@ -14,10 +14,10 @@ import {DefiLearning} from "./pages/defilearning";
 import EthEcosystemLearn from "./pages/eth-ecosystem/eth-ecosystem-learn";
 import EthEcosystemNft from "./pages/eth-ecosystem/eth-ecosystem-nft";
 import {ProjectsPage} from "./pages/ignition/projects.page";
-import {EthDefi2} from "./pages/eth-defi-2/projects.page";
 import {TweetPage} from "./pages/tweet/tweet.page";
 import {EthDefiProtocolPage} from "./pages/eth-defi-protocol/EthDefiProtocolPage";
 import {YearnLinksPage} from "./pages/yearn-links/YearnLinksPage";
+import {EthDefiPage} from "./pages/projects-db/EthDefiPage";
 
 export const Router = () => {
     return (
@@ -34,10 +34,10 @@ export const Router = () => {
             <Route path="/about" element={<About/>}/>
             <Route path="/terms" element={<Terms/>}/>
             <Route path="/ignition" element={<ProjectsPage/>}/>
-            <Route path="/ethdefi2" element={<EthDefi2/>}/>
             <Route path="/defilearning" element={<DefiLearning/>}/>
             <Route path="/tweet" element={<TweetPage/>}/>
-            <Route path="/eth-defi-protocol" element={<EthDefiProtocolPage/>}/>
+            <Route path="/eth-defi-protocols" element={<EthDefiProtocolPage/>}/>
+            <Route path="/eth-defi" element={<EthDefiPage/>}/>
             <Route path="/yearn" element={<YearnLinksPage/>}/>
         </Routes>
     );

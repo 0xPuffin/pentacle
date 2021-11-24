@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Header from "../../components/header";
-import Projects from "../project-layout-db/Projects";
+import ProjectDetail from "./ProjectDetail";
 
 
 export const ProjectsLayout = ({projects}) => {
@@ -21,7 +21,7 @@ export const ProjectsLayout = ({projects}) => {
                     ))}
                 </article>
             </nav>
-            <Projects projects={projectDetail}/>
+            <ProjectDetail projects={projectDetail}/>
         </>
     );
 }
