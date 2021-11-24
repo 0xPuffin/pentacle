@@ -18,16 +18,16 @@ export const features = [
     "text": "How to trade spot, what is leverage, what's an AMM, and more",
   },
   {
-    "title": "Learn to DeFi",
-    "buttonText": "Guide to Sushi",
-    "link": "https://nemissa.substack.com/p/the-beginners-guide-to-sushi",
-    "text": "Guide to using Sushi's decentralised DeFi platform by ネミッサ",
-  },
-  {
     "title": "Manage your DeFi",
     "buttonText": "Zapper.fi",
     "link": "https://zapper.fi/",
     "text": "Track your portfolio, swap, stake, farm yield, magically zap LPs",
+  },
+  {
+    "title": "Unmask Crypto",
+    "buttonText": "The real face of crypto",
+    "link": "https://unmaskcrypto.com/",
+    "text": "Nice frog frens tell you the truth about buying and trading cryptocurrencies on the blockchain",
   }
 ]
 
