@@ -24,9 +24,8 @@ type Props = {
 const ProjectDetail = ({name, website_url, webapp_url, description, twitter_url, discord_url, telegram_url, medium_url, contract_url, coingecko_url, whitepaper_url, github_url, docs_url, token_image_url}: Props) => {
 
     return (
-        <section className={"box feature dark link"}>
-            hello
-            <article className={"main-content editorial-content box-padding"}>
+        <section className={"main-container"}>
+            <article className={"main-content"}>
                 <h2>{token_image_url && <img alt={name} src={token_image_url} className={"width-1"}/>} {name}</h2>
                 <article className={"flex"}>
                     <div className={"editorial-content"}>
@@ -37,7 +36,7 @@ const ProjectDetail = ({name, website_url, webapp_url, description, twitter_url,
                     </div>
                     <div></div>
                 </article>
-                <article className={"flex margin-top-2"}>
+                <article className={"margin-top-0-5"}>
                     {twitter_url && <Button url={twitter_url} title="twitter" icon={twitterblue}/>}
                     {discord_url && <Button url={discord_url} title="discord" icon={twitterblue}/>}
                     {telegram_url && <Button url={telegram_url} title="telegram" icon={twitterblue}/>}
@@ -48,8 +47,8 @@ const ProjectDetail = ({name, website_url, webapp_url, description, twitter_url,
                     {github_url && <Button url={github_url} title="github" icon={twitterblue}/>}
                     {docs_url && <Button url={docs_url} title="docs" icon={twitterblue}/>}
                 </article>
-                <article className={"flex margin-top-2"}>
-                    <div><p>{description}</p></div>
+                <article className={"flex"}>
+                    <div className={"margin-top-2 margin-bottom-2"}><p>{description}</p></div>
                     <div></div>
                 </article>
             </article>
