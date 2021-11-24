@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import ProjectDetail from "./ProjectDetail";
-
+import ProjectSummary from "./ProjectSummary";
 
 export const ProjectsLayout = ({projects}) => {
     const [projectDetail, setProjectDetail] = useState(projects[0]);
@@ -11,15 +11,18 @@ export const ProjectsLayout = ({projects}) => {
 
     return (
         <>
-            <nav>
-                <article className={"nav-content overflow-x-scroll"}>
+            <section className={"overflow-scroll padding-y-2 main-content "}>
+                <article className={"flex stretch"}>
                     {projects.map((project, index) => (
-                        <a className={"text-link padding-right-2"} key={index}
-                           onClick={() => setProjectDetail(projects[index])}>{project.name}</a>
+                        <ProjectSummary
+                            key={index}
+                            {...project}
+                            onClick={() => setProjectDetail(projects[index])}
+                        />
                     ))}
                 </article>
-            </nav>
-            <ProjectDetail projects={projectDetail}/>
+            </section>
+            <ProjectDetail {...projectDetail}/>
         </>
     );
 }
