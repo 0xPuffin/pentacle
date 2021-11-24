@@ -24,8 +24,8 @@ export const features = [
     "text": "Track your portfolio, swap, stake, farm yield, magically zap LPs",
   },
   {
-    "title": "Unmask Crypto",
-    "buttonText": "The real face of crypto",
+    "title": "The real face of crypto",
+    "buttonText": "Unmask Crypto",
     "link": "https://unmaskcrypto.com/",
     "text": "Nice frog frens tell you the truth about buying and trading cryptocurrencies on the blockchain",
   }
