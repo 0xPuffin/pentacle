@@ -2,25 +2,10 @@ const db = require('./db');
 const helper = require('../../utils/helper');
 const config = require('../../config');
 
-// async function getMultiple(page = 1) {
-//     const offset = helper.getOffset(page, config.listPerPage);
-//     const rows = await db.query(
-//         'SELECT * FROM project JOIN project_tag ON project_tag.tag_id =1 OFFSET $1 LIMIT $2',    // tag_id 1 is amm, hardcorded zz
-//         [offset, config.listPerPage]
-//     );
-//     const data = helper.emptyOrRows(rows);
-//     const meta = {page};
-//
-//     return {
-//         data,
-//         meta
-//     }
-// }
-
 async function getMultiple(page = 1) {
     const offset = helper.getOffset(page, config.listPerPage);
     const rows = await db.query(
-        // 'SELECT * FROM project INNER JOIN project_tag ON project_tag.tag_id = 1 OFFSET $1 LIMIT $2',    // tag_id 1 is amm, hardcorded zz
+        //         'SELECT * FROM project JOIN project_tag ON project_tag.tag_id =1 OFFSET $1 LIMIT $2',    // tag_id 1 is amm, hardcorded zz
         'SELECT project.project_id, project.project_name, project.description, tag.tag_name FROM project JOIN project_tag ON project.project_id = project_tag.project_id JOIN tag ON tag.tag_id = project_tag.tag_id WHERE tag.tag_id = 1 OFFSET $1 LIMIT $2',    // tag_id 1 is amm
         [offset, config.listPerPage]
     );
