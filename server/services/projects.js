@@ -1,72 +1,72 @@
-const db = require('./db');
-const helper = require('../../utils/helper');
-const config = require('../../config');
+const db = require("./db");
+const helper = require("../../utils/helper");
+const config = require("../../config");
 
 async function getMultiple(page = 1) {
-    const offset = helper.getOffset(page, config.listPerPage);
-    const rows = await db.query(
-        'SELECT * FROM project OFFSET $1 LIMIT $2',
-        [offset, config.listPerPage]
-    );
-    const data = helper.emptyOrRows(rows);
-    const meta = {page};
+  const offset = helper.getOffset(page, config.listPerPage);
+  const rows = await db.query("SELECT * FROM project OFFSET $1 LIMIT $2", [
+    offset,
+    config.listPerPage,
+  ]);
+  const data = helper.emptyOrRows(rows);
+  const meta = { page };
 
-    return {
-        data,
-        meta
-    }
+  return {
+    data,
+    meta,
+  };
 }
 
 function validateCreate(project) {
-    let messages = [];
+  let messages = [];
 
-    console.log(project);
+  console.log(project);
 
-    if (!project) {
-        messages.push('No object is provided');
-    }
+  if (!project) {
+    messages.push("No object is provided");
+  }
 
-    // if (!project.quote) {
-    //     messages.push('Quote is empty');
-    // }
-    //
-    // if (!project.author) {
-    //     messages.push('Author is empty');
-    // }
-    //
-    // if (project.quote && quote.quote.length > 255) {
-    //     messages.push('Quote cannot be longer than 255 characters');
-    // }
-    //
-    // if (project.author && quote.author.length > 255) {
-    //     messages.push('Author name cannot be longer than 255 characters');
-    // }
+  // if (!project.quote) {
+  //     messages.push('Quote is empty');
+  // }
+  //
+  // if (!project.author) {
+  //     messages.push('Author is empty');
+  // }
+  //
+  // if (project.quote && quote.quote.length > 255) {
+  //     messages.push('Quote cannot be longer than 255 characters');
+  // }
+  //
+  // if (project.author && quote.author.length > 255) {
+  //     messages.push('Author name cannot be longer than 255 characters');
+  // }
 
-    if (messages.length) {
-        let error = new Error(messages.join());
-        error.statusCode = 400;
+  if (messages.length) {
+    let error = new Error(messages.join());
+    error.statusCode = 400;
 
-        throw error;
-    }
+    throw error;
+  }
 }
 
-async function create(project){
-    validateCreate(project);
+async function create(project) {
+  validateCreate(project);
 
-    const result = await db.query(
-        'INSERT INTO project(name) VALUES (bob) RETURNING *',
-        [project.name]
-    );
-    let message = 'Error in creating project';
+  const result = await db.query(
+    "INSERT INTO project(name) VALUES (bob) RETURNING *",
+    [project.name]
+  );
+  let message = "Error in creating project";
 
-    if (result.length) {
-        message = 'Project created successfully';
-    }
+  if (result.length) {
+    message = "Project created successfully";
+  }
 
-    return {message};
+  return { message };
 }
 
 module.exports = {
-    getMultiple,
-    create
-}
+  getMultiple,
+  create,
+};
