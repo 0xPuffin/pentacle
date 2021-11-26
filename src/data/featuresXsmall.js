@@ -12,9 +12,9 @@ export const features = [
         "icon": "launch"
     },
     {
-        "title": "ETH Denver Feb 2022",
-        "text": "Applications now open for the most fun Ethereum hackathon",
-        "link": "https://www.ethdenver.com/",
+        "title": "The holy trinity of L2 scaling",
+        "text": "Exponential scaling + low fees",
+        "link": "https://theknower.substack.com/p/the-holy-trinity-of-l2-scaling",
         "icon": "launch"
     },
     {
