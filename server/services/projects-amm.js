@@ -4,16 +4,10 @@ const config = require('../../config');
 
 async function getMultiple(page = 1) {
     const offset = helper.getOffset(page, config.listPerPage);
-    const rows1 = await db.query(
-        'SELECT name FROM tag OFFSET $1 LIMIT $2',
+    const rows = await db.query(
+        'SELECT * FROM project OFFSET $1 LIMIT $2',
         [offset, config.listPerPage]
     );
-    const rows = {
-        name: 'fetch-amm-tag',
-        text: 'SELECT name FROM tag WHERE id = $1',
-        values: [1],
-    }
-
     const data = helper.emptyOrRows(rows);
     const meta = {page};
 
@@ -23,28 +17,28 @@ async function getMultiple(page = 1) {
     }
 }
 
-function validateCreate(tag) {
+function validateCreate(project) {
     let messages = [];
 
-    console.log(tag);
+    console.log(project);
 
-    if (!tag) {
+    if (!project) {
         messages.push('No object is provided');
     }
 
-    // if (!project-elements.quote) {
+    // if (!project.quote) {
     //     messages.push('Quote is empty');
     // }
     //
-    // if (!project-elements.author) {
+    // if (!project.author) {
     //     messages.push('Author is empty');
     // }
     //
-    // if (project-elements.quote && quote.quote.length > 255) {
+    // if (project.quote && quote.quote.length > 255) {
     //     messages.push('Quote cannot be longer than 255 characters');
     // }
     //
-    // if (project-elements.author && quote.author.length > 255) {
+    // if (project.author && quote.author.length > 255) {
     //     messages.push('Author name cannot be longer than 255 characters');
     // }
 
@@ -56,17 +50,17 @@ function validateCreate(tag) {
     }
 }
 
-async function create(tag){
-    validateCreate(tag);
+async function create(project){
+    validateCreate(project);
 
     const result = await db.query(
-        'INSERT INTO tag(name) VALUES (bob) RETURNING *',
-        [tag.name]
+        'INSERT INTO project(name) VALUES (bob) RETURNING *',
+        [project.name]
     );
-    let message = 'Error in creating tag';
+    let message = 'Error in creating project';
 
     if (result.length) {
-        message = 'tag created successfully';
+        message = 'Project created successfully';
     }
 
     return {message};
