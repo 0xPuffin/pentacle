@@ -5,7 +5,7 @@ const config = require('../../config');
 async function getMultiple(page = 1) {
     const offset = helper.getOffset(page, config.listPerPage);
     const rows = await db.query(
-        'SELECT * FROM project OFFSET $1 LIMIT $2',
+        'SELECT * FROM project INNER JOIN project_tag ON project_tag.tag_id = 1 OFFSET $1 LIMIT $2',    // tag_id 1 is amm, hardcorded zz
         [offset, config.listPerPage]
     );
     const data = helper.emptyOrRows(rows);
