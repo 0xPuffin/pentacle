@@ -13,7 +13,7 @@ export const features = [
     },
     {
         "title": "The holy trinity of L2 scaling",
-        "text": "Exponential scaling + low fees",
+        "text": "Exponential scaling + low fees = let there be rollups with a positive attitude",
         "link": "https://theknower.substack.com/p/the-holy-trinity-of-l2-scaling",
         "icon": "launch"
     },
