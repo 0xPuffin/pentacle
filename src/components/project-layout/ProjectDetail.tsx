@@ -4,7 +4,7 @@ import Link from "../project-elements/project.link.component";
 import twitterblue from '../../images/twitter-logo-blue.svg';
 
 type Props = {
-    name: string;
+    project_name: string;
     website_url: string;
     webapp_url: string;
     discord_url: string;
@@ -21,12 +21,12 @@ type Props = {
     token_image_url: string;
 }
 
-const ProjectDetail = ({name, website_url, webapp_url, description, twitter_url, discord_url, telegram_url, medium_url, contract_url, coingecko_url, whitepaper_url, github_url, docs_url, token_image_url}: Props) => {
+const ProjectDetail = ({project_name, website_url, webapp_url, description, twitter_url, discord_url, telegram_url, medium_url, contract_url, coingecko_url, whitepaper_url, github_url, docs_url, token_image_url}: Props) => {
 
     return (
         <section className={"main-container"}>
             <article className={"main-content"}>
-                <h2>{token_image_url && <img alt={name} src={token_image_url} className={"width-1"}/>} {name}</h2>
+                <h2>{token_image_url && <img alt={project_name} src={token_image_url} className={"width-1"}/>} {project_name}</h2>
                 <article className={"flex"}>
                     <div className={"editorial-content"}>
                         <ul className={"list-none"}>
