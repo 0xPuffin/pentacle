@@ -4,7 +4,7 @@ const config = require("../../config");
 
 async function getMultiple(page = 1) {
   const offset = helper.getOffset(page, config.listPerPage);
-  const rows = await db.query("SELECT name FROM tag OFFSET $1 LIMIT $2", [
+  const rows = await db.query("SELECT tag_name FROM tag OFFSET $1 LIMIT $2", [
     offset,
     config.listPerPage,
   ]);
@@ -26,22 +26,6 @@ function validateCreate(tag) {
     messages.push("No object is provided");
   }
 
-  // if (!project-elements.quote) {
-  //     messages.push('Quote is empty');
-  // }
-  //
-  // if (!project-elements.author) {
-  //     messages.push('Author is empty');
-  // }
-  //
-  // if (project-elements.quote && quote.quote.length > 255) {
-  //     messages.push('Quote cannot be longer than 255 characters');
-  // }
-  //
-  // if (project-elements.author && quote.author.length > 255) {
-  //     messages.push('Author name cannot be longer than 255 characters');
-  // }
-
   if (messages.length) {
     let error = new Error(messages.join());
     error.statusCode = 400;
@@ -54,8 +38,8 @@ async function create(tag) {
   validateCreate(tag);
 
   const result = await db.query(
-    "INSERT INTO tag(name) VALUES (bob) RETURNING *",
-    [tag.name]
+    "INSERT INTO tag(tag_name) VALUES (bob) RETURNING *",
+    [tag.tag_name]
   );
   let message = "Error in creating tag";
 

@@ -1,6 +1,11 @@
 @import '~@pentacle/pentacleui/assets/styles/pentacle.scss';
 //@import './assets/styles/pentacle.scss';
 
+body {
+  background-size: cover;
+  height: 100%;
+}
+
 .inline-block {
   display: inline-block;
 }

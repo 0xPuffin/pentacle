@@ -55,7 +55,7 @@ async function create(tag) {
 
   const result = await db.query(
     "INSERT INTO tag(name) VALUES (bob) RETURNING *",
-    [tag.name]
+    [tag.tag_name]
   );
   let message = "Error in creating tag";
 

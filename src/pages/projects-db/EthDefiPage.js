@@ -42,7 +42,7 @@ export const EthDefiPage = () => {
 
     useEffect(() => {
         const results = projects.filter(project =>
-            project.name.toLowerCase().includes(searchTerm.toLowerCase())
+            project.project_name.toLowerCase().includes(searchTerm.toLowerCase())
         );
         setSearchResults(results);
     }, [searchTerm]);
@@ -60,10 +60,9 @@ export const EthDefiPage = () => {
             <Header/>
             <Layout>
                 <TagsNav/>
-                <main>
+                <main className={"main-container"}>
                     <section className={"main-content flex space-between padding-top-3"}>
                         <h1>Projects</h1>
-                        {/*<Search onChange={handleChange} onClick={handleClear}/>*/}
                         <article className={"fieldset inline boxed align-right"}>
                             <label aria-labelledby={"search"} className={"display-none"}
                                    htmlFor={"search"}>Search</label>

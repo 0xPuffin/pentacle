@@ -5,10 +5,10 @@ const Tags = ({tags}) => {
     // console.log(tags)
     return (
             <div className={"flex flex-start"}>
-                {tags.map((name, index) => (
+                {tags.map((tag_name, index) => (
                     <Tag
                         key={index}
-                        {...name}
+                        {...tag_name}
                     />
                     // onClick={() => projectContentDataUpdate(data[index])}/>
                 ))}
