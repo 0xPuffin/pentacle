@@ -1,7 +1,6 @@
-import React, {useEffect, useState} from 'react';
-import Header from "../../components/header";
-import Projects from "../project-layout-db/Projects";
-
+import React, {useState, useEffect} from "react";
+import ProjectDetail from "./ProjectDetail";
+import ProjectSummary from "./ProjectSummary";
 
 export const ProjectsLayout = ({projects}) => {
     const [projectDetail, setProjectDetail] = useState(projects[0]);
@@ -11,17 +10,21 @@ export const ProjectsLayout = ({projects}) => {
     }, [projects]);
 
     return (
-        <>
-            <Header/>
-            <nav>
-                <article className={"nav-content overflow-x-scroll"}>
-                    {projects.map((project, index) => (
-                        <a className={"text-link padding-right-2"} key={index}
-                           onClick={() => setProjectDetail(projects[index])}>{project.project_name}</a>
-                    ))}
+        <main>
+            <section className={"main-container"}>
+                <article className={"overflow-scroll padding-y-3 main-content "}>
+                    <article className={"flex-mobile stretch"}>
+                        {projects.map((project, index) => (
+                            <ProjectSummary
+                                key={index}
+                                {...project}
+                                onClick={() => setProjectDetail(projects[index])}
+                            />
+                        ))}
+                    </article>
                 </article>
-            </nav>
-            <Projects projects={projectDetail}/>
-        </>
+            </section>
+            <ProjectDetail {...projectDetail}/>
+        </main>
     );
-}
+};

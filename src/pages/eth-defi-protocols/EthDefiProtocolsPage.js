@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react';
 import Layout from "../../components/layouts/layout";
 import {TagsNav} from "../../components/tags/tags-nav";
-import {ProjectsLayout} from "../../components/project-layout-db/ProjectsLayout";
+import {ProjectsLayout} from "../../components/project-layout/ProjectsLayout";
 import Header from "../../components/header";
 
-export const EthDefiPage = () => {
+export const EthDefiProtocolsPage = () => {
 
     const [loading, setLoading] = useState(true);
     const [projects, setProjects] = useState([]);
@@ -18,7 +18,7 @@ export const EthDefiPage = () => {
         try {
             const response = await fetch("/projects")
             const res = await response.json()
-            console.log(res)
+            // console.log(res)
             setLoading(false)
             setProjects(res.data)
             setSearchResults(res.data)
@@ -41,17 +41,16 @@ export const EthDefiPage = () => {
     };
 
     useEffect(() => {
-        const results = projects.filter(project =>
+        const searchResult = projects.filter(project =>
             project.project_name.toLowerCase().includes(searchTerm.toLowerCase())
         );
-        setSearchResults(results);
+        setSearchResults(searchResult);
     }, [searchTerm]);
-
 
     if (loading) {
         return (
             <Layout>
-                loading
+                Loading …
             </Layout>
         )
     }
