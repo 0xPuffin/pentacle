@@ -28,12 +28,12 @@ async function getMultiple(page = 1) {
   };
 }
 
-function validateCreate(project) {
+function validateCreate(projectAmm) {
   let messages = [];
 
-  console.log(project);
+  console.log(projectAmm);
 
-  if (!project) {
+  if (!projectAmm) {
     messages.push("No object is provided");
   }
 
@@ -45,14 +45,14 @@ function validateCreate(project) {
   }
 }
 
-async function create(project) {
-  validateCreate(project);
+async function create(projectAmm) {
+  validateCreate(projectAmm);
 
   const result = await db.query(
-    "INSERT INTO project(name) VALUES (bob) RETURNING *",
-    [project.project_name]
+    "INSERT INTO projectAmm(name) VALUES (bob) RETURNING *",
+    [projectAmm.projectAmm_name]
   );
-  let message = "Error in creating project";
+  let message = "Error in creating projectAmm";
 
   if (result.length) {
     message = "Project created successfully";
