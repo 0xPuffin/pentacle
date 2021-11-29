@@ -5,7 +5,10 @@ const config = require("../../config");
 async function getMultiple(page = 1) {
   const offset = helper.getOffset(page, config.listPerPage);
   const rows = await db.query(
-    "SELECT project.project_id, project.project_name, project.description, tag.tag_name " +
+    "SELECT project.project_id, " +
+      "project.name AS project_name, " +
+      "project.description, " +
+      "tag.name AS tag_name " +
       "FROM project " +
       "JOIN project_tag " +
       "ON project.project_id = project_tag.project_id " +

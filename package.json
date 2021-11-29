@@ -31,6 +31,8 @@
     "d3moji": "^0.1.0",
     "debug": "~2.6.9",
     "dotenv": "^10.0.0",
+    "eslint": "^7.11.0",
+    "eslint-plugin-react": "^7.27.1",
     "express": "~4.16.1",
     "history": "^5.0.0",
     "morgan": "~1.9.1",
