@@ -8,6 +8,18 @@ async function getMultiple(page = 1) {
       "SELECT project.project_id, " +
       "project.name AS project_name, " +
       "project.description, " +
+      "project.ticker, " +
+      "project.website_url, " +
+      "project.webapp_url, " +
+      "project.contract_url, " +
+      "project.coingecko_url, " +
+      "project.whitepaper_url, " +
+      "project.github_url, " +
+      "project.docs_url, " +
+      "project.twitter_url, " +
+      "project.discord_url, " +
+      "project.telegram_url, " +
+      "project.medium_url, " +
       "tag.name AS tag_name " +
       "FROM project " +
       "JOIN project_tag " +
