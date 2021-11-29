@@ -4,7 +4,7 @@ import {TagsNav} from "../../components/tags/tags-nav";
 import {ProjectsLayout} from "../../components/project-layout/ProjectsLayout";
 import Header from "../../components/header";
 
-export const EthDefiProtocolsPage = () => {
+export const EthDefiToolsPage = () => {
 
     const [loading, setLoading] = useState(true);
     const [projects, setProjects] = useState([]);
@@ -16,7 +16,7 @@ export const EthDefiProtocolsPage = () => {
     const fetchProjects = async () => {
         setLoading(true)
         try {
-            const response = await fetch("/projects")
+            const response = await fetch("/eth-defi-tools")
             const res = await response.json()
             // console.log(res)
             setLoading(false)
@@ -65,7 +65,7 @@ export const EthDefiProtocolsPage = () => {
                 <TagsNav/>
                 <main className={"main-container"}>
                     <section className={"main-content flex space-between padding-top-3"}>
-                        <h1>Projects</h1>
+                        <h1>DeFi tools</h1>
                         <article className={"fieldset inline boxed align-right"}>
                             <label aria-labelledby={"search"} className={"display-none"}
                                    htmlFor={"search"}>Search</label>
