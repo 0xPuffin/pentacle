@@ -10,7 +10,7 @@ export const ProjectsLayout = ({projects}) => {
     }, [projects]);
 
     return (
-        <main>
+        <>
             <section className={"main-container"}>
                 <article className={"overflow-scroll padding-y-3 main-content "}>
                     <article className={"flex-mobile stretch"}>
@@ -25,6 +25,6 @@ export const ProjectsLayout = ({projects}) => {
                 </article>
             </section>
             <ProjectDetail {...projectDetail}/>
-        </main>
+        </>
     );
 };

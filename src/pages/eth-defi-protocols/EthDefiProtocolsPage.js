@@ -40,6 +40,10 @@ export const EthDefiProtocolsPage = () => {
         setSearchTerm('');
     };
 
+    const tagName = projects.filter(project =>
+        project.tag_name.toLowerCase()
+    );
+
     useEffect(() => {
         const searchResult = projects.filter(project =>
             project.project_name.toLowerCase().includes(searchTerm.toLowerCase())

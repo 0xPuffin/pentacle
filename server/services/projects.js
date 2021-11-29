@@ -26,22 +26,6 @@ function validateCreate(project) {
     messages.push("No object is provided");
   }
 
-  // if (!project.quote) {
-  //     messages.push('Quote is empty');
-  // }
-  //
-  // if (!project.author) {
-  //     messages.push('Author is empty');
-  // }
-  //
-  // if (project.quote && quote.quote.length > 255) {
-  //     messages.push('Quote cannot be longer than 255 characters');
-  // }
-  //
-  // if (project.author && quote.author.length > 255) {
-  //     messages.push('Author name cannot be longer than 255 characters');
-  // }
-
   if (messages.length) {
     let error = new Error(messages.join());
     error.statusCode = 400;

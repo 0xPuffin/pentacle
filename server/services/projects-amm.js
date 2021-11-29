@@ -15,6 +15,7 @@ async function getMultiple(page = 1) {
       "JOIN tag " +
       "ON tag.tag_id = project_tag.tag_id " +
       "WHERE tag.tag_id = 1 " +
+      "ORDER BY project.project_name ASC "+
       "OFFSET $1 LIMIT $2",
 
     [offset, config.listPerPage]

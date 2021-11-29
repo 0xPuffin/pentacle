@@ -19,6 +19,6 @@ function filterData(obj, val) {
       };
 
   return res;
-};
+}
 
 export default filterData;

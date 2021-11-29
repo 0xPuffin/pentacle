@@ -5,6 +5,7 @@ import twitterblue from '../../images/twitter-logo-blue.svg';
 
 type Props = {
     project_name: string;
+    tag_name: string;
     website_url: string;
     webapp_url: string;
     discord_url: string;
@@ -21,7 +22,7 @@ type Props = {
     token_image_url: string;
 }
 
-const ProjectDetail = ({project_name, website_url, webapp_url, description, twitter_url, discord_url, telegram_url, medium_url, contract_url, coingecko_url, whitepaper_url, github_url, docs_url, token_image_url}: Props) => {
+const ProjectDetail = ({project_name, tag_name, website_url, webapp_url, description, twitter_url, discord_url, telegram_url, medium_url, contract_url, coingecko_url, whitepaper_url, github_url, docs_url, token_image_url}: Props) => {
 
     return (
         <section className={"main-container"}>
@@ -32,6 +33,7 @@ const ProjectDetail = ({project_name, website_url, webapp_url, description, twit
                         <ul className={"list-none"}>
                             {website_url && <Link url={website_url} title={website_url}/>}
                             {webapp_url && <Link url={webapp_url} title={webapp_url}/>}
+                            {tag_name && <Link url={tag_name} title={tag_name}/>}
                         </ul>
                     </div>
                     <div></div>
