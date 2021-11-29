@@ -39,7 +39,7 @@ async function create(project) {
 
   const result = await db.query(
     "INSERT INTO project(name) VALUES (bob) RETURNING *",
-    [project.project_name]
+    [project.name]
   );
   let message = "Error in creating project";
 
