@@ -5,6 +5,7 @@ import { About } from "./pages/about";
 import { Terms } from "./pages/terms";
 import { Main } from "./pages/main";
 import EthEcosystemDefi from "./pages/eth-ecosystem/eth-ecosystem-defi";
+import { EthDefiProtocolsPage } from "./pages/eth-defi-protocols/EthDefiProtocolsPage";
 import EthEcosystemDev from "./pages/eth-ecosystem/eth-ecosystem-dev";
 import EthEcosystemRetail from "./pages/eth-ecosystem/eth-ecosystem-retail";
 import SolEcosystem from "./pages/sol-ecosystem/sol-ecosystem";
@@ -14,8 +15,7 @@ import EthEcosystemLearn from "./pages/eth-ecosystem/eth-ecosystem-learn";
 import EthEcosystemNft from "./pages/eth-ecosystem/eth-ecosystem-nft";
 import { ProjectsPage } from "./pages/ignition/projects.page";
 import { TweetPage } from "./pages/tweet/tweet.page";
-import { EthDefiProtocolsPage } from "./pages/eth-defi-protocols/EthDefiProtocolsPage";
-import {EthAmmPage} from "./pages/eth-amm/EthAmmPage";
+import {EthDecentralisedExchange} from "./pages/eth-decentralised-exchange/EthDecentralisedExchange";
 
 export const Router = () => {
   return (
@@ -23,8 +23,11 @@ export const Router = () => {
       <Route path="/" element={<Main />} />
       <Route path="/solana" element={<SolEcosystem />} />
       <Route path="/ethereum" element={<EthEcosystemDefi />} />
-      <Route path="/projects" element={<EthDefiProtocolsPage />} />
-      <Route path="/eth-amm" element={<EthAmmPage />} />
+      <Route path="/eth-defi-protocols" element={<EthDefiProtocolsPage />} />
+      {/*<Route path="/eth-defi-tools" element={<EthDefiToolsPage />} />*/}
+      <Route path="/eth-decentralised-exchange" element={<EthDecentralisedExchange />} />
+
+
       <Route path="/ethereum-dev" element={<EthEcosystemDev />} />
       <Route path="/ethereum-retail" element={<EthEcosystemRetail />} />
       <Route path="/ethereum-learning" element={<EthEcosystemLearn />} />

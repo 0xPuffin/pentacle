@@ -12,7 +12,7 @@ export const ProjectsLayout = ({projects}) => {
     return (
         <>
             <section className={"main-container"}>
-                <article className={"overflow-scroll margin-top-1 margin-bottom-2 main-content"}>
+                <article className={"overflow-scroll padding-top-2 padding-bottom-3 main-content"}>
                     <article className={"flex-mobile stretch"}>
                         {projects.map((project, index) => (
                             <ProjectSummary

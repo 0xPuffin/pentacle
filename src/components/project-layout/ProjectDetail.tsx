@@ -33,9 +33,9 @@ const ProjectDetail = ({project_name, ticker, tag_name, website_url, webapp_url,
                 <article className={"flex"}>
                     <div className={"editorial-content"}>
                         <ul className={"list-none"}>
-                            {website_url && <Link url={website_url} title={website_url}/>}
-                            {webapp_url && <Link url={webapp_url} title={webapp_url}/>}
-                            {tag_name && <Link url={tag_name} title={tag_name}/>}
+                            {website_url && <Link url={website_url} title="website"/>}
+                            {webapp_url && <Link url={webapp_url} title="webapp"/>}
+                            {/*{tag_name && <Link url={tag_name} title={tag_name}/>}*/}
                         </ul>
                     </div>
                     <div></div>
