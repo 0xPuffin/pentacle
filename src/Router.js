@@ -23,7 +23,7 @@ export const Router = () => {
       <Route path="/" element={<Main />} />
       <Route path="/solana" element={<SolEcosystem />} />
       <Route path="/ethereum" element={<EthEcosystemDefi />} />
-      <Route path="/eth-defi-protocols" element={<EthDefiProtocolsPage />} />
+      <Route path="/projects" element={<EthDefiProtocolsPage />} />
       <Route path="/eth-amm" element={<EthAmmPage />} />
       <Route path="/ethereum-dev" element={<EthEcosystemDev />} />
       <Route path="/ethereum-retail" element={<EthEcosystemRetail />} />

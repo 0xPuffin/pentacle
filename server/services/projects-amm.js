@@ -17,7 +17,6 @@ async function getMultiple(page = 1) {
       "WHERE tag.tag_id = 1 " +
       "ORDER BY project.name ASC "+
       "OFFSET $1 LIMIT $2",
-
     [offset, config.listPerPage]
   );
   const data = helper.emptyOrRows(rows);
