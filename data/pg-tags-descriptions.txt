@@ -1,0 +1,34 @@
+0,aggregator,Protocols that collect and unify different protocols in similar categories and combine them for improved user experience
+1,amm,Automated Market Makers allow people to exchange coins based on built-in autonomous mechanisms instead of dealing with intermediaries
+2,analytics,
+3,app,
+4,buy-crypto,Also known as fiat onramps, exchanges where you are able to purchase crypto
+5,cex,Centralized Exchanges where people can exchange their crypto
+6,dao,Decentralized Autonomous Organisation
+7,data,
+8,defi,Decentralized Finance, a broad term used for financial protocols built on decentralized blockchains
+9,defi-tools,
+10,developer,Sites and tools to help you build your own applications or contribute to existing ones within crypto
+11,dex,Decentralized Exchanges are protocols built on blockchains that allow people to trade crypto using Automated Market Makers
+12,hardware,
+13,identity,
+14,infrastructure,
+15,insight,Educative but perhaps opinionated pieces written by experts, about current market structure or various protocols
+16,insurance,
+17,jobs,As a booming new industry, crypto offers many new job opportunities. Find them here
+18,learning,General educative content
+19,leverage,
+20,marketplace,
+21,merch,
+22,metaverse,
+23,metrics,Places to find information about various crypto protocols and ways to compare them
+24,news,Articles related to current events and news in the world of crypto
+25,nft,Unlike regular cryptocurrencies, Non Fungible Tokens are each unique and distinct, commonly used to store art and other images
+26,oracle,Oracles are the eyes of blockchains; they send information from the outside world to the applications built on them
+27,portfolio,Tools to help you keep track of your crypto holdings
+28,security,Tools and articles to help you keep your crypto safe
+29,tooling,
+30,wallet,Wallets are used to store crypto and interact with decentralized applications on blockchains
+31,yield,In the context of finance, yield measures return for investments/deposits over a set amount of time, expressed as a percentage
+32,lending,Lending and borrowing go hand in hand and are one of the main financial primitives
+33,options,Options are complex financial derivatives, commonly used for accessing leverage or hedging investments
