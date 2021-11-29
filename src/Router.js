@@ -25,11 +25,10 @@ export const Router = () => {
       <Route path="/" element={<Main />} />
       <Route path="/solana" element={<SolEcosystem />} />
       <Route path="/ethereum" element={<EthEcosystemDefi />} />
-      <Route path="/eth-defi-protocols" element={<EthDefiProtocolsPage />} />
-      <Route path="/eth-defi-tools" element={<EthDefiToolsPage />} />
-      <Route path="/eth-decentralised-exchanges" element={<EthDecentralisedExchange />} />
-      <Route path="/eth-defi-insurance" element={<EthDefiInsurancePage />} />
-
+      <Route path="/defi-protocol" element={<EthDefiProtocolsPage />} />
+      <Route path="/defi-tool" element={<EthDefiToolsPage />} />
+      <Route path="/decentralised-exchange" element={<EthDecentralisedExchange />} />
+      <Route path="/defi-insurance" element={<EthDefiInsurancePage />} />
 
       <Route path="/ethereum-dev" element={<EthEcosystemDev />} />
       <Route path="/ethereum-retail" element={<EthEcosystemRetail />} />
