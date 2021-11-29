@@ -29,7 +29,7 @@ const ProjectDetail = ({project_name, ticker, tag_name, website_url, webapp_url,
     return (
         <section className={"main-container"}>
             <article className={"main-content"}>
-                <h2>{token_image_url && <img alt={project_name} src={token_image_url} className={"width-1"}/>} {project_name} ({ticker})</h2>
+                <h2>{token_image_url && <img alt={project_name} src={token_image_url} className={"width-1"}/>} {project_name} {ticker}</h2>
                 <article className={"flex"}>
                     <div className={"editorial-content"}>
                         <ul className={"list-none"}>
