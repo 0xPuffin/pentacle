@@ -11,9 +11,7 @@
   "scripts": {
     "start": "react-scripts start",
     "server": "node ./server/bin/www",
-    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "heroku-postbuild": "yarn build",
     "lint": "eslint src/**/*.js src/**/*.jsx",
     "download-images:eth": "node ./bin/fetch-images.js public/ethEcosystem.json ./src/assets/images/eth",
