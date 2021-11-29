@@ -84,9 +84,9 @@ export default function createNotebook(name, colorScheme) {
                     .attr('user-select', (d) => {
                         return labelVisible(d) ? '' : 'none'
                     })
-                    .attr("style", (d) => {
-                        return 'user-select : none'
-                    })
+                    // .attr("style", (d) => {
+                    //     return 'user-select : none'
+                    // })
                     .style("text-decoration", "none")
                     .attr('font-size', "0.6rem")
                     .attr("font-family", "'matter', arial, 'Helvetica-neue', Helvetica, sans-serif")
@@ -277,7 +277,7 @@ export default function createNotebook(name, colorScheme) {
                             arcVisible(d.target) ? (d.children ? 0.6 : 0.4) : 0
                         )
                         .attrTween('d', (d) => () => arc(d.current))
-                        .on('end', (args) => {
+                        .on('end', () => {
                             title.attr('display', 'unset');
                         });
 
@@ -317,8 +317,7 @@ export default function createNotebook(name, colorScheme) {
                         .sum(d => d.value)
                         .sort((a, b) => b.value - a.value);
                     return d3.partition()
-                        .size([2 * Math.PI, root.height + 1])
-                        (root);
+                        .size([2 * Math.PI, root.height + 1])(root);
                 }
             )
         });

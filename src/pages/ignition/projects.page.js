@@ -1,11 +1,11 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import Layout from "../../components/layouts/layout";
 import {TopLevel} from './toplevel';
 import Data from './solIgnition';
 
 export const ProjectsPage = () => {
 
-    const [projects, setProjects] = useState(Data.children);
+    const [projects] = useState(Data.children);
 
     return (
         <>

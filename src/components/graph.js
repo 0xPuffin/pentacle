@@ -170,8 +170,8 @@ export default function SunburstGraph({type, colorScheme}) {
                                    htmlFor={"search"}>Search</label>
                             <input id="search" type="text" placeholder="Search" ref={inputRef}
                                    onChange={(e) => filter(e.target.value)}/>
-                            <input className={"padding-left-0-75"} type="reset" value="Clear"
-                                   onClick={e => filter('')}/>
+                            {/*<input className={"padding-left-0-75"} type="reset" value="Clear"*/}
+                            {/*       onClick={e => filter('')}/>*/}
                         </div>
                     </div>
                 </article>

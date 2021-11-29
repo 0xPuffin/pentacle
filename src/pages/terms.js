@@ -12,7 +12,7 @@ export const Terms = () => {
                     <article className={"box feature dark box-padding"}>
                         <h1>Terms of use</h1>
                         <h2>Links to other sites</h2>
-                        <p>This Site may contain links to other independent third-party Web sites ("Linked Sites").
+                        <p>This Site may contain links to other independent third-party Web sites (&quot;Linked Sites&quot;).
                             These
                             Linked
                             Sites are provided solely as a convenience to our visitors. </p>
