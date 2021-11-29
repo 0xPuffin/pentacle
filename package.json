@@ -9,12 +9,14 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.js src/**/*.jsx",
     "download-images:eth": "node ./bin/fetch-images.js public/ethEcosystem.json ./src/assets/images/eth",
     "download-images:sol": "node ./bin/fetch-images.js public/solEcosystem.json ./src/assets/images/sol",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
   "dependencies": {
+    "@babel/eslint-parser": "^7.16.3",
     "@observablehq/runtime": "^4.8.2",
     "@pentacle/pentacleui": "^1.0.11",
     "@storybook/components": "^6.3.8",
