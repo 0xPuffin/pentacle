@@ -5,8 +5,10 @@ const logger = require("morgan");
 
 const indexRouter = require("./routes/index");
 const projectsRouter = require("./routes/projects");
-const ammRouter = require("./routes/projects-amm");
-const dexRouter = require("./routes/eth-decentralised-exchange");
+const ethAmmRouter = require("./routes/projects-amm");
+const ethDexRouter = require("./routes/eth-decentralised-exchange");
+const ethDefiProtocolRouter = require("./routes/eth-defi-protocol");
+const ethDefiInsuranceRouter = require("./routes/eth-defi-insurance");
 const tagsRouter = require("./routes/tags");
 
 const app = express();
@@ -19,8 +21,10 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/index", indexRouter);
 app.use("/projects", projectsRouter);
-app.use("/projects-amm", ammRouter);
-app.use("/eth-decentralised-exchange", dexRouter);
+app.use("/projects-amm", ethAmmRouter);
+app.use("/eth-decentralised-exchange", ethDexRouter);
+app.use("/eth-defi-protocol", ethDefiProtocolRouter);
+app.use("/eth-defi-insurance", ethDefiInsuranceRouter);
 app.use("/tags", tagsRouter);
 
 module.exports = app;
