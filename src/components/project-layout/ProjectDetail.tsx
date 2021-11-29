@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "../project-elements/project.button.component";
 import Link from "../project-elements/project.link.component";
-// import twitter from '../../images/twitter-logo-blue.svg';
 import twitter from '../../images/twitter-logo-blue.svg';
 
 type Props = {
@@ -24,7 +23,7 @@ type Props = {
     token_image_url: string;
 }
 
-const ProjectDetail = ({project_name, ticker, tag_name, website_url, webapp_url, description, twitter_url, discord_url, telegram_url, medium_url, contract_url, coingecko_url, whitepaper_url, github_url, docs_url, token_image_url}: Props) => {
+const ProjectDetail = ({project_name, ticker, website_url, webapp_url, description, twitter_url, discord_url, telegram_url, medium_url, contract_url, coingecko_url, whitepaper_url, github_url, docs_url, token_image_url}: Props) => {
 
     return (
         <section className={"main-container"}>
@@ -35,7 +34,6 @@ const ProjectDetail = ({project_name, ticker, tag_name, website_url, webapp_url,
                         <ul className={"list-none"}>
                             {website_url && <Link url={website_url} title="website"/>}
                             {webapp_url && <Link url={webapp_url} title="webapp"/>}
-                            {/*{tag_name && <Link url={tag_name} title={tag_name}/>}*/}
                         </ul>
                     </div>
                     <div></div>

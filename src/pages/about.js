@@ -10,8 +10,8 @@ export const About = () => {
                 <section className={"editorial-content one-col"}>
                     <article className={"box feature dark box-padding margin-top-1 hero"}>
                         <h1>People often ask, where to begin in Crypto</h1>
-                        <p>Information overload causes confusion and doubt. And there's only so far
-                            technology can go to protect people from fraud, scams and risky investing. Pentacle's aim is
+                        <p>Information overload causes confusion and doubt. And there&#39;s only so far
+                            technology can go to protect people from fraud, scams and risky investing. Pentacle&#39;s aim is
                             to help people in their quest for knowledge - as a talisman of protection</p>
                     </article>
 

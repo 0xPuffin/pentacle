@@ -58,7 +58,7 @@ const tweetIcon = ({value, icon}) => (
 
 const Tweet = ({
                    user: {displayname, username, profileImageUrl},
-                   media, content, date, url, likeCount, replyCount, retweetCount,
+                   media, content, date, url, likeCount, replyCount,
                }) => {
     return (
 
