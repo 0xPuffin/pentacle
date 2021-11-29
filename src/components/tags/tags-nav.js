@@ -34,7 +34,7 @@ export const TagsNav = () => {
     return (<nav>
             <article className={"nav-content overflow-scroll"}>
                 {/*<Tags tags={tags}/>*/}
-                <Link to="/defi-protocol" className={"text-link padding-right-2"}>DeFi Protocol</Link>
+                <Link to="/defi-protocol" className={"text-link padding-right-2"}>DeFi protocol</Link>
                 <Link to="/decentralised-exchange" className={"text-link padding-right-2"}>Decentralised exchange</Link>
                 <Link to="/defi-tool" className={"text-link padding-right-2"}>DeFi tool</Link>
                 <Link to="/defi-insurance" className={"text-link padding-right-2"}>DeFi insurance</Link>

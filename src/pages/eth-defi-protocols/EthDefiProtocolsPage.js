@@ -65,7 +65,7 @@ export const EthDefiProtocolsPage = () => {
                 <TagsNav/>
                 <main className={"main-container"}>
                     <section className={"main-content flex space-between padding-top-3"}>
-                        <h1>DeFi Protocol</h1>
+                        <h1>DeFi protocol</h1>
                         <article className={"fieldset inline boxed align-right"}>
                             <label aria-labelledby={"search"} className={"display-none"}
                                    htmlFor={"search"}>Search</label>
