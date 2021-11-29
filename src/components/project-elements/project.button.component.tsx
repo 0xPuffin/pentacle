@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 
 const Button = (props: any) => {
 
@@ -7,9 +7,9 @@ const Button = (props: any) => {
     };
 
     return(
-        <div>
-            { props && <button className={"project-elements-button flex-center"} onClick={handleClick}><img src={props.icon}></img><span>{props.title}</span></button> }
-        </div>
+        <>
+            { props && <button className={"project-button flex-center"} onClick={handleClick}><img alt={props.icon} src={props.icon}/><span>{props.title}</span></button> }
+        </>
     )
 };
 

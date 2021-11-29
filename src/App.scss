@@ -5,6 +5,10 @@ body {
   height: 100%;
 }
 
+.project-elements-button {
+
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -21,6 +25,13 @@ body {
   display: -webkit-box;
   overflow: hidden;
   -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.length-300 {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
 }
 
@@ -49,7 +60,7 @@ body {
 }
 
 main {
-  background-color: _color(transparent)!important;
+  background-color: _color(transparent) !important;
 }
 
 .main-container {
@@ -58,7 +69,7 @@ main {
 }
 
 .main-content {
-  max-width: unset!important;
+  max-width: unset !important;
 }
 
 .header-content, .footer-content, .main-content, .nav-content {
@@ -66,5 +77,19 @@ main {
 }
 
 nav {
-  overflow-y: unset!important;
+  overflow-y: unset !important;
+}
+
+
+p {
+  font-size: 0.8175rem;
+  line-height: 1.25rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+ font-size: 1.85rem;
 }
