@@ -9,6 +9,7 @@ const ethAmmRouter = require("./routes/projects-amm");
 const ethDexRouter = require("./routes/eth-decentralised-exchange");
 const ethDefiProtocolRouter = require("./routes/eth-defi-protocol");
 const ethDefiInsuranceRouter = require("./routes/eth-defi-insurance");
+const ethDefiToolsRouter = require("./routes/eth-defi-tools");
 const tagsRouter = require("./routes/tags");
 
 const app = express();
@@ -25,6 +26,7 @@ app.use("/projects-amm", ethAmmRouter);
 app.use("/eth-decentralised-exchange", ethDexRouter);
 app.use("/eth-defi-protocol", ethDefiProtocolRouter);
 app.use("/eth-defi-insurance", ethDefiInsuranceRouter);
+app.use("/eth-defi-tools", ethDefiToolsRouter);
 app.use("/tags", tagsRouter);
 
 module.exports = app;

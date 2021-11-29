@@ -7,7 +7,7 @@
 6,dao
 7,data
 8,defi
-9,defi-tools
+9,defi-tool
 10,developer
 11,dex
 12,hardware
