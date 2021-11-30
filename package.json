@@ -13,6 +13,7 @@
     "server": "node ./server/bin/www",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "heroku-prebuild": "yarn install -f",
     "heroku-postbuild": "yarn build",
     "lint": "eslint src/**/*.js src/**/*.jsx"
   },
