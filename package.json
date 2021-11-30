@@ -11,7 +11,6 @@
   "scripts": {
     "start": "react-scripts start",
     "server": "node ./server/bin/www",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "heroku-postbuild": "yarn build",
     "lint": "eslint src/**/*.js src/**/*.jsx"
