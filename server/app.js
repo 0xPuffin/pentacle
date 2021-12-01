@@ -3,7 +3,7 @@ const path = require("path");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 
-const indexRouter = require("./routes/index");
+const indexRouter = require("./routes/projects");
 // const projectsRouter = require("./routes/projects");
 // const ethAmmRouter = require("./routes/projects-amm");
 // const ethDexRouter = require("./routes/eth-decentralised-exchange");
