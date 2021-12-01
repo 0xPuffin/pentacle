@@ -1,18 +1,18 @@
 /**
  * use this for local dev
  */
-// const { Pool } = require("pg");
-// const config = require("../../config");
-// const pool = new Pool(config.db);
+const { Pool } = require("pg");
+const config = require("../../config");
+const pool = new Pool(config.db);
 
 /**
  * use this for prod
  */
-const { Pool } = require("pg");
-const connectionString = process.env.DATABASE_URL
-const pool = new Pool({
-  connectionString,
-})
+// const { Pool } = require("pg");
+// const connectionString = process.env.DATABASE_URL
+// const pool = new Pool({
+//   connectionString,
+// })
 
 /**
  * Query the database using the pool
@@ -23,7 +23,7 @@ const pool = new Pool({
  */
 
 async function query(query, params) {
-  const { rows, fields } = await pool.query(query, params);
+  const { rows } = await pool.query(query, params);
   return rows;
 }
 
