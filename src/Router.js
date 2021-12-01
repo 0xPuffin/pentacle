@@ -26,9 +26,9 @@ export const Router = () => {
       <Route path="/solana" element={<SolEcosystem />} />
       <Route path="/ethereum" element={<EthEcosystemDefi />} />
       <Route path="/defi-protocol" element={<EthDefiProtocolsPage />} />
-      <Route path="/defi-tool" element={<EthDefiToolsPage />} />
-      <Route path="/decentralised-exchange" element={<EthDecentralisedExchange />} />
-      <Route path="/defi-insurance" element={<EthDefiInsurancePage />} />
+      {/*<Route path="/defi-tool" element={<EthDefiToolsPage />} />*/}
+      {/*<Route path="/decentralised-exchange" element={<EthDecentralisedExchange />} />*/}
+      {/*<Route path="/defi-insurance" element={<EthDefiInsurancePage />} />*/}
 
       <Route path="/ethereum-dev" element={<EthEcosystemDev />} />
       <Route path="/ethereum-retail" element={<EthEcosystemRetail />} />
