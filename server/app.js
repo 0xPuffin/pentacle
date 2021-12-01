@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use("/index", indexRouter);
+app.use("/", indexRouter);
 app.use("/projects", projectsRouter);
 app.use("/projects-amm", ethAmmRouter);
 app.use("/eth-decentralised-exchange", ethDexRouter);

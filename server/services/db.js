@@ -1,9 +1,15 @@
-const { Pool } = require("pg");
+/**
+ * use this for local dev
+ */
+// const { Pool } = require("pg");
 // const config = require("../../config");
 // const pool = new Pool(config.db);
 
+/**
+ * use this for prod
+ */
+const { Pool } = require("pg");
 const connectionString = process.env.DATABASE_URL
-
 const pool = new Pool({
   connectionString,
 })
