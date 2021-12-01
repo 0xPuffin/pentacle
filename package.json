@@ -9,8 +9,8 @@
   },
   "main": "app.js",
   "scripts": {
-    "start": "react-scripts start",
-    "server": "node ./server/bin/www",
+    "ui": "react-scripts start",
+    "start": "node ./server/bin/www",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "heroku-prebuild": "yarn install -f",
