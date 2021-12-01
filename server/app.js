@@ -3,7 +3,7 @@ const path = require("path");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 
-// const indexRouter = require("./routes/projects");
+const indexRouter = require("./routes/eth-defi-protocol");
 // const projectsRouter = require("./routes/projects");
 // const ethAmmRouter = require("./routes/projects-amm");
 // const ethDexRouter = require("./routes/eth-decentralised-exchange");
@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "public")));
 
-// app.use("/", indexRouter);
+app.use("/", indexRouter);
 // app.use("/projects", projectsRouter);
 // app.use("/projects-amm", ethAmmRouter);
 // app.use("/eth-decentralised-exchange", ethDexRouter);
