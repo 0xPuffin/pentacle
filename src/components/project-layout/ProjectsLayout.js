@@ -29,7 +29,6 @@ export const ProjectsLayout = ({projects}) => {
             const data = await apiCall.json()
             const lowerCaseName = props.project_name.toLowerCase()
             const namedObject = data[lowerCaseName];
-            console.log(namedObject)
             if (namedObject === undefined) {
                 setUsdValue('Unable to fetch price data')
             } else {
