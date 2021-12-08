@@ -12,17 +12,14 @@ export const EthDefiProtocolsPage = () => {
     const [searchTerm, setSearchTerm] = useState("");
     const [searchResults, setSearchResults] = useState([]);
 
-    console.log(projects)
-
     const fetchProjects = async () => {
         setLoading(true)
         try {
             const response = await fetch("/eth-defi-protocol")
             const res = await response.json()
-            // console.log(res)
             setLoading(false)
-            setProjects(res.data)
             setSearchResults(res.data)
+            setProjects(res.data)
         } catch (error) {
             setLoading(false)
             console.log(error)

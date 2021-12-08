@@ -1,13 +1,47 @@
-import React, {useState, useEffect} from "react";
+import React, {useState, useEffect, useRef} from "react";
+import { createModuleResolutionCache } from "typescript";
 import ProjectDetail from "./ProjectDetail";
 import ProjectSummary from "./ProjectSummary";
 
 export const ProjectsLayout = ({projects}) => {
     const [projectDetail, setProjectDetail] = useState(projects[0]);
+    const [usdValue, setUsdValue] = useState();
 
     useEffect(() => {
-        setProjectDetail(projects[0]);
+        if ((projects).length === 0) {
+            return <div>Loading Data</div>;
+        } else {
+            setProjectDetail(projects[0])
+            fetchPrice()
+        }
     }, [projects]);
+
+    const fetchPrice = async (props) => {
+        if (props === undefined) {
+            const apiCall = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${projects[0].project_name}&vs_currencies=usd`)
+            const data = await apiCall.json()
+            const lowerCaseName = projects[0].project_name.toLowerCase()
+            const namedObject = data[lowerCaseName];
+            setUsdValue(`$${namedObject.usd}`)
+            return apiCall
+        } else {
+            const apiCall = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${props.project_name}&vs_currencies=usd`)
+            const data = await apiCall.json()
+            const lowerCaseName = props.project_name.toLowerCase()
+            const namedObject = data[lowerCaseName];
+            console.log(namedObject)
+            if (namedObject === undefined) {
+                setUsdValue('Unable to fetch price data')
+            } else {
+            setUsdValue(`$${namedObject.usd}`)
+            }
+        }
+    }
+
+    function changeProjectDetails(props) {
+        setProjectDetail(props)
+        fetchPrice(props)
+    }
 
     return (
         <>
@@ -18,13 +52,13 @@ export const ProjectsLayout = ({projects}) => {
                             <ProjectSummary
                                 key={index}
                                 {...project}
-                                onClick={() => setProjectDetail(projects[index])}
+                                onClick={() => changeProjectDetails(projects[index])}
                             />
                         ))}
                     </article>
                 </article>
             </section>
-            <ProjectDetail {...projectDetail}/>
+            <ProjectDetail {...projectDetail} usdValue={usdValue}/>
         </>
     );
 };
