@@ -6,7 +6,7 @@ export const TagsNav = () => {
 
     const [loading, setLoading] = useState(true);
     const [tags, setTags] = useState([]);
-    // console.log(tags)
+    console.log(tags)
 
     const fetchTags = async () => {
         setLoading(true)
@@ -33,7 +33,7 @@ export const TagsNav = () => {
     }
     return (<nav>
             <article className={"nav-content overflow-scroll"}>
-                {/* <Tags tags={tags}/> */}
+                 <Tags tags={tags}/>
                 <Link to="/defi-protocol" className={"text-link padding-right-2"}>DeFi protocol</Link>
                 <Link to="/decentralised-exchange" className={"text-link padding-right-2"}>Decentralised exchange</Link>
                 <Link to="/defi-tool" className={"text-link padding-right-2"}>DeFi tool</Link>
