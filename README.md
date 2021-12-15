@@ -49,7 +49,7 @@ $ yarn start
 
 ## Unit testing
 
-### Jest and React Testing Library
+### Jest and React testing library
 
 - https://jestjs.io/docs/expect 
 - https://github.com/jest-community/jest-extended
