@@ -27,7 +27,7 @@ export const TagsNav = () => {
     if (loading) {
         return (
             <nav className={"nav-content"}>
-                <Link to={''}>Loading...</Link>
+                <Link to={''}>Loading..</Link>
             </nav>
         )
     }
