@@ -21,16 +21,15 @@ type Props = {
     docs_url: string;
     description: string;
     token_image_url: string;
-    usdValue: object;
 }
 
-const ProjectDetail = ({usdValue, project_name, ticker, website_url, webapp_url, description, twitter_url, discord_url, telegram_url, medium_url, contract_url, coingecko_url, whitepaper_url, github_url, docs_url, token_image_url}: Props) => {
+const ProjectDetail = ({project_name, ticker, website_url, webapp_url, description, twitter_url, discord_url, telegram_url, medium_url, contract_url, coingecko_url, whitepaper_url, github_url, docs_url, token_image_url}: Props) => {
 
     return (
         <section className={"main-container"}>
             <article className={"main-content"}>
                 <h2>{token_image_url && <img alt={project_name} src={token_image_url} className={"width-1"}/>} {project_name} ({ticker}) </h2>
-            {usdValue && <h2>{usdValue}</h2>}
+            {/*{usdValue && <h2>{usdValue}</h2>}*/}
                 <article className={"flex"}>
                     <div className={"editorial-content"}>
                         <ul className={"list-none"}>
