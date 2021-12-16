@@ -25,7 +25,7 @@ const Projects = ({projects}) => {
                     </article>
                 </article>
             </section>
-            <Project projectDetailLower={projectDetail}/>
+            <Projects projectDetailLower={projectDetail}/>
         </main>
     );
 };
