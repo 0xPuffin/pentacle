@@ -12,7 +12,7 @@ export const ProjectsLayout = ({projects}) => {
             return <div>Loading Data</div>;
         } else {
             setProjectDetail(projects[0])
-            fetchPrice()
+            fetchPrice(projects[0])
         }
     }, [projects]);
 
