@@ -8,4 +8,5 @@ coverage/*
 yarn
 *.log
 .idea
+src/pentacleui/**
 **/yarn-error.log
