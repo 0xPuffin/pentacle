@@ -27,8 +27,8 @@
     "morgan": "~1.9.1",
     "nodemon": "^2.0.13",
     "pg": "^8.5.1",
-    "react-css-theme-switcher": "^0.3.0",
-    "tailwind": "^4.0.0"
+    "tailwind": "^4.0.0",
+    "theme-change": "^2.0.2"
   },
   "proxy": "http://localhost:3001",
   "devDependencies": {

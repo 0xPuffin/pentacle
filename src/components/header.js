@@ -1,29 +1,25 @@
 import React from "react"
 import {Link} from "react-router-dom";
-import {useThemeSwitcher} from 'react-css-theme-switcher';
+import { useEffect } from 'react'
+import { themeChange } from 'theme-change'
 
 const Header = () => {
-    const {switcher, themes, currentTheme, status} = useThemeSwitcher();
-    const [isDarkMode, setIsDarkMode] = React.useState(false);
-
-    if (status === 'loading') {
-        return <div>Loading styles...</div>;
-    }
-
-    const toggleDarkMode = () => {
-        setIsDarkMode(previous => {
-            switcher({theme: previous ? themes.light : themes.dark});
-            return !previous;
-        });
-    };
-
+    useEffect(() => {
+        themeChange(false)
+    }, [])
     return (<header className={"p-header"}>
         <div className="header-content flex justify-end align-items-center">
             <div><Link to="/"><img alt="Pentacle logo" className={"logo"} src={"pentacle-logo-LH.svg"}/></Link></div>
             <div>In your quest for knowledge, a talisman of protection</div>
         </div>
         <div>
-            <button onClick={toggleDarkMode}>{currentTheme}</button>
+            <button data-act-class="shadow-outline" data-set-theme="dark"
+                    className="bg-green-700 focus:outline-none m-1 rounded p-2">dark
+            </button>
+            <button data-act-class="shadow-outline" data-set-theme="light"
+                    className="bg-green-700 focus:outline-none m-1 rounded p-2">light
+            </button>
+        {/*    <button onClick={toggleDarkMode}>{currentTheme}</button>*/}
         </div>
     </header>);
 }
