@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import * as lightTheme from './theme.scss';
 import * as darkTheme from './theme2.scss';
 
-
 const Toggle = ({ theme, toggleTheme }) => {
   const isLight = theme === 'light';
 
