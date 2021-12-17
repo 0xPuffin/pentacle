@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {Link} from "react-router-dom";
-import Tags from './tags.component';
+// import Tags from './tags.component';
 
 export const TagsNav = () => {
 
@@ -33,8 +33,8 @@ export const TagsNav = () => {
     }
     return (<nav>
             <article className={"nav-content overflow-scroll"}>
-                 <Tags tags={tags}/>
-                <Link to="/defi-protocol" className={"text-link padding-right-2"}>DeFi protocol</Link>
+                 {/*<Tags tags={tags}/>*/}
+                <Link to="/eth-defi-protocol" className={"text-link padding-right-2"}>DeFi protocol</Link>
                 <Link to="/decentralised-exchange" className={"text-link padding-right-2"}>Decentralised exchange</Link>
                 <Link to="/defi-tool" className={"text-link padding-right-2"}>DeFi tool</Link>
                 <Link to="/defi-insurance" className={"text-link padding-right-2"}>DeFi insurance</Link>
