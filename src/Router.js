@@ -15,6 +15,9 @@ import EthEcosystemLearn from "./pages/eth-ecosystem/eth-ecosystem-learn";
 import EthEcosystemNft from "./pages/eth-ecosystem/eth-ecosystem-nft";
 import { ProjectsPage } from "./pages/ignition/projects.page";
 import { TweetPage } from "./pages/tweet/tweet.page";
+import { EthDecentralisedExchange } from "./pages/eth-decentralised-exchange/EthDecentralisedExchange";
+import { EthDefiToolsPage } from "./pages/eth-defi-tools/EthDefiToolsPage";
+import { EthDefiInsurancePage } from "./pages/eth-defi-insurance/EthDefiInsurancePage";
 
 export const Router = () => {
   return (
@@ -23,6 +26,9 @@ export const Router = () => {
       <Route path="/solana" element={<SolEcosystem />} />
       <Route path="/ethereum" element={<EthEcosystemDefi />} />
       <Route path="/eth-defi-protocol" element={<EthDefiProtocolsPage />} />
+      <Route path="/defi-tool" element={<EthDefiToolsPage />} />
+      <Route path="/decentralised-exchange" element={<EthDecentralisedExchange />} />
+      <Route path="/defi-insurance" element={<EthDefiInsurancePage />} />
       <Route path="/ethereum-dev" element={<EthEcosystemDev />} />
       <Route path="/ethereum-retail" element={<EthEcosystemRetail />} />
       <Route path="/ethereum-learning" element={<EthEcosystemLearn />} />
