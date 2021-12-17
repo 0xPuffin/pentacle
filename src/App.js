@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.scss';
 import {BrowserRouter} from "react-router-dom";
+import ToggleButton from './ThemeSwitcher';
+import ThemeToggle from './toggleButton';
 
 import Footer from "./components/footer";
 import {Router} from "./Router";
 
 const App = () => (
     <BrowserRouter>
+        <ToggleButton/>
         <Router/>
         <Footer/>
     </BrowserRouter>
