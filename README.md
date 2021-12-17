@@ -20,6 +20,11 @@ view back-end calls
 http://localhost:3001/projects
 
 
+generate css files
+
+`$ yarn css`
+
+
 
 ## setup
 
