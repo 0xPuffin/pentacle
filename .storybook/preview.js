@@ -1,4 +1,4 @@
-import '../src/assets/styles/pentacle.scss';
+import '../src/assets/styles/pentacle-light.scss';
 
 
 export const parameters = {
