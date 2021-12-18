@@ -8,19 +8,20 @@ const Header = () => {
         themeChange(false)
     }, [])
     return (<header className={"p-header"}>
-        <div className="header-content flex justify-end align-items-center">
+        <div className="header-content flex align-items-center">
             <div><Link to="/"><img alt="Pentacle logo" className={"logo"} src={"pentacle-logo-LH.svg"}/></Link></div>
             <div>In your quest for knowledge, a talisman of protection</div>
+            <div className={"align-right"}>
+                <button data-act-class="shadow-outline" data-set-theme="dark"
+                        className="bg-green-700 focus:outline-none m-1 rounded p-2">dark
+                </button>
+                <button data-act-class="shadow-outline" data-set-theme="light"
+                        className="bg-green-700 focus:outline-none m-1 rounded p-2">light
+                </button>
+                {/*    <button onClick={toggleDarkMode}>{currentTheme}</button>*/}
+            </div>
         </div>
-        <div>
-            <button data-act-class="shadow-outline" data-set-theme="dark"
-                    className="bg-green-700 focus:outline-none m-1 rounded p-2">dark
-            </button>
-            <button data-act-class="shadow-outline" data-set-theme="light"
-                    className="bg-green-700 focus:outline-none m-1 rounded p-2">light
-            </button>
-        {/*    <button onClick={toggleDarkMode}>{currentTheme}</button>*/}
-        </div>
+
     </header>);
 }
 
