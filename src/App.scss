@@ -1,18 +1,18 @@
-//[data-theme='light'] {
-//  @import 'pentacleui/src/scss/assets/styles/pentacle-light.scss' ;
-//}
-//[data-theme='dark'] {
-//  @import 'pentacleui/src/scss/assets/styles/pentacle-dark.scss';
-//}
+[data-theme='light'] {
+  @import 'pentacleui/src/scss/assets/styles/pentacle-light.scss' ;
+}
+[data-theme='dark'] {
+  @import 'pentacleui/src/scss/assets/styles/pentacle-dark.scss';
+}
 
 // seranged
 
-[data-theme='light'] {
-  @import '~@pentacle/pentacleui/assets/styles/pentacle-light.scss' ;
-}
-[data-theme='dark'] {
-  @import '~@pentacle/pentacleui/assets/styles/pentacle-dark.scss' ;
-}
+//[data-theme='light'] {
+//  @import '~@pentacle/pentacleui/assets/styles/pentacle-light.scss' ;
+//}
+//[data-theme='dark'] {
+//  @import '~@pentacle/pentacleui/assets/styles/pentacle-dark.scss' ;
+//}
 
 .padding-bottom-3 {
   padding-bottom: 3rem;
