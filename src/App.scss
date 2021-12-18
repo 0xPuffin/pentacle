@@ -5,11 +5,13 @@
 //  @import 'pentacleui/src/scss/assets/styles/pentacle-dark.scss';
 //}
 
+// seranged
+
 [data-theme='light'] {
-  @import 'pentacle-light.css' ;
+  @import '~@pentacle/pentacleui/assets/styles/pentacle-light.scss' ;
 }
 [data-theme='dark'] {
-  @import 'pentacle-dark.css';
+  @import '~@pentacle/pentacleui/assets/styles/pentacle-dark.scss' ;
 }
 
 .padding-bottom-3 {
