@@ -12,7 +12,6 @@ tag_dict = dict((v,k) for k,v in tag_dict.items())
 
 df = pd.read_csv("pentacle-data-eth.csv", index_col="project_id")
 
-
 map_df = df[['name', 'tag1', 'tag2', 'tag3', 'tag4']].copy()
 map_df['tag1'] = map_df['tag1'].map(tag_dict)
 map_df['tag2'] = map_df['tag2'].map(tag_dict)
