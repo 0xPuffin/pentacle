@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import Project from "./ProjectDetail";
 import ProjectTile from "./ProjectSummary";
+import TagDescription from "../tag-layout/TagDescription";
 
 
 const Projects = ({projects}) => {

@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import ProjectDetail from "./ProjectDetail";
 import ProjectSummary from "./ProjectSummary";
+import TagDescription from "../tag-layout/TagDescription";
 
 export const ProjectsLayout = ({projects}) => {
     const [projectDetail, setProjectDetail] = useState(projects[0]);
@@ -46,6 +47,7 @@ export const ProjectsLayout = ({projects}) => {
             <section className={"main-container"}>
                 <article className={"overflow-scroll padding-top-2 padding-bottom-3 main-content"}>
                     <article className={"flex-mobile stretch"}>
+                        <TagDescription/>
                         {projects.map((project, index) => (
                             <ProjectSummary
                                 key={index}

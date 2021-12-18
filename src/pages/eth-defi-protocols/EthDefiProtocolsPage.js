@@ -4,6 +4,7 @@ import {TagsNav} from "../../components/tags/tags-nav";
 import {ProjectsLayout} from "../../components/project-layout/ProjectsLayout";
 import Header from "../../components/header";
 import Loading from "../../components/project-elements/loading.component";
+import RelatedLinks from "../../components/related-links/RelatedLinks";
 
 export const EthDefiProtocolsPage = () => {
 
@@ -69,6 +70,7 @@ export const EthDefiProtocolsPage = () => {
                         </article>
                     </section>
                     <ProjectsLayout projects={searchResults}/>
+                    <RelatedLinks/>
                 </main>
             </Layout>
         </>
