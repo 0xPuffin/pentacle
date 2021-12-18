@@ -10,6 +10,8 @@ import whitepaper from '../../images/icons/whitepaper.svg';
 import docs from '../../images/icons/docs.svg';
 import github from '../../images/icons/github.svg';
 import contract from '../../images/icons/contract.svg';
+import llama from '../../images/icons/llama.svg';
+import dune from '../../images/icons/dune.svg';
 
 type Props = {
     project_name: string;
@@ -24,6 +26,8 @@ type Props = {
     medium_url: string;
     contract_url: string;
     coingecko_url: string;
+    llama_url: string;
+    dune_url: string;
     whitepaper_url: string;
     github_url: string;
     docs_url: string;
@@ -32,7 +36,7 @@ type Props = {
     usdValue: object;
 }
 
-const ProjectDetail = ({usdValue, project_name, ticker, website_url, webapp_url, description, twitter_url, discord_url, telegram_url, medium_url, contract_url, coingecko_url, whitepaper_url, github_url, docs_url, token_image_url}: Props) => {
+const ProjectDetail = ({usdValue, project_name, ticker, website_url, webapp_url, description, twitter_url, discord_url, telegram_url, medium_url, contract_url, coingecko_url, whitepaper_url, github_url, docs_url, token_image_url, llama_url, dune_url}: Props) => {
 
     return (
         <section className={"main-container"}>
@@ -62,6 +66,10 @@ const ProjectDetail = ({usdValue, project_name, ticker, website_url, webapp_url,
                 <article className={"flex"}>
                     <div className={"margin-top-2 margin-bottom-2"}><p className={"large"}>{description}</p></div>
                     <div></div>
+                </article>
+                <article className={"flex flex-start"}>
+                    {docs_url && <Button url={llama_url} title="defi llama" icon={llama}/>}
+                    {contract_url && <Button url={dune_url} title="dune" icon={dune}/>}
                 </article>
             </article>
         </section>
