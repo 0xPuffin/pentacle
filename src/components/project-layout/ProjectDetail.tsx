@@ -60,7 +60,7 @@ const ProjectDetail = ({usdValue, project_name, ticker, website_url, webapp_url,
                     {contract_url && <Button url={contract_url} title="contract" icon={contract}/>}
                 </article>
                 <article className={"flex"}>
-                    <div className={"margin-top-2 margin-bottom-2"}><p>{description}</p></div>
+                    <div className={"margin-top-2 margin-bottom-2"}><p className={"large"}>{description}</p></div>
                     <div></div>
                 </article>
             </article>
