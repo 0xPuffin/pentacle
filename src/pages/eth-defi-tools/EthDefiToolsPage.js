@@ -62,7 +62,7 @@ export const EthDefiToolsPage = () => {
                 <TagsNav/>
                 <main className={"main-container"}>
                     <section className={"main-content flex space-between padding-top-3"}>
-                        <h1>DeFi tool</h1>
+                        <h1>Tools</h1>
                         <article className={"fieldset inline boxed align-right"}>
                             <label aria-labelledby={"search"} className={"display-none"}
                                    htmlFor={"search"}>Search</label>
