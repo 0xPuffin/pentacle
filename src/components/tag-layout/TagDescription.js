@@ -1,6 +1,6 @@
 import React from "react"
 
-const TagDescription = ({tag_name, description, onClick})  => {
+const TagDescription = ({tag_name, description})  => {
     return (
         <article className="project-tile box link secondary dark solid">
             <h3>{tag_name}</h3>

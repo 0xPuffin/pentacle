@@ -17,7 +17,7 @@ export const EthDefiToolsPage = () => {
     const fetchProjects = async () => {
         setLoading(true)
         try {
-            const response = await fetch("/eth-defi-tools")
+            const response = await fetch("/tool")
             const res = await response.json()
             // console.log(res)
             setLoading(false)

@@ -16,7 +16,7 @@ export const EthDefiProtocolsPage = () => {
     const fetchProjects = async () => {
         setLoading(true)
         try {
-            const response = await fetch("/eth-defi-protocol")
+            const response = await fetch("/yield")
             const res = await response.json()
             setLoading(false)
             setSearchResults(res.data)

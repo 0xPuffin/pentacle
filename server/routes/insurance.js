@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const projects = require("../services/eth-decentralised-exchange");
+const projects = require("../services/insurance");
 
 router.get("/", async function (req, res, next) {
   try {

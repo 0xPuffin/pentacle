@@ -16,7 +16,7 @@ export const EthDecentralisedExchange = () => {
   const fetchProjects = async () => {
     setLoading(true);
     try {
-      const response = await fetch("/eth-decentralised-exchange");
+      const response = await fetch("/decentralised-exchange");
       const res = await response.json();
       // console.log(res)
       setLoading(false);

@@ -4,13 +4,11 @@ const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 
 const indexRouter = require("./routes/index");
-const projectsRouter = require("./routes/projects");
-const ethAmmRouter = require("./routes/projects-amm");
-const ethDexRouter = require("./routes/eth-decentralised-exchange");
-const ethDefiProtocolRouter = require("./routes/eth-defi-protocol");
-const ethDefiInsuranceRouter = require("./routes/eth-defi-insurance");
-const ethDefiToolsRouter = require("./routes/eth-defi-tools");
-const tagsRouter = require("./routes/tags");
+const ethDexRouter = require("./routes/decentralised-exchange");
+const ethDefiProtocolRouter = require("./routes/yield");
+const ethDefiInsuranceRouter = require("./routes/insurance");
+const ethDefiToolsRouter = require("./routes/tool");
+const tagsRouter = require("./routes/tag");
 
 const app = express();
 
@@ -21,12 +19,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
-app.use("/projects", projectsRouter);
-app.use("/projects-amm", ethAmmRouter);
-app.use("/eth-decentralised-exchange", ethDexRouter);
-app.use("/eth-defi-protocol", ethDefiProtocolRouter);
-app.use("/eth-defi-insurance", ethDefiInsuranceRouter);
-app.use("/eth-defi-tools", ethDefiToolsRouter);
-app.use("/tags", tagsRouter);
+app.use("/decentralised-exchange", ethDexRouter);
+app.use("/yield", ethDefiProtocolRouter);
+app.use("/insurance", ethDefiInsuranceRouter);
+app.use("/tool", ethDefiToolsRouter);
+app.use("/tag", tagsRouter);
 
 module.exports = app;
