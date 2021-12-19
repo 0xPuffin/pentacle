@@ -1,0 +1,59 @@
+0,academic,
+1,aggregator,Protocols that collect and unify different protocols in similar categories and combine them for improved user experience
+2,amm,Automated Market Makers allow people to exchange coins based on built-in autonomous mechanisms instead of dealing with intermediaries
+3,analytics,
+4,arbitrage,
+5,cex,Centralized Exchanges where people can exchange their crypto
+6,centralised-exchange,
+7,dao,Decentralized Autonomous Organisation
+8,dapp,
+9,data,
+10,decentralised-exchange,
+11,defi,"Decentralized Finance, a broad term used for financial protocols built on decentralized blockchains"
+12,defi-tool,
+13,dev-tools,
+14,developer,Sites and tools to help you build your own applications or contribute to existing ones within crypto
+15,dex,Decentralized Exchanges are protocols built on blockchains that allow people to trade crypto using Automated Market Makers
+16,divergence-loss,
+17,education ,General educative content
+18,fiat-onramp,Exchanges where you are able to purchase crypto
+19,gas,
+20,hardware,
+21,identity,
+22,index,
+23,infrastructure,
+24,insight,"Educative but perhaps opinionated pieces written by experts, about current market structure or various protocols"
+25,insurance,
+26,jobs,"As a booming new industry, crypto offers many new job opportunities. Find them here"
+27,lending,Lending and borrowing go hand in hand and are one of the main financial primitives
+28,leverage,
+29,liquidity,
+30,layer-2,
+31,LP,
+32,margin,
+33,metrics,Places to find information about various crypto protocols and ways to compare them
+34,merch,
+35,metaverse,
+36,news,Articles related to current events and news in the world of crypto
+37,nft,"Unlike regular cryptocurrencies, Non Fungible Tokens are each unique and distinct, commonly used to store art and other images"
+38,options,"Options are complex financial derivatives, commonly used for accessing leverage or hedging investments"
+39,order,
+40,oracle,Oracles are the eyes of blockchains; they send information from the outside world to the applications built on them
+41,pool,
+42,portfolio,Tools to help you keep track of your crypto holdings
+43,protocol ,"Protocols are basic sets of rules that allow data to be shared between computers. For cryptocurrencies, they establish the structure of the blockchain — the distributed database that allows digital money to be securely exchanged on the internet."
+44,risk-management,
+45,security,Tools and articles to help you keep your crypto safe
+46,smart-contract,
+47,stablecoin,
+48,transaction,
+49,wallet,Wallets are used to store crypto and interact with decentralized applications on blockchains
+50,xyk,
+51,yield,"In the context of finance, yield measures return for investments/deposits over a set amount of time, expressed as a percentage"
+52,video,
+53,article,
+54,whitepaper,
+55,tweet,
+56,widget,
+57,tutorial,
+58,wikipedia,
