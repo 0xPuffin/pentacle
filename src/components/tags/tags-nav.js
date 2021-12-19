@@ -36,6 +36,8 @@ export const TagsNav = () => {
             <article className={"nav-content overflow-scroll"}>
                  {/*<Tags tags={tags}/>*/}
                 <Link to="/analytics" className={"text-link padding-right-2"}>Analytics</Link>
+                <Link to="/buy-crypto" className={"text-link padding-right-2"}>Buy crypto</Link>
+                <Link to="/centralised-exchange" className={"text-link padding-right-2"}>Centralised exchange</Link>
                 <Link to="/decentralised-exchange" className={"text-link padding-right-2"}>Decentralised exchange</Link>
                 <Link to="/insurance" className={"text-link padding-right-2"}>Insurance</Link>
                 <Link to="/tool" className={"text-link padding-right-2"}>Tools</Link>
