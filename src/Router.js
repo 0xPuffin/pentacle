@@ -18,6 +18,7 @@ import { TweetPage } from "./pages/tweet/tweet.page";
 import { EthDecentralisedExchange } from "./pages/eth-decentralised-exchange/EthDecentralisedExchange";
 import { EthDefiToolsPage } from "./pages/eth-defi-tools/EthDefiToolsPage";
 import { EthDefiInsurancePage } from "./pages/eth-defi-insurance/EthDefiInsurancePage";
+import {AnalyticsPage} from "./pages/analytics/Analytics";
 
 export const Router = () => {
   return (
@@ -25,6 +26,7 @@ export const Router = () => {
       <Route path="/" element={<Main />} />
       <Route path="/solana" element={<SolEcosystem />} />
       <Route path="/ethereum" element={<EthEcosystemDefi />} />
+      <Route path="/analytics" element={<AnalyticsPage />} />
       <Route path="/yield" element={<EthDefiProtocolsPage />} />
       <Route path="/tool" element={<EthDefiToolsPage />} />
       <Route path="/decentralised-exchange" element={<EthDecentralisedExchange />} />

@@ -35,10 +35,11 @@ export const TagsNav = () => {
     return (<nav>
             <article className={"nav-content overflow-scroll"}>
                  {/*<Tags tags={tags}/>*/}
-                <Link to="/yield" className={"text-link padding-right-2"}>Yield</Link>
+                <Link to="/analytics" className={"text-link padding-right-2"}>Analytics</Link>
                 <Link to="/decentralised-exchange" className={"text-link padding-right-2"}>Decentralised exchange</Link>
-                <Link to="/tool" className={"text-link padding-right-2"}>Tools</Link>
                 <Link to="/insurance" className={"text-link padding-right-2"}>Insurance</Link>
+                <Link to="/tool" className={"text-link padding-right-2"}>Tools</Link>
+                <Link to="/yield" className={"text-link padding-right-2"}>Yield</Link>
             </article>
         </nav>
     );
