@@ -1,3 +1,4 @@
+project_id,name,description,token_image_url,ticker,website_url,webapp_url,contract_url,coingecko_url,llama_url,dune_url,rekt_url,whitepaper_url,github_url,docs_url,twitter_url,discord_url,telegram_url,medium_url
 0,Defi llama,DefiLlama is committed to accurate data without ads or sponsored content and transparency. They list DeFi projects from all chains.,,,https://defillama.com/home,,,,,,,,,,,,,
 1,TradingLite,"Next-generation charting and volume analysis platform. Advanced heatmap visualization, live data, indicator scripting, support for all major crypto exchanges and more.",,,https://tradinglite.com/,,,,,,,,,,https://twitter.com/tradinglite,https://tradinglite.com/discord,,
 2,L2 beat,"L2BEAT was created to provide transparent and verifiable insights into emerging layer two (L2) technologies which, in line with the rollup-centric Ethereum scaling roadmap are aimed at scaling Ethereum.",,,https://l2beat.com/?view=risk,,,,,,,,,,,,,

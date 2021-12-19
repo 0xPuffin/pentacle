@@ -1,3 +1,4 @@
+tag_id,name,description
 0,academic,
 1,aggregator,Protocols that collect and unify different protocols in similar categories and combine them for improved user experience
 2,amm,Automated Market Makers allow people to exchange coins based on built-in autonomous mechanisms instead of dealing with intermediaries
