@@ -18,19 +18,19 @@ export const ProjectsLayout = ({projects}) => {
 
     const fetchPrice = async (props) => {
         if (props === undefined) {
-            const apiCall = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${projects[0].project_name}&vs_currencies=usd`)
+            const apiCall = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${projects[0].coingecko_id}&vs_currencies=usd`)
             const data = await apiCall.json()
-            const lowerCaseName = projects[0].project_name.toLowerCase()
+            const lowerCaseName = projects[0].coingecko_id
             const namedObject = data[lowerCaseName];
             setUsdValue(`$${namedObject.usd}`)
             return apiCall
         } else {
-            const apiCall = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${props.project_name}&vs_currencies=usd`)
+            const apiCall = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${props.coingecko_id}&vs_currencies=usd`)
             const data = await apiCall.json()
-            const lowerCaseName = props.project_name.toLowerCase()
+            const lowerCaseName = props.coingecko_id
             const namedObject = data[lowerCaseName];
             if (namedObject === undefined) {
-                setUsdValue('Unable to fetch price data')
+                setUsdValue(null)
             } else {
             setUsdValue(`$${namedObject.usd}`)
             }

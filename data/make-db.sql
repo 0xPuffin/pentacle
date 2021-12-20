@@ -43,8 +43,17 @@ CREATE TABLE article_tag (
   article_id      int,
   tag_id    	  int
 );
-COPY project FROM '/Users/pentaclexyz/projects/pentacle/data/project-no-tags.csv' delimiter ',' CSV HEADER;
-COPY tag FROM '/Users/pentaclexyz/projects/pentacle/data/tag.csv'delimiter ',' CSV HEADER;
-COPY project_tag FROM '/Users/pentaclexyz/projects/pentacle/data/project_tags.csv'delimiter ',' CSV HEADER;
-COPY article FROM '/Users/pentaclexyz/projects/pentacle/data/article-no-tags.csv'delimiter ',' CSV HEADER;
-COPY article_tag FROM '/Users/pentaclexyz/projects/pentacle/data/article_tags.csv'delimiter ',' CSV HEADER;
+
+
+-- COPY project FROM '/Users/pentaclexyz/projects/pentacle/data/project-no-tags.csv' delimiter ',' CSV HEADER;
+-- COPY tag FROM '/Users/pentaclexyz/projects/pentacle/data/tag.csv'delimiter ',' CSV HEADER;
+-- COPY project_tag FROM '/Users/pentaclexyz/projects/pentacle/data/project_tags.csv'delimiter ',' CSV HEADER;
+-- COPY article FROM '/Users/pentaclexyz/projects/pentacle/data/article-no-tags.csv'delimiter ',' CSV HEADER;
+-- COPY article_tag FROM '/Users/pentaclexyz/projects/pentacle/data/article_tags.csv'delimiter ',' CSV HEADER;
+
+
+-- COPY project FROM '/Users/serranged/Documents/GitHub/pentacle/data/project-no-tags.csv' delimiter ',' CSV HEADER;
+-- COPY tag FROM '/Users/serranged/Documents/GitHub/pentacle/data/tag.csv'delimiter ',' CSV HEADER;
+-- COPY project_tag FROM '/Users/serranged/Documents/GitHub/pentacle/data/project_tags.csv'delimiter ',' CSV HEADER;
+-- COPY article FROM '/Users/serranged/Documents/GitHub/pentacle/data/article-no-tags.csv'delimiter ',' CSV HEADER;
+-- COPY article_tag FROM '/Users/serranged/Documents/GitHub/pentacle/data/article_tags.csv'delimiter ',' CSV HEADER;
