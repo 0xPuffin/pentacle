@@ -3,7 +3,7 @@ import React from 'react';
 import {Link} from "react-router-dom";
 // import Tags from './tags.component';
 
-export const TagsNav = () => {
+export const ProjectTagNav = () => {
 
     // const [loading, setLoading] = useState(true);
     // const [tags, setTags] = useState([]);

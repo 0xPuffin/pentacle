@@ -10,7 +10,7 @@ const Header = () => {
     return (<header className={"p-header"}>
         <div className="header-content flex align-items-center">
             <div><Link to="/"><img alt="Pentacle logo" className={"logo"} src={"pentacle-logo-LH.svg"}/></Link></div>
-            <div>In your quest for knowledge, a talisman of protection</div>
+            <div className={"align-center"}>Projects | Education</div>
             <div className={"align-right"}>
                 <button data-act-class="shadow-outline" data-set-theme="dark"
                         className="bg-green-700 focus:outline-none m-1 rounded p-2">dark

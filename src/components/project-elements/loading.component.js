@@ -1,10 +1,10 @@
 import React from "react";
-import { TagsNav } from "../tags/tags-nav";
+import { ProjectTagNav } from "../tags/project-tag-nav";
 
 const Loading = () => {
   return (
     <>
-      <TagsNav />
+      <ProjectTagNav />
       <main className={"main-container"}>
         <section className={"main-content padding-top-3"}>Loading</section>
       </main>
