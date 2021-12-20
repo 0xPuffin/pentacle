@@ -6,6 +6,7 @@ DROP TABLE article_tag;
 CREATE TABLE project (
   project_id      serial primary key,
   name    varchar(4000),
+  coingecko_id    varchar(400),
   description    varchar(4000),
   token_image_url    varchar(4000),
   ticker    varchar(4000),
@@ -42,8 +43,8 @@ CREATE TABLE article_tag (
   article_id      int,
   tag_id    	  int
 );
-COPY project FROM '/Users/pentaclexyz/projects/pentacle/data/project.csv' delimiter ',' CSV HEADER;
+COPY project FROM '/Users/pentaclexyz/projects/pentacle/data/project-no-tags.csv' delimiter ',' CSV HEADER;
 COPY tag FROM '/Users/pentaclexyz/projects/pentacle/data/tag.csv'delimiter ',' CSV HEADER;
 COPY project_tag FROM '/Users/pentaclexyz/projects/pentacle/data/project_tags.csv'delimiter ',' CSV HEADER;
-COPY article FROM '/Users/pentaclexyz/projects/pentacle/data/article.csv'delimiter ',' CSV HEADER;
+COPY article FROM '/Users/pentaclexyz/projects/pentacle/data/article-no-tags.csv'delimiter ',' CSV HEADER;
 COPY article_tag FROM '/Users/pentaclexyz/projects/pentacle/data/article_tags.csv'delimiter ',' CSV HEADER;

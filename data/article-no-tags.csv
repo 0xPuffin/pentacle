@@ -1,0 +1,50 @@
+article_id,title,article_url
+0,How to Trade for Cheaper using DEX Aggregators,https://unmaskcrypto.com/learnings/dex-aggregator
+1,What Is an Automated Market Maker (AMM)?,https://academy.binance.com/en/articles/what-is-an-automated-market-maker-amm
+2,Tips for Trading on Uniswap,https://unmaskcrypto.com/learnings/trading-uniswap
+3,What Are Automated Market Makers?,https://www.gemini.com/cryptopedia/amm-what-are-automated-market-makers
+4,How AMM Works?,https://investotrend.com/how-amm-works/
+5,Uniswap v3 Core whitepaper,https://uniswap.org/whitepaper-v3.pdf
+6,Uniswap v2 Core whitepaper,https://uniswap.org/whitepaper.pdf
+7,Automated Market Makers and Decentralized Exchanges: a DeFi Primer,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3722714
+8,UNISWAP-V2 CONTRACT WALK-THROUGH,https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/
+9,SoK: Oracles from the Ground Truth to Market Manipulation,https://arxiv.org/abs/2106.00667
+10,Blockchain Oracle Design Patterns,https://arxiv.org/abs/2106.09349
+11,Foundational Oracle Patterns: Connecting Blockchain to the Off-chain World,https://arxiv.org/abs/2007.14946
+12,A First Look into DeFi Oracles,https://arxiv.org/abs/2005.04377
+13,Byzantine fault Wikipedia,https://en.wikipedia.org/wiki/Byzantine_fault
+14,What Is Yield Farming in Decentralized Finance (DeFi)?,https://academy.binance.com/en/articles/what-is-yield-farming-in-decentralized-finance-defi#what-started-the-yield-farming-boom
+15,Lending and Borrowing with Compound and Aave,https://thedefiant.io/lending-and-borrowing-with-compound-and-aave/
+16,"DeFi lending and borrowing, explained",https://cointelegraph.com/explained/defi-lending-and-borrowing-explained
+17,DYOR: Alchemix by 0xdef1,https://dyor.fi/alcx
+18,Uniswap V3 Fee Calculator by Flipside,https://uniswapv3.flipsidecrypto.com/
+19,Uniswap V3: A Quant Framework to model yield farming returns,https://medium.com/@DeFiScientist/uniswap-v3-a-quant-framework-to-model-yield-farming-returns-941a1600425e
+20,Impermanent Loss Calculator for Evodex & Uniswap,https://chitty27.pythonanywhere.com/
+21,Uniswap V3 Strategy Simulator,https://defi-lab.xyz/uniswapv3simulator
+22,DeFi: In Simple Photos and How to Make Your First Transaction!,https://defieducation.substack.com/p/defi-in-simple-photos-and-how-to
+23,Uniswap: Impermanent Loss and Risk Profile of a Liquidity Provider,https://arxiv.org/abs/2106.14404
+24,Uniswap v3: The Universal AMM,https://www.paradigm.xyz/2021/06/uniswap-v3-the-universal-amm/
+25,Uniswap V3 LP Tokens as Perpetual Put and Call Options,https://lambert-guillaume.medium.com/uniswap-v3-lp-tokens-as-perpetual-put-and-call-options-5b66219db827
+26,Impermanent Loss Explained,https://academy.binance.com/en/articles/impermanent-loss-explained
+27,What is an Options Contract,https://insights.deribit.com/education/what-is-an-options-contract/
+28,How Does a Centralized Cryptocurrency Exchange Work?,https://unmaskcrypto.com/learnings/cex-exchange
+29,What Is Margin Trading?,https://academy.binance.com/en/articles/what-is-margin-trading
+30,DeFi Indexes,https://defiprime.com/defi-index
+31,Options Wikipedia,https://en.wikipedia.org/wiki/Option_(finance)
+32,What are Options Contracts Binance,https://academy.binance.com/en/articles/what-are-options-contracts
+33,Primer on basic option strategies - Deribit position builder,https://insights.deribit.com/market-research/deribit-position-builder-primer-on-basic-option-strategies/
+34,SoK: Decentralized Exchanges (DEX) withAutomated Market Maker (AMM) protocols,https://arxiv.org/pdf/2103.12732.pdf
+35,Oracles from the Ground Truth to Market Manipulation,https://arxiv.org/pdf/2106.00667.pdf
+36,CIA Officer - twitter thread,https://twitter.com/officer_cia/status/1418018953742409738
+37,A Quick Introduction to Yield Farming,https://unmaskcrypto.com/learnings/yield-farming
+38,"Where does yield come from, anyway?",https://juliankoh.medium.com/where-does-yield-come-from-anyway-fc818c114bd5
+39,Nick Chong thread on yield,https://twitter.com/n2ckchong/status/1390494848478683136
+40,What is 0x,https://www.youtube.com/watch?v=c04eIt3FQ5I
+41,Decentralised exchanges,https://www.wikiwand.com/en/Decentralized_exchange
+42,What is a decentralised exchange,https://academy.binance.com/en/articles/what-is-a-decentralized-exchange-dex
+43,dydx,https://www.youtube.com/watch?v=PGE1uoiZTmM
+44,what are the risks of defi lending? ,https://ethereum.stackexchange.com/questions/92272/what-are-the-risks-of-defi-lending
+45,aave whitepaper,https://github.com/aave/protocol-v2/blob/master/aave-v2-whitepaper.pdf
+46,compound whitepaper,https://compound.finance/documents/Compound.Whitepaper.pdf
+47,vicyn impermanent loss calculator,https://vicyyn.com/
+48,UNISWAP: Impermanent Loss and Risk Profile of a Liquidity Provider,https://arxiv.org/pdf/2106.14404.pdf
