@@ -7,6 +7,7 @@ async function getMultiple(page = 1) {
   const rows = await db.query(
       "SELECT project.project_id, " +
       "project.name AS project_name, " +
+      "project.coingecko_id, " +
       "project.description, " +
       "project.ticker, " +
       "project.website_url, " +
