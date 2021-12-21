@@ -1,6 +1,6 @@
 const db = require("./db");
-const helper = require("../helper");
-const config = require("../config");
+const helper = require("../../helper");
+const config = require("../../config");
 
 async function getMultiple(page = 1) {
   const offset = helper.getOffset(page, config.listPerPage);
@@ -27,7 +27,7 @@ async function getMultiple(page = 1) {
       "ON project.project_id = project_tag.project_id " +
       "JOIN tag " +
       "ON tag.tag_id = project_tag.tag_id " +
-      "WHERE tag.name = 'cex' " +
+      "WHERE tag.name = 'insurance' " +
       "ORDER BY project.name ASC "+
       "OFFSET $1 LIMIT $2",
       [offset, config.listPerPage]

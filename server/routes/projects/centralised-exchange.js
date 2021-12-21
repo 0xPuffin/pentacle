@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const projects = require("../services/analytics");
+const projects = require("../../services/projects/centralised-exchange");
 
 router.get("/", async function (req, res, next) {
   try {

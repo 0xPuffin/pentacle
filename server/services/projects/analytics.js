@@ -1,13 +1,13 @@
 const db = require("./db");
-const helper = require("../helper");
-const config = require("../config");
+const helper = require("../../helper");
+const config = require("../../config");
 
 async function getMultiple(page = 1) {
   const offset = helper.getOffset(page, config.listPerPage);
   const rows = await db.query(
       "SELECT project.project_id, " +
       "project.name AS project_name, " +
-"project.coingecko_id, " +
+      "project.coingecko_id, " +
       "project.description, " +
       "project.ticker, " +
       "project.website_url, " +
@@ -27,7 +27,7 @@ async function getMultiple(page = 1) {
       "ON project.project_id = project_tag.project_id " +
       "JOIN tag " +
       "ON tag.tag_id = project_tag.tag_id " +
-      "WHERE tag.name = 'dex' " +
+      "WHERE tag.name = 'analytics' " +
       "ORDER BY project.name ASC "+
       "OFFSET $1 LIMIT $2",
       [offset, config.listPerPage]
