@@ -4,6 +4,8 @@ const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 
 const indexRouter = require("./routes/index");
+const articlesRouter = require("./routes/articles/articles");
+const educationRouter = require("./routes/education/education");
 const ammRouter = require("./routes/education/amm");
 const divergenceLossRouter = require("./routes/education/divergence-loss");
 const holdRouter = require("./routes/education/hold");
@@ -27,6 +29,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
+app.use("/articles", articlesRouter);
+app.use("/education", educationRouter);
 app.use("/amm", ammRouter);
 app.use("/divergence-loss", divergenceLossRouter);
 app.use("/hold", holdRouter);
