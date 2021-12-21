@@ -51,3 +51,20 @@ article_id,title,article_url,tag1,tag2,tag3,tag4,tag5
 49,MINER EXTRACTABLE VALUE (MEV),https://ethereum.org/en/developers/docs/mev/,mev,,,article,education
 50,Flashbots: Frontrunning the MEV Crisis,https://medium.com/flashbots/frontrunning-the-mev-crisis-40629a613752,mev,,,article,education
 51,flashbots github,https://github.com/flashbots/pm,mev,developer,,github,education
+52,How to approach crypto – Essential tips (Ledger),https://www.ledger.com/academy/how-to-approach-crypto,,,,,
+53,Self-Custody: How to be your own bank (Ledger),https://www.ledger.com/academy/tips-to-trust-yourself-in-becoming-your-own-bank,,,,,
+54,"Not your keys, not your coins (Ledger)",https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters,,,,,
+55,What is a cryptocurrency? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-cryptocurrency,,,,,
+56,What is a Blockchain? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-a-blockchain,,,,,
+57,What is Bitcoin? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-bitcoin,,,,,
+58,What is a Stablecoin? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-a-stablecoin,,,,,
+59,What are the Key Properties of Bitcoin?,https://nakamoto.com/what-are-the-key-properties-of-bitcoin/,,,,,
+60,What is Ethereum?,https://ethereum.org/en/what-is-ethereum/,,,,,
+61,What are Automated Market Makers? (Gemini),https://www.gemini.com/cryptopedia/amm-what-are-automated-market-makers,,,,,
+62,What is an Automated Market Maker? (Binance),https://academy.binance.com/en/articles/what-is-an-automated-market-maker-amm,,,,,
+63,What is an Automated Market Maker? (Coinmarketcap),https://coinmarketcap.com/alexandria/glossary/automated-market-maker-amm,,,,,
+64,"A Mathematical View of Automated Market Maker (AMM) Algorithms and Its Future
+",https://medium.com/anchordao-lab/automated-market-maker-amm-algorithms-and-its-future-f2d5e6cc624a,,,,,
+65,What is Staking? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-staking,,,,,
+66,Uniswap math desmos thread (Dan Robinson),https://twitter.com/danrobinson/status/1429972775511408651,,,,,
+67,CoinMarketCap Crypto Glossary,https://coinmarketcap.com/alexandria/glossary,,,,,

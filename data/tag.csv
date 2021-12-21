@@ -5,7 +5,7 @@ tag_id,name,description
 3,analytics,
 4,arbitrage,
 5,cex,Centralized Exchanges where people can exchange their crypto
-6,centralised-exchange,
+6,centralised-exchange,Centralized Exchanges where people can exchange their crypto
 7,dao,Decentralized Autonomous Organisation
 8,dapp,
 9,data,
@@ -17,7 +17,7 @@ tag_id,name,description
 15,dex,Decentralized Exchanges are protocols built on blockchains that allow people to trade crypto using Automated Market Makers
 16,divergence-loss,
 17,education ,General educative content
-18,fiat-onramp,Exchanges where you are able to purchase crypto
+18,buy-crypto,Exchanges and wallets where you are able to buy crypto
 19,gas,
 20,hardware,
 21,identity,
@@ -48,13 +48,16 @@ tag_id,name,description
 46,smart-contract,
 47,stablecoin,
 48,transaction,
-49,wallet,Wallets are used to store crypto and interact with decentralized applications on blockchains
-50,xyk,
-51,yield,"In the context of finance, yield measures return for investments/deposits over a set amount of time, expressed as a percentage"
-52,video,
-53,article,
-54,whitepaper,
-55,tweet,
-56,widget,
-57,tutorial,
-58,wikipedia,
+49,stake,
+50,wallet,Wallets are used to store crypto and interact with decentralized applications on blockchains
+51,xyk,
+52,yield,"In the context of finance, yield measures return for investments/deposits over a set amount of time, expressed as a percentage"
+53,video,
+54,article,
+55,whitepaper,
+56,tweet,
+57,widget,
+58,tutorial,
+59,wikipedia,
+60,hold,
+61,stake,
