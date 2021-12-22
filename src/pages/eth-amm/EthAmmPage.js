@@ -33,6 +33,9 @@ export const EthAmmPage = () => {
         fetchProjects();
     }, []);
 
+
+
+
     const handleChange = event => {
         setSearchTerm(event.target.value);
     };

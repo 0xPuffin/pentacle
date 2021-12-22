@@ -1,58 +1,48 @@
 import React, {useEffect, useState} from 'react';
 import Layout from "../../components/layouts/layout";
-import {ProjectTagNav} from "../../components/tags/project-tag-nav";
-import {ProjectsLayout} from "../../components/project-layout/ProjectsLayout";
 import Header from "../../components/header";
 import {EducationTagNav} from "../../components/tags/education-tag-nav";
 
-export const EducationAmmPage = () => {
+export function EducationAmmPage () {
 
-    const [loading, setLoading] = useState(true);
-    const [amm, setAmm] = useState([]);
-    const [tags] = useState([]);
-    // const [searchTerm, setSearchTerm] = useState("");
-    // const [searchResults, setSearchResults] = useState([]);
+    const [education, setEducation] = useState(null);
 
-    console.log(amm);
-    // console.log(tags);
-
-    const fetchEducation = async () => {
-        setLoading(true);
-        try {
-            const response = await fetch("/education/amm");
-            const res = await response.json();
-            console.log(res)
-            setLoading(false);
-            setAmm(res.data);
-        } catch (error) {
-            setLoading(false);
-            console.log(error);
-        }
-    };
     useEffect(() => {
-        fetchEducation();
+        getData();
+
+        async function getData () {
+                const response = await fetch("/education");
+                const res = await response.json();
+                setEducation(res.data);
+        }
     }, []);
-
-    const tagName = (tag =>
-      tag.tag_name);
-
-    if (loading) {
-        return (
-            <Layout><p>Loading</p></Layout>
-        )
-    }
 
     return (
         <>
             <Header/>
             <Layout>
                 <EducationTagNav/>
-                <main className={"main-container"}>
-                    <h2>{amm.education_name}</h2>
-                    <p>{amm.what}</p>
-                </main>
+                {education && (
+                    <main className={"main-container"}>
+                        {education.map((data, index) => (
+                            <article className={"main-content margin-bottom-2"} key={index}>
+                                <h2>{data.education_name}</h2>
+                                <div className={"placeholder margin-bottom-1 margin-top-1"}>image thingy in here</div>
+                                <h3>What</h3>
+                                <p className={"large"}>{data.what}</p>
+                                <h3>Why</h3>
+                                <p className={"large"}>{data.why}</p>
+                                <h3>Reward</h3>
+                                <p className={"large"}>{data.reward}</p>
+                                <h3>Risk</h3>
+                                <p className={"large"}>{data.risk}</p>
+                            </article>
+                        ))}
+                    </main>
+                )}
             </Layout>
         </>
     );
 }
+
 
