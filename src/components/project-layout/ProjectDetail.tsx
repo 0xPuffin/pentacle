@@ -33,7 +33,7 @@ type Props = {
     docs_url: string;
     description: string;
     token_image_url: string;
-    usdValue: object;
+    usdValue: string;
 }
 
 const ProjectDetail = ({usdValue, project_name, ticker, website_url, webapp_url, description, twitter_url, discord_url, telegram_url, medium_url, contract_url, coingecko_url, whitepaper_url, github_url, docs_url, token_image_url, llama_url, dune_url}: Props) => {
