@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import { About } from "./pages/about";
 import { Terms } from "./pages/terms";
 import { Main } from "./pages/main";
+import {EducationAmmPage} from "./pages/education/EducationAmmPage";
 import EthEcosystemDefi from "./pages/eth-ecosystem/eth-ecosystem-defi";
 import { EthDefiProtocolsPage } from "./pages/eth-defi-protocols/EthDefiProtocolsPage";
 import EthEcosystemDev from "./pages/eth-ecosystem/eth-ecosystem-dev";
@@ -26,6 +27,7 @@ export const Router = () => {
   return (
     <Routes>
       <Route path="/" element={<Main />} />
+      <Route path="/education/amm" element={<EducationAmmPage />} />
       <Route path="/solana" element={<SolEcosystem />} />
       <Route path="/ethereum" element={<EthEcosystemDefi />} />
       <Route path="/analytics" element={<AnalyticsPage />} />
