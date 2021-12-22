@@ -64,6 +64,21 @@ CREATE TABLE education_tag
     education_id int,
     tag_id       int
 );
+CREATE TABLE event
+(
+    event_id      serial primary key,
+    event_name    varchar(4000),
+    start         varchar(4000),
+    finish        varchar(4000),
+    location      varchar(4000),
+    event_twitter varchar(4000),
+    event_telegram varchar (4000)
+);
+CREATE TABLE event_tag
+(
+    event_id int,
+    tag_id   int
+);
 COPY project FROM '/Users/pentaclexyz/projects/pentacle/data/project-no-tags.csv' delimiter ',' CSV HEADER;
 COPY tag FROM '/Users/pentaclexyz/projects/pentacle/data/tag.csv' delimiter ',' CSV HEADER;
 COPY project_tag FROM '/Users/pentaclexyz/projects/pentacle/data/project_tags.csv' delimiter ',' CSV HEADER;
@@ -71,3 +86,5 @@ COPY article FROM '/Users/pentaclexyz/projects/pentacle/data/article-no-tags.csv
 COPY article_tag FROM '/Users/pentaclexyz/projects/pentacle/data/article_tags.csv' delimiter ',' CSV HEADER;
 COPY education FROM '/Users/pentaclexyz/projects/pentacle/data/education-no-tags.csv' delimiter ',' CSV HEADER;
 COPY education_tag FROM '/Users/pentaclexyz/projects/pentacle/data/education_tags.csv' delimiter ',' CSV HEADER;
+COPY event FROM '/Users/pentaclexyz/projects/pentacle/data/event-no-tags.csv' delimiter ',' CSV HEADER;
+COPY event_tag FROM '/Users/pentaclexyz/projects/pentacle/data/event_tags.csv' delimiter ',' CSV HEADER;

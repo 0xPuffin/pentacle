@@ -1,18 +1,20 @@
-[data-theme='light'] {
-  @import 'pentacleui/src/scss/assets/styles/pentacle-light.scss' ;
-}
-[data-theme='dark'] {
-  @import 'pentacleui/src/scss/assets/styles/pentacle-dark.scss';
-}
-
-// seranged
+// dev
 
 //[data-theme='light'] {
-//  @import '~@pentacle/pentacleui/assets/styles/pentacle-light.scss' ;
+//  @import 'pentacleui/src/scss/assets/styles/pentacle-light.scss' ;
 //}
 //[data-theme='dark'] {
-//  @import '~@pentacle/pentacleui/assets/styles/pentacle-dark.scss' ;
+//  @import 'pentacleui/src/scss/assets/styles/pentacle-dark.scss';
 //}
+
+// prod
+
+[data-theme='light'] {
+  @import '~@pentacle/pentacleui/assets/styles/pentacle-light.scss' ;
+}
+[data-theme='dark'] {
+  @import '~@pentacle/pentacleui/assets/styles/pentacle-dark.scss' ;
+}
 
 .placeholder {
   height: 20rem;
