@@ -1,86 +1,48 @@
 import React, {useEffect, useState} from 'react';
 import Layout from "../../components/layouts/layout";
-import {ProjectTagNav} from "../../components/tags/project-tag-nav";
-import {ProjectsLayout} from "../../components/project-layout/ProjectsLayout";
 import Header from "../../components/header";
+import {EducationTagNav} from "../../components/tags/education-tag-nav";
 
-export const EthAmmPage = () => {
+export function EducationHoldPage () {
 
-    const [loading, setLoading] = useState(true);
-    const [projects, setProjects] = useState([]);
-    const [tags] = useState([]);
-    const [searchTerm, setSearchTerm] = useState("");
-    const [searchResults, setSearchResults] = useState([]);
+    const [education, setEducation] = useState(null);
 
-    console.log(projects);
-    console.log(tags);
+    useEffect(() => {
+        getData();
 
-    const fetchProjects = async () => {
-        setLoading(true);
-        try {
+        async function getData () {
             const response = await fetch("/education/hold");
             const res = await response.json();
-            // console.log(res)
-            setLoading(false);
-            setProjects(res.data);
-            setSearchResults(res.data);
-        } catch (error) {
-            setLoading(false);
-            console.log(error);
+            setEducation(res.data);
         }
-    };
-    useEffect(() => {
-        fetchProjects();
     }, []);
-
-    const handleChange = event => {
-        setSearchTerm(event.target.value);
-    };
-
-    const handleClear = () => {
-        setSearchResults(projects);
-        setSearchTerm('');
-    };
-
-    const tagName = (tag =>
-      tag.tag_name);
-
-    useEffect(() => {
-        const searchResult = projects.filter(project =>
-            project.project_name.toLowerCase().includes(searchTerm.toLowerCase())
-        );
-        setSearchResults(searchResult);
-    }, [searchTerm]);
-
-    if (loading) {
-        return (
-            <Layout><p>Loading</p></Layout>
-        )
-    }
 
     return (
         <>
             <Header/>
             <Layout>
-                <ProjectTagNav/>
-                <main className={"main-container"}>
-                    <section className={"main-content flex space-between padding-top-2"}>
-                        <h2>Projects</h2>
-                        <article className={"fieldset inline boxed align-right"}>
-                            <label aria-labelledby={"search"} className={"display-none"}
-                                   htmlFor={"search"}>Search</label>
-                            <input id="search" type="text" placeholder="Filter by project name" value={searchTerm}
-                                   onChange={handleChange}/>
-                            <input className={"padding-left-0-75"} type="reset" value="Clear" onClick={handleClear}/>
-                        </article>
-                    </section>
-                    <ProjectsLayout projects={searchResults}/>
-                    <section className={"main-content flex space-between padding-top-3"}>
-                      <h2>Articles</h2>
-                    </section>
-                </main>
+                <EducationTagNav/>
+                {education && (
+                    <main className={"main-container"}>
+                        {education.map((data, index) => (
+                            <article className={"main-content margin-bottom-2"} key={index}>
+                                <h2>{data.education_name}</h2>
+                                <div className={"placeholder margin-bottom-1 margin-top-1"}>image thingy in here</div>
+                                <h3>What</h3>
+                                <p className={"large"}>{data.what}</p>
+                                <h3>Why</h3>
+                                <p className={"large"}>{data.why}</p>
+                                <h3>Reward</h3>
+                                <p className={"large"}>{data.reward}</p>
+                                <h3>Risk</h3>
+                                <p className={"large"}>{data.risk}</p>
+                            </article>
+                        ))}
+                    </main>
+                )}
             </Layout>
         </>
     );
 }
+
 

@@ -11,7 +11,7 @@ export function EducationAmmPage () {
         getData();
 
         async function getData () {
-                const response = await fetch("/education");
+                const response = await fetch("/education/amm");
                 const res = await response.json();
                 setEducation(res.data);
         }

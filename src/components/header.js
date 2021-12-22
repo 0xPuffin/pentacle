@@ -9,8 +9,8 @@ const Header = () => {
     }, [])
     return (<header className={"p-header"}>
         <div className="header-content flex align-items-center">
-            <div><Link to="/"><img alt="Pentacle logo" className={"logo"} src={"pentacle-logo-LH.svg"}/></Link></div>
-            <div className={"align-center"}>Projects | Education</div>
+            <div><Link to="/"><img alt="Pentacle logo" className={"logo"} src={"../pentacle-logo-LH.svg"}/></Link></div>
+            <div className={"align-center"}><Link to="/projects/analytics">Projects</Link> | <Link to="/education/amm">Education</Link></div>
             <div className={"align-right"}>
                 <button data-act-class="shadow-outline" data-set-theme="dark"
                         className="bg-green-700 focus:outline-none m-1 rounded p-2">dark

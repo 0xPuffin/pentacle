@@ -3,7 +3,7 @@ import Layout from "../../components/layouts/layout";
 import Header from "../../components/header";
 import {EducationTagNav} from "../../components/tags/education-tag-nav";
 
-export function EducationXykPage () {
+export function EducationProvideLiquidityPage () {
 
     const [education, setEducation] = useState(null);
 
@@ -11,7 +11,7 @@ export function EducationXykPage () {
         getData();
 
         async function getData () {
-            const response = await fetch("/education/xyk");
+            const response = await fetch("/education/provide-liquidity");
             const res = await response.json();
             setEducation(res.data);
         }

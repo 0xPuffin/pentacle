@@ -4,7 +4,7 @@ import {ProjectTagNav} from "../../components/tags/project-tag-nav";
 import {ProjectsLayout} from "../../components/project-layout/ProjectsLayout";
 import Header from "../../components/header";
 
-export const EthAmmPage = () => {
+export const EthAmm = () => {
 
     const [loading, setLoading] = useState(true);
     const [projects, setProjects] = useState([]);
@@ -20,7 +20,6 @@ export const EthAmmPage = () => {
         try {
             const response = await fetch("/projects-amm");
             const res = await response.json();
-            // console.log(res)
             setLoading(false);
             setProjects(res.data);
             setSearchResults(res.data);
@@ -32,9 +31,6 @@ export const EthAmmPage = () => {
     useEffect(() => {
         fetchProjects();
     }, []);
-
-
-
 
     const handleChange = event => {
         setSearchTerm(event.target.value);
