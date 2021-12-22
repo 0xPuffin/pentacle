@@ -44,7 +44,7 @@ export const ProjectsLayout = ({projects}) => {
 
     return (
         <>
-            <section className={"main-container"}>
+            <section>
                 <article className={"overflow-scroll padding-top-2 padding-bottom-3 main-content"}>
                     <article className={"flex-mobile stretch"}>
                         <TagDescription/>

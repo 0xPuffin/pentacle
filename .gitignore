@@ -12,3 +12,4 @@ yarn
 src/pentacleui/
 src/pentacleui/*
 **/yarn-error.log
+venv
