@@ -16,7 +16,7 @@ export const AnalyticsPage = () => {
     const fetchProjects = async () => {
         setLoading(true)
         try {
-            const response = await fetch("/analytics")
+            const response = await fetch("/projects/analytics")
             const res = await response.json()
             setLoading(false)
             setSearchResults(res.data)

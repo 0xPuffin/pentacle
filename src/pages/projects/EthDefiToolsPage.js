@@ -17,7 +17,7 @@ export const EthDefiToolsPage = () => {
     const fetchProjects = async () => {
         setLoading(true)
         try {
-            const response = await fetch("/tool")
+            const response = await fetch("/projects/tool")
             const res = await response.json()
             // console.log(res)
             setLoading(false)

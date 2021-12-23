@@ -17,7 +17,7 @@ export const EthDefiInsurancePage = () => {
     const fetchProjects = async () => {
         setLoading(true)
         try {
-            const response = await fetch("/insurance")
+            const response = await fetch("/projects/insurance")
             const res = await response.json()
             // console.log(res)
             setLoading(false)

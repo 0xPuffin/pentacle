@@ -16,7 +16,7 @@ export const BuyCryptoPage = () => {
     const fetchProjects = async () => {
         setLoading(true)
         try {
-            const response = await fetch("/buy-crypto")
+            const response = await fetch("/projects/buy-crypto")
             const res = await response.json()
             setLoading(false)
             setSearchResults(res.data)

@@ -18,7 +18,7 @@ export const EthAmm = () => {
     const fetchProjects = async () => {
         setLoading(true);
         try {
-            const response = await fetch("/projects-amm");
+            const response = await fetch("/projects/projects-amm");
             const res = await response.json();
             setLoading(false);
             setProjects(res.data);

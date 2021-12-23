@@ -16,7 +16,7 @@ export const CentralisedExchangePage = () => {
     const fetchProjects = async () => {
         setLoading(true)
         try {
-            const response = await fetch("/centralised-exchange")
+            const response = await fetch("/projects/centralised-exchange")
             const res = await response.json()
             setLoading(false)
             setSearchResults(res.data)
