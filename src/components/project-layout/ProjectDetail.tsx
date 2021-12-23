@@ -61,7 +61,7 @@ const ProjectDetail = ({
             <article className={"main-content"}>
                 <h2>{token_image_url && <img alt={project_name} src={token_image_url}
                                              className={"width-1"}/>} {project_name} {ticker && `(${ticker})`} </h2>
-                {usdValue && <h3>{usdValue}</h3>}
+                {usdValue && <h3>{usdValue.toLocaleString()}</h3>}
                 <article className={"flex"}>
                     <div className={"editorial-content"}>
                         <ul className={"list-none"}>
