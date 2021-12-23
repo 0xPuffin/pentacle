@@ -12,22 +12,25 @@ const Projects = ({projects}) => {
     }, [projects]);
 
     return (
-        <main>
-            <section className={"main-container"}>
-                <article className={"overflow-x-scroll padding-y-3 main-content"}>
-                    <article className={"flex-mobile stretch"}>
-                        {projects.children.map((project, index) => (
-                            <ProjectTile
-                                key={index}
-                                {...project}
-                                onClick={() => setProjectDetail(projects.children[index])}
-                            />
-                        ))}
-                    </article>
-                </article>
-            </section>
-            <Projects projectDetailLower={projectDetail}/>
-        </main>
+        <>
+            {/*<article className={"overflow-x-scroll padding-y-3 main-content"}>*/}
+            {/*    <article className={"flex-mobile stretch"}>*/}
+            {/*        {projects.children.map((project, index) => (*/}
+            {/*            <ProjectTile*/}
+            {/*                key={index}*/}
+            {/*                {...project}*/}
+            {/*                onClick={() => setProjectDetail(projects.children[index])}*/}
+            {/*            />*/}
+            {/*        ))}*/}
+            {/*    </article>*/}
+            {/*</article>*/}
+            <main>
+                {/*<section className={"main-container"}>*/}
+
+                {/*</section>*/}
+                <Projects projectDetailLower={projectDetail}/>
+            </main>
+        </>
     );
 };
 
