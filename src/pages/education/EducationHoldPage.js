@@ -9,13 +9,18 @@ export function EducationHoldPage () {
 
     useEffect(() => {
         getData();
-
-        async function getData () {
-            const response = await fetch("/education/hold");
-            const res = await response.json();
-            setEducation(res.data);
-        }
     }, []);
+
+
+    const getData = async () => {
+        try {
+            const response = await fetch("/education/hold")
+            const res = await response.json()
+            setEducation(res.data)
+        } catch (error) {
+            console.log(error)
+        }
+    }
 
     return (
         <>

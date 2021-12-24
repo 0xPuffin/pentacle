@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const tag = require("../../services/projects/tag");
+const tag = require("../../services/projects/tags");
 
 router.get("/", async function (req, res, next) {
   try {

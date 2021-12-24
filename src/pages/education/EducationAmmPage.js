@@ -26,7 +26,7 @@ export function EducationAmmPage () {
                 {education && (
                     <main className={"main-container"}>
                         {education.map((data, index) => (
-                            <article className={"main-content margin-bottom-2 editorial-content two-col"} key={index}>
+                            <article className={"main-content margin-bottom-2"} key={index}>
                                 <h2>{data.education_name}</h2>
                                 <div className={"placeholder margin-bottom-1 margin-top-1"}>image thingy in here</div>
                                 <h3>What</h3>

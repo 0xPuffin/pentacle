@@ -1,5 +1,5 @@
 DROP TABLE project;
-DROP TABLE tag;
+DROP TABLE projectsTag;
 DROP TABLE project_tag;
 DROP TABLE article;
 DROP TABLE article_tag;
@@ -30,7 +30,7 @@ CREATE TABLE project
     telegram_url    varchar(4000),
     medium_url      varchar(4000)
 );
-CREATE TABLE tag
+CREATE TABLE projectsTag
 (
     tag_id      serial primary key,
     name        varchar(400),
@@ -83,7 +83,7 @@ CREATE TABLE event_tag
     tag_id   int
 );
 COPY project FROM '/Users/pentaclexyz/projects/pentacle/data/project-no-tags.csv' delimiter ',' CSV HEADER;
-COPY tag FROM '/Users/pentaclexyz/projects/pentacle/data/tag.csv' delimiter ',' CSV HEADER;
+COPY projectsTag FROM '/Users/pentaclexyz/projects/pentacle/data/projectsTag.csv' delimiter ',' CSV HEADER;
 COPY project_tag FROM '/Users/pentaclexyz/projects/pentacle/data/project_tags.csv' delimiter ',' CSV HEADER;
 COPY article FROM '/Users/pentaclexyz/projects/pentacle/data/article-no-tags.csv' delimiter ',' CSV HEADER;
 COPY article_tag FROM '/Users/pentaclexyz/projects/pentacle/data/article_tags.csv' delimiter ',' CSV HEADER;

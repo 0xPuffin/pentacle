@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {Link} from "react-router-dom";
 import Tags from './tags.component';
 
-export const ProjectTagNav = () => {
+export const EventsTagNav = () => {
 
     const [loading, setLoading] = useState(true);
     const [tags, setTags] = useState([]);
@@ -10,7 +10,7 @@ export const ProjectTagNav = () => {
     const fetchTags = async () => {
         setLoading(true)
         try {
-            const response = await fetch("/projects/tags")
+            const response = await fetch("/events/tags")
             const res = await response.json()
             setLoading(false)
             setTags(res.data)
@@ -32,7 +32,7 @@ export const ProjectTagNav = () => {
     }
     return (<nav>
             <article className={"nav-content overflow-scroll"}>
-                 <Tags tags={tags}/>
+                <Tags tags={tags}/>
             </article>
         </nav>
     );

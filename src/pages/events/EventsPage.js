@@ -1,38 +1,33 @@
 import React, {useEffect, useState} from 'react';
 import Layout from "../../components/layouts/layout";
 import Header from "../../components/header";
-import {EducationTagNav} from "../../components/tags/education-tag-nav";
-import EducationContent from "../../components/education-elements/educationContent.component";
+import {EventsTagNav} from "../../components/tags/events-tag-nav";
 
-export function EducationDivergenceLossPage () {
+export function EventsPage () {
 
-    const [education, setEducation] = useState(null);
+    const [events, setEvents] = useState(null);
 
     useEffect(() => {
         getData();
-    }, []);
 
-
-    const getData = async () => {
-        try {
-            const response = await fetch("/education/divergence-loss")
-            const res = await response.json()
-            setEducation(res.data)
-        } catch (error) {
-            console.log(error)
+        async function getData () {
+            const response = await fetch("/events");
+                // const response = await fetch(`${process.env.REACT_APP_URI}/events/amm`);
+                const res = await response.json();
+                setEvents(res.data);
         }
-    }
+    }, []);
 
     return (
         <>
             <Header/>
             <Layout>
-                <EducationTagNav/>
-                {education && (
+                <EventsTagNav/>
+                {events && (
                     <main className={"main-container"}>
-                        {education.map((data, index) => (
+                        {events.map((data, index) => (
                             <article className={"main-content margin-bottom-2"} key={index}>
-                                <h2>{data.education_name}</h2>
+                                <h2>{data.events_name}</h2>
                                 <div className={"placeholder margin-bottom-1 margin-top-1"}>image thingy in here</div>
                                 <h3>What</h3>
                                 <p className={"large"}>{data.what}</p>
@@ -47,14 +42,8 @@ export function EducationDivergenceLossPage () {
                     </main>
                 )}
             </Layout>
-            {/*<Layout>*/}
-            {/*    <EducationTagNav/>*/}
-            {/*    <main className={"main-container"}>*/}
-            {/*    {education && (*/}
-            {/*        <EducationContent data={education}/>*/}
-            {/*    )}*/}
-            {/*    </main>*/}
-            {/*</Layout>*/}
         </>
     );
 }
+
+

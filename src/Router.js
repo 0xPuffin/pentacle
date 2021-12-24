@@ -30,6 +30,7 @@ import {BadThingsPoly} from "./pages/bad-things/bad-things-poly";
 import EthEcosystemLearn from "./pages/eth-ecosystem/eth-ecosystem-learn";
 import EthEcosystemNft from "./pages/eth-ecosystem/eth-ecosystem-nft";
 import {TweetPage} from "./pages/tweet/tweet.page";
+import {EventsPage} from "./pages/events/EventsPage";
 
 
 export const Router = () => {
@@ -42,6 +43,8 @@ export const Router = () => {
             <Route path="/education/stake" element={<EducationStakePage/>}/>
             <Route path="/education/xyk" element={<EducationXykPage/>}/>
             <Route path="/education/provide-liquidity" element={<EducationProvideLiquidityPage/>}/>
+
+            <Route path="/events" element={<EventsPage/>}/>
 
             <Route path="/projects/analytics" element={<AnalyticsPage/>}/>
             <Route path="/projects/buy-crypto" element={<BuyCryptoPage/>}/>

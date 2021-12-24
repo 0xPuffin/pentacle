@@ -1,7 +1,7 @@
 import React from "react"
 import {Link} from "react-router-dom";
-import { useEffect } from 'react'
-import { themeChange } from 'theme-change'
+import {useEffect} from 'react'
+import {themeChange} from 'theme-change'
 
 const Header = () => {
     useEffect(() => {
@@ -9,19 +9,19 @@ const Header = () => {
     }, [])
     return (<header className={"p-header"}>
         <div className="header-content flex align-items-center">
-           <Link to="/"><div className={"pentacle-logo"}></div></Link>
-            <div className={"align-center"}><Link to="/projects/analytics">Projects</Link> | <Link to="/education/amm">Education</Link></div>
+            <Link to="/">
+                <div className={"pentacle-logo"}/>
+            </Link>
+            <div className={"flex-center"}>
+                <Link to="/projects/analytics">Projects</Link>
+                <Link to="/education/amm">Education</Link>
+                <Link to="/events">Events</Link>
+            </div>
             <div className={"align-right"}>
-                <button data-act-class="shadow-outline" data-set-theme="dark"
-                        className="bg-green-700 focus:outline-none m-1 rounded p-2">dark
-                </button>
-                <button data-act-class="shadow-outline" data-set-theme="light"
-                        className="bg-green-700 focus:outline-none m-1 rounded p-2">light
-                </button>
-                {/*    <button onClick={toggleDarkMode}>{currentTheme}</button>*/}
+                <button data-set-theme="dark">dark</button>
+                <button data-set-theme="light">light</button>
             </div>
         </div>
-
     </header>);
 }
 
