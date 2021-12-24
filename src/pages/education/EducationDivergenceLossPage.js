@@ -5,18 +5,23 @@ import {EducationTagNav} from "../../components/tags/education-tag-nav";
 import EducationContent from "../../components/education-elements/educationContent.component";
 
 export function EducationDivergenceLossPage () {
-
     const [education, setEducation] = useState(null);
 
     useEffect(() => {
         getData();
-
-        async function getData () {
-            const response = await fetch("/education/divergence-loss");
-            const res = await response.json();
-            setEducation(res.data);
-        }
     }, []);
+
+
+    const getData = async () => {
+        try {
+            const response = await fetch("/education/divergence-loss")
+            const res = await response.json()
+            console.log(res)
+            setEducation(res.data)
+        } catch (error) {
+            console.log(error)
+        }
+    }
 
     return (
         <>
