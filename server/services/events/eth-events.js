@@ -6,13 +6,13 @@ async function getMultiple(page = 1) {
   const offset = helper.getOffset(page, config.listPerPage);
   const rows = await db.query(
       "SELECT event.event_id, " +
-      "event.name AS event_name, " +
+      // "event.name AS event_name, " +
       "event.start, " +
       "event.finish, " +
       "event.location, " +
       "event.event_url " +
-      "event.twitter " +
-      "event.telegram " +
+      // "event.twitter " +
+      // "event.telegram " +
       "FROM event " +
       "JOIN event_tag " +
       "ON event.event_id = event_tag.event_id " +

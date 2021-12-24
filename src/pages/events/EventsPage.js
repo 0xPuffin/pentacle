@@ -9,14 +9,18 @@ export function EventsPage () {
 
     useEffect(() => {
         getData();
-
-        async function getData () {
-            const response = await fetch("/events");
-                // const response = await fetch(`${process.env.REACT_APP_URI}/events/amm`);
-                const res = await response.json();
-                setEvents(res.data);
-        }
     }, []);
+
+
+    const getData = async () => {
+        try {
+            const response = await fetch("/events/events")
+            const res = await response.json()
+            setEvents(res.data)
+        } catch (error) {
+            console.log(error)
+        }
+    }
 
     return (
         <>
@@ -27,16 +31,13 @@ export function EventsPage () {
                     <main className={"main-container"}>
                         {events.map((data, index) => (
                             <article className={"main-content margin-bottom-2"} key={index}>
-                                <h2>{data.events_name}</h2>
-                                <div className={"placeholder margin-bottom-1 margin-top-1"}>image thingy in here</div>
-                                <h3>What</h3>
-                                <p className={"large"}>{data.what}</p>
-                                <h3>Why</h3>
-                                <p className={"large"}>{data.why}</p>
-                                <h3>Reward</h3>
-                                <p className={"large"}>{data.reward}</p>
-                                <h3>Risk</h3>
-                                <p className={"large"}>{data.risk}</p>
+                                <h2>{data.event_name}</h2>
+                                <p>{data.start}</p>
+                                <p>{data.finish}</p>
+                                <p>{data.location}</p>
+                                <p>{data.event_url}</p>
+                                <p>{data.twitter}</p>
+                                <p>{data.start}</p>
                             </article>
                         ))}
                     </main>
@@ -45,5 +46,3 @@ export function EventsPage () {
         </>
     );
 }
-
-
