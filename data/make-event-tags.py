@@ -12,7 +12,7 @@ tag_dict = dict((v,k) for k,v in tag_dict.items())
 
 df = pd.read_csv("event.csv", index_col="event_id")
 
-map_df = df[['name', 'tag1', 'tag2', 'tag3']].copy()
+map_df = df[['event_name', 'tag1', 'tag2', 'tag3']].copy()
 map_df['tag1'] = map_df['tag1'].map(tag_dict)
 map_df['tag2'] = map_df['tag2'].map(tag_dict)
 map_df['tag3'] = map_df['tag3'].map(tag_dict)

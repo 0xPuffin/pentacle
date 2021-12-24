@@ -1,4 +1,4 @@
-event_id,name,start,finish,location,event_url,event_twitter,event_telegram
+event_id,event_name,start,finish,location,event_url,event_twitter,event_telegram
 1,NFTHack,14 January 2022,16 January 2022,Online,nft.ethglobal.com,ethglobal,-
 2,NFT Paris,22 January 2022,22 January 2022,"Paris, FR",nftparis.xyz,nft_paris,-
 3,DeFi Security Summit,22 January 2022,23 January 2022,"Stanford, USA",defisecuritysummit.org,-,https://t.me/+DEoAJOniBEAxNjE0
