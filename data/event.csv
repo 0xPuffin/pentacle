@@ -1,0 +1,34 @@
+event_id,name,start,finish,location,event_url,event_twitter,event_telegram,tag1,tag2,tag3
+0,NFT Paris,22 January 2022,22 January 2022,"Paris, FR",nftparis.xyz,nft_paris,-,ethereum,event,nft
+1,Stanford SBC,24 January 2022,26 January 2022,"Stanford, USA",eventbrite.com/e/sbc-2022-tickets,- ,-,ethereum,event,developer
+2,ETHDenver,11 February 2022,20 February 2022,"Denver, USA",ethdenver.com,EthereumDenver,ETHDenver,ethereum,event,developer
+3,SchellingPoint,17 February 2022,17 February 2022,"Denver, USA",schellingpoint.gitcoin.co,- ,EX2vtzI0earU2LER,ethereum,event,developer
+4,ETHRio,14 March 2022,17 March 2022,"Rio de Janiero, BR",ETHRio.org,eth_rio,ETHRio,ethereum,event,developer
+5,DeFiCon,25 March 2022,26 March 2022,"NYC, USA",deficon.nyc,defi_conference,HqS326hNG0wxMGUx,ethereum,event,developer
+6,ETHDubai,30 March 2022,31 March 2022,"Dubai, UAE",ethdubaiconf.org,ETHDubaiConf,5hfCs5S9PzlmNzM0,ethereum,event,developer
+7,DevConnect,18 April 2022,25 April 2022,"Amsterdam, NL",Devconnect.org,EFDevconnect,,ethereum,event,developer
+8,ETHAmsterdam,22 April 2022,24 April 2022,"Amsterdam, NL",amsterdam.ethglobal.com,-,-,ethereum,event,developer
+9,Hack Money, May 2022, May 2022,Online,hackathon.money,-,-,ethereum,event,developer
+10,Spaghett.ETH,3 May 2022,8 May 2022,"Milan, ITA",spaghett-eth.com,SpaghettEth,spag,ethereum,event,developer
+11,Permissionless,17 May 2022,19 May 2022,"Florida, USA",blockworks.co/events/permissionless/,Blockworks_,-,ethereum,event,developer
+12,NFT Berlin,June 2022,June 2022,"Berlin, DE",-,-,-,ethereum,event,nft
+13,ETH SF,2 June 2022,5 June 2022,"San Francisco, USA",-,-,-,ethereum,event,developer
+14,ETHPrague,10 June 2022,12 June 2022,"Prague, CZ",ethprague.com,EthPrague,ethprague,ethereum,event,developer
+15,ETHMontreal,14 June 2022,23 June 2022,"Montreal, CAN",-,-,-,ethereum,event,developer
+16,EthNYC,24 June 2022,26 June 2022,"NYC, USA",nyc.ethglobal.co,ethnewyork,-,ethereum,event,developer
+17,EthPARIS, July 2022, July 2022,"Paris, FR",-,EthPARIS,-,ethereum,event,developer
+18,HackFS, July 2022, July 2022,Online,fs.ethglobal.com,-,-,ethereum,event,developer
+19,BlockchainweekFr,18 July 2022,22 July 2022,"Paris, FR",-,-,-,ethereum,event,developer
+20,EthCC,19 July 2022,21 July 2022,"Paris, FR",ethcc.io,ethcc,-,ethereum,event,developer
+21,ETHMexicoCity,19 August 2022,21 August 2022,"Mexico City, MEX",-,-,-,ethereum,event,developer
+22,ETHOnline, September 2022, September 2022,Online,online.ethglobal.com,-,-,ethereum,event,developer
+23,ETHKenya,September 2022,September 2022,Kenya,-,-,-,ethereum,event,developer
+24,ETHSanFrancisco,4 November 2022,6 November 2022,"San Francisco, USA",-,-,-,ethereum,event,developer
+25,ETHTaipei,2 December 2022,4 December 2022,"Taipei, TWN",-,eth_taipei,-,ethereum,event,developer
+26,ETHBarcelona,end of Q122,end of Q122,"Barcelona, ESP",ETHBarcelona.com,eth_barcelona,ethbarcelona,ethereum,event,developer
+27,ETHWarsaw,TBD,Q2 2022,"Warsaw, POL",-,-,-,ethereum,event,developer
+28,ETHKyiv,TBD,Q2 2022,"Kiev, Ukraine",-,-,-,ethereum,event,developer
+29,Liscon,TBD,Q3-Q4 2022,"Lisbon, PRT",liscon.org,0xliscon,liscon2021,ethereum,event,developer
+30,ETHLisbon,TBD,Q3-Q4 2022,"Lisbon, PRT",-,ETHLisbon,-,ethereum,event,developer
+31,ETHBogota,TBD,Q4 2022,"Bogota, COL",-,-,-,ethereum,event,developer
+32,DevCon,TBD,Q4 2022,"Bogota, COL",devcon.org,EFDevcon,-,ethereum,event,developer

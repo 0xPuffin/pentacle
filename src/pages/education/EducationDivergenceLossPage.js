@@ -23,9 +23,11 @@ export function EducationDivergenceLossPage () {
             <Header/>
             <Layout>
                 <EducationTagNav/>
+                <main className={"main-container"}>
                 {education && (
                     <EducationContent data={education}/>
                 )}
+                </main>
             </Layout>
         </>
     );

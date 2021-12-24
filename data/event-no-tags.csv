@@ -1,0 +1,34 @@
+event_id,name,start,finish,location,event_url,event_twitter,event_telegram
+0,NFT Paris,22 January 2022,22 January 2022,"Paris, FR",nftparis.xyz,nft_paris,-
+1,Stanford SBC,24 January 2022,26 January 2022,"Stanford, USA",eventbrite.com/e/sbc-2022-tickets,- ,-
+2,ETHDenver,11 February 2022,20 February 2022,"Denver, USA",ethdenver.com,EthereumDenver,ETHDenver
+3,SchellingPoint,17 February 2022,17 February 2022,"Denver, USA",schellingpoint.gitcoin.co,- ,EX2vtzI0earU2LER
+4,ETHRio,14 March 2022,17 March 2022,"Rio de Janiero, BR",ETHRio.org,eth_rio,ETHRio
+5,DeFiCon,25 March 2022,26 March 2022,"NYC, USA",deficon.nyc,defi_conference,HqS326hNG0wxMGUx
+6,ETHDubai,30 March 2022,31 March 2022,"Dubai, UAE",ethdubaiconf.org,ETHDubaiConf,5hfCs5S9PzlmNzM0
+7,DevConnect,18 April 2022,25 April 2022,"Amsterdam, NL",Devconnect.org,EFDevconnect,
+8,ETHAmsterdam,22 April 2022,24 April 2022,"Amsterdam, NL",amsterdam.ethglobal.com,-,-
+9,Hack Money, May 2022, May 2022,Online,hackathon.money,-,-
+10,Spaghett.ETH,3 May 2022,8 May 2022,"Milan, ITA",spaghett-eth.com,SpaghettEth,spag
+11,Permissionless,17 May 2022,19 May 2022,"Florida, USA",blockworks.co/events/permissionless/,Blockworks_,-
+12,NFT Berlin,June 2022,June 2022,"Berlin, DE",-,-,-
+13,ETH SF,2 June 2022,5 June 2022,"San Francisco, USA",-,-,-
+14,ETHPrague,10 June 2022,12 June 2022,"Prague, CZ",ethprague.com,EthPrague,ethprague
+15,ETHMontreal,14 June 2022,23 June 2022,"Montreal, CAN",-,-,-
+16,EthNYC,24 June 2022,26 June 2022,"NYC, USA",nyc.ethglobal.co,ethnewyork,-
+17,EthPARIS, July 2022, July 2022,"Paris, FR",-,EthPARIS,-
+18,HackFS, July 2022, July 2022,Online,fs.ethglobal.com,-,-
+19,BlockchainweekFr,18 July 2022,22 July 2022,"Paris, FR",-,-,-
+20,EthCC,19 July 2022,21 July 2022,"Paris, FR",ethcc.io,ethcc,-
+21,ETHMexicoCity,19 August 2022,21 August 2022,"Mexico City, MEX",-,-,-
+22,ETHOnline, September 2022, September 2022,Online,online.ethglobal.com,-,-
+23,ETHKenya,September 2022,September 2022,Kenya,-,-,-
+24,ETHSanFrancisco,4 November 2022,6 November 2022,"San Francisco, USA",-,-,-
+25,ETHTaipei,2 December 2022,4 December 2022,"Taipei, TWN",-,eth_taipei,-
+26,ETHBarcelona,end of Q122,end of Q122,"Barcelona, ESP",ETHBarcelona.com,eth_barcelona,ethbarcelona
+27,ETHWarsaw,TBD,Q2 2022,"Warsaw, POL",-,-,-
+28,ETHKyiv,TBD,Q2 2022,"Kiev, Ukraine",-,-,-
+29,Liscon,TBD,Q3-Q4 2022,"Lisbon, PRT",liscon.org,0xliscon,liscon2021
+30,ETHLisbon,TBD,Q3-Q4 2022,"Lisbon, PRT",-,ETHLisbon,-
+31,ETHBogota,TBD,Q4 2022,"Bogota, COL",-,-,-
+32,DevCon,TBD,Q4 2022,"Bogota, COL",devcon.org,EFDevcon,-

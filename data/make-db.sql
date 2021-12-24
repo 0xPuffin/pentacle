@@ -5,6 +5,8 @@ DROP TABLE article;
 DROP TABLE article_tag;
 DROP TABLE education;
 DROP TABLE education_tag;
+DROP TABLE event;
+DROP TABLE event_tag;
 CREATE TABLE project
 (
     project_id      serial primary key,
@@ -66,13 +68,14 @@ CREATE TABLE education_tag
 );
 CREATE TABLE event
 (
-    event_id      serial primary key,
-    event_name    varchar(4000),
-    start         varchar(4000),
-    finish        varchar(4000),
-    location      varchar(4000),
-    event_twitter varchar(4000),
-    event_telegram varchar (4000)
+    event_id       serial primary key,
+    event_name     varchar(4000),
+    start          varchar(4000),
+    finish         varchar(4000),
+    location       varchar(4000),
+    event_url      varchar(4000),
+    event_twitter  varchar(4000),
+    event_telegram varchar(4000)
 );
 CREATE TABLE event_tag
 (
