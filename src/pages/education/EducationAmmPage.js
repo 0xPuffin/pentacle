@@ -11,7 +11,8 @@ export function EducationAmmPage () {
         getData();
 
         async function getData () {
-                const response = await fetch(`${process.env.REACT_APP_URI}/education/amm`);
+            const response = await fetch("/education/amm");
+                // const response = await fetch(`${process.env.REACT_APP_URI}/education/amm`);
                 const res = await response.json();
                 setEducation(res.data);
         }
@@ -25,7 +26,7 @@ export function EducationAmmPage () {
                 {education && (
                     <main className={"main-container"}>
                         {education.map((data, index) => (
-                            <article className={"main-content margin-bottom-2"} key={index}>
+                            <article className={"main-content margin-bottom-2 editorial-content two-col"} key={index}>
                                 <h2>{data.education_name}</h2>
                                 <div className={"placeholder margin-bottom-1 margin-top-1"}>image thingy in here</div>
                                 <h3>What</h3>
