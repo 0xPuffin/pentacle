@@ -1,28 +1,26 @@
 // dev
 
-[data-theme='light'] {
-  @import 'pentacleui/src/scss/assets/styles/pentacle-light.scss' ;
-}
-[data-theme='dark'] {
-  @import 'pentacleui/src/scss/assets/styles/pentacle-dark.scss';
-}
+//[data-theme='light'] {
+//  @import 'pentacleui/src/scss/assets/styles/pentacle-light.scss';
+//}
+//[data-theme='dark'] {
+//  @import 'pentacleui/src/scss/assets/styles/pentacle-dark.scss';
+//}
 
 // prod
 
-
-//[data-theme='light'] {
-//  @import '~@pentacle/pentacleui/assets/styles/pentacle-light.scss' ;
-//}
-//[data-theme='dark'] {
-//  @import '~@pentacle/pentacleui/assets/styles/pentacle-dark.scss' ;
-//}
+[data-theme='light'] {
+  @import '~@pentacle/pentacleui/assets/styles/pentacle-light.scss';
+}
+[data-theme='dark'] {
+  @import '~@pentacle/pentacleui/assets/styles/pentacle-dark.scss';
+}
 
 .placeholder {
   height: 20rem;
   width: 50rem;
   background-color: #61dafb;
 }
-
 
 .padding-bottom-3 {
   padding-bottom: 3rem;
@@ -82,7 +80,6 @@
   -ms-overflow-x: auto;
 }
 
-
 .header-content, .footer-content, .main-content, .nav-content {
   box-sizing: border-box;
 }
@@ -90,7 +87,6 @@
 nav {
   overflow-y: unset !important;
 }
-
 
 p {
   font-size: 0.8175rem;
