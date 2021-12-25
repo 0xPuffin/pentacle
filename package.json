@@ -32,7 +32,12 @@
     "react-dev-utils": "^11.0.4",
     "react-router": "^6.0.0-beta.0",
     "react-router-dom": "^6.0.0-beta.0",
-    "react-router-outlet": "^0.1.1"
+    "react-router-outlet": "^0.1.1",
+    "webpack": "4.44.2",
+    "yarn": "^1.22.11",
+    "theme-change": "^2.0.2",
+    "tailwind": "^4.0.0",
+    "daisyui": "^1.16.6"
   },
   "proxy": "http://localhost:3001",
   "devDependencies": {
@@ -82,11 +87,6 @@
     "sharp": "^0.28.3",
     "typescript": "^4.0.2",
     "use-debounce": "^6.0.1",
-    "webpack": "4.44.2",
-    "yarn": "^1.22.11",
-    "theme-change": "^2.0.2",
-    "tailwind": "^4.0.0",
-    "daisyui": "^1.16.6"
   },
   "browserslist": {
     "production": [
