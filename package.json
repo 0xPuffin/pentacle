@@ -11,9 +11,6 @@
   "scripts": {
     "ui": "react-scripts start",
     "start": "node ./server/bin/www",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "css": "sass src/pentacleui/src/scss/assets/styles/pentacle-dark.scss public/styles/pentacle-dark.css --style compressed && sass src/pentacleui/src/scss/assets/styles/pentacle-light.scss styles/pentacle-light.css --style compressed",
     "heroku-prebuild": "yarn install -f",
     "heroku-postbuild": "cd src && yarn install && yarn build",
     "lint": "eslint src/**/*.js src/**/*.jsx"
