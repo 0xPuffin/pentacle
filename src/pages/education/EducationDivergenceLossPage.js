@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react';
 import Layout from "../../components/layouts/layout";
 import Header from "../../components/header";
 import {EducationTagNav} from "../../components/tags/education-tag-nav";
-import EducationContent from "../../components/education-elements/educationContent.component";
 
 export function EducationDivergenceLossPage () {
 
