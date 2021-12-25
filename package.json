@@ -27,7 +27,12 @@
     "nodemon": "^2.0.13",
     "pg": "^8.5.1",
     "react-scripts": "4.0.3",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react": "17.0.0",
+    "react-dev-utils": "^11.0.4",
+    "react-router": "^6.0.0-beta.0",
+    "react-router-dom": "^6.0.0-beta.0",
+    "react-router-outlet": "^0.1.1"
   },
   "proxy": "http://localhost:3001",
   "devDependencies": {
@@ -70,11 +75,6 @@
     "pg": "^8.5.1",
     "prettier": "^2.5.0",
     "prop-types": "^15.7.2",
-    "react": "17.0.0",
-    "react-dev-utils": "^11.0.4",
-    "react-router": "^6.0.0-beta.0",
-    "react-router-dom": "^6.0.0-beta.0",
-    "react-router-outlet": "^0.1.1",
     "react-test-renderer": "^17.0.2",
     "regenerator-runtime": "^0.13.9",
     "request": "^2.88.2",
