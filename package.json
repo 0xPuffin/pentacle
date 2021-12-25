@@ -26,7 +26,8 @@
     "morgan": "~1.9.1",
     "nodemon": "^2.0.13",
     "pg": "^8.5.1",
-    "react-scripts": "4.0.3"
+    "react-scripts": "4.0.3",
+    "react-dom": "^17.0.2"
   },
   "proxy": "http://localhost:3001",
   "devDependencies": {
@@ -71,7 +72,6 @@
     "prop-types": "^15.7.2",
     "react": "17.0.0",
     "react-dev-utils": "^11.0.4",
-    "react-dom": "^17.0.2",
     "react-router": "^6.0.0-beta.0",
     "react-router-dom": "^6.0.0-beta.0",
     "react-router-outlet": "^0.1.1",
