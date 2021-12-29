@@ -1,7 +1,7 @@
 var webpack = require("webpack");
 
 module.export = {
-    entry: "./index.js",
+    entry: "./index.tsx",
     mode: "development",
     output: {
         path: "build/assets",
