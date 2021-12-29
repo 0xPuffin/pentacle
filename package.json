@@ -10,7 +10,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node ./server/bin/www",
-    "heroku-postbuild": "cd src && yarn install && yarn build"
+    "heroku-postbuild": "yarn install && yarn build"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",

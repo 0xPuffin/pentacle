@@ -10,7 +10,6 @@
   "main": "app.js",
   "scripts": {
     "start": "react-scripts start",
-    "server": "node ./server/bin/www",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "css": "sass src/pentacleui/src/scss/assets/styles/pentacle-dark.scss src/public/styles/pentacle-dark.css --style compressed && sass src/pentacleui/src/scss/assets/styles/pentacle-light.scss styles/pentacle-light.css --style compressed",
