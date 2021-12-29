@@ -1,17 +1,17 @@
 var webpack = require("webpack");
 
 module.export = {
-    entry: "./src/index.js",
+    entry: "./index.js",
     mode: "development",
     output: {
-        path: "dist/assets",
+        path: "build/assets",
         filename: "bundle.js",
         publicPath: "assets"
     },
 
     devServer: {
         inline: true,
-        contentBase: "./dist",
+        contentBase: "./build",
         port: 3000
     },
     module: {
