@@ -32,7 +32,7 @@ index.use(logger("dev"));
 index.use(cookieParser());
 index.use(express.json());
 index.use(express.urlencoded({ extended: false }));
-index.use(express.static(path.join(__dirname, "src/build")));
+index.use(express.static(path.join(__dirname, "build")));
 
 index.use("/", indexRouter);
 
