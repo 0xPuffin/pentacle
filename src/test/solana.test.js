@@ -2,7 +2,7 @@ import React from 'react'
 import {expect, test} from "@jest/globals";
 import '@testing-library/jest-dom'
 
-const solanaData = require("../../public/solData.json");
+const solanaData = require("../public/solData.json");
 
 test('it loads the correct json file' , () => {
     expect(solanaData.name).toBe('solana');

@@ -2,7 +2,7 @@ import React from 'react'
 import {expect, test} from "@jest/globals";
 import '@testing-library/jest-dom'
 
-const ethData = require("../../public/ethDataDefi.json");
+const ethData = require("../public/ethDataDefi.json");
 
 test('it loads the correct json file' , () => {
     expect(ethData.name).toBe('ethereumdefi');
