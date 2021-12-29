@@ -26,40 +26,44 @@ const analyticsRouter = require("./routes/projects/analytics");
 const buyCryptoRouter = require("./routes/projects/buy-crypto");
 const tagsRouter = require("./routes/projects/tags");
 
-const index = express();
+const app = express();
 
-index.use(logger("dev"));
-index.use(cookieParser());
-index.use(express.json());
-index.use(express.urlencoded({ extended: false }));
-index.use(express.static(path.join(__dirname, "build")));
+app.use(logger("dev"));
+app.use(cookieParser());
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(express.static(path.join(__dirname, 'build')));
 
-index.use("/", indexRouter);
+app.get('*', function (req, res) {
+    res.sendFile(path.join(__dirname, 'build', 'app.html'));
+});
 
-index.use("/articles", articlesRouter);
+app.use("/", indexRouter);
 
-index.use("/education", educationRouter);
-index.use("/education/tags", educationTagsRouter);
-index.use("/education/amm", educationAmmRouter);
-index.use("/education/divergence-loss", educationDivergenceLossRouter);
-index.use("/education/hold", educationHoldRouter);
-index.use("/education/provide-liquidity", educationProvideLiquidityRouter);
-index.use("/education/stake", educationStakeRouter);
-index.use("/education/xyk", educationXykRouter);
+app.use("/articles", articlesRouter);
 
-index.use("/events/tags", eventsTagsRouter);
-index.use("/events/eth-events", eventsEthRouter);
+app.use("/education", educationRouter);
+app.use("/education/tags", educationTagsRouter);
+app.use("/education/amm", educationAmmRouter);
+app.use("/education/divergence-loss", educationDivergenceLossRouter);
+app.use("/education/hold", educationHoldRouter);
+app.use("/education/provide-liquidity", educationProvideLiquidityRouter);
+app.use("/education/stake", educationStakeRouter);
+app.use("/education/xyk", educationXykRouter);
 
-index.use("/projects", projectsRouter);
-index.use("/projects/tags", projectsTagsRouter);
-index.use("/projects/centralised-exchange", ethCexRouter);
-index.use("/projects/decentralised-exchange", ethDexRouter);
-index.use("/projects/yield", ethDefiProtocolRouter);
-index.use("/projects/insurance", ethDefiInsuranceRouter);
-index.use("/projects/tool", ethDefiToolsRouter);
-index.use("/projects/analytics", analyticsRouter);
-index.use("/projects/buy-crypto", buyCryptoRouter);
+app.use("/events/tags", eventsTagsRouter);
+app.use("/events/eth-events", eventsEthRouter);
 
-index.use("/tag", tagsRouter);
+app.use("/projects", projectsRouter);
+app.use("/projects/tags", projectsTagsRouter);
+app.use("/projects/centralised-exchange", ethCexRouter);
+app.use("/projects/decentralised-exchange", ethDexRouter);
+app.use("/projects/yield", ethDefiProtocolRouter);
+app.use("/projects/insurance", ethDefiInsuranceRouter);
+app.use("/projects/tool", ethDefiToolsRouter);
+app.use("/projects/analytics", analyticsRouter);
+app.use("/projects/buy-crypto", buyCryptoRouter);
 
-module.exports = index;
+app.use("/tag", tagsRouter);
+
+module.exports = app;
