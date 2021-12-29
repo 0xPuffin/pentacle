@@ -7,7 +7,7 @@
     "node": "14.x",
     "yarn": "^1.22.5"
   },
-  "main": "app.js",
+  "main": "App.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
