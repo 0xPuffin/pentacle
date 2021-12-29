@@ -35,7 +35,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, '../client/src/build')));
 
 app.get('*', function (req, res) {
-    res.sendFile(path.join(__dirname, '../client/src/public', 'index.html'));
+    res.sendFile(path.join(__dirname, '../client/public', 'index.html'));
 });
 
 app.use("/", indexRouter);
