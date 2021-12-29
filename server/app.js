@@ -32,10 +32,10 @@ app.use(logger("dev"));
 app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(express.static(path.join(__dirname, 'client/src/build')));
+app.use(express.static(path.join(__dirname, '../client/src/build')));
 
 app.get('*', function (req, res) {
-    res.sendFile(path.join(__dirname, 'client/src/public', 'index.html'));
+    res.sendFile(path.join(__dirname, '../client/src/public', 'index.html'));
 });
 
 app.use("/", indexRouter);
