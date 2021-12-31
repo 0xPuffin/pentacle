@@ -7,15 +7,6 @@ export const ProjectsLayout = ({projects}) => {
     const [projectDetail, setProjectDetail] = useState(projects[0]);
     const [usdValue, setUsdValue] = useState();
 
-    useEffect(() => {
-        if ((projects).length === 0) {
-            return <div>Loading Data</div>;
-        } else {
-            setProjectDetail(projects[0])
-            fetchPrice(projects[0])
-        }
-    }, [projects]);
-
     const fetchPrice = async (props) => {
         if (props === undefined) {
             const apiCall = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${projects[0].coingecko_id}&vs_currencies=usd`)
@@ -32,10 +23,19 @@ export const ProjectsLayout = ({projects}) => {
             if (namedObject === undefined) {
                 setUsdValue(null)
             } else {
-            setUsdValue(`$${namedObject.usd}`)
+                setUsdValue(`$${namedObject.usd}`)
             }
         }
     }
+
+    useEffect(() => {
+        if ((projects).length === 0) {
+            return <article>Loading...</article>;
+        } else {
+            setProjectDetail(projects[0])
+            fetchPrice(projects[0])
+        }
+    }, [projects]);
 
     function changeProjectDetails(props) {
         setProjectDetail(props)
