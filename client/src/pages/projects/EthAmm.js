@@ -18,7 +18,7 @@ export const EthAmm = () => {
     const fetchProjects = async () => {
         setLoading(true);
         try {
-            const response = await fetch("/projects/projects-amm");
+            const response = await fetch(`${process.env.REACT_APP_URI}/projects/amm`);
             const res = await response.json();
             setLoading(false);
             setProjects(res.data);

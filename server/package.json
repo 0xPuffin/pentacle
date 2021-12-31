@@ -8,8 +8,8 @@
   },
   "main": "app.js",
   "scripts": {
-    "start": "cd client && yarn start",
-    "server": "node ./server/bin/www"
+    "start": "node ./server/bin/www",
+    "heroku-postbuild": "cd client && yarn install && yarn build"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
