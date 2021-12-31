@@ -67,6 +67,3 @@ app.use("/projects/buy-crypto", buyCryptoRouter);
 app.use("/tag", tagsRouter);
 
 module.exports = app;
-
-const PORT = process.env.PORT || 3001;
-app.listen(PORT);

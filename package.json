@@ -8,7 +8,7 @@
   },
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node ./server/bin/www",
     "heroku-postbuild": "cd client && yarn install && yarn build"
   },
   "dependencies": {
