@@ -4,9 +4,9 @@ import {ProjectTagNav} from "../../components/tags/project-tag-nav";
 import {ProjectsLayout} from "../../components/project-layout/ProjectsLayout";
 import Header from "../../components/header";
 import Loading from "../../components/project-elements/loading.component";
-import RelatedLinks from "../../components/related-links/RelatedLinks";
+// import RelatedLinks from "../../components/related-links/RelatedLinks";
 
-export const ProjectsPage = () => {
+export const ProjectsAllPage = () => {
 
     const [error, setError] = useState(null);
     const [loading, setIsLoaded] = useState(true);
@@ -17,7 +17,7 @@ export const ProjectsPage = () => {
     const fetchProjects = async () => {
         setIsLoaded(true)
         try {
-            const response = await fetch(`${process.env.REACT_APP_URI}/projects/projects`);
+            const response = await fetch(`/projects/projects`);
             const res = await response.json()
             setIsLoaded(false)
             setSearchResults(res.data)
@@ -25,7 +25,7 @@ export const ProjectsPage = () => {
             setProjects(res.data)
         } catch (error) {
             setIsLoaded(true);
-            setError(error);
+            setError(error); // TODO
         }
     }
     useEffect(() => {
@@ -74,6 +74,7 @@ export const ProjectsPage = () => {
                                        onClick={handleClear}/>
                             </article>
                         </section>
+                        // TODO add tag filtering
                         <ProjectsLayout projects={searchResults}/>
                     </main>
                 </Layout>

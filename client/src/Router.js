@@ -31,6 +31,7 @@ import EthEcosystemLearn from "./pages/eth-ecosystem/eth-ecosystem-learn";
 import EthEcosystemNft from "./pages/eth-ecosystem/eth-ecosystem-nft";
 import {TweetPage} from "./pages/tweet/tweet.page";
 import {EventsPage} from "./pages/events/EventsPage";
+import {ProjectsAllPage} from "./pages/projects/Projects";
 
 
 export const Router = () => {
@@ -46,6 +47,7 @@ export const Router = () => {
 
             <Route path="/events" element={<EventsPage/>}/>
 
+            <Route path="/projects" element={<ProjectsAllPage/>}/>
             <Route path="/projects/analytics" element={<AnalyticsPage/>}/>
             <Route path="/projects/buy-crypto" element={<BuyCryptoPage/>}/>
             <Route path="/projects/centralised-exchange" element={<CentralisedExchangePage/>}/>
