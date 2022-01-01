@@ -17,7 +17,7 @@ export const ProjectsPage = () => {
     const fetchProjects = async () => {
         setIsLoaded(true)
         try {
-            const response = await fetch(`${process.env.REACT_APP_URI}/education/amm`);
+            const response = await fetch(`${process.env.REACT_APP_URI}/projects/projects`);
             const res = await response.json()
             setIsLoaded(false)
             setSearchResults(res.data)

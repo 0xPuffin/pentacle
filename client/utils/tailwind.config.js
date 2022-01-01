@@ -4,7 +4,7 @@ module.exports = {
         require('daisyui'),
     ],
     daisyui: {
-        // styled: false,
+        styled: false,
     },
 
 }

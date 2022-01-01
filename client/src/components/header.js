@@ -18,8 +18,8 @@ const Header = () => {
                 <Link to="/events">Events</Link>
             </div>
             <div className={"align-right"}>
-                <button data-set-theme="dark">dark</button>
-                <button data-set-theme="light">light</button>
+                <button className={"primary"} data-set-theme="dark"><i className={"material-icons"}>nightlight_round</i></button>
+                <button className={"primary"}  data-set-theme="light"><i className={"material-icons"}>wb_sunny</i></button>
             </div>
         </div>
     </header>);

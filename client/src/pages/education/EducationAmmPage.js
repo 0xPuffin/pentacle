@@ -9,13 +9,18 @@ export function EducationAmmPage () {
 
     useEffect(() => {
         getData();
-
-        async function getData () {
-                const response = await fetch(`${process.env.REACT_APP_URI}/education/amm`);
-                const res = await response.json();
-                setEducation(res.data);
-        }
     }, []);
+
+
+    const getData = async () => {
+        try {
+            const response = await fetch(`${process.env.REACT_APP_URI}/education/amm`);
+            const res = await response.json()
+            setEducation(res.data)
+        } catch (error) {
+            console.log(error)
+        }
+    }
 
     return (
         <>
