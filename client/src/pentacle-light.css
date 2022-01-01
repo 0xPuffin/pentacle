@@ -24,52 +24,52 @@
 
 @font-face {
   font-family: "cako";
-  src: url("../../fonts//cako/Cako-Regular.eot") format("eot");
-  src: url("../../fonts//cako/Cako-Regular.woff") format("woff2");
-  src: url("../../fonts//cako/Cako-Regular.woff2") format("woff");
+  src: url("../public/fonts/cako/Cako-Regular.eot") format("eot");
+  src: url("../public/fonts/cako/Cako-Regular.woff") format("woff2");
+  src: url("../public/fonts/cako/Cako-Regular.woff2") format("woff");
 }
 @font-face {
   font-family: "matter";
-  src: url("../../fonts//matter/Matter-Regular.woff") format("woff2");
-  src: url("../../fonts//matter/Matter-Regular.woff2") format("woff");
+  src: url("../public/fonts/matter/Matter-Regular.woff") format("woff2");
+  src: url("../public/fonts/matter/Matter-Regular.woff2") format("woff");
 }
 @font-face {
   font-family: "priori-regular";
-  src: url("../../fonts//priori/PrioriSansOT-Regular.otf") format("opentype");
+  src: url("../public/fonts/priori/PrioriSansOT-Regular.otf") format("opentype");
 }
 @font-face {
   font-family: "priori-bold";
-  src: url("../../fonts//priori/PrioriSansOT-Bold.otf") format("opentype");
+  src: url("../public/fonts/priori/PrioriSansOT-Bold.otf") format("opentype");
 }
 @font-face {
   font-family: "priori-black";
-  src: url("../../fonts//priori/PrioriSansOT-Black.otf") format("opentype");
+  src: url("../public/fonts/priori/PrioriSansOT-Black.otf") format("opentype");
 }
 @font-face {
   font-family: "fira-light";
-  src: url("../../fonts//Fira_Code/FiraCode-Light.ttf") format("truetype");
+  src: url("../public/fonts/Fira_Code/FiraCode-Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "fira-regular";
-  src: url("../../fonts//Fira_Code/FiraCode-Regular.ttf") format("truetype");
+  src: url("../public/fonts/Fira_Code/FiraCode-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "fira-medium";
-  src: url("../../fonts//Fira_Code/FiraCode-Medium.ttf") format("truetype");
+  src: url("../public/fonts/Fira_Code/FiraCode-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "fira-semibold";
-  src: url("../../fonts//Fira_Code/FiraCode-SemiBold.ttf") format("truetype");
+  src: url("../public/fonts/Fira_Code/FiraCode-SemiBold.ttf") format("truetype");
 }
 @font-face {
   font-family: "fira-bold";
-  src: url("../../fonts//Fira_Code/FiraCode-Bold.ttf") format("truetype");
+  src: url("../public/fonts/Fira_Code/FiraCode-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "material-icons";
   font-style: normal;
   font-weight: normal;
-  src: url("../../fonts//material-design-icons/material.ttf");
+  src: url("../public/fonts/material-design-icons/material.ttf");
 }
 h1, h2, h3, h4 {
   color: #f0f0f0;
@@ -553,7 +553,7 @@ body {
   margin: 0;
   width: 100%;
   min-width: 320px;
-  background-image: url(../../images/pentaBgDark.jpg);
+  background-image: url(../fonts/images/pentaBgDark.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1091,14 +1091,14 @@ ul li {
 }
 
 .eth-bg {
-  background: url("https://pentacle.xyz/images/eth-mb.jpg");
+  background: url("https:/pentacle.xyz/images/eth-mb.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin: -2px;
 }
 
 .sol-bg {
-  background: url("https://pentacle.xyz/images/sol-mb.jpg");
+  background: url("https:/pentacle.xyz/images/sol-mb.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin: -2px;
