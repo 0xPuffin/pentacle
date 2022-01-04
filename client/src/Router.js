@@ -5,6 +5,7 @@ import {About} from "./pages/about";
 import {Terms} from "./pages/terms";
 import {Main} from "./pages/main";
 
+import {Education} from "./pages/education/Education";
 import {EducationAmmPage} from "./pages/education/EducationAmmPage";
 import {EducationDivergenceLossPage} from "./pages/education/EducationDivergenceLossPage";
 import {EducationHoldPage} from "./pages/education/EducationHoldPage";
@@ -38,6 +39,7 @@ export const Router = () => {
     return (
         <Routes>
             <Route path="/" element={<Main/>}/>
+            <Route path="/education" element={<Education/>}/>
             <Route path="/education/amm" element={<EducationAmmPage/>}/>
             <Route path="/education/divergence-loss" element={<EducationDivergenceLossPage/>}/>
             <Route path="/education/hold" element={<EducationHoldPage/>}/>

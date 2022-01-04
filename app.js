@@ -47,7 +47,7 @@ app.use("/", indexRouter);
 
 app.use("/articles", articlesRouter);
 
-app.use("/education", educationRouter);
+app.use("/education/education", educationRouter);
 app.use("/education/tags", educationTagsRouter);
 app.use("/education/amm", educationAmmRouter);
 app.use("/education/divergence-loss", educationDivergenceLossRouter);

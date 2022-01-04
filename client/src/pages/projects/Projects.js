@@ -4,7 +4,6 @@ import {ProjectTagNav} from "../../components/tags/project-tag-nav";
 import {ProjectsLayout} from "../../components/project-layout/ProjectsLayout";
 import Header from "../../components/header";
 import Loading from "../../components/project-elements/loading.component";
-// import RelatedLinks from "../../components/related-links/RelatedLinks";
 
 export const ProjectsAllPage = () => {
 
@@ -74,7 +73,7 @@ export const ProjectsAllPage = () => {
                                        onClick={handleClear}/>
                             </article>
                         </section>
-                        // TODO add tag filtering
+                        {/*// TODO add tag filtering*/}
                         <ProjectsLayout projects={searchResults}/>
                     </main>
                 </Layout>
