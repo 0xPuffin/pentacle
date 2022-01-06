@@ -1,40 +1,23 @@
-import React, {useEffect, useState} from 'react';
-import {Link} from "react-router-dom";
+import React, { useContext } from 'react';
+import { Link } from "react-router-dom";
+import { SearchContext } from '../../providers/search-provider';
 import Tags from './tags.component';
 
 export const ProjectTagNav = () => {
+  const { tags, tagsLoading } = useContext(SearchContext);
 
-    const [loading, setLoading] = useState(true);
-    const [tags, setTags] = useState([]);
-
-    const fetchTags = async () => {
-        setLoading(true)
-        try {
-            const response = await fetch("/projects/tags")
-            const res = await response.json()
-            setLoading(false)
-            setTags(res.data)
-        } catch (error) {
-            setLoading(false)
-            console.log(error)
-        }
-    }
-    useEffect(() => {
-        fetchTags()
-    }, [])
-
-    if (loading) {
-        return (
-            <nav className={"nav-content"}>
-                <Link to={''}>Loading..</Link>
-            </nav>
-        )
-    }
-    return (<nav>
-            <article className={"nav-content overflow-scroll"}>
-                 <Tags tags={tags}/>
-            </article>
-        </nav>
-    );
+  if (tagsLoading) {
+    return (
+      <nav className={"nav-content"}>
+        <Link to={''}>Loading..</Link>
+      </nav>
+    )
+  }
+  return (<nav>
+    <article className={"nav-content overflow-scroll"}>
+      <Tags tags={tags} />
+    </article>
+  </nav>
+  );
 }
 
