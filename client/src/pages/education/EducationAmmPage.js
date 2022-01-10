@@ -14,7 +14,7 @@ export function EducationAmmPage () {
 
     const getData = async () => {
         try {
-            const response = await fetch(`${process.env.REACT_APP_URI}/education/amm`);
+            const response = await fetch(`${process.env.REACT_APP_SERVER_URI}/education/amm`);
             const res = await response.json()
             setEducation(res.data)
         } catch (error) {

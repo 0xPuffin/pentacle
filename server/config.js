@@ -8,8 +8,7 @@ const config = {
         password: env.DB_PASSWORD || 'postgres',
         database: env.DB_NAME || 'pentaclexyz',
     },
-    listPerPage: env.LIST_PER_PAGE || 200,
-    reactURI: env.REACT_APP_URI || 'http://localhost:3001'
+    listPerPage: env.LIST_PER_PAGE || 200
 };
 
 /**

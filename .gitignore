@@ -2,6 +2,7 @@ node_modules
 .pytest_cache/
 .DS_Store
 yarn-error.log
+**/yarn-error.log
 coverage/
 coverage/*
 .env.local
@@ -11,5 +12,4 @@ yarn
 **/.idea
 src/pentacleui/
 src/pentacleui/*
-**/yarn-error.log
 venv
