@@ -3,7 +3,7 @@ import Layout from "../../components/layouts/layout";
 import Header from "../../components/header";
 import {EventsTagNav} from "../../components/tags/events-tag-nav";
 
-export function EventsPage () {
+export function Events () {
 
     const [events, setEvents] = useState(null);
 

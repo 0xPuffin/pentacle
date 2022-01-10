@@ -5,7 +5,7 @@ import {ProjectsLayout} from "../../components/project-layout/ProjectsLayout";
 import Header from "../../components/header";
 import Loading from "../../components/project-elements/loading.component";
 
-export const Projects = () => {
+export const Articles = () => {
 
     const [error, setError] = useState(null);
     const [loading, setIsLoaded] = useState(true);
@@ -16,7 +16,7 @@ export const Projects = () => {
     const fetchProjects = async () => {
         setIsLoaded(true)
         try {
-            const response = await fetch(`${process.env.REACT_APP_SERVER_URI}/projects/projects`);
+            const response = await fetch(`${process.env.REACT_APP_SERVER_URI}/articles/articles`);
             const res = await response.json()
             setIsLoaded(false)
             setSearchResults(res.data)
@@ -63,7 +63,7 @@ export const Projects = () => {
                     <ProjectTagNav/>
                     <main className={"main-container"}>
                         <section className={"main-content flex space-between padding-top-3"}>
-                            <h1>Projects</h1>
+                            <h1>Articles</h1>
                             <article className={"fieldset inline boxed align-right"}>
                                 <label aria-labelledby={"search"} className={"display-none"}
                                        htmlFor={"search"}>Search</label>
@@ -74,7 +74,7 @@ export const Projects = () => {
                             </article>
                         </section>
                         {/*// TODO add tag filtering*/}
-                        <ProjectsLayout projects={searchResults}/>
+                        <ProjectsLayout articles={searchResults}/>
                     </main>
                 </Layout>
             </>

@@ -1,17 +1,16 @@
 const express = require("express");
-const path = require("path");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 
 const indexRouter = require("./routes/projects");
-const projectsRouter = require("./routes/projects/projects");
 const articlesRouter = require("./routes/articles/articles");
 const educationRouter = require("./routes/education/education");
-const eventsEthRouter = require("./routes/events/eth-events");
+const eventsRouter = require("./routes/events/eth-events");
+const projectsRouter = require("./routes/projects/projects");
 
-const projectsTagsRouter = require("./routes/projects/tags");
 const educationTagsRouter = require("./routes/education/tags");
 const eventsTagsRouter = require("./routes/events/tags");
+const projectsTagsRouter = require("./routes/projects/tags");
 const tagsRouter = require("./routes/projects/tags");
 
 const app = express();
@@ -25,6 +24,7 @@ app.use("/", indexRouter);
 
 app.use("/articles", articlesRouter);
 app.use("/education/education", educationRouter);
+app.use("/events/events", eventsRouter);
 app.use("/projects/projects", projectsRouter);
 
 app.use("/events/tags", eventsTagsRouter);

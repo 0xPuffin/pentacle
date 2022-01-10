@@ -5,19 +5,12 @@ import { About } from "./pages/about";
 import { Terms } from "./pages/terms";
 import { Main } from "./pages/main";
 
+import { Articles } from "./pages/articles/Articles";
 import { Education } from "./pages/education/Education";
-import { EducationAmmPage } from "./pages/education/EducationAmmPage";
-import { EducationDivergenceLossPage } from "./pages/education/EducationDivergenceLossPage";
-import { EducationHoldPage } from "./pages/education/EducationHoldPage";
-import { EducationStakePage } from "./pages/education/EducationStakePage";
-import { EducationProvideLiquidityPage } from "./pages/education/EducationProvideLiquidityPage";
-import { EducationXykPage } from "./pages/education/EducationXykPage";
-
-import { ProjectsPage } from "./pages/ignition/projects.page";
-import { CentralisedExchangePage } from "./pages/projects/CentralisedExchange";
+import { Events } from "./pages/events/Events";
+import { Projects } from "./pages/projects/Projects";
 
 import EthEcosystemDefi from "./pages/eth-ecosystem/eth-ecosystem-defi";
-import EthEcosystemDev from "./pages/eth-ecosystem/eth-ecosystem-dev";
 import EthEcosystemRetail from "./pages/eth-ecosystem/eth-ecosystem-retail";
 import SolEcosystem from "./pages/sol-ecosystem/sol-ecosystem";
 import SolHackathon from "./pages/sol-ecosystem/sol-hackathon";
@@ -25,33 +18,17 @@ import { BadThingsPoly } from "./pages/bad-things/bad-things-poly";
 import EthEcosystemLearn from "./pages/eth-ecosystem/eth-ecosystem-learn";
 import EthEcosystemNft from "./pages/eth-ecosystem/eth-ecosystem-nft";
 import { TweetPage } from "./pages/tweet/tweet.page";
-import { EventsPage } from "./pages/events/EventsPage";
-import { ProjectsAllPage } from "./pages/projects/Projects";
+import { ProjectsPage } from "./pages/ignition/projects.page";
 
 
 export const Router = () => {
   return (
     <Routes>
       <Route path="/" element={<Main />} />
+      <Route path="/articles" element={<Articles />} />
       <Route path="/education" element={<Education />} />
-      <Route path="/education/amm" element={<EducationAmmPage />} />
-      <Route path="/education/divergence-loss" element={<EducationDivergenceLossPage />} />
-      <Route path="/education/hold" element={<EducationHoldPage />} />
-      <Route path="/education/stake" element={<EducationStakePage />} />
-      <Route path="/education/xyk" element={<EducationXykPage />} />
-      <Route path="/education/provide-liquidity" element={<EducationProvideLiquidityPage />} />
-
-      <Route path="/events" element={<EventsPage />} />
-
-      <Route path="/projects" element={<ProjectsAllPage />} />
-      <Route path="/projects/analytics" element={<ProjectsAllPage />} />
-      <Route path="/projects/buy-crypto" element={<ProjectsAllPage />} />
-      <Route path="/projects/centralised-exchange" element={<CentralisedExchangePage />} />
-      <Route path="/projects/yield" element={<ProjectsAllPage />} />
-      <Route path="/projects/tool" element={<ProjectsAllPage />} />
-      <Route path="/projects/decentralised-exchange" element={<ProjectsAllPage />} />
-      <Route path="/projects/insurance" element={<ProjectsAllPage />} />
-      <Route path="/projects/developer" element={<EthEcosystemDev />} />
+      <Route path="/events" element={<Events />} />
+      <Route path="/projects" element={<Projects />} />
 
       <Route path="/solana" element={<SolEcosystem />} />
       <Route path="/ethereum" element={<EthEcosystemDefi />} />
