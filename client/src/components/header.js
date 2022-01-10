@@ -13,9 +13,10 @@ const Header = () => {
                 <div className={"pentacle-logo"}/>
             </Link>
             <div className={"flex-center"}>
-                <Link to="/projects/analytics">Projects</Link>
-                <Link to="/education/amm">Education</Link>
-                <Link to="/events">Events</Link>
+                <Link to="/projects/projects">Projects</Link>
+                <Link to="/education/education">Education</Link>
+                <Link to="/events/events">Events</Link>
+                <Link to="/articles/articles">Articles</Link>
             </div>
             <div className={"align-right"}>
                 <button className={"primary"} data-set-theme="dark"><i className={"material-icons"}>nightlight_round</i></button>

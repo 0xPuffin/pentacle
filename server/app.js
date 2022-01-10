@@ -2,7 +2,7 @@ const express = require("express");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 
-const indexRouter = require("./routes/projects");
+const indexRouter = require("./routes/projects/projects");
 const articlesRouter = require("./routes/articles/articles");
 const educationRouter = require("./routes/education/education");
 const eventsRouter = require("./routes/events/eth-events");
