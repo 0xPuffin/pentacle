@@ -6,11 +6,11 @@ pd.set_option('display.max_rows', None)
 pd.set_option('display.float_format', lambda x: '%.3f' % x)
 pd.set_option('display.width', 1500)
 
-dt = pd.read_csv("tag.csv", index_col="tag_id")
+dt = pd.read_csv("../tag.csv", index_col="tag_id")
 tag_dict = dt.T.to_dict('records')[0]
 tag_dict = dict((v,k) for k,v in tag_dict.items())
 
-df = pd.read_csv("event.csv", index_col="event_id")
+df = pd.read_csv("../event.csv", index_col="event_id")
 
 map_df = df[['event_name', 'tag1', 'tag2', 'tag3']].copy()
 map_df['tag1'] = map_df['tag1'].map(tag_dict)
