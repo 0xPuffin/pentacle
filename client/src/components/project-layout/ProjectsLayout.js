@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import ProjectDetail from "./ProjectDetail";
 import ProjectSummary from "./ProjectSummary";
-import TagDescription from "../tag-layout/TagDescription";
+import TagDescription from "../tag-description/TagDescription";
 
 export const ProjectsLayout = ({projects}) => {
     const [projectDetail, setProjectDetail] = useState(projects[0]);

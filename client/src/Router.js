@@ -5,10 +5,10 @@ import { About } from "./pages/about";
 import { Terms } from "./pages/terms";
 import { Main } from "./pages/main";
 
-import { Articles } from "./pages/articles/Articles";
-import { Education } from "./pages/education/Education";
-import { Events } from "./pages/events/Events";
-import { Projects } from "./pages/projects/Projects";
+import { Articles } from "./pages/articles/articles";
+import { Education } from "./pages/education/education";
+import { Events } from "./pages/events/events";
+import { Projects } from "./pages/projects/projects";
 
 import EthEcosystemDefi from "./pages/eth-ecosystem/eth-ecosystem-defi";
 import EthEcosystemRetail from "./pages/eth-ecosystem/eth-ecosystem-retail";

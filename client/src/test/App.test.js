@@ -2,7 +2,7 @@ import '@testing-library/jest-dom'
 import React from "react";
 
 // const render = require('@testing-library/react');
-const Footer = require('../components/footer');
+const Footer = require('../components/footer/Footer');
 
 test('it renders the footer' , () => {
     // const { container } = render(Footer);

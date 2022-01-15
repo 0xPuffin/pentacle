@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Header from "../header";
-import Navigation from "../navigation";
+import Navigation from "../navigation/Navigation";
 
 const LayoutProjects = ({children}) => {
     return (

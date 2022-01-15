@@ -31,4 +31,4 @@ new_df = pd.concat([new_df, df3], axis=0, sort=False)
 new_df['tag_id'] = new_df['tag_id'].astype(int)
 
 print(new_df)
-new_df.to_csv('event_tags.csv')
+new_df.to_csv('../event_tags.csv')

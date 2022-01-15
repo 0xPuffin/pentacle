@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import {BrowserRouter} from "react-router-dom";
-import Footer from "./components/footer";
+import Footer from "./components/footer/Footer";
 import {Router} from "./Router";
 
 // const themes = {

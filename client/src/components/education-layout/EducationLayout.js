@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import EducationDetail from "./EducationDetail";
 import EducationSummary from "./EducationSummary";
-import TagDescription from "../tag-layout/TagDescription";
+import TagDescription from "../tag-description/TagDescription";
 
 export const EducationLayout = ({education}) => {
     const [educationDetail, setEducationDetail] = useState(educationArticles[0]);
