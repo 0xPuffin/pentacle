@@ -1,7 +1,11 @@
 // dev
 
-@import 'pentacleui/src/scss/assets/styles/pentacle-dark.scss';
-
+@media (prefers-color-scheme: light) {
+  @import 'pentacleui/src/scss/assets/styles/pentacle-light.scss';
+}
+@media (prefers-color-scheme: dark) {
+  @import 'pentacleui/src/scss/assets/styles/pentacle-dark.scss';
+}
 [data-theme='light'] {
   @import 'pentacleui/src/scss/assets/styles/pentacle-light.scss';
 }
@@ -11,14 +15,21 @@
 
 // prod
 
-//@import '~@pentacle/pentacleui/assets/styles/pentacle-dark.scss';
-//
+//@media (prefers-color-scheme: light) {
+//  @import '~@pentacle/pentacleui/assets/styles/pentacle-light.scss';
+//}
+//@media (prefers-color-scheme: dark) {
+//  @import '~@pentacle/pentacleui/assets/styles/pentacle-dark.scss';
+//}
 //[data-theme='light'] {
 //  @import '~@pentacle/pentacleui/assets/styles/pentacle-light.scss';
 //}
 //[data-theme='dark'] {
 //  @import '~@pentacle/pentacleui/assets/styles/pentacle-dark.scss';
 //}
+
+
+// tech debt waahey
 
 .placeholder {
   height: 20rem;

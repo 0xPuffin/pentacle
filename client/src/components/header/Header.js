@@ -1,7 +1,7 @@
 import React from "react"
-import Navigation from "./navigation/Navigation";
-import HeaderLogo from "./header-logo/HeaderLogo";
-import ThemeSwitcher from "./theme-switcher/ThemeSwitcher";
+import Navigation from "../navigation/Navigation";
+import HeaderLogo from "../header-logo/HeaderLogo";
+import ThemeSwitcher from "../theme-switcher/ThemeSwitcher";
 
 const Header = () => {
 

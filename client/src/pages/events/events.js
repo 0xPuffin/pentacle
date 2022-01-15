@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Layout from "../../components/layouts/layout";
-import Header from "../../components/header";
+import Header from "../../components/header/Header";
 import {EventsTagNav} from "../../components/tags/events-tag-nav";
 
 export function Events () {

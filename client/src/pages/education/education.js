@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Layout from "../../components/layouts/layout";
-import Header from "../../components/header";
+import Header from "../../components/header/Header";
 import {EducationTagNav} from "../../components/tags/education-tag-nav";
 
 export function Education() {

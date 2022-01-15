@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Projects from './middlelevel';
-import Header from "../../components/header";
+import Header from "../../components/header/Header";
 
 export const TopLevel = ({projects}) => {
     const [projectDetail, setProjectDetail] = useState(projects[0]);
