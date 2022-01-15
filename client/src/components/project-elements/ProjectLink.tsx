@@ -1,6 +1,6 @@
 import React from "react";
 
-const Link = (props: any) => {
+const ProjectLink = (props: any) => {
 
     return(
         <li className={"inline-block margin-right-1"}>
@@ -9,4 +9,4 @@ const Link = (props: any) => {
     )
 };
 
-export default Link
+export default ProjectLink

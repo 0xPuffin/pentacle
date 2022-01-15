@@ -1,6 +1,6 @@
 import React from "react";
 
-const EducationContent  = ({data}) => {
+const EducationDetail  = ({data}) => {
     return (
         <>
             <article className={"main-content margin-bottom-2"}>
@@ -19,4 +19,4 @@ const EducationContent  = ({data}) => {
     );
 };
 
-export default EducationContent;
+export default EducationDetail;

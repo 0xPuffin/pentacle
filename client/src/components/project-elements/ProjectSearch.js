@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { SearchContext, SearchDispatchContext } from '../../providers/search-provider';
 
-const Search = () => {
+const ProjectSearch = () => {
 
   const { search } = useContext(SearchContext);
   const { setSearchString } = useContext(SearchDispatchContext);
@@ -26,7 +26,7 @@ const Search = () => {
 };
 
 
-export default Search;
+export default ProjectSearch;
 
 
 

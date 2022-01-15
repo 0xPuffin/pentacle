@@ -1,6 +1,6 @@
 import React from "react";
 
-const Button = (props: any) => {
+const ProjectButton = (props: any) => {
 
     const handleClick = () => {
         window.open(props.url);
@@ -13,4 +13,4 @@ const Button = (props: any) => {
     )
 };
 
-export default Button
+export default ProjectButton

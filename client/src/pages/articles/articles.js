@@ -3,7 +3,7 @@ import Layout from "../../components/layouts/layout";
 import {ProjectTagNav} from "../../components/tags/project-tag-nav";
 import {ProjectsLayout} from "../../components/project-layout/ProjectsLayout";
 import Header from "../../components/header/Header";
-import Loading from "../../components/project-elements/loading.component";
+import Loading from "../../components/Loading/Loading";
 
 export const Articles = () => {
 
@@ -49,9 +49,12 @@ export const Articles = () => {
 
     if (loading) {
         return (
-            <Layout>
-                <Loading/>
-            </Layout>
+            <>
+                <Header/>
+                <Layout>
+                    <Loading/>
+                </Layout>
+            </>
         )
     } else if (error) {
         return <>error</>;

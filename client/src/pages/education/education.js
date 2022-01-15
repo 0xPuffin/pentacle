@@ -53,7 +53,7 @@ export function Education() {
             {/*    <EducationTagNav/>*/}
             {/*    <main className={"main-container"}>*/}
             {/*    {education && (*/}
-            {/*        <EducationContent data={education}/>*/}
+            {/*        <EducationDetail data={education}/>*/}
             {/*    )}*/}
             {/*    </main>*/}
             {/*</Layout>*/}
