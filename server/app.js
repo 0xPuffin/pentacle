@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use("/", indexRouter);
 
-app.use("/articles", articlesRouter);
+app.use("/articles/articles", articlesRouter);
 app.use("/education/education", educationRouter);
 app.use("/events/events", eventsRouter);
 app.use("/projects/projects", projectsRouter);
