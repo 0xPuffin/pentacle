@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import Layout from "../../components/layouts/layout";
 import Header from "../../components/header/Header";
 import Loading from "../../components/Loading/Loading";
+import {ProjectTagNav} from "../../components/tags/project-tag-nav";
 
 export const Articles = () => {
 
@@ -42,15 +43,18 @@ export const Articles = () => {
             <>
                 <Header/>
                 <Layout>
-                    <h1>Articles</h1>
+                    <ProjectTagNav/>
                     {articles && (
                         <main className={"main-container"}>
-                            {articles.map((data, index) => (
-                                <article className={"main-content margin-bottom-2"} key={index}>
-                                    <h2>{data.article_name}</h2>
-                                    <a href={"data.article_url"}>{data.article_url}</a>
-                                </article>
-                            ))}
+                            <section className={"main-content padding-top-3"}>
+                                <h1 className={"boxed"}>Articles</h1>
+                                {articles.map((data, index) => (
+                                    <article key={index}>
+                                        <h3>{data.article_name}</h3>
+                                        <a href={"data.article_url"}>{data.article_url}</a>
+                                    </article>
+                                ))}
+                            </section>
                         </main>
                     )}
                 </Layout>
