@@ -10,7 +10,7 @@ export const EventsTagNav = () => {
     const fetchTags = async () => {
         setLoading(true)
         try {
-            const response = await fetch("/events/tags")
+            const response = await fetch(`${process.env.REACT_APP_SERVER_URI}/events/tags`);
             const res = await response.json()
             setLoading(false)
             setTags(res.data)

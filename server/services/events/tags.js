@@ -8,6 +8,12 @@ async function getMultiple(page = 1) {
     offset,
     config.listPerPage,
   ]);
+  // const rows = await db.query(
+  //     "SELECT event_id, " +
+  //     "FROM event_tag " +
+  //     "OFFSET $1 LIMIT $2",
+  //     [offset, config.listPerPage]
+  // );
   const data = helper.emptyOrRows(rows);
   const meta = { page };
 
