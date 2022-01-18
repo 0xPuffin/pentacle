@@ -8,9 +8,7 @@
   },
   "main": "server/app.js",
   "scripts": {
-    "start": "cd client && yarn start",
-    "server": "node ./server/bin/www",
-    "build": "cd client && yarn build"
+    "build": "cd server && node ./server/bin/www"
   },
   "dependencies": {
     "ansi-html": "^0.0.7",
