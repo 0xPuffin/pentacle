@@ -6,7 +6,7 @@ import ThemeSwitcher from "../theme-switcher/ThemeSwitcher";
 const Header = () => {
 
     return (<header className={"p-header"}>
-        <article className="header-content flex align-items-center">
+        <article className="header-content flex">
             <HeaderLogo/>
             <Navigation/>
             <ThemeSwitcher/>

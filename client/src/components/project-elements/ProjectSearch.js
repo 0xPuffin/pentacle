@@ -18,7 +18,7 @@ const ProjectSearch = () => {
   return (
     <article className={"fieldset inline boxed"}>
       <label aria-labelledby={"search"} className={"display-none"} htmlFor={"search"}>Search</label>
-      <input id="search" type="text" placeholder="Filter by project name" value={search}
+      <input id="search" type="text" placeholder="Filter by name" value={search}
         onChange={handleChange} />
       <input className={"padding-left-0-75"} type="reset" value="Clear" onClick={handleClear} />
     </article>

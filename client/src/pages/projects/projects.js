@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import Layout from "../../components/layouts/layout";
-import {ProjectTagNav} from "../../components/tags/project-tag-nav";
 import {ProjectsLayout} from "../../components/project-layout/ProjectsLayout";
 import Header from "../../components/header/Header";
 import Loading from "../../components/Loading/Loading";
@@ -60,21 +59,22 @@ export const Projects = () => {
             <>
                 <Header/>
                 <Layout>
-                    <ProjectTagNav/>
                     <main className={"main-container"}>
                         <section className={"main-content flex space-between padding-top-3"}>
                             <h1>Projects</h1>
                             <article className={"fieldset inline boxed align-right"}>
                                 <label aria-labelledby={"search"} className={"display-none"}
                                        htmlFor={"search"}>Search</label>
-                                <input id="search" type="text" placeholder="Filter by project name" value={searchTerm}
+                                <input id="search" type="text" placeholder="Filter by name" value={searchTerm}
                                        onChange={handleChange}/>
                                 <input className={"padding-left-0-75"} type="reset" value="Clear"
                                        onClick={handleClear}/>
                             </article>
                         </section>
-                        {/*// TODO add tag filtering*/}
                         <ProjectsLayout projects={searchResults}/>
+                        <section className={"main-content flex space-between padding-top-1"}>
+                            <h2>Related articles</h2>
+                        </section>
                     </main>
                 </Layout>
             </>
