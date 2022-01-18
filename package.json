@@ -8,7 +8,7 @@
   },
   "main": "app.js",
   "scripts": {
-    "build": "node ./server/bin/www"
+    "start": "node ./server/bin/www"
   },
   "dependencies": {
     "ansi-html": "^0.0.7",
