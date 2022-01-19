@@ -10,15 +10,6 @@ import { Education } from "./pages/education/education";
 import { Events } from "./pages/events/events";
 
 import { Projects } from "./pages/projects/projects";
-// import { Projects } from "./pages/projects/projects";
-// import { Projects } from "./pages/projects/projects";
-// import { Projects } from "./pages/projects/projects";
-// import { Projects } from "./pages/projects/projects";
-// import { Projects } from "./pages/projects/projects";
-// import { Projects } from "./pages/projects/projects";
-// import { Projects } from "./pages/projects/projects";
-// import { Projects } from "./pages/projects/projects";
-// import { Projects } from "./pages/projects/projects";
 
 import EthEcosystemDefi from "./pages/eth-ecosystem/eth-ecosystem-defi";
 import EthEcosystemRetail from "./pages/eth-ecosystem/eth-ecosystem-retail";
