@@ -6,8 +6,8 @@ async function getMultiple(page = 1) {
   const offset = helper.getOffset(page, config.listPerPage);
   const rows = await db.query(
       "SELECT tag_id" +
-      "name " +
-      "description," +
+      "name, " +
+      "description " +
       "FROM tag " +
       "OFFSET $1 LIMIT $2", [
     offset,
