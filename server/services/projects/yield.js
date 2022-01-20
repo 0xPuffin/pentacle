@@ -5,7 +5,7 @@ const config = require("../../config");
 async function getMultiple(page = 1) {
   const offset = helper.getOffset(page, config.listPerPage);
   const rows = await db.query(
-      "SELECT project.project_id, " +
+    "SELECT project.project_id, " +
       "project.name AS project_name, " +
       "project.coingecko_id, " +
       "project.description, " +
@@ -30,7 +30,7 @@ async function getMultiple(page = 1) {
       "WHERE tag.name = 'yield' " +
       // "ORDER BY project.name ASC "+
       "OFFSET $1 LIMIT $2",
-      [offset, config.listPerPage]
+    [offset, config.listPerPage]
   );
   const data = helper.emptyOrRows(rows);
   const meta = { page };

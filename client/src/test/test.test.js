@@ -1,1 +1,1 @@
-test("Jest properly installed and cored!", ()=>{})
+test("Jest properly installed and cored!", () => {});

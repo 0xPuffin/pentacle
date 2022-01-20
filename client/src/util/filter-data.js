@@ -8,7 +8,7 @@ function filterData(obj, val) {
   const filtered = {
     name: obj.name,
     children: nestedChildren,
-    filtered: !!nestedChildren.length
+    filtered: !!nestedChildren.length,
   };
 
   const res = filtered.children.length

@@ -1,6 +1,6 @@
-const {defaults} = require('jest-config');
+const { defaults } = require("jest-config");
 
 module.exports = {
-    setupFilesAfterEnv: ["./setupTests.ts"],
-    moduleFileExtensions: [...defaults.moduleFileExtensions, 'ts', 'tsx'],
+  setupFilesAfterEnv: ["./setupTests.ts"],
+  moduleFileExtensions: [...defaults.moduleFileExtensions, "ts", "tsx"],
 };

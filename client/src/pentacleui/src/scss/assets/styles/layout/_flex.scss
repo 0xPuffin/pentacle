@@ -1,5 +1,4 @@
 .flex {
-
   display: block;
 
   > * {
@@ -67,11 +66,10 @@
 }
 
 @media screen and (min-width: _breakpoint(step-one)) {
-
   .flex {
     display: flex;
     row-gap: 0;
-    column-gap: .75rem;
+    column-gap: 0.75rem;
 
     &.column {
       flex-direction: column;
@@ -162,7 +160,6 @@
 }
 
 @media screen and (min-width: _breakpoint(step-two)) {
-
   .flex-large {
     display: flex;
     flex-direction: row;

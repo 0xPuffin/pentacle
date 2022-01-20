@@ -1,7 +1,8 @@
 {
   "name": "ethereumnft",
   "children": [
-    { "name": "Tools and analysis",
+    {
+      "name": "Tools and analysis",
       "img": "",
       "children": [
         {
@@ -13,7 +14,8 @@
         }
       ]
     },
-    { "name": "Platforms",
+    {
+      "name": "Platforms",
       "img": "",
       "children": [
         {
@@ -218,7 +220,8 @@
         }
       ]
     },
-    { "name": "Projects",
+    {
+      "name": "Projects",
       "img": "",
       "children": [
         {

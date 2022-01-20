@@ -18,7 +18,6 @@
   @return val($width, $keys...);
 }
 
-
 @function val($map, $keys...) {
   @each $key in $keys {
     $map: map-get($map, $key);

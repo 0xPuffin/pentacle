@@ -5,12 +5,16 @@ import { ProjectsLayout } from "../../components/project-layout/ProjectsLayout";
 import RelatedLinks from "../../components/related-links/RelatedLinks";
 import Header from "../../components/header/Header";
 import Loading from "../../components/Loading/Loading";
-import { SearchContext, SearchDispatchContext } from "../../providers/search-provider";
+import {
+  SearchContext,
+  SearchDispatchContext,
+} from "../../providers/search-provider";
 import { TitleContext } from "../../providers/title-provider";
 import { useLocation } from "react-router-dom";
 
 export const ProjectsAllPage = () => {
-  const { searchResults, projectsLoading, error, search } = useContext(SearchContext);
+  const { searchResults, projectsLoading, error, search } =
+    useContext(SearchContext);
   const { setSearchString, handleClear } = useContext(SearchDispatchContext);
   const { title } = useContext(TitleContext);
   const location = useLocation();
@@ -21,8 +25,8 @@ export const ProjectsAllPage = () => {
 
   const hasNoRelatedLinks = [
     "/projects",
-    '/projects/decentralised-exchange',
-    '/projects/insurance'
+    "/projects/decentralised-exchange",
+    "/projects/insurance",
   ];
 
   if (projectsLoading) {

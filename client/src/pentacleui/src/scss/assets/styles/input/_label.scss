@@ -1,14 +1,15 @@
-label, legend {
+label,
+legend {
   font-family: _font(family-semibold);
   font-size: _size(regular);
 }
 
-label:not(fieldset label), legend {
+label:not(fieldset label),
+legend {
   display: block;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
 label + label {
-  margin-left: .75rem;
+  margin-left: 0.75rem;
 }
-

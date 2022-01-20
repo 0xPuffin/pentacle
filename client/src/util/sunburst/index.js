@@ -1,1 +1,1 @@
-export {default} from "./sunburst.js";
+export { default } from "./sunburst.js";

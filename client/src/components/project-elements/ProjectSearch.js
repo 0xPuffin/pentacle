@@ -1,33 +1,46 @@
 import React, { useContext } from "react";
-import { SearchContext, SearchDispatchContext } from '../../providers/search-provider';
+import {
+  SearchContext,
+  SearchDispatchContext,
+} from "../../providers/search-provider";
 
 const ProjectSearch = () => {
-
   const { search } = useContext(SearchContext);
   const { setSearchString } = useContext(SearchDispatchContext);
 
-  const handleChange = event => {
+  const handleChange = (event) => {
     setSearchString(event.target.value);
   };
 
   const handleClear = () => {
     setSearchResults(projects);
-    setSearchString('');
+    setSearchString("");
   };
 
   return (
     <article className={"fieldset inline boxed"}>
-      <label aria-labelledby={"search"} className={"display-none"} htmlFor={"search"}>Search</label>
-      <input id="search" type="text" placeholder="Filter by name" value={search}
-        onChange={handleChange} />
-      <input className={"padding-left-0-75"} type="reset" value="Clear" onClick={handleClear} />
+      <label
+        aria-labelledby={"search"}
+        className={"display-none"}
+        htmlFor={"search"}
+      >
+        Search
+      </label>
+      <input
+        id="search"
+        type="text"
+        placeholder="Filter by name"
+        value={search}
+        onChange={handleChange}
+      />
+      <input
+        className={"padding-left-0-75"}
+        type="reset"
+        value="Clear"
+        onClick={handleClear}
+      />
     </article>
   );
 };
 
-
 export default ProjectSearch;
-
-
-
-
