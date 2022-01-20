@@ -6,6 +6,7 @@ DROP TABLE education;
 DROP TABLE education_tag;
 DROP TABLE event;
 DROP TABLE event_tag;
+DROP TABLE tag;
 CREATE TABLE project
 (
     project_id      serial primary key,
@@ -36,6 +37,12 @@ CREATE TABLE project_tag
 (
     project_id int,
     tag_id     int
+);
+CREATE TABLE tag
+(
+    tag_id      int,
+    name        varchar(400),
+    description varchar(4000)
 );
 CREATE TABLE article
 (
@@ -80,6 +87,7 @@ CREATE TABLE event_tag
 );
 COPY project FROM '/Users/pentaclexyz/projects/pentacle/data/project-no-tags.csv' delimiter ',' CSV HEADER;
 COPY project_tag FROM '/Users/pentaclexyz/projects/pentacle/data/project_tags.csv' delimiter ',' CSV HEADER;
+COPY tag FROM '/Users/pentaclexyz/projects/pentacle/data/tags.csv' delimiter ',' CSV HEADER;
 COPY article FROM '/Users/pentaclexyz/projects/pentacle/data/article-no-tags.csv' delimiter ',' CSV HEADER;
 COPY article_tag FROM '/Users/pentaclexyz/projects/pentacle/data/article_tags.csv' delimiter ',' CSV HEADER;
 COPY education FROM '/Users/pentaclexyz/projects/pentacle/data/education-no-tags.csv' delimiter ',' CSV HEADER;

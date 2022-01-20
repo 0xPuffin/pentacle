@@ -4,7 +4,12 @@ const config = require("../../config");
 
 async function getMultiple(page = 1) {
   const offset = helper.getOffset(page, config.listPerPage);
-  const rows = await db.query("SELECT name FROM tag OFFSET $1 LIMIT $2", [
+  const rows = await db.query(
+      "SELECT tag_id" +
+      "name " +
+      "description," +
+      "FROM tag " +
+      "OFFSET $1 LIMIT $2", [
     offset,
     config.listPerPage,
   ]);
