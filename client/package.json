@@ -12,7 +12,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "css": "sass src/pentacleui/src/scss/assets/styles/pentacle-dark.scss src/public/styles/pentacle-dark.css --style compressed && sass src/pentacleui/src/scss/assets/styles/pentacle-light.scss styles/pentacle-light.css --style compressed",
+    "css": "sass ../src/pentacleui/src/scss/assets/styles/pentacle-dark.scss src/public/styles/pentacle-dark.css --style compressed && sass src/pentacleui/src/scss/assets/styles/pentacle-light.scss styles/pentacle-light.css --style compressed",
     "lint": "eslint src/**/*.js src/**/*.jsx"
   },
   "dependencies": {
@@ -23,7 +23,7 @@
     "@babel/preset-react": "^7.14.5",
     "@jest/globals": "^27.0.6",
     "@observablehq/runtime": "^4.8.2",
-    "@pentacle/pentacleui": "^1.0.14",
+    "@pentacle/pentacleui": "^1.0.16",
     "@storybook/addon-actions": "^6.4.13",
     "@storybook/addon-essentials": "^6.4.13",
     "@storybook/addon-links": "^6.4.13",

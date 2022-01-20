@@ -12,5 +12,5 @@ yarn
 *.log
 .idea
 **/.idea
-**/src/pentacleui/*
+src/pentacleui/*
 venv
