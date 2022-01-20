@@ -1,13 +1,21 @@
-import React, {Component} from "react"
-import SunburstGraph from './graph.js';
+import React, { Component } from "react";
+import SunburstGraph from "./graph.js";
 
 class Search extends Component {
-    render() {
-        return <div className={"field inline"}>
-            <label className={"visibility-hidden"} htmlFor="search">Search</label>
-            <input id="search" type="search" onChange={(e) => SunburstGraph.filter(e.target.value)}/>
-        </div>
-    }
+  render() {
+    return (
+      <div className={"field inline"}>
+        <label className={"visibility-hidden"} htmlFor="search">
+          Search
+        </label>
+        <input
+          id="search"
+          type="search"
+          onChange={(e) => SunburstGraph.filter(e.target.value)}
+        />
+      </div>
+    );
+  }
 }
 
-export default Search
+export default Search;

@@ -6,7 +6,7 @@ in one terminal
 
 `$ yarn start`
 
-in another terminal 
+in another terminal
 
 `$ yarn server`
 
@@ -14,17 +14,13 @@ view front-end in browser
 
 http://localhost:3000
 
-
 view back-end calls
 
 http://localhost:3001/projects
 
-
 generate css files
 
 `$ yarn css`
-
-
 
 ## setup
 
@@ -38,6 +34,7 @@ $ yarn install
 ```
 
 ## when things go wrong
+
 ```
 $ rm -r yarn.lock
 
@@ -50,13 +47,11 @@ $ yarn install
 $ yarn start
 ```
 
-
-
 ## Unit testing
 
 ### Jest and React testing library
 
-- https://jestjs.io/docs/expect 
+- https://jestjs.io/docs/expect
 - https://github.com/jest-community/jest-extended
 
 ```
@@ -68,7 +63,7 @@ test('renders a message', () => {
 test('renders a message', () => {
     const {container, getByText} = render(<About />)
     expect(container.firstChild).toMatchSnapshot(`
-    <h1 className={"p-about"}>hello</h1> 
+    <h1 className={"p-about"}>hello</h1>
   `)
 })
 ```
@@ -77,8 +72,7 @@ test('renders a message', () => {
 
 https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification
 
---------------------------------
-
+---
 
 ## Image Download
 
@@ -94,12 +88,11 @@ And images will be downloaded into the assets folder
 
 Will break if the url does not end with a file extension
 
-
---------------------------------
+---
 
 ## Image Resize
- 
-You can resize all png images from a directory by calling 
+
+You can resize all png images from a directory by calling
 
 $ `node bin/resize-images.js path/to/images 32`
 

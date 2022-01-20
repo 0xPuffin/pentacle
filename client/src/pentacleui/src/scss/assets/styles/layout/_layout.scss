@@ -1,4 +1,7 @@
-header, footer, main, nav {
+header,
+footer,
+main,
+nav {
   width: 100%;
 }
 
@@ -6,7 +9,10 @@ main {
   background-color: _color(white-10);
 }
 
-.header-content, .footer-content, .main-content, .nav-content {
+.header-content,
+.footer-content,
+.main-content,
+.nav-content {
   margin: 0 auto;
   max-width: 80rem;
   padding-left: 1.5rem;

@@ -1,61 +1,61 @@
-$font-path: '../../fonts';
+$font-path: "../../fonts";
 
 @font-face {
-  font-family: 'cako';
-  src: url('#{$font-path}/cako/Cako-Regular.eot')  format('eot');
-  src: url('#{$font-path}/cako/Cako-Regular.woff')  format('woff2');
-  src: url('#{$font-path}/cako/Cako-Regular.woff2')  format('woff');
+  font-family: "cako";
+  src: url("#{$font-path}/cako/Cako-Regular.eot") format("eot");
+  src: url("#{$font-path}/cako/Cako-Regular.woff") format("woff2");
+  src: url("#{$font-path}/cako/Cako-Regular.woff2") format("woff");
 }
 
 @font-face {
-  font-family: 'matter';
-  src: url('#{$font-path}/matter/Matter-Regular.woff')  format('woff2');
-  src: url('#{$font-path}/matter/Matter-Regular.woff2')  format('woff');
+  font-family: "matter";
+  src: url("#{$font-path}/matter/Matter-Regular.woff") format("woff2");
+  src: url("#{$font-path}/matter/Matter-Regular.woff2") format("woff");
 }
 
 @font-face {
-  font-family: 'priori-regular';
-  src: url('#{$font-path}/priori/PrioriSansOT-Regular.otf')  format('opentype');
+  font-family: "priori-regular";
+  src: url("#{$font-path}/priori/PrioriSansOT-Regular.otf") format("opentype");
 }
 
 @font-face {
-  font-family: 'priori-bold';
-  src: url('#{$font-path}/priori/PrioriSansOT-Bold.otf')  format('opentype');
+  font-family: "priori-bold";
+  src: url("#{$font-path}/priori/PrioriSansOT-Bold.otf") format("opentype");
 }
 
 @font-face {
-  font-family: 'priori-black';
-  src: url('#{$font-path}/priori/PrioriSansOT-Black.otf')  format('opentype');
+  font-family: "priori-black";
+  src: url("#{$font-path}/priori/PrioriSansOT-Black.otf") format("opentype");
 }
 
 @font-face {
-  font-family: 'fira-light';
-  src: url('#{$font-path}/Fira_Code/FiraCode-Light.ttf')  format('truetype');
+  font-family: "fira-light";
+  src: url("#{$font-path}/Fira_Code/FiraCode-Light.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'fira-regular';
-  src: url('#{$font-path}/Fira_Code/FiraCode-Regular.ttf')  format('truetype');
+  font-family: "fira-regular";
+  src: url("#{$font-path}/Fira_Code/FiraCode-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'fira-medium';
-  src: url('#{$font-path}/Fira_Code/FiraCode-Medium.ttf')  format('truetype');
+  font-family: "fira-medium";
+  src: url("#{$font-path}/Fira_Code/FiraCode-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'fira-semibold';
-  src: url('#{$font-path}/Fira_Code/FiraCode-SemiBold.ttf')  format('truetype');
+  font-family: "fira-semibold";
+  src: url("#{$font-path}/Fira_Code/FiraCode-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'fira-bold';
-  src: url('#{$font-path}/Fira_Code/FiraCode-Bold.ttf')  format('truetype');
+  font-family: "fira-bold";
+  src: url("#{$font-path}/Fira_Code/FiraCode-Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "material-icons";
   font-style: normal;
   font-weight: normal;
-  src: url("#{$font-path}/material-design-icons/material.ttf")
+  src: url("#{$font-path}/material-design-icons/material.ttf");
 }

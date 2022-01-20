@@ -7,14 +7,15 @@ main {
   radius: 1rem;
 }
 
-svg g g text, g, svg {
+svg g g text,
+g,
+svg {
   color: _color(body-text);
 }
 
 svg g g text a {
   color: _color(body-text);
 }
-
 
 main {
   background-color: _color(transparent) !important;

@@ -1,17 +1,19 @@
-const fs = require('fs');
-const request = require('request');
+const fs = require("fs");
+const request = require("request");
 
 function getUrlExtension(url) {
-  return url.split(/[#?]/)[0].split('.').pop().trim();
+  return url.split(/[#?]/)[0].split(".").pop().trim();
 }
 
-const download = function(uri, filename, callback){
-  request.head(uri, function(err, res, body){
+const download = function (uri, filename, callback) {
+  request.head(uri, function (err, res, body) {
     console.log(`downloading ${uri}`);
 
     const fileExt = getUrlExtension(uri);
     const destination = process.argv[3];
-    request(uri).pipe(fs.createWriteStream(`${destination}/${filename}.${fileExt}`)).on('close', callback);
+    request(uri)
+      .pipe(fs.createWriteStream(`${destination}/${filename}.${fileExt}`))
+      .on("close", callback);
   });
 };
 
@@ -24,14 +26,13 @@ function walkData(object) {
   }
 
   if (object.img) {
-    download(object.img, object.name, () => {})
+    download(object.img, object.name, () => {});
   }
 
   if (object.children) {
-    object.children.forEach(c => walkData(c));
+    object.children.forEach((c) => walkData(c));
   }
 }
-
 
 /**
  * NOTE: Will have issues with weird URLs so might need to check image output for weird endings.

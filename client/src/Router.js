@@ -12,12 +12,12 @@ import SolHackathon from "./pages/sol-ecosystem/sol-hackathon";
 import { BadThingsPoly } from "./pages/bad-things/bad-things-poly";
 import EthEcosystemLearn from "./pages/eth-ecosystem/eth-ecosystem-learn";
 import EthEcosystemNft from "./pages/eth-ecosystem/eth-ecosystem-nft";
-import { SearchProvider } from './providers/search-provider';
-import { TitleProvider } from './providers/title-provider';
-import { ProjectsAllPage } from './pages/projects/projects';
-import { ProjectsPage } from './pages/ignition/projects.page';
-import { CATEGORIES } from './data/categories';
-import { SECTIONS } from './data/sections';
+import { SearchProvider } from "./providers/search-provider";
+import { TitleProvider } from "./providers/title-provider";
+import { ProjectsAllPage } from "./pages/projects/projects";
+import { ProjectsPage } from "./pages/ignition/projects.page";
+import { CATEGORIES } from "./data/categories";
+import { SECTIONS } from "./data/sections";
 
 export const Router = () => {
   return (
@@ -26,11 +26,19 @@ export const Router = () => {
         <Routes>
           <Route path="/" element={<Main />} />
 
-          {CATEGORIES.map(category => (
-              <Route path={`/${category}`} key={category} element={<ProjectsAllPage />} />
+          {CATEGORIES.map((category) => (
+            <Route
+              path={`/${category}`}
+              key={category}
+              element={<ProjectsAllPage />}
+            />
           ))}
-          {SECTIONS.map(section => (
-            <Route path={`/${section}`} key={section} element={<ProjectsAllPage />} />
+          {SECTIONS.map((section) => (
+            <Route
+              path={`/${section}`}
+              key={section}
+              element={<ProjectsAllPage />}
+            />
           ))}
 
           <Route path="/solana" element={<SolEcosystem />} />
@@ -43,7 +51,6 @@ export const Router = () => {
           <Route path="/about" element={<About />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/ignition" element={<ProjectsPage />} />
-
         </Routes>
       </SearchProvider>
     </TitleProvider>

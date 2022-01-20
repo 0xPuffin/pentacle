@@ -1,5 +1,4 @@
-import '../src/assets/styles/pentacle-light.scss';
-
+import "../src/assets/styles/pentacle-light.scss";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -9,4 +8,4 @@ export const parameters = {
       date: /Date$/,
     },
   },
-}
+};

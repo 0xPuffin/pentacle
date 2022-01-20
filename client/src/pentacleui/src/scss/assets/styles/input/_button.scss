@@ -6,31 +6,30 @@ button.project-button {
   cursor: pointer;
   font-family: _font(family-bold);
   font-size: _font(size-regular);
-  letter-spacing: .0125rem;
-  padding: .35rem 1.25rem .35rem .5rem;
+  letter-spacing: 0.0125rem;
+  padding: 0.35rem 1.25rem 0.35rem 0.5rem;
   img {
     width: 1.5rem;
-    margin-right: .75rem;
+    margin-right: 0.75rem;
   }
   span {
-    padding-top: .15rem;
+    padding-top: 0.15rem;
   }
 }
 
-
 button {
-  padding: .35rem 1rem;
+  padding: 0.35rem 1rem;
   border-radius: 1.5rem;
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-family: _font(family-body);
-  letter-spacing: .0125rem;
+  letter-spacing: 0.0125rem;
   border: none;
   line-height: 1rem;
   cursor: pointer;
   max-width: 15rem;
 
   &.small {
-    padding: .25rem .75rem;
+    padding: 0.25rem 0.75rem;
   }
 
   &.link {
@@ -79,23 +78,21 @@ button {
 
   .material-icons {
     font-size: 1rem;
-    padding-right: .25rem !important;
+    padding-right: 0.25rem !important;
   }
 }
 
 table button {
-  font-size: .65rem;
-  padding: .25rem .5rem;
+  font-size: 0.65rem;
+  padding: 0.25rem 0.5rem;
 }
 
 button + button {
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 @media only screen and (min-width: _breakpoint(step-two)) {
-
   button {
     //line-height: 1rem;
   }
-
 }

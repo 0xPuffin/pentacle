@@ -17,5 +17,5 @@ export const Main = () => {
         <FeaturesSmlLayout />
       </Layout>
     </div>
-  )
-}
+  );
+};

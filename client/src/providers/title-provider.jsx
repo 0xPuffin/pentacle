@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
-import { useLocation } from 'react-router-dom'
+import { useLocation } from "react-router-dom";
 const initVal = {
   title: "",
 };
@@ -15,14 +15,14 @@ export function TitleProvider({ children }) {
   const location = useLocation();
 
   useEffect(() => {
-    if  (location.pathname === '/projects') {
-      setTitle('Projects')
+    if (location.pathname === "/projects") {
+      setTitle("Projects");
     }
-    if  (location.pathname.startsWith('/projects/')) {
-      const slug = location.pathname.split('/')[1];
-      setTitle(slug.replaceAll('-', ''))
+    if (location.pathname.startsWith("/projects/")) {
+      const slug = location.pathname.split("/")[1];
+      setTitle(slug.replaceAll("-", ""));
     }
-  }, [location.pathname])
+  }, [location.pathname]);
 
   return (
     <TitleContext.Provider value={{ title }}>

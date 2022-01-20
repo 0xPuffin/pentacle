@@ -2,9 +2,11 @@ input {
   font-size: _size(regular);
   border: 2px solid _color(border-input);
 
-  &[type=text], &[type=number], &[type=search] {
-    border-radius: .5rem;
-    padding: .35rem .75rem;
+  &[type="text"],
+  &[type="number"],
+  &[type="search"] {
+    border-radius: 0.5rem;
+    padding: 0.35rem 0.75rem;
     font-size: _font(size-regular);
     width: 15rem;
     color: _color(body-text);
@@ -16,15 +18,15 @@ input {
 
     &:focus {
       outline: none;
-      border-radius: .5rem;
+      border-radius: 0.5rem;
       border: 1px solid _color(border-input);
-        &::placeholder {
-          color: _color(secondary);
-        }
+      &::placeholder {
+        color: _color(secondary);
+      }
     }
   }
 
-    &[type="reset"] {
+  &[type="reset"] {
     color: _color(body-text);
     //width: 2rem;
     border: none;
@@ -39,16 +41,16 @@ input {
     outline: none;
   }
 
-  &[type=number] + select {
+  &[type="number"] + select {
     margin-left: 1rem;
   }
 
-  &[type=checkbox],
-  &[type=radio] {
+  &[type="checkbox"],
+  &[type="radio"] {
     padding: 0;
 
     + span {
-      margin-left: .5rem;
+      margin-left: 0.5rem;
     }
 
     &:-moz-focusring {
@@ -56,22 +58,21 @@ input {
     }
   }
 
-  &[type=radio] {
+  &[type="radio"] {
     -webkit-appearance: radio;
   }
 
-  &[type=checkbox] {
+  &[type="checkbox"] {
     -webkit-appearance: checkbox;
   }
-
 }
 
 .select-fancy {
-  padding: .35rem .75rem;
+  padding: 0.35rem 0.75rem;
   border-radius: 1.5rem;
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-family: _font(family-regular);
-  letter-spacing: .0125rem;
+  letter-spacing: 0.0125rem;
   border: 1px solid _color(border-input);
   line-height: 1.5rem;
 }

@@ -1,9 +1,9 @@
 import React, { createContext, useEffect, useState } from "react";
 
 const initVal = {
-  section: 'projects',
-  category: 'projects',
-  search: '',
+  section: "projects",
+  category: "projects",
+  search: "",
   tags: [],
 };
 
@@ -22,36 +22,37 @@ export function SearchProvider({ children }) {
   const [searchString, setSearchString] = useState("");
   const [activeCategory, setActiveCategory] = useState("projects");
   const [tags, setTags] = useState([]);
-  const [activeSection, setActiveSection] = useState('projects');
+  const [activeSection, setActiveSection] = useState("projects");
   const [tagsLoading, setTagsLoading] = useState(true);
   const [projects, setProjects] = useState([]);
   const [searchResults, setSearchResults] = useState([]);
   const [error, setError] = useState(null);
-  const [activeTag, setActiveTag] = useState('');
+  const [activeTag, setActiveTag] = useState("");
   const fetchTags = async () => {
-      setTagsLoading(true);
-      try {
-        // debugger
-        const response = await fetch("/api/projects/tags");
-        const res = await response.json();
-        setTagsLoading(false);
-        setTags(res.data);
-      } catch (error) {
-        setTagsLoading(false);
-        setError(error); // TODO
-        console.error(error);
-      }
+    setTagsLoading(true);
+    try {
+      // debugger
+      const response = await fetch("/api/projects/tags");
+      const res = await response.json();
+      setTagsLoading(false);
+      setTags(res.data);
+    } catch (error) {
+      setTagsLoading(false);
+      setError(error); // TODO
+      console.error(error);
+    }
   };
 
   const fetchProjects = async () => {
     setProjectsLoading(true);
     try {
-      const response = await fetch('/api/' + activeSection + '/' + activeCategory);
+      const response = await fetch(
+        "/api/" + activeSection + "/" + activeCategory
+      );
       const res = await response.json();
       setProjectsLoading(false);
       setSearchResults(res.data);
       setProjects(res.data);
-
     } catch (error) {
       setProjectsLoading(true);
       setError(error); // TODO
@@ -95,14 +96,14 @@ export function SearchProvider({ children }) {
       }}
     >
       <SearchDispatchContext.Provider
-        value={{ 
-            setSearchString, 
-            setActiveSection,
-            setActiveCategory, 
-            setTags, 
-            handleClear, 
-            setActiveTag,
-          }}
+        value={{
+          setSearchString,
+          setActiveSection,
+          setActiveCategory,
+          setTags,
+          handleClear,
+          setActiveTag,
+        }}
       >
         {children}
       </SearchDispatchContext.Provider>
