@@ -12,7 +12,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "lint": "eslint src/**/*.js src/**/*.jsx"
+    "lint": "eslint src/**/*.js src/**/*.jsx",
+    "cssdark": "sass node_modules/@pentacle/pentacleui/assets/styles/pentacle-dark.scss src/assets/styles/pentacle-dark.css --style compressed",
+    "csslight": "sass node_modules/@pentacle/pentacleui/assets/styles/pentacle-light.scss src/assets/styles/pentacle-light.css --style compressed"
   },
   "dependencies": {
     "@babel/eslint-parser": "^7.16.3",

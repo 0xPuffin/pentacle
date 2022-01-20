@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 @media (prefers-color-scheme: light) {
-  @import '~@pentacle/pentacleui/assets/styles/pentacle-light.scss';
+  @import 'assets/styles/pentacle-light';
 }
 @media (prefers-color-scheme: dark) {
-  @import '~@pentacle/pentacleui/assets/styles/pentacle-dark.scss';
+  @import 'assets/styles/pentacle-dark';
 }
 [data-theme='light'] {
-  @import '~@pentacle/pentacleui/assets/styles/pentacle-light.scss';
+  @import 'assets/styles/pentacle-light';
 }
 [data-theme='dark'] {
-  @import '~@pentacle/pentacleui/assets/styles/pentacle-dark.scss';
+  @import 'assets/styles/pentacle-dark';
 }
 
 h1.boxed {
