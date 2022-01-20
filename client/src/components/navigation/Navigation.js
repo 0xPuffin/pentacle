@@ -13,8 +13,8 @@ function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav>
-      <ul className={"navigation-content flex-center mt-10"}>
+    <nav className="flex flex-row justify-center items-center">
+      <ul className={"navigation-content flex-center"}>
         <div className="dropdown">
           <button
             onClick={() => setIsOpen(true)}

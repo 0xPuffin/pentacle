@@ -27,8 +27,7 @@ export function SearchProvider({ children }) {
   const [projects, setProjects] = useState([]);
   const [searchResults, setSearchResults] = useState([]);
   const [error, setError] = useState(null);
-  const [activeTag, setActiveTag] = useState('')
-
+  const [activeTag, setActiveTag] = useState('');
   const fetchTags = async () => {
       setTagsLoading(true);
       try {

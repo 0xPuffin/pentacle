@@ -9,7 +9,7 @@ export const ProjectsLayout = ({ projects = [] }) => {
 
   useEffect(() => {
     setProjectDetail(projects[0]);
-  })
+  }, [projects])
 
   const fetchPrice = async (props) => {
     if (props === undefined) {
