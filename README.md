@@ -7,11 +7,11 @@
 
 in one terminal
 
-`$ yarn start`
+`$ yarn run:client`
 
 in another terminal
 
-`$ yarn server`
+`$ yarn run:server`
 
 view front-end in browser
 

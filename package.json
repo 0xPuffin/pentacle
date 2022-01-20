@@ -8,7 +8,9 @@
   },
   "main": "server/app.js",
   "scripts": {
-    "do-magic": "yarn && lerna bootstrap"
+    "do-magic": "yarn && lerna bootstrap",
+    "run:client": "cd packages/client && yarn",
+    "run:server": "cd packages/server && yarn"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
