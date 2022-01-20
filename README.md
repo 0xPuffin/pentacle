@@ -1,5 +1,8 @@
 # Pentacle
 
+## install 
+`$ yarn do-magic`
+
 ## run
 
 in one terminal

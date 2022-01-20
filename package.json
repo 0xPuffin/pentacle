@@ -8,27 +8,10 @@
   },
   "main": "server/app.js",
   "scripts": {
-    "start": "node server/bin/www"
+    "do-magic": "yarn && lerna bootstrap"
   },
-  "dependencies": {
-    "browserlist": "^1.0.1",
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "dotenv": "^10.0.0",
-    "eslint-plugin-react": "^7.28.0",
-    "express": "~4.16.1",
-
-    "json-schema": "^0.4.0",
-    "morgan": "~1.9.1",
-    "node-notifier": "^10.0.0",
-    "nodemon": "^2.0.13",
-    "nth-check": "^2.0.1",
-    "pg": "^8.5.1",
-    "postcss": "^8.4.5",
-    "react-dev-utils": "^12.0.0",
-    "react-scripts": "^5.0.0",
-    "theme-change": "^2.0.2",
-    "trim": "^1.0.1"
+  "devDependencies": {
+    "lerna": "^4.0.0"
   },
   "browserslist": {
     "production": [

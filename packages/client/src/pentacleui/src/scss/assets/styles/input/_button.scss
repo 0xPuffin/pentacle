@@ -1,0 +1,98 @@
+button.project-button {
+  background-color: _color(secondary);
+  border: none;
+  border-radius: 1rem;
+  color: _color(body-text-inverse);
+  cursor: pointer;
+  font-family: _font(family-bold);
+  font-size: _font(size-regular);
+  letter-spacing: 0.0125rem;
+  padding: 0.35rem 1.25rem 0.35rem 0.5rem;
+  img {
+    width: 1.5rem;
+    margin-right: 0.75rem;
+  }
+  span {
+    padding-top: 0.15rem;
+  }
+}
+
+button {
+  padding: 0.35rem 1rem;
+  border-radius: 1.5rem;
+  font-size: 0.75rem;
+  font-family: _font(family-body);
+  letter-spacing: 0.0125rem;
+  border: none;
+  line-height: 1rem;
+  cursor: pointer;
+  max-width: 15rem;
+
+  &.small {
+    padding: 0.25rem 0.75rem;
+  }
+
+  &.link {
+    color: _color(primary);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  &.primary {
+    background: _color(button-primary);
+    color: _color(button-text-primary);
+    &.active {
+      background: _color(secondary);
+    }
+  }
+
+  &.primary-gradient {
+    background: _color(bg-fancy-lilac);
+    color: _color(button-text-gradient);
+
+    &.active {
+      background: _color(secondary);
+      color: _color(body-text-inv);
+    }
+  }
+
+  &.secondary {
+    background-color: _color(secondary);
+    color: _color(body-text);
+  }
+
+  &.tertiary {
+    background-color: _color(tertiary);
+    color: _color(body-text);
+  }
+
+  &.cancel {
+    background-color: _color(button-cancel);
+    color: _color(button-text-cancel);
+  }
+
+  &.delete {
+    background-color: _color(button-delete);
+    color: _color(button-text-delete);
+  }
+
+  .material-icons {
+    font-size: 1rem;
+    padding-right: 0.25rem !important;
+  }
+}
+
+table button {
+  font-size: 0.65rem;
+  padding: 0.25rem 0.5rem;
+}
+
+button + button {
+  margin-left: 0.5rem;
+}
+
+@media only screen and (min-width: _breakpoint(step-two)) {
+  button {
+    //line-height: 1rem;
+  }
+}
