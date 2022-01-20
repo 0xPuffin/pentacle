@@ -1,22 +1,22 @@
-import React, {Component} from "react"
-import {Link} from "react-router-dom";
+import React, { useContext } from "react";
+import { CATEGORIES } from '../../data/categories';
+import { SearchContext, SearchDispatchContext } from '../../providers/search-provider';
 
-class ProjectsNavigation extends Component {
-    render() {
-        return <>
-            <ul>
-                <li><Link to="/projects">analytics</Link></li>
-                <li><Link to="/projects">exchanges</Link></li>
-                <li><Link to="/projects">defi</Link></li>
-                <li><Link to="/projects">developer</Link></li>
-                <li><Link to="/projects">education</Link></li>
-                <li><Link to="/projects">insurance</Link></li>
-                <li><Link to="/projects">jobs</Link></li>
-                <li><Link to="/projects">nft</Link></li>
-                <li><Link to="/projects">yield</Link></li>
-            </ul>
-        </>
-    }
+function ProjectsNavigation() {
+  const { activeCategory } = useContext(SearchContext);
+  const { setActiveCategory } = useContext(SearchDispatchContext);
+
+  return <>
+    <ul>
+      {CATEGORIES.map((category) => (
+        <li key={category}>
+          <button 
+            onClick={() => setActiveCategory(category)}
+            className={`btn-ghost ${activeCategory === category ? 'btn-active' : ''}`}
+          >{category}</button>
+        </li>
+      ))}
+    </ul>
+  </>
 }
-
 export default ProjectsNavigation

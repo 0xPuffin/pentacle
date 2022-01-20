@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 // dev
 
 @media (prefers-color-scheme: light) {
@@ -30,6 +34,10 @@
 
 
 // tech debt waahey
+
+.btn-ghost {
+  background-color: white !important;
+}
 
 h1.boxed {
   padding-bottom: 0;

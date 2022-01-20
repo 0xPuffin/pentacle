@@ -27,7 +27,10 @@ CREATE TABLE project
     twitter_url     varchar(4000),
     discord_url     varchar(4000),
     telegram_url    varchar(4000),
-    medium_url      varchar(4000)
+    medium_url      varchar(4000),
+    video_url       varchar(4000),
+    chain1          varchar(4000),
+    chain2          varchar(4000)
 );
 CREATE TABLE project_tag
 (

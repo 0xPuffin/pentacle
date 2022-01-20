@@ -1,19 +1,28 @@
-import React, {Component} from "react"
-import {Link} from "react-router-dom";
+import React, { useState } from "react"
 import ProjectsNavigation from "./ProjectsNavigation";
+import { SECTIONS } from '../../data/sections';
 
-class Navigation extends Component {
-    render() {
-        return <nav>
-            <ul className={"navigation-content flex-center"}>
-                <li><Link to="/projects">projects</Link></li>
-                <li><Link to="/education">education</Link></li>
-                <li><Link to="/events">events</Link></li>
-                <li><Link to="/articles">articles</Link></li>
-            </ul>
-            <ProjectsNavigation/>
-        </nav>
-    }
+function Navigation() {
+
+  // const [activeCategory, setActiveMenuItem] = useState(SECTIONS[0]);
+  const [activeCategory] = useState(SECTIONS[0]);
+  return <nav>
+    <ul className={"navigation-content flex-center mt-10"}>
+
+      <div className="dropdown">
+        <div tabIndex="0" className={`btn-ghost`}>{activeCategory}</div>
+        <ul tabIndex="0" className="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52" >
+          {SECTIONS.map((category) => (
+            <li key={category} style={{ marginRight: 0 }}>
+              <span>{category}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+    </ul>
+    <ProjectsNavigation />
+  </nav>
 }
 
 export default Navigation

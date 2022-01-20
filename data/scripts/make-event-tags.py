@@ -6,7 +6,7 @@ pd.set_option('display.max_rows', None)
 pd.set_option('display.float_format', lambda x: '%.3f' % x)
 pd.set_option('display.width', 1500)
 
-dt = pd.read_csv("../tag.csv", index_col="tag_id")
+dt = pd.read_csv("../tags.csv", index_col="tag_id")
 tag_dict = dt.T.to_dict('records')[0]
 tag_dict = dict((v,k) for k,v in tag_dict.items())
 

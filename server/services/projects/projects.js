@@ -21,14 +21,15 @@ async function getMultiple(page = 1) {
       "project.discord_url, " +
       "project.telegram_url, " +
       "project.medium_url, " +
+      "project.chain1, " +
+      "project.chain2, " +
       "tag.name AS tag_name " +
       "FROM project " +
       "JOIN project_tag " +
       "ON project.project_id = project_tag.project_id " +
       "JOIN tag " +
       "ON tag.tag_id = project_tag.tag_id " +
-      // "WHERE tag.name = 'buy-crypto' " +
-      // "ORDER BY project.name ASC "+
+      "ORDER BY project.name ASC "+
       "OFFSET $1 LIMIT $2",
       [offset, config.listPerPage]
   );
