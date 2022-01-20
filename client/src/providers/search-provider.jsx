@@ -20,9 +20,9 @@ export const SearchContext = createContext(initVal);
 export function SearchProvider({ children }) {
   const [projectsLoading, setProjectsLoading] = useState(true);
   const [searchString, setSearchString] = useState("");
-  const [section, setSection] = useState("projects");
   const [activeCategory, setActiveCategory] = useState("projects");
   const [tags, setTags] = useState([]);
+  const [activeSection, setActiveSection] = useState('projects');
   const [tagsLoading, setTagsLoading] = useState(true);
   const [projects, setProjects] = useState([]);
   const [searchResults, setSearchResults] = useState([]);
@@ -47,7 +47,7 @@ export function SearchProvider({ children }) {
   const fetchProjects = async () => {
     setProjectsLoading(true);
     try {
-      const response = await fetch('/api/' + section + '/' + activeCategory);
+      const response = await fetch('/api/' + activeSection + '/' + activeCategory);
       const res = await response.json();
       setProjectsLoading(false);
       setSearchResults(res.data);
@@ -83,7 +83,7 @@ export function SearchProvider({ children }) {
   return (
     <SearchContext.Provider
       value={{
-        category: activeCategory,
+        activeCategory,
         search: searchString,
         tags,
         tagsLoading,
@@ -91,18 +91,18 @@ export function SearchProvider({ children }) {
         projectsLoading,
         searchResults,
         error,
-        activeTag
+        activeTag,
+        activeSection,
       }}
     >
       <SearchDispatchContext.Provider
         value={{ 
             setSearchString, 
-
+            setActiveSection,
             setActiveCategory, 
             setTags, 
             handleClear, 
             setActiveTag,
-            setSection
           }}
       >
         {children}
