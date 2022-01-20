@@ -5,7 +5,7 @@ const config = require("../../config");
 async function getMultiple(page = 1) {
   const offset = helper.getOffset(page, config.listPerPage);
   const rows = await db.query(
-      "SELECT event.event_id, " +
+    "SELECT event.event_id, " +
       "event.event_name, " +
       "event.start, " +
       "event.finish, " +
@@ -18,9 +18,9 @@ async function getMultiple(page = 1) {
       "ON event.event_id = event_tag.event_id " +
       "JOIN tag " +
       "ON tag.tag_id = event_tag.tag_id " +
-      "ORDER BY event.start ASC "+
+      "ORDER BY event.start ASC " +
       "OFFSET $1 LIMIT $2",
-      [offset, config.listPerPage]
+    [offset, config.listPerPage]
   );
   const data = helper.emptyOrRows(rows);
   const meta = { page };

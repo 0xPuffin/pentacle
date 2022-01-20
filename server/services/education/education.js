@@ -5,8 +5,8 @@ const config = require("../../config");
 async function getMultiple(page = 1) {
   const offset = helper.getOffset(page, config.listPerPage);
   const rows = await db.query(
-      // "SELECT * " +
-      "SELECT education.education_id, " +
+    // "SELECT * " +
+    "SELECT education.education_id, " +
       "education.name AS education_name, " +
       "education.what, " +
       "education.why, " +
@@ -18,9 +18,9 @@ async function getMultiple(page = 1) {
       "JOIN tag " +
       "ON tag.tag_id = education_tag.tag_id " +
       // "WHERE tag.name = 'amm' " +
-      "ORDER BY education.name ASC "+
+      "ORDER BY education.name ASC " +
       "OFFSET $1 LIMIT $2",
-      [offset, config.listPerPage]
+    [offset, config.listPerPage]
   );
   const data = helper.emptyOrRows(rows);
   const meta = { page };

@@ -5,7 +5,7 @@ const config = require("../../config");
 async function getMultiple(page = 1) {
   const offset = helper.getOffset(page, config.listPerPage);
   const rows = await db.query(
-      "SELECT article.article_id, " +
+    "SELECT article.article_id, " +
       "article.title AS article_name, " +
       "article.article_url " +
       "FROM article " +
@@ -16,7 +16,7 @@ async function getMultiple(page = 1) {
       // "WHERE tag.name = 'amm' " +
       // "ORDER BY article.title ASC "+
       "OFFSET $1 LIMIT $2",
-      [offset, config.listPerPage]
+    [offset, config.listPerPage]
   );
   const data = helper.emptyOrRows(rows);
   const meta = { page };
