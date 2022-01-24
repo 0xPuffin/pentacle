@@ -5,27 +5,47 @@
 
 ## run
 
-in one terminal
+### in one terminal
 
 `$ yarn run:client`
 
-in another terminal
+### in another terminal
 
 `$ yarn run:server`
 
-view front-end in browser
+## view front-end in browser
 
 http://localhost:3000
 
-view back-end calls
+## view back-end calls
 
 http://localhost:3001/projects
 
-generate css files
+## generate css files
 
 `$ yarn css`
 
-## setup
+
+## push to heroku
+
+## client
+
+$ cd client
+
+$ git push heroku master
+
+
+## server
+
+$ cd server
+
+$ git push heroku master
+
+
+## heroku api urls are here 
+
+https://github.com/pentacledotai/the-board/wiki/heroku
+
 
 ```
 $ git checkout development
