@@ -16,7 +16,7 @@ const ThemeSwitcher = () => {
             themeChange(
               theme === 'dark' ? 'light' : 'dark'
             )
-          }} defaultChecked="checked" className="toggle toggle-primary mx-3" />
+          }} className="toggle toggle-primary mx-3" />
           <i className={"material-icons text-white"}>wb_sunny</i>
         </label>
       </div>
