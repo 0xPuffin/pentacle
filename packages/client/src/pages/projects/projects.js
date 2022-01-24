@@ -11,7 +11,7 @@ import {
 } from "../../providers/search-provider";
 import { TitleContext } from "../../providers/title-provider";
 import { useLocation } from "react-router-dom";
-
+import ProjectsNavigation from "../../components/navigation/ProjectsNavigation";
 export const ProjectsAllPage = () => {
   const { searchResults, projectsLoading, error, search } =
     useContext(SearchContext);
@@ -32,6 +32,9 @@ export const ProjectsAllPage = () => {
   if (projectsLoading) {
     return (
       <Layout>
+        <Header>
+          <ProjectsNavigation />
+        </Header>
         <Loading />
       </Layout>
     );
@@ -40,7 +43,9 @@ export const ProjectsAllPage = () => {
   } else {
     return (
       <>
-        <Header />
+        <Header>
+          <ProjectsNavigation />
+        </Header>
         <Layout>
           <ProjectTagNav />
           <main className={"main-container"}>

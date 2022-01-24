@@ -1,5 +1,5 @@
-import React, { createContext, useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import React, { createContext, useContext, useEffect, useState } from "react";
+import { SearchContext } from "./search-provider";
 const initVal = {
   title: "",
 };
@@ -12,17 +12,16 @@ export const TitleContext = createContext(initVal);
 
 export function TitleProvider({ children }) {
   const [title, setTitle] = useState("");
-  const location = useLocation();
+  // const location = useLocation();
+  const {activeCategory, activeSection} = useContext(SearchContext);
 
   useEffect(() => {
-    if (location.pathname === "/projects") {
-      setTitle("Projects");
+    if (activeCategory === 'projects' && activeSection === 'projects') {
+      setTitle('projects');
+    } else {
+      setTitle(`${activeCategory} - ${activeSection}`)
     }
-    if (location.pathname.startsWith("/projects/")) {
-      const slug = location.pathname.split("/")[1];
-      setTitle(slug.replaceAll("-", ""));
-    }
-  }, [location.pathname]);
+  }, [activeCategory]);
 
   return (
     <TitleContext.Provider value={{ title }}>

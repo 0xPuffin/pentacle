@@ -1,14 +1,13 @@
 import React from "react";
-import Navigation from "../navigation/Navigation";
 import HeaderLogo from "../header-logo/HeaderLogo";
 import ThemeSwitcher from "../theme-switcher/ThemeSwitcher";
 
-const Header = () => {
+const Header = ({children}) => {
   return (
     <header className={"p-header"}>
       <article className="header-content flex">
         <HeaderLogo />
-        <Navigation />
+        {children}
         <ThemeSwitcher />
       </article>
     </header>

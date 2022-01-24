@@ -28,6 +28,8 @@ export function SearchProvider({ children }) {
   const [searchResults, setSearchResults] = useState([]);
   const [error, setError] = useState(null);
   const [activeTag, setActiveTag] = useState("");
+  const [loadedKeys, setLoadedKeys] = useState([]);
+
   const fetchTags = async () => {
     setTagsLoading(true);
     try {
@@ -41,6 +43,10 @@ export function SearchProvider({ children }) {
       console.error(error);
     }
   };
+
+  useEffect(() => {
+    fetchTags();
+  }, []);
 
   const fetchProjects = async () => {
     setProjectsLoading(true);
@@ -58,10 +64,6 @@ export function SearchProvider({ children }) {
       console.error(error);
     }
   };
-
-  useEffect(() => {
-    fetchTags();
-  }, []);
 
   useEffect(() => {
     fetchProjects();
@@ -92,6 +94,7 @@ export function SearchProvider({ children }) {
         error,
         activeTag,
         activeSection,
+        loadedKeys,
       }}
     >
       <SearchDispatchContext.Provider
@@ -102,6 +105,7 @@ export function SearchProvider({ children }) {
           setTags,
           handleClear,
           setActiveTag,
+          setLoadedKeys,
         }}
       >
         {children}

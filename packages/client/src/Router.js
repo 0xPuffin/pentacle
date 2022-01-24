@@ -21,17 +21,19 @@ import { SECTIONS } from "./data/sections";
 
 export const Router = () => {
   return (
-    <TitleProvider>
-      <SearchProvider>
+    <SearchProvider>
+      <TitleProvider>
         <Routes>
           <Route path="/" element={<Main />} />
 
           {CATEGORIES.map((category) => (
-            <Route
-              path={`/${category}`}
-              key={category}
-              element={<ProjectsAllPage />}
-            />
+            <>
+              <Route
+                path={`/${category}`}
+                key={category}
+                element={<ProjectsAllPage />}
+              />
+            </>
           ))}
           {SECTIONS.map((section) => (
             <Route
@@ -52,7 +54,7 @@ export const Router = () => {
           <Route path="/terms" element={<Terms />} />
           <Route path="/ignition" element={<ProjectsPage />} />
         </Routes>
-      </SearchProvider>
-    </TitleProvider>
+      </TitleProvider>
+    </SearchProvider>
   );
 };
