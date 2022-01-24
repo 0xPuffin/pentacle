@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+yarn-error.log
+**/yarn-error.log
+.env.local
+yarn
+*.log
+.idea
+**/.idea
+venv
