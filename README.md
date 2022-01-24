@@ -1,6 +1,7 @@
 # Pentacle
 
 ## install 
+
 `$ yarn do-magic`
 
 ## run
@@ -13,29 +14,29 @@
 
 `$ yarn run:server`
 
-## view front-end in browser
+### view front-end in browser
 
 http://localhost:3000
 
-## view back-end calls
+### view back-end calls
 
 http://localhost:3001/projects
 
-## generate css files
+### generate css files
 
 `$ yarn css`
 
 
 ## push to heroku
 
-## client
+### client
 
 $ cd client
 
 $ git push heroku master
 
 
-## server
+### server
 
 $ cd server
 
