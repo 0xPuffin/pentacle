@@ -6,9 +6,8 @@
     "node": "14.x",
     "yarn": "^1.22.5"
   },
-  "main": "packages/server/app.js",
   "scripts": {
-    "start": "node packages/server/bin/www",
+    "start": "yarn && lerna bootstrap",
     "do-magic": "yarn && lerna bootstrap",
     "run:client": "cd packages/client && yarn start",
     "run:server": "cd packages/server && yarn start"
