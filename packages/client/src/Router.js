@@ -18,6 +18,7 @@ import { ProjectsAllPage } from "./pages/projects/projects";
 import { ProjectsPage } from "./pages/ignition/projects.page";
 import { CATEGORIES } from "./data/categories";
 import { SECTIONS } from "./data/sections";
+import EthEcosystemDev from "./pages/eth-ecosystem/eth-ecosystem-dev";
 
 export const Router = () => {
   return (
@@ -46,8 +47,9 @@ export const Router = () => {
           <Route path="/solana" element={<SolEcosystem />} />
           <Route path="/ethereum" element={<EthEcosystemDefi />} />
           <Route path="/ethereum-retail" element={<EthEcosystemRetail />} />
-          <Route path="/learning" element={<EthEcosystemLearn />} />
-          <Route path="/nft" element={<EthEcosystemNft />} />
+          <Route path="/ethereum-learning" element={<EthEcosystemLearn />} />
+          <Route path="/ethereum-nft" element={<EthEcosystemNft />} />
+          <Route path="/ethereum-dev" element={<EthEcosystemDev />} />
           <Route path="/hackathon" element={<SolHackathon />} />
           <Route path="/bad-things" element={<BadThingsPoly />} />
           <Route path="/about" element={<About />} />
