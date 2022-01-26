@@ -32,22 +32,25 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use("/", indexRouter);
 
-app.use("api/articles/articles", articlesRouter);
-app.use("api/education/education", educationRouter);
-app.use("api/events/events", eventsRouter);
-app.use("api/projects/projects", projectsRouter);
-app.use("api/projects/analytics", projectsAnalyticsRouter);
-app.use("api/projects/defi", projectsDefiRouter);
-app.use("api/projects/developer", projectsDeveloperRouter);
-app.use("api/projects/education", projectsEducationRouter);
-app.use("api/projects/exchanges", projectsExchangesRouter);
-app.use("api/projects/insurance", projectsInsuranceRouter);
-app.use("api/projects/jobs", projectsJobsRouter);
-app.use("api/projects/nft", projectsNftRouter);
-app.use("api/projects/yield", projectsYieldRouter);
-app.use("api/events/tags", eventsTagsRouter);
-app.use("api/education/tags", educationTagsRouter);
-app.use("api/projects/tags", projectsTagsRouter);
-app.use("api/tag", tagsRouter);
+app.use("/articles/articles", articlesRouter);
+app.use("/education/education", educationRouter);
+app.use("/events/events", eventsRouter);
+
+app.use("/projects/projects", projectsRouter);
+app.use("/projects/analytics", projectsAnalyticsRouter);
+app.use("/projects/defi", projectsDefiRouter);
+app.use("/projects/developer", projectsDeveloperRouter);
+app.use("/projects/education", projectsEducationRouter);
+app.use("/projects/exchanges", projectsExchangesRouter);
+app.use("/projects/insurance", projectsInsuranceRouter);
+app.use("/projects/jobs", projectsJobsRouter);
+app.use("/projects/nft", projectsNftRouter);
+app.use("/projects/yield", projectsYieldRouter);
+
+app.use("/events/tags", eventsTagsRouter);
+app.use("/education/tags", educationTagsRouter);
+app.use("/projects/tags", projectsTagsRouter);
+
+app.use("/tag", tagsRouter);
 
 module.exports = app;
