@@ -1,7 +1,6 @@
 {
   "name": "pentacle-client",
   "version": "0.1.0",
-  "homepage": ".",
   "license": "UNLICENSED",
   "engines": {
     "node": "14.x",
