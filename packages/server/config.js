@@ -4,6 +4,7 @@ const prod = {
   db: {
     connectionString: process.env.DATABASE_URL,
     ssl: {
+      require: true,
       rejectUnauthorized: false
     }
   },
@@ -18,6 +19,6 @@ const dev = {
   listPerPage: env.LIST_PER_PAGE || 200,
 };
 
-const config = process.env.NODE_ENV === 'production' ? dev : prod;
+const config = process.env.NODE_ENV === 'production' ? prod : dev;
 
 module.exports = config;
