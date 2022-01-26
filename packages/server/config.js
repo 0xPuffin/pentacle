@@ -12,16 +12,12 @@ const prod = {
 
 const dev = {
   db: {
-    host: env.DB_HOST || 'localhost',
-    port: env.DB_PORT || '5432',
-    user: env.DB_USER || 'postgres',
-    password: env.DB_PASSWORD || 'postgres',
-    database: env.DB_NAME || 'pentaclexyz',
+    connectionString: process.env.DATABASE_URL,
     ssl: false
   },
   listPerPage: env.LIST_PER_PAGE || 200,
 };
 
-const config = process.env.PROD === 'production' ? prod : dev;
+const config = process.env.NODE_ENV === 'production' ? dev : prod;
 
 module.exports = config;
