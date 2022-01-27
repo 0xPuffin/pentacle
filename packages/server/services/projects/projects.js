@@ -29,7 +29,8 @@ async function getMultiple(page = 1) {
       "ON project.project_id = project_tag.project_id " +
       "JOIN tag " +
       "ON tag.tag_id = project_tag.tag_id " +
-      // "ORDER BY project.name ASC " +
+      // "WHERE tag.name = 'project' " + // TODO add project tag to all projects
+      "ORDER BY project.name ASC " +
       "OFFSET $1 LIMIT $2",
     [offset, config.listPerPage]
   );
