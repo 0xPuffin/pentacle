@@ -6,11 +6,7 @@
   },
   "proxies": {
     "/api/": {
-      "target": "https://${API_APP_NAME}.herokuapp.com/",
-      "changeOrigin": true,
-      "pathRewrite": {
-        "^/api": "/"
-      }
+      "origin": "https://${API_APP_NAME}.herokuapp.com/"
     }
   }
 }
