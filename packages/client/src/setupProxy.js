@@ -6,10 +6,10 @@ module.exports = function (app) {
   app.use(
     "/api",
     createProxyMiddleware({
-        target: "https://pentacle-server.herokuapp.com",
+      target: "https://pentacle-server.herokuapp.com",
       changeOrigin: true,
       pathRewrite: {
-        "^/api": "/", // rewrite path
+        "^/api": "/", // rewrite path to remove /api
       },
     })
   );

@@ -6,7 +6,7 @@
   },
   "proxies": {
     "/api/": {
-      "origin": "https://${API_APP_NAME}.herokuapp.com/",
+      "origin": "https://pentacle-server.herokuapp.com",
       "changeOrigin": true,
       "pathRewrite": {
         "^/api": "/"
