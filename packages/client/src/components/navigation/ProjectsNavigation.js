@@ -29,8 +29,8 @@ function ProjectsNavigation() {
               tabIndex="0"
               className="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52"
             >
-              {SECTIONS.map((section) => (
-                <li key={section} style={{ marginRight: 0 }}>
+              {SECTIONS.map((section,index) => (
+                <li key={index} style={{ marginRight: 0 }}>
                   <NavLink
                     to={`/${section}`}
                     onClick={() => {
@@ -47,8 +47,8 @@ function ProjectsNavigation() {
         </div>
       </ul>
       <ul className="text-white">
-        {CATEGORIES.map((category) => (
-          <li key={category}>
+        {CATEGORIES.map((category, index) => (
+          <li key={index}>
             <button
               onClick={() => setActiveCategory(category)}
               className={`btn-ghost ${

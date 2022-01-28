@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import Layout from "../../components/layouts/layout";
-import { ProjectTagNav } from "../../components/tags/project-tag-nav";
 import { ProjectsLayout } from "../../components/project-layout/ProjectsLayout";
 import RelatedLinks from "../../components/related-links/RelatedLinks";
 import Header from "../../components/header/Header";
@@ -47,7 +46,7 @@ export const ProjectsAllPage = () => {
           <ProjectsNavigation />
         </Header>
         <Layout>
-          <ProjectTagNav />
+          {/*<ProjectTagNav />*/}
           <main className={"main-container"}>
             <section
               className={"main-content flex space-between padding-top-3"}
