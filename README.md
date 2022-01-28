@@ -27,22 +27,6 @@ http://localhost:3001/projects
 `$ yarn css`
 
 
-## push to heroku
-
-### client
-
-$ cd client
-
-$ git push heroku master
-
-
-### server
-
-$ cd server
-
-$ git push heroku master
-
-
 ## heroku api urls are here 
 
 https://github.com/pentacledotai/the-board/wiki/heroku
