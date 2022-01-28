@@ -34,7 +34,7 @@ app.use(express.urlencoded({ extended: false }));
 var cors = require("cors");
 var allowedOrigins = [
   "http://localhost:3000",
-  "https://pentacle-server.herokuapp.com"
+  "https://pentacle-client.herokuapp.com"
 ];
 
 app.use(
