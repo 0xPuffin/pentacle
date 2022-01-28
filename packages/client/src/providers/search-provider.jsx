@@ -17,6 +17,8 @@ export const SearchDispatchContext = createContext({
 
 export const SearchContext = createContext(initVal);
 
+const BASE_URI = process.env.NODE_ENV === 'production' ? 'https://pentacle-server.herokuapp.com' : '/api'
+
 export function SearchProvider({ children }) {
   const [projectsLoading, setProjectsLoading] = useState(true);
   const [searchString, setSearchString] = useState("");
@@ -33,7 +35,7 @@ export function SearchProvider({ children }) {
   const fetchTags = async () => {
     setTagsLoading(true);
     try {
-      const response = await fetch("/api/projects/tags");
+      const response = await fetch(`${BASE_URI}/projects/tags`);
       const res = await response.json();
       setTagsLoading(false);
       setTags(res.data);
@@ -52,8 +54,9 @@ export function SearchProvider({ children }) {
     setProjectsLoading(true);
     try {
       const response = await fetch(
-        "/api/" + activeSection + "/" + activeCategory
+        BASE_URI + '/' + activeSection + "/" + activeCategory
       );
+      console.log()
       const res = await response.json();
       setProjectsLoading(false);
       setSearchResults(res.data);
