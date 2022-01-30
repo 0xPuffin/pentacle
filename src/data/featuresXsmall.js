@@ -12,15 +12,15 @@ export const features = [
         "icon": "launch"
     },
     {
-        "title": "The holy trinity of L2 scaling",
-        "text": "Exponential scaling + low fees = let there be rollups with a positive attitude",
-        "link": "https://theknower.substack.com/p/the-holy-trinity-of-l2-scaling",
+        "title": "The Knower on substack",
+        "text": "Regular updates on crypto tech and drama",
+        "link": "https://theknower.substack.com/",
         "icon": "launch"
     },
     {
-        "title": "Find the right protocol",
-        "text": "Discover and understand all the L1 protocols",
-        "link": "https://blockchain-comparison.com/blockchain-protocols/",
+        "title": "Magic Eden",
+        "text": "The NFT marketplace that Solana deserves",
+        "link": "https://magiceden.io/",
         "icon": "launch"
     }
 ]

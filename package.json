@@ -50,7 +50,6 @@
     "webpack": "4.44.2",
     "yarn": "^1.22.11"
   },
-  "proxy": "http://localhost:3001",
   "browserslist": {
     "production": [
       ">0.2%",
