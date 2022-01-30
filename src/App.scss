@@ -1,5 +1,9 @@
-@import '~@pentacle/pentacleui/assets/styles/pentacle.scss';
+@import '~@pentacle/pentacleui/assets/styles/pentacle-dark.scss';
 //@import './assets/styles/pentacle.scss';
+
+main {
+  margin-top: 1rem;
+}
 
 .inline-block {
   display: inline-block;
