@@ -17,7 +17,9 @@ export const SearchDispatchContext = createContext({
 
 export const SearchContext = createContext(initVal);
 
-const BASE_URI = process.env.NODE_ENV === 'production' ? 'https://`${process.env.API_APP_NAME}`.herokuapp.com'  : '/api'
+const API_APP_NAME = process.env.API_APP_NAME
+
+const BASE_URI = process.env.NODE_ENV === 'production' ? `https://${API_APP_NAME}.herokuapp.com`  : '/api'
 
 export function SearchProvider({ children }) {
   const [projectsLoading, setProjectsLoading] = useState(true);
