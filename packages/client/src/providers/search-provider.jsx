@@ -17,7 +17,7 @@ export const SearchDispatchContext = createContext({
 
 export const SearchContext = createContext(initVal);
 
-const BASE_URI = process.env.NODE_ENV === 'production' ? (`${process.env.API_APP_NAME}`) : '/api'
+const BASE_URI = process.env.NODE_ENV === 'production' ? `${process.env.API_APP_NAME}` : '/api'
 
 export function SearchProvider({ children }) {
   const [projectsLoading, setProjectsLoading] = useState(true);
