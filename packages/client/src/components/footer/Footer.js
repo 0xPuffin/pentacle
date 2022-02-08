@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import ThemeSwitcher from "../theme-switcher/ThemeSwitcher";
 
 class Footer extends Component {
   render() {
@@ -15,13 +16,12 @@ class Footer extends Component {
             {/*<a href={"https://github.com/pentacledotai"} target={"_blank"} rel="noopener noreferrer">GitHub</a>*/}
             <Link to="/about">About</Link>
             <Link to="/terms">Terms</Link>
-            <a
-              href={"https://twitter.com/pentaclexyz"}
+            <a href={"https://twitter.com/pentaclexyz"}
               target={"_blank"}
-              rel="noopener noreferrer"
-            >
+              rel="noopener noreferrer">
               Twitter
             </a>
+              <ThemeSwitcher/>
           </div>
         </article>
       </footer>

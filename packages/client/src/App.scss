@@ -1,4 +1,17 @@
 @tailwind base;
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  h3 {
+    //@apply text-lg;
+  }
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -32,22 +45,26 @@
   -webkit-appearance: none;
 }
 
-h1.boxed {
-  padding-bottom: 0;
+
+
+.p-purple {
+  color: rgb(59, 39, 120);
+}
+.p-green {
+  color: rgb(50, 220, 169);
+}
+.p-pink {
+  color: rgb(245, 176, 218);
 }
 
-nav li {
-  margin-right: .15rem!important;
+h1.boxed, h3.boxed {
+  padding: 0 !important;
 }
 
 .placeholder {
   height: 20rem;
   width: 50rem;
   background-color: #61dafb;
-}
-
-.padding-bottom-3 {
-  padding-bottom: 3rem;
 }
 
 .inline-block {
@@ -113,17 +130,4 @@ nav li {
 
 nav {
   overflow-y: unset !important;
-}
-
-p {
-  font-size: 0.8175rem;
-  line-height: 1.25rem;
-}
-
-h1 {
-  font-size: 2.5rem;
-}
-
-h2 {
-  font-size: 1.85rem;
 }

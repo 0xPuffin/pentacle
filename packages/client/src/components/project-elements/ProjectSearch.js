@@ -1,46 +1,44 @@
-import React, { useContext } from "react";
+import React, {useContext} from "react";
 import {
-  SearchContext,
-  SearchDispatchContext,
+    SearchContext, SearchDispatchContext,
 } from "../../providers/search-provider";
 
 const ProjectSearch = () => {
-  const { search } = useContext(SearchContext);
-  const { setSearchString } = useContext(SearchDispatchContext);
+    const {search} = useContext(SearchContext);
+    const {setSearchString} = useContext(SearchDispatchContext);
 
-  const handleChange = (event) => {
-    setSearchString(event.target.value);
-  };
+    const handleChange = (event) => {
+        setSearchString(event.target.value);
+    };
 
-  const handleClear = () => {
-    setSearchResults(projects);
-    setSearchString("");
-  };
+    const handleClear = () => {
+        setSearchResults(projects);
+        setSearchString("");
+    };
 
-  return (
-    <article className={"fieldset inline boxed"}>
-      <label
-        aria-labelledby={"search"}
-        className={"display-none"}
-        htmlFor={"search"}
-      >
-        Search
-      </label>
-      <input
-        id="search"
-        type="text"
-        placeholder="Filter by name"
-        value={search}
-        onChange={handleChange}
-      />
-      <input
-        className={"padding-left-0-75"}
-        type="reset"
-        value="Clear"
-        onClick={handleClear}
-      />
-    </article>
-  );
+    return (<article className={"fieldset inline boxed"}>
+            <label
+                aria-labelledby={"search"}
+                className={"display-none"}
+                htmlFor={"search"}
+            >
+                Search
+            </label>
+            <input
+                className={"border-2 rounded-2xl p-4 border-p-green mr-4"}
+                id="search"
+                type="text"
+                placeholder="Filter by name"
+                value={search}
+                onChange={handleChange}
+            />
+            <input
+                className={"border-2 rounded-2xl p-4 border-p-green mr-4"}
+                type="reset"
+                value="clear"
+                onClick={handleClear}
+            />
+        </article>);
 };
 
 export default ProjectSearch;

@@ -5,10 +5,9 @@ import { themeChange } from "theme-change";
 const ThemeSwitcher = () => {
   const [theme, setTheme] = useState('dark');
   return (
-    <article className={"align-right"}>
-      <div className="form-control">
+    <article className={"flex flex-start"}>
         <label data-set-theme={theme === 'dark' ? 'light' : 'dark'} className="cursor-pointer label">
-          <i className={"material-icons text-white"}>nightlight_round</i>
+          <i className={"material-icons"}>nightlight_round</i>
           <input type="checkbox" onClick={() => {
             setTheme(
               theme === 'dark' ? 'light' : 'dark'
@@ -17,9 +16,12 @@ const ThemeSwitcher = () => {
               theme === 'dark' ? 'light' : 'dark'
             )
           }} className="toggle toggle-primary mx-3" />
-          <i className={"material-icons text-white"}>wb_sunny</i>
+          <i className={"material-icons"}>wb_sunny</i>
         </label>
-      </div>
+      {/*<button className={"primary"} data-set-theme="dark"><i className={"material-icons"}>nightlight_round</i>*/}
+      {/*</button>*/}
+      {/*<button className={"primary"} data-set-theme="light"><i className={"material-icons"}>wb_sunny</i>*/}
+      {/*</button>*/}
     </article>
   );
 };

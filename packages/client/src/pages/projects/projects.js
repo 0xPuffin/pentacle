@@ -51,7 +51,7 @@ export const ProjectsAllPage = () => {
             <section
               className={"main-content flex space-between padding-top-2"}
             >
-              <h1 style={{ textTransform: "capitalize" }}>{title}</h1>
+              <h1>{title}</h1>
               <article className={"fieldset inline boxed align-right"}>
                 <label
                   aria-labelledby={"search"}
@@ -61,16 +61,17 @@ export const ProjectsAllPage = () => {
                   Search
                 </label>
                 <input
-                  id="search"
+                    className={"rounded-xl pt-2 pb-2 pl-4 pr-4 mr-2"}
+                    id="search"
                   type="text"
-                  placeholder="Filter by project name"
+                  placeholder="filter by project name"
                   value={search}
                   onChange={handleChange}
                 />
                 <input
                   className={"padding-left-0-75"}
                   type="reset"
-                  value="Clear"
+                  value="clear"
                   onClick={handleClear}
                 />
               </article>
