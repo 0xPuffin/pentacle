@@ -12,7 +12,7 @@ export function Education() {
 
   const getData = async () => {
     try {
-      const response = await fetch("/education/education");
+      const response = await fetch("/education");
       const res = await response.json();
       setEducation(res.data);
     } catch (error) {

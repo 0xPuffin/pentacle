@@ -49,7 +49,7 @@ export const ProjectsAllPage = () => {
           {/*<ProjectTagNav />*/}
           <main className={"main-container"}>
             <section
-              className={"main-content flex space-between padding-top-3"}
+              className={"main-content flex space-between padding-top-2"}
             >
               <h1 style={{ textTransform: "capitalize" }}>{title}</h1>
               <article className={"fieldset inline boxed align-right"}>

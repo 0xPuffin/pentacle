@@ -5,25 +5,25 @@
 @media (prefers-color-scheme: light) {
   @import "assets/styles/pentacle-light";
   #pentacle {
-    background-image: url(/assets/images/pentaBgLight.jpg);
+    //background-image: url(/assets/images/pentaBgLight.jpg);
   }
 }
 @media (prefers-color-scheme: dark) {
   @import "assets/styles/pentacle-dark";
   #pentacle {
-    background-image: url(/assets/images/pentaBgDark.jpg);
+    //background-image: url(/assets/images/pentaBgDark.jpg);
   }
 }
 [data-theme="light"] {
   @import "assets/styles/pentacle-light";
   #pentacle {
-    background-image: url(/assets/images/pentaBgLight.jpg);
+    //background-image: url(/assets/images/pentaBgLight.jpg);
   }
 }
 [data-theme="dark"] {
   @import "assets/styles/pentacle-dark";
   #pentacle {
-    background-image: url(/assets/images/pentaBgDark.jpg);
+    //background-image: url(/assets/images/pentaBgDark.jpg);
   }
 }
 

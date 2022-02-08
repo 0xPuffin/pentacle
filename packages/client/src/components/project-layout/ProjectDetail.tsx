@@ -58,7 +58,6 @@ const ProjectDetail = ({
   dune_url,
 }: Props) => {
   return (
-    <section className={"main-container"}>
       <article className={"main-content"}>
         <h2>
           {token_image_url && (
@@ -120,7 +119,6 @@ const ProjectDetail = ({
           {contract_url && <Button url={dune_url} title="dune" icon={dune} />}
         </article>
       </article>
-    </section>
   );
 };
 

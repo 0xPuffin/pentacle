@@ -61,19 +61,19 @@ export const ProjectsLayout = ({ projects = [] }) => {
 
         <article
           className={
-            "overflow-scroll padding-top-2 padding-bottom-3 main-content"
+            "overflow-scroll main-content"
           }
         >
           <article className={"flex-mobile stretch"}>
             {/* <TagDescription /> */}
             {/* TODO: use intersection observer to do next/prev button */}
             <div className="relative">
-              <div className="carousel py-4">
+              <div className="carousel">
                 {projects.map((project, index) => (
                   <div
                     key={index}
                     id={`item-${index}`}
-                    className="carousel-item p-4"
+                    className="carousel-item pr-8 pt-4 pb-4"
                     style={{ width: 160 }}
                   >
                     <ProjectSummary
