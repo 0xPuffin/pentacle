@@ -3,12 +3,17 @@ module.exports = {
     important: true,
     theme: {
         extend: {
+
             colors: {
                 'p-purple': 'rgb(59, 39, 120)',
                 'p-green': 'rgb(50, 220, 169)',
                 'p-pink': 'rgb(245, 176, 218)',
+                'material-icons': 'rgb(255,255,255)'
             },
         }
     }, 
     plugins: [require("daisyui")],
+    corePlugins: {
+        leading: false,
+    }
 };

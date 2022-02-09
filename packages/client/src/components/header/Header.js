@@ -5,8 +5,8 @@ const Header = ({children}) => {
     return (<header className={"p-header"}>
         <article className="header-content">
             <div className={"flex"}><HeaderLogo/>
-               </div>
-            {children}
+                {children}
+            </div>
         </article>
     </header>);
 };

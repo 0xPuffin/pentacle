@@ -10,43 +10,36 @@ function ProjectsNavigation() {
     const {activeCategory, activeSection, loadedKeys} = useContext(SearchContext);
     const {setActiveCategory, setActiveSection} = useContext(SearchDispatchContext);
     const [isOpen, setIsOpen] = useState(false);
-    return (<nav className="flex flex-row">
+    return (<nav className="flex flex-end">
         <ul className={"navigation-content"}>
-            <li className={"dropdown"}>
-                <button
-                    onClick={() => setIsOpen(true)}
-                    tabIndex="0"
-                    className={""}>
-                    {activeSection}
-                </button>
-                {isOpen && (<ul
-                    tabIndex="0"
-                    className="menu dropdown-content bg-base-100"
-                >
+            <li className={"dropdown mr-4"}>
+                <p className={"flex-center"}>
+                    <a onClick={() => setIsOpen(true)}
+                        tabIndex="0"
+                        className={"text-lg mr-2"}>
+                        {activeSection}
+                    </a>
+                    <span className={"material-icons"}>expand_more</span>
+                </p>
+                {isOpen && (<ul tabIndex="0" className="menu dropdown-content bg-base-100">
                     {SECTIONS.map((section, index) => (<li key={index} style={{marginRight: 0}}>
-                        <NavLink
-                            to={`/${section}`}
-                            onClick={() => {
-                                setIsOpen(false);
-                                setActiveSection(section);
-                            }}
-                        >
+                        <NavLink to={`/${section}`} onClick={() => {
+                            setIsOpen(false);
+                            setActiveSection(section);
+                        }}>
                             {section}
                         </NavLink>
                     </li>))}
                 </ul>)}
             </li>
             {CATEGORIES.map((category, index) => (<li key={index}>
-                <a
-                    onClick={() => setActiveCategory(category)}
-                    className={`${loadedKeys.includes(`projects/${category}`) ? "" : " loading"} ${activeCategory === category ? "underline underline-offset-4 hover:underline-offset-4 hover:underline-offset-4 hover:decoration-0" : ""}`}
+                <a onClick={() => setActiveCategory(category)}
+                   className={`${loadedKeys.includes(`projects/${category}`) ? "" : " loading"} 
+                    ${activeCategory === category ? "underline underline-offset-4 hover:underline-offset-4 hover:underline-offset-4 hover:decoration-0" : ""}`}
                 >
                     {category}
                 </a>
             </li>))}
-        </ul>
-        <ul className="text-white">
-
         </ul>
     </nav>);
 }
