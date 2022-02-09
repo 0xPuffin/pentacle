@@ -3,7 +3,9 @@ module.exports = {
     important: true,
     theme: {
         extend: {
+            lineHeight: {
 
+            },
             colors: {
                 'p-purple': 'rgb(59, 39, 120)',
                 'p-green': 'rgb(50, 220, 169)',
@@ -14,6 +16,6 @@ module.exports = {
     }, 
     plugins: [require("daisyui")],
     corePlugins: {
-        leading: false,
+        lineHeight: false,
     }
 };

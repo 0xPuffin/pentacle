@@ -18,7 +18,7 @@ tag_id,name,description
 17,developer,Sites and tools to help you build your own applications or contribute to existing ones within crypto
 18,dex,Decentralized Exchanges are protocols built on blockchains that allow people to trade crypto using Automated Market Makers
 19,divergence-loss,"Also known as impermanent loss, a potential risk of supplying liquidity of coins whose prices diverge over time"
-20,education ,General educative content
+20,education,General educative content
 21,buy-crypto,Exchanges and wallets where you are able to buy crypto
 22,gas,"In context of Ethereum and similar dApp networks, gas refers to the cost to perform a transaction on the network."
 23,hardware,
@@ -66,3 +66,4 @@ tag_id,name,description
 65,wikipedia,
 66,solana,
 67,ethereum,
+68,project,
