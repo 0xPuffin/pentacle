@@ -56,7 +56,7 @@ export const ProjectsLayout = ({projects = []}) => {
                     {/* TODO: use intersection observer to do next/prev button */}
                         <div className="carousel">
                             {projects.map((project, index) => (<article
-                                    className={"carousel-item w-56"}
+                                    className={"carousel-item w-48"}
                                     key={index}
                                     id={`item-${index}`}
                                 >

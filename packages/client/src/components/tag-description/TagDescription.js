@@ -2,7 +2,7 @@ import React from "react";
 
 const TagDescription = ({ tag_name, description }) => {
   return (
-    <article className="carousel-item w-56">
+    <article className="carousel-item w-48">
         <div className={"border-2 border-p-purple rounded-2xl p-4 bg-p-purple mr-2"}>
       {/*TODO*/}
       <h3>{tag_name} tag name</h3>
