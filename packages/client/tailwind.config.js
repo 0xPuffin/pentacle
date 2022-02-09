@@ -3,9 +3,6 @@ module.exports = {
     important: true,
     theme: {
         extend: {
-            lineHeight: {
-
-            },
             colors: {
                 'p-purple': 'rgb(59, 39, 120)',
                 'p-green': 'rgb(50, 220, 169)',
