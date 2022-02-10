@@ -11,7 +11,7 @@ const RelatedLinks = () => {
   return (
     <section className={"main-container margin-top-3"}>
       <article className={"main-content"}>
-        <h2>Related links</h2>
+        <h2>articles</h2>
       </article>
     </section>
   );
