@@ -54,9 +54,9 @@ export const ProjectsLayout = ({projects = []}) => {
                 <div className={"flex-mobile stretch relative"}>
                      <TagDescription/>
                     {/* TODO: use intersection observer to do next/prev button */}
-                        <div className="carousel">
+                        <div className="flex">
                             {projects.map((project, index) => (<article
-                                    className={"carousel-item w-48"}
+                                    className={"width-10"}
                                     key={index}
                                     id={`item-${index}`}
                                 >

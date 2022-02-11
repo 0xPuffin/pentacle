@@ -9,6 +9,9 @@ module.exports = {
                 'p-pink': 'rgb(245, 176, 218)',
                 'material-icons': 'rgb(255,255,255)'
             },
+            fontSize: {
+                base: ['1rem', '1.15'],
+            },
         }
     }, 
     plugins: [require("daisyui")],

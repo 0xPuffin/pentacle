@@ -8,9 +8,8 @@ const ProjectButton = (props: any) => {
   return (
     <>
       {props && (
-        <button className={"flex-center"} onClick={handleClick}>
-          {/*<img alt={props.icon} src={props.icon} />*/}
-          <span>{props.title}</span>
+        <button className={"flex-center secondary"} onClick={handleClick}>
+          <span>{props.title}</span><span className={"padding-left-0-5 material-icons"}>north_east</span>
         </button>
       )}
     </>

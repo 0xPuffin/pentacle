@@ -1,16 +1,4 @@
-@tailwind base;
-
-@layer base {
-  h1 {
-    @apply text-2xl;
-  }
-  h2 {
-    @apply text-xl;
-  }
-  h3 {
-    //@apply text-lg;
-  }
-}
+//@tailwind base;
 
 @tailwind components;
 @tailwind utilities;
@@ -130,4 +118,8 @@ h1.boxed, h3.boxed {
 
 nav {
   overflow-y: unset !important;
+}
+
+.padding-left-0-5 {
+  padding-left: .5rem;
 }
