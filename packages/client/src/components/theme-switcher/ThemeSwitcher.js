@@ -7,9 +7,9 @@ const ThemeSwitcher = () => {
         themeChange(false)
     }, [])
     return (<article className={"align-right"}>
-        <button className={"primary"} data-set-theme="dark"><i className={"material-icons"}>nightlight_round</i>
+        <button className={"tertiary"} data-set-theme="dark"><i className={"material-icons"}>nightlight_round</i>
         </button>
-        <button className={"primary"} data-set-theme="light"><i className={"material-icons"}>wb_sunny</i>
+        <button className={"tertiary"} data-set-theme="light"><i className={"material-icons"}>wb_sunny</i>
         </button>
     </article>)
 }

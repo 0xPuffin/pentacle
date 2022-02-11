@@ -1,16 +1,18 @@
 input {
   font-size: _size(regular);
-  //border: 2px solid _color(border-input);
 
   &[type="text"],
   &[type="number"],
   &[type="search"] {
-    //border-radius: 0.5rem;
-    padding: 0.35rem 0.75rem;
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+    padding: 0.5rem 0.75rem;
     font-size: _font(size-regular);
     width: 15rem;
     color: _color(body-text);
-    //background-color: _color(bg-input);
+    background-color: transparent;
+    text-align: center;
+    width: 35rem;
 
     &::placeholder {
       color: _color(body-text);
@@ -18,10 +20,9 @@ input {
 
     &:focus {
       outline: none;
-      border-radius: 0.5rem;
-      border: 1px solid _color(border-input);
+      border-color: _color(secondary);
       &::placeholder {
-        color: _color(secondary);
+        color: _color(body-text);
       }
     }
   }
