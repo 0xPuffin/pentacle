@@ -702,6 +702,76 @@
           ]
         },
         {
+          "name": "SonarWatch",
+          "img": "https://s2.coinmarketcap.com/static/img/coins/64x64/14627.png",
+          "description": "Track all your assets in one place. The most accurate tracking tool on Solana with most of the protocols supported and thousands of pools and farms tracked. Display your NFT collection and their value, look up for the top gainers of the eco-system, manage all your addresses at once.",
+          "value": 10,
+          "children": [
+            {
+              "name": "Links",
+              "value": 2,
+              "children": [
+                {
+                  "name": "website",
+                  "url": "https://sonar.watch",
+                  "value": 2
+                },
+                {
+                  "name": "contract",
+                  "url": "https://explorer.solana.com/address/sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE",
+                  "value": 2
+                },
+                {
+                  "name": "coingecko",
+                  "url": "https://www.coingecko.com/en/coins/sonarwatch",
+                  "value": 2
+                },
+                {
+                  "name": "whitepaper",
+                  "url": "https://sonar.watch/docs/Sonar_Litepaper.pdf",
+                  "value": 2
+                },
+                {
+                  "name": "github",
+                  "url": "https://github.com/sonar-watch/",
+                  "value": 2
+                },
+                {
+                  "name": "docs",
+                  "url": "https://docs.sonar.watch/",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Social",
+              "value": 2,
+              "children": [
+                {
+                  "name": "twitter",
+                  "url": "https://twitter.com/Sonarwatch",
+                  "value": 2
+                },
+                {
+                  "name": "telegram",
+                  "url": "https://t.me/Sonar_Watch_Announcements_TG",
+                  "value": 2
+                },
+                {
+                  "name": "discord",
+                  "url": "https://discord.gg/gG4DvM2JGw",
+                  "value": 2
+                },
+                {
+                  "name": "medium",
+                  "url": "https://sonarwatch.medium.com/",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "Solana Beach",
           "img": "",
           "description": "",
@@ -905,7 +975,7 @@
           "img": "",
           "description": "",
           "value": 10,
-          "url": ""
+          "url": "https://aurory.io/"
         },
         {
           "name": "OpenEra",
@@ -920,6 +990,13 @@
           "description": "",
           "value": 10,
           "url": "https://break.solana.com/"
+        },
+        {
+          "name": "Magic Eden",
+          "img": "",
+          "description": "Magic Eden is the NFT marketplace that Solana deserves, smooth as silk & fast as Solana",
+          "value": 10,
+          "url": "https://magiceden.io/"
         },
         {
           "name": "Solible",
