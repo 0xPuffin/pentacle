@@ -1,10 +1,10 @@
 import React from "react";
 
 const ProjectSummary = ({project_name, description, onClick}) => {
-    return (<article className="p-card" onClick={onClick}>
+    return (<div onClick={onClick}>
         <h3>{project_name}</h3>
-        <p className={"length-250"}>{description}</p>
-    </article>);
+        <p className={"line-clamp-5"}>{description}</p>
+    </div>);
 };
 
 export default ProjectSummary;
