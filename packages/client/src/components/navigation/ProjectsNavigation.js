@@ -12,11 +12,11 @@ function ProjectsNavigation() {
     const [isOpen, setIsOpen] = useState(false);
     return (<nav className="flex flex-end">
         <ul className={"navigation-content"}>
-            <li className={"dropdown mr-4"}>
+            <li className={"dropdown"}>
                 <p className={"flex-center"}>
                     <a onClick={() => setIsOpen(true)}
                         tabIndex="0"
-                        className={"text-lg mr-2"}>
+                        className={""}>
                         {activeSection}
                     </a>
                     <span className={"material-icons"}>expand_more</span>

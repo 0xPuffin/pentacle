@@ -48,9 +48,7 @@ export const ProjectsLayout = ({projects = []}) => {
     }
 
     return (<>
-            <section
-                className={"overflow-scroll main-content"}
-            >
+            <section className={"overflow-scroll main-content"}>
                 <div className={"flex flex-start"}>
                      <TagDescription/>
                     {/* TODO: use intersection observer to do next/prev button */}

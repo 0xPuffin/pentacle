@@ -25,7 +25,7 @@ const ProjectDetail = ({usdValue,
                            llama_url,
                            dune_url,
                        }: Props) => {
-    return (<article className={"main-content mt-8"}>
+    return (<article className={"main-content margin-top-2"}>
         <div className={"flex flex-start align-end"}>
         <h2>{token_image_url && (<img alt={project_name} src={token_image_url} className={"width-1"}/>)}{" "}
                 {project_name} {ticker && `(${ticker})`}{" "}

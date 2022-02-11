@@ -41,11 +41,11 @@ export const ProjectsAllPage = () => {
                 {/*<ProjectTagNav />*/}
                 <main className={"main-container"}>
                     <section>
-                        <article className={"main-content flex space-between padding-top-2"}>
-                            <h1>{title}</h1>
+                        <article className={"main-content flex space-between margin-top-2"}>
+                            <h1 className={"boxed"}>{title}</h1>
                             <ProjectsNavigation/>
                         </article>
-                        <article className={"margin-bottom-2 flex-center"}>
+                        <article className={"margin-y-3 flex-center"}>
                             <div className={"fieldset"}>
                                 <label aria-labelledby={"search"} className={"display-none"}
                                        htmlFor={"search"}>Search</label>
