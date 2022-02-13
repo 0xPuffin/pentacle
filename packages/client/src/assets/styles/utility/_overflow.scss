@@ -5,3 +5,8 @@
 .overflow-hidden {
   overflow: hidden;
 }
+
+.overflow-x-scroll {
+  overflow-x: auto;
+  -ms-overflow-x: auto;
+}
