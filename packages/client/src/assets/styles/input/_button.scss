@@ -65,7 +65,7 @@ button {
   &.tertiary {
     background-color: _color(tertiary);
     color: _color(body-text-inv);
-    span.material-icons {
+    .material-icons {
       color: _color(body-text-inv) !important;
     }
   }

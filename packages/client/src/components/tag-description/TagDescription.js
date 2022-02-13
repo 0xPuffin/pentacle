@@ -1,11 +1,10 @@
 import React from "react";
 
 const TagDescription = ({tag_name, description}) => {
-    return (<article className="p-card">
+    return (<article className="p-card inverse">
             {/*TODO*/}
-            <h3>{tag_name} tag name</h3>
-            <p className={"line-clamp-5"}>{description} 0x is a protocol that facilitates the peer-to-peer
-                exchange of Ethereum-based assets. The protocol serves as an open</p>
+            <h3>{tag_name}Analytics</h3>
+            <p className={"line-clamp-5"}>{description}Data-driven analysis of crypto projects</p>
         </article>);
 };
 

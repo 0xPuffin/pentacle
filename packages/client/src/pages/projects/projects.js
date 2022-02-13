@@ -3,7 +3,6 @@ import Layout from "../../components/layouts/layout";
 import {ProjectsLayout} from "../../components/project-layout/ProjectsLayout";
 import RelatedLinks from "../../components/related-links/RelatedLinks";
 import Header from "../../components/header/Header";
-import Loading from "../../components/Loading/Loading";
 import {
     SearchContext, SearchDispatchContext,
 } from "../../providers/search-provider";
@@ -24,18 +23,36 @@ export const ProjectsAllPage = () => {
     const hasNoRelatedLinks = ["/projects", "/projects/decentralised-exchange", "/projects/insurance",];
 
     if (projectsLoading) {
-        return (<Layout>
+        return (<>
             <Header>
-                <ProjectsNavigation/>
+                Projects Education Articles Events
             </Header>
-            <Loading/>
-        </Layout>);
+            <Layout>
+                <main className={"main-container"}>
+                    <section>
+                        <article className={"main-content flex space-between margin-top-2"}>
+                            <h1 className={"boxed"}>loading...</h1>
+                            <ProjectsNavigation/>
+                        </article>
+                        <article className={"margin-y-3 flex-center"}>
+                            <div className={"fieldset"}>
+                                <label aria-labelledby={"search"} className={"display-none"}
+                                       htmlFor={"search"}>Search</label>
+                                <input id="search" type="text" placeholder="filter by project name" value={search}
+                                       onChange={handleChange}/>
+                                <input className={"padding-left-0-75"} type="reset" value="clear"
+                                       onClick={handleClear}/>
+                            </div>
+                        </article>
+                    </section>
+                </main>
+            </Layout></>);
     } else if (error) {
         return <>error</>;
     } else {
         return (<>
             <Header>
-                L1 nav in here
+                Projects Education Articles Events
             </Header>
             <Layout>
                 {/*<ProjectTagNav />*/}
