@@ -48,11 +48,11 @@ export const ProjectsLayout = ({projects = []}) => {
     }
 
     return (<>
-            <section className={"overflow-x-scroll main-content padding-bottom-1"}>
-                <div className={"flex flex-start"}>
+            <section className={"main-content padding-bottom-1 overflow-x-scroll"}>
+                <div className="flex-mobile">
                      <TagDescription/>
                     {/* TODO: use intersection observer to do next/prev button */}
-                        <div className="flex-mobile stretch">
+                        <div className={"flex-mobile"}>
                             {projects.map((project, index) => (<article
                                     className={"p-card"}
                                     key={index}

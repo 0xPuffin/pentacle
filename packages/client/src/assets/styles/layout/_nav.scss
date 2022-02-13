@@ -2,7 +2,8 @@ nav {
   box-sizing: border-box;
   //background-color: _color(nav-bg);
   font-size: _font(size-medium);
-  //overflow-y: scroll;
+  overflow-x: scroll;
+  padding-bottom: 1rem;
   //border-bottom: 1px solid _color(ethereum-70);
   //line-height: 3rem !important;
   white-space: nowrap;
@@ -22,7 +23,7 @@ nav {
     }
 
     a {
-      color: _color(white);
+      color: _color(body-text);
 
       &:hover {
         text-decoration: underline;
