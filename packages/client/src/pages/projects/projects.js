@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import Layout from "../../components/layouts/layout";
 import { ProjectsLayout } from "../../components/project-layout/ProjectsLayout";
 import RelatedLinks from "../../components/related-links/RelatedLinks";
-import Header from "../../components/header/Header";
 import {
   SearchContext,
   SearchDispatchContext,
@@ -10,22 +9,8 @@ import {
 import { TitleContext } from "../../providers/title-provider";
 import { useLocation } from "react-router-dom";
 import ProjectsNavigation from "../../components/navigation/ProjectsNavigation";
-import { NavLink } from "react-router-dom";
 import Spinner from "../../components/spinner";
-const HeaderTmpl = () => {
-  return (
-    <Header>
-      {/* 
-              @pentacle: for styling: each of these 'active' when we are on their route
-              https://v5.reactrouter.com/web/api/NavLink
-              */}
-      <NavLink to="/projects">Projects</NavLink>
-      <NavLink to="/education">Education</NavLink>
-      <NavLink to="/articles">Articles</NavLink>
-      <NavLink to="/events">Events</NavLink>
-    </Header>
-  );
-};
+import ProjectHeader from "../../components/project-header/ProjectHeader";
 
 export const ProjectsAllPage = () => {
   const { searchResults, projectsLoading, error, search } =
@@ -47,7 +32,7 @@ export const ProjectsAllPage = () => {
   if (projectsLoading) {
     return (
       <>
-        <HeaderTmpl />
+        <ProjectHeader />
         <Layout>
           <main className={"main-container"}>
             <section>
@@ -94,7 +79,7 @@ export const ProjectsAllPage = () => {
   } else {
     return (
       <>
-        <HeaderTmpl />
+        <ProjectHeader />
         <Layout>
           {/*<ProjectTagNav />*/}
           <main className={"main-container"}>
