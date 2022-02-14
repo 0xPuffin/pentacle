@@ -11,18 +11,21 @@ import { TitleContext } from "../../providers/title-provider";
 import { useLocation } from "react-router-dom";
 import ProjectsNavigation from "../../components/navigation/ProjectsNavigation";
 import { NavLink } from "react-router-dom";
-const HeaderTmpl = () => (
-  <Header>
-    {/* 
-    @pentacle: for styling: each of these 'active' when we are on their route
-    https://v5.reactrouter.com/web/api/NavLink
-    */}
-    <NavLink to="/projects">Projects</NavLink>
-    <NavLink to="/education">Education</NavLink>
-    <NavLink to="/articles">Articles</NavLink>
-    <NavLink to="/events">Events</NavLink>
-  </Header>
-);
+import Spinner from "../../components/spinner";
+const HeaderTmpl = () => {
+  return (
+    <Header>
+      {/* 
+              @pentacle: for styling: each of these 'active' when we are on their route
+              https://v5.reactrouter.com/web/api/NavLink
+              */}
+      <NavLink to="/projects">Projects</NavLink>
+      <NavLink to="/education">Education</NavLink>
+      <NavLink to="/articles">Articles</NavLink>
+      <NavLink to="/events">Events</NavLink>
+    </Header>
+  );
+};
 
 export const ProjectsAllPage = () => {
   const { searchResults, projectsLoading, error, search } =
@@ -79,6 +82,9 @@ export const ProjectsAllPage = () => {
                 </div>
               </article>
             </section>
+            <div className="flex flex-center">
+              <Spinner />
+            </div>
           </main>
         </Layout>
       </>

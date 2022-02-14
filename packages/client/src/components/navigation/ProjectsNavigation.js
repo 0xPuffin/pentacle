@@ -7,25 +7,16 @@ import {
 import {NavLink} from "react-router-dom";
 
 function ProjectsNavigation() {
-    const {activeCategory, activeSection, loadedKeys} = useContext(SearchContext);
-    const {setActiveCategory, setActiveSection} = useContext(SearchDispatchContext);
+    const {activeCategory, loadedKeys} = useContext(SearchContext);
+    const {setActiveCategory} = useContext(SearchDispatchContext);
     const [isOpen, setIsOpen] = useState(false);
     return (<nav className="flex flex-end">
         <ul className={"navigation-content"}>
             <li className={"dropdown"}>
-                <p className={"flex-center"}>
-                    <a onClick={() => setIsOpen(true)}
-                        tabIndex="0"
-                        className={""}>
-                        {activeSection}
-                    </a>
-                    <span className={"material-icons"}>expand_more</span>
-                </p>
                 {isOpen && (<ul tabIndex="0" className="menu dropdown-content bg-base-100">
                     {SECTIONS.map((section, index) => (<li key={index} style={{marginRight: 0}}>
                         <NavLink to={`/${section}`} onClick={() => {
                             setIsOpen(false);
-                            setActiveSection(section);
                         }}>
                             {section}
                         </NavLink>

@@ -16,7 +16,6 @@ import { SearchProvider } from "./providers/search-provider";
 import { TitleProvider } from "./providers/title-provider";
 import { ProjectsAllPage } from "./pages/projects/projects";
 import { ProjectsPage } from "./pages/ignition/projects.page";
-import { CATEGORIES } from "./data/categories";
 import { SECTIONS } from "./data/sections";
 import EthEcosystemDev from "./pages/eth-ecosystem/eth-ecosystem-dev";
 
@@ -26,16 +25,6 @@ export const Router = () => {
       <TitleProvider>
         <Routes>
           <Route path="/" element={<Main />} />
-
-          {CATEGORIES.map((category) => (
-            <>
-              <Route
-                path={`/${category}`}
-                key={category}
-                element={<ProjectsAllPage />}
-              />
-            </>
-          ))}
           {SECTIONS.map((section) => (
             <Route
               path={`/${section}`}

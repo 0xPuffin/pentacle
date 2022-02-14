@@ -1,4 +1,6 @@
+/* eslint-disable no-debugger */
 import React, { createContext, useEffect, useState } from "react";
+import { useLocation } from "react-router";
 
 const initVal = {
   section: "projects",
@@ -17,12 +19,16 @@ export const SearchDispatchContext = createContext({
 
 export const SearchContext = createContext(initVal);
 
-const BASE_URI = process.env.NODE_ENV === 'production' ? `${process.env.REACT_APP_SERVER_URI}`  : 'api'
+const BASE_URI =
+  process.env.NODE_ENV === "production"
+    ? `${process.env.REACT_APP_SERVER_URI}`
+    : "api";
 
 export function SearchProvider({ children }) {
+  const location = useLocation();
   const [projectsLoading, setProjectsLoading] = useState(true);
   const [searchString, setSearchString] = useState("");
-  const [activeCategory, setActiveCategory] = useState("projects");
+  const [activeCategory, setActiveCategory] = useState();
   const [tags, setTags] = useState([]);
   const [activeSection, setActiveSection] = useState("projects");
   const [tagsLoading, setTagsLoading] = useState(true);
@@ -31,46 +37,57 @@ export function SearchProvider({ children }) {
   const [error, setError] = useState(null);
   const [activeTag, setActiveTag] = useState("");
   const [loadedKeys, setLoadedKeys] = useState([]);
-
-  const fetchTags = async () => {
-    setTagsLoading(true);
-    try {
-      const response = await fetch(`${BASE_URI}/projects/tags`);
-      const res = await response.json();
-      setTagsLoading(false);
-      setTags(res.data);
-    } catch (error) {
-      setTagsLoading(false);
-      setError(error); // TODO
-      console.error(error);
-    }
-  };
+  useEffect(() => {
+    const section = location.pathname.split("/")[1] || "projects";
+    setActiveSection(section);
+  }, [location.pathname]);
 
   useEffect(() => {
-    fetchTags();
+    (async () => {
+        setTagsLoading(true);
+        try {
+          const response = await fetch(`${BASE_URI}/projects/tags`);
+          const res = await response.json();
+          setTagsLoading(false);
+          setTags(res.data);
+        } catch (error) {
+          setTagsLoading(false);
+          setError(error); // TODO
+          console.error(error);
+        }
+    }) ()
   }, []);
-
-  const fetchProjects = async () => {
-    setProjectsLoading(true);
-    try {
-      const response = await fetch(
-        BASE_URI + '/' + activeSection + "/" + activeCategory
-      );
-      console.log()
-      const res = await response.json();
-      setProjectsLoading(false);
-      setSearchResults(res.data);
-      setProjects(res.data);
-    } catch (error) {
-      setProjectsLoading(true);
-      setError(error); // TODO
-      console.error(error);
-    }
-  };
-
+  
   useEffect(() => {
-    fetchProjects();
-  }, [activeCategory]);
+    (async () => {
+      setProjectsLoading(true);
+      if (activeSection  && activeCategory) {
+        try {
+          const response = await fetch( BASE_URI + "/" + activeSection + "/" + activeCategory);
+          const res = await response.json();
+          setProjectsLoading(false);
+          setSearchResults(res.data);
+          setProjects(res.data);
+        } catch (error) {
+          setProjectsLoading(true);
+          setError(error); // TODO
+          console.error(error);
+        }
+      } else {
+        try {
+          const response = await fetch( BASE_URI + "/" + activeSection + "/" + activeSection);
+          const res = await response.json();
+          setProjectsLoading(false);
+          setSearchResults(res.data);
+          setProjects(res.data);
+        } catch (error) {
+          setProjectsLoading(true);
+          setError(error); // TODO
+          console.error(error);
+        }
+      }
+    })()
+  }, [activeSection, activeCategory]);
 
   useEffect(() => {
     const searchResult = projects.filter((project) =>
