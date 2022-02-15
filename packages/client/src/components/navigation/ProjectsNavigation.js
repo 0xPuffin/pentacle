@@ -26,7 +26,7 @@ function ProjectsNavigation() {
             {CATEGORIES.map((category, index) => (<li key={index}>
                 <a onClick={() => setActiveCategory(category)}
                    className={`${loadedKeys.includes(`projects/${category}`) ? "" : " loading"} 
-                    ${activeCategory === category ? "underline underline-offset-4 hover:underline-offset-4 hover:underline-offset-4 hover:decoration-0" : ""}`}
+                    ${activeCategory === category ? "active" : ""}`}
                 >
                     {category}
                 </a>
