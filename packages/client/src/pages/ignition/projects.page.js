@@ -3,7 +3,7 @@ import Layout from "../../components/layouts/layout";
 import { TopLevel } from "./toplevel";
 import Data from "./solIgnition";
 
-export const ProjectsPage = () => {
+export const IgnitionProjectsPage = () => {
   const [projects] = useState(Data.children);
 
   return (

@@ -10,9 +10,9 @@ import { TitleContext } from "../../providers/title-provider";
 import { useLocation } from "react-router-dom";
 import ProjectsNavigation from "../../components/navigation/ProjectsNavigation";
 import Spinner from "../../components/spinner";
-import ProjectHeader from "../../components/project-header/ProjectHeader";
+import HeaderV2 from "../../components/header-v2/HeaderV2";
 
-export const ProjectsAllPage = () => {
+export const ProjectsPage = () => {
   const { searchResults, projectsLoading, error, search } =
     useContext(SearchContext);
   const { setSearchString, handleClear } = useContext(SearchDispatchContext);
@@ -32,7 +32,7 @@ export const ProjectsAllPage = () => {
   if (projectsLoading) {
     return (
       <>
-        <ProjectHeader />
+        <HeaderV2 />
         <Layout>
           <main className={"main-container"}>
             <section>
@@ -79,7 +79,7 @@ export const ProjectsAllPage = () => {
   } else {
     return (
       <>
-        <ProjectHeader />
+        <HeaderV2 />
         <Layout>
           {/*<ProjectTagNav />*/}
           <main className={"main-container"}>

@@ -1,33 +1,20 @@
-import React, { useEffect, useState } from "react";
+import React, {useContext} from "react";
 import Layout from "../../components/layouts/layout";
 import Header from "../../components/header/Header";
 import { EventsTagNav } from "../../components/tags/events-tag-nav";
+import { SearchContext } from "../../providers/search-provider";
 
-export function Events() {
-  const [events, setEvents] = useState(null);
-
-  useEffect(() => {
-    getData();
-  }, []);
-
-  const getData = async () => {
-    try {
-      const response = await fetch("/events/events");
-      const res = await response.json();
-      setEvents(res.data);
-    } catch (error) {
-      console.log(error);
-    }
-  };
+export function EventsPage() {
+  const { projects: pageData } = useContext(SearchContext);
 
   return (
     <>
       <Header />
       <Layout>
         <EventsTagNav />
-        {events && (
+        {pageData && (
           <main className={"main-container"}>
-            {events.map((data, index) => (
+            {pageData.map((data, index) => (
               <article className={"main-content margin-bottom-2"} key={index}>
                 <h2>{data.event_name}</h2>
                 <p>{data.start}</p>

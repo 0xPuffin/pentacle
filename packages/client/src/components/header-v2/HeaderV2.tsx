@@ -2,7 +2,7 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 import Header from "../header/Header";
 
-const ProjectHeader = () => {
+const HeaderV2 = () => {
     return (<Header>
         <nav className={"flex flex-end"}>
             <ul className={""}>
@@ -14,4 +14,4 @@ const ProjectHeader = () => {
         </nav>
     </Header>);
 };
-export default ProjectHeader;
+export default HeaderV2;

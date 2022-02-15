@@ -26,20 +26,26 @@ const BASE_URI =
 
 export function SearchProvider({ children }) {
   const location = useLocation();
-  const [projectsLoading, setProjectsLoading] = useState(true);
+  const [pageData, setPageData] = useState([]);
+  const [pageDataLoading, setPageDataLoading] = useState(true);
+  
   const [searchString, setSearchString] = useState("");
-  const [activeCategory, setActiveCategory] = useState();
-  const [tags, setTags] = useState([]);
-  const [activeSection, setActiveSection] = useState("projects");
-  const [tagsLoading, setTagsLoading] = useState(true);
-  const [projects, setProjects] = useState([]);
   const [searchResults, setSearchResults] = useState([]);
+  
+  const [activeSection, setActiveSection] = useState("");
+  const [activeCategory, setActiveCategory] = useState("");
+  
+  const [tags, setTags] = useState([]);
+  const [tagsLoading, setTagsLoading] = useState(true);
+  
   const [error, setError] = useState(null);
   const [activeTag, setActiveTag] = useState("");
   const [loadedKeys, setLoadedKeys] = useState([]);
+
   useEffect(() => {
     const section = location.pathname.split("/")[1] || "projects";
     setActiveSection(section);
+    setActiveCategory(location.pathname.split("/")[2])
   }, [location.pathname]);
 
   useEffect(() => {
@@ -59,45 +65,38 @@ export function SearchProvider({ children }) {
   }, []);
   
   useEffect(() => {
-    (async () => {
-      setProjectsLoading(true);
-      if (activeSection  && activeCategory) {
+    if (activeSection) {
+
+      (async () => {
+        setPageDataLoading(true);
         try {
-          const response = await fetch( BASE_URI + "/" + activeSection + "/" + activeCategory);
+          // fix url to be 
+          const url = activeSection && activeCategory ? BASE_URI + "/" + activeSection + "/" + activeCategory :  BASE_URI + "/" + activeSection + "/" + activeSection;
+          const response = await fetch(url);
           const res = await response.json();
-          setProjectsLoading(false);
+  
+          setPageDataLoading(false);
           setSearchResults(res.data);
-          setProjects(res.data);
+          setPageData(res.data);
+          debugger
         } catch (error) {
-          setProjectsLoading(true);
+          setPageDataLoading(true);
           setError(error); // TODO
           console.error(error);
         }
-      } else {
-        try {
-          const response = await fetch( BASE_URI + "/" + activeSection + "/" + activeSection);
-          const res = await response.json();
-          setProjectsLoading(false);
-          setSearchResults(res.data);
-          setProjects(res.data);
-        } catch (error) {
-          setProjectsLoading(true);
-          setError(error); // TODO
-          console.error(error);
-        }
-      }
-    })()
+      })()
+    }
   }, [activeSection, activeCategory]);
 
   useEffect(() => {
-    const searchResult = projects.filter((project) =>
+    const searchResult = pageData.filter((project) =>
       project.project_name.toLowerCase().includes(searchString.toLowerCase())
     );
     setSearchResults(searchResult);
   }, [searchString]);
 
   const handleClear = () => {
-    setSearchResults(projects);
+    setSearchResults(pageData);
     setSearchString("");
   };
 
@@ -108,8 +107,9 @@ export function SearchProvider({ children }) {
         search: searchString,
         tags,
         tagsLoading,
-        projects,
-        projectsLoading,
+        // rename to more generic thing
+        projects: pageData,
+        projectsLoading: pageDataLoading,
         searchResults,
         error,
         activeTag,

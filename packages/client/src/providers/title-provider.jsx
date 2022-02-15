@@ -19,7 +19,7 @@ export function TitleProvider({ children }) {
     if (activeCategory === 'projects' && activeSection === 'projects') {
       setTitle('projects');
     } else {
-      setTitle(`${activeSection} / ${activeCategory}`)
+      setTitle(activeCategory ? `${activeSection} / ${activeCategory}` : activeSection)
     }
   }, [activeCategory]);
 

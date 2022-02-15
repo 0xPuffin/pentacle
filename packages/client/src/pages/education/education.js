@@ -1,33 +1,24 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect } from "react";
 import Layout from "../../components/layouts/layout";
-import Header from "../../components/header/Header";
+import HeaderV2 from "../../components/header-v2/HeaderV2";
 import { EducationTagNav } from "../../components/tags/education-tag-nav";
+import { SearchContext } from "../../providers/search-provider";
 
-export function Education() {
-  const [education, setEducation] = useState(null);
+export function EducationPage() {
+  const { projects: pageData } = useContext(SearchContext);
 
   useEffect(() => {
-    getData();
-  }, []);
-
-  const getData = async () => {
-    try {
-      const response = await fetch("/education");
-      const res = await response.json();
-      setEducation(res.data);
-    } catch (error) {
-      console.log(error);
-    }
-  };
+    console.log(pageData)
+  }, [pageData])
 
   return (
     <>
-      <Header />
+      <HeaderV2 />
       <Layout>
         <EducationTagNav />
-        {education && (
+        {pageData && (
           <main className={"main-container"}>
-            {education.map((data, index) => (
+            {pageData.map((data, index) => (
               <article className={"main-content margin-bottom-2"} key={index}>
                 <article className={"readability-max-width"}>
                   <h2>{data.education_name}</h2>
