@@ -4,18 +4,14 @@ import Header from "../header/Header";
 
 const ProjectHeader = () => {
     return (<Header>
-            <nav>
-                <ul>
-                {/*
-                @pentacle: for styling: each of these 'active' when we are on their route
-                https://v5.reactrouter.com/web/api/NavLink
-                */}
-                    <li><NavLink to="/projects">Projects</NavLink></li>
-                    <li><NavLink to="/education">Education</NavLink></li>
-                    <li><NavLink to="/articles">Articles</NavLink></li>
-                    <li><NavLink to="/events">Events</NavLink></li>
-                </ul>
-            </nav>
-        </Header>);
+        <nav className={"flex flex-end"}>
+            <ul className={""}>
+                <li><NavLink to="/projects">projects</NavLink></li>
+                <li><NavLink to="/education">education</NavLink></li>
+                <li><NavLink to="/articles">articles</NavLink></li>
+                <li><NavLink to="/events">events</NavLink></li>
+            </ul>
+        </nav>
+    </Header>);
 };
 export default ProjectHeader;

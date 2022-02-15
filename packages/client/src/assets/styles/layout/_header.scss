@@ -8,14 +8,14 @@ header {
     text-align: center;
     > div:nth-of-type(1) {
       margin-bottom: 0.5rem;
-      margin-left: -1rem;
-      .logo {
+      //margin-left: -1rem;
+      .pentacle-logo {
+        text-align: center;
         max-width: 14rem;
       }
     }
 
     > div:nth-of-type(2) {
-      //color: _color(tertiary);
       font-family: _font(family-regular);
       font-size: _font(size-medium);
       letter-spacing: 0.035rem;

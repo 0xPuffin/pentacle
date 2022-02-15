@@ -26,7 +26,7 @@ const ProjectDetail = ({
                            dune_url,
                        }: Props) => {
     return (<section className={"main-content margin-top-2"}>
-        <article className={"flex space-between"}>
+        <article className={"flex flex-start margin-bottom-2"}>
             <h2>{token_image_url && (<img alt={project_name} src={token_image_url} className={"width-1"}/>)}{" "}
                 {project_name} {ticker && `(${ticker})`}{" "}
             </h2>
