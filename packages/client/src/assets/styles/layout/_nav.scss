@@ -1,3 +1,5 @@
+@import "../patterns/border";
+
 nav {
   box-sizing: border-box;
   //background-color: _color(nav-bg);
@@ -25,8 +27,8 @@ nav {
     a {
       color: _color(body-text);
 
-      &:hover {
-        text-decoration: underline;
+      &:hover, &.active {
+        @include border-bottom-1;
       }
     }
   }
