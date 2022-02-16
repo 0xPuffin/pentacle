@@ -6,6 +6,7 @@ const initVal = {
   section: "projects",
   category: "projects",
   search: "",
+  error: null,
   tags: [],
 };
 
@@ -13,6 +14,7 @@ export const SearchDispatchContext = createContext({
   setSection: () => {},
   setCategory: () => {},
   setSearchString: () => {},
+  clearError: () => {},
   setTags: () => {},
   handleClear: () => {},
 });
@@ -22,69 +24,73 @@ export const SearchContext = createContext(initVal);
 const BASE_URI =
   process.env.NODE_ENV === "production"
     ? `${process.env.REACT_APP_SERVER_URI}`
-    : "api";
+    : "/api";
 
 export function SearchProvider({ children }) {
   const location = useLocation();
   const [pageData, setPageData] = useState([]);
   const [pageDataLoading, setPageDataLoading] = useState(true);
-  
+
   const [searchString, setSearchString] = useState("");
   const [searchResults, setSearchResults] = useState([]);
-  
+
   const [activeSection, setActiveSection] = useState("");
   const [activeCategory, setActiveCategory] = useState("");
-  
+
   const [tags, setTags] = useState([]);
   const [tagsLoading, setTagsLoading] = useState(true);
-  
+
   const [error, setError] = useState(null);
   const [activeTag, setActiveTag] = useState("");
   const [loadedKeys, setLoadedKeys] = useState([]);
 
+  const clearError = () => setError(null);
+
   useEffect(() => {
     const section = location.pathname.split("/")[1] || "projects";
     setActiveSection(section);
-    setActiveCategory(location.pathname.split("/")[2])
+    setActiveCategory(location.pathname.split("/")[2]);
   }, [location.pathname]);
 
   useEffect(() => {
     (async () => {
-        setTagsLoading(true);
-        try {
-          const response = await fetch(`${BASE_URI}/projects/tags`);
-          const res = await response.json();
-          setTagsLoading(false);
-          setTags(res.data);
-        } catch (error) {
-          setTagsLoading(false);
-          setError(error); // TODO
-          console.error(error);
-        }
-    }) ()
+      setTagsLoading(true);
+      try {
+        const response = await fetch(`${BASE_URI}/projects/tags`);
+        const res = await response.json();
+        setTagsLoading(false);
+        setTags(res.data);
+      } catch (error) {
+        setTagsLoading(false);
+        console.log(error.message);
+        setError(error.message); // TODO
+        console.error(error);
+      }
+    })();
   }, []);
-  
+
   useEffect(() => {
     if (activeSection) {
-
       (async () => {
         setPageDataLoading(true);
         try {
-          // fix url to be 
-          const url = activeSection && activeCategory ? BASE_URI + "/" + activeSection + "/" + activeCategory :  BASE_URI + "/" + activeSection + "/" + activeSection;
+          // fix url to be
+          const url =
+            activeSection && activeCategory
+              ? BASE_URI + "/" + activeSection + "/" + activeCategory
+              : BASE_URI + "/" + activeSection + "/" + activeSection;
           const response = await fetch(url);
           const res = await response.json();
-  
+
           setPageDataLoading(false);
           setSearchResults(res.data);
           setPageData(res.data);
-          debugger
         } catch (error) {
-          setPageDataLoading(true);
-          setError(error); // TODO
+          setPageDataLoading(false);
+          setError(error.message); // TODO
           console.error(error);
         }
-      })()
+      })();
     }
   }, [activeSection, activeCategory]);
 
@@ -108,8 +114,8 @@ export function SearchProvider({ children }) {
         tags,
         tagsLoading,
         // rename to more generic thing
-        projects: pageData,
-        projectsLoading: pageDataLoading,
+        pageData,
+        pageDataLoading,
         searchResults,
         error,
         activeTag,
@@ -126,9 +132,26 @@ export function SearchProvider({ children }) {
           handleClear,
           setActiveTag,
           setLoadedKeys,
+          clearError,
         }}
       >
         {children}
+        <input type="checkbox" defaultChecked={true} id="error-modal" className="modal-toggle"></input>
+        {error && <div className="modal">
+          <div className="modal-box px-3 py-2">
+            <h3 className="font-bold text-lg py-2">
+              Error
+            </h3>
+            <p className="py-4">
+              {error}
+            </p>
+            <div className="modal-action">
+              <button  className="btn rounded-2xl" onClick={() => clearError()}>
+                Ok
+              </button>
+            </div>
+          </div>
+        </div>}
       </SearchDispatchContext.Provider>
     </SearchContext.Provider>
   );

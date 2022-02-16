@@ -1,15 +1,11 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import Layout from "../../components/layouts/layout";
 import HeaderV2 from "../../components/header-v2/HeaderV2";
 import { EducationTagNav } from "../../components/tags/education-tag-nav";
 import { SearchContext } from "../../providers/search-provider";
 
 export function EducationPage() {
-  const { projects: pageData } = useContext(SearchContext);
-
-  useEffect(() => {
-    console.log(pageData)
-  }, [pageData])
+  const { pageData } = useContext(SearchContext);
 
   return (
     <>

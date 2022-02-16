@@ -5,9 +5,7 @@ import HeaderV2 from "../../components/header-v2/HeaderV2";
 import { SearchContext } from "../../providers/search-provider";
 
 export const ArticlesPage = () => {
-  const { projects: pageData } = useContext(SearchContext);
-
-
+  const { pageData } = useContext(SearchContext);
   return (
     <>
       <HeaderV2 />

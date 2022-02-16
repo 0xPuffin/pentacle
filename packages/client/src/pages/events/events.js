@@ -1,15 +1,15 @@
 import React, {useContext} from "react";
 import Layout from "../../components/layouts/layout";
-import Header from "../../components/header/Header";
 import { EventsTagNav } from "../../components/tags/events-tag-nav";
 import { SearchContext } from "../../providers/search-provider";
+import HeaderV2 from "../../components/header-v2/HeaderV2";
 
 export function EventsPage() {
-  const { projects: pageData } = useContext(SearchContext);
+  const { pageData } = useContext(SearchContext);
 
   return (
     <>
-      <Header />
+      <HeaderV2 />
       <Layout>
         <EventsTagNav />
         {pageData && (
