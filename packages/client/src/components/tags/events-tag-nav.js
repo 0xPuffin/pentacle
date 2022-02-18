@@ -32,10 +32,10 @@ export const EventsTagNav = () => {
     );
   }
   return (
-    <nav className={"flex flex-end"}>
-      <ul className={"navigation-content"}>
+    <nav>
+      <article className={"nav-content overflow-scroll"}>
         <Tags tags={tags} />
-      </ul>
+      </article>
     </nav>
   );
 };
