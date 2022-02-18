@@ -17,10 +17,9 @@ export function EventsPage() {
             {pageData.map((data, index) => (
               <article className={"main-content margin-bottom-2"} key={index}>
                 <h2>{data.event_name}</h2>
-                <p>{data.start}</p>
-                <p>{data.finish}</p>
+                <p>{data.start} - {data.finish}</p>
                 <p>{data.location}</p>
-                <p>{data.event_url}</p>
+                <p><a href={data.event_url}>{data.event_url}</a></p>
                 <p>{data.twitter}</p>
                 <p>{data.start}</p>
               </article>

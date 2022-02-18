@@ -3,7 +3,7 @@ import React from "react";
 const EducationDetail = ({ data }) => {
   return (
     <>
-      <article className={"main-content margin-bottom-2"}>
+      <article className={"margin-bottom-2"}>
         <h2>{data.education_name}</h2>
         <div className={"placeholder margin-bottom-1 margin-top-1"}>
           image thingy in here

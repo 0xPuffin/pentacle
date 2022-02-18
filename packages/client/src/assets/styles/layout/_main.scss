@@ -17,13 +17,10 @@ svg g g text a {
   color: _color(body-text);
 }
 
-main {
-  background-color: _color(transparent) !important;
-}
-
 .main-container {
   margin: 0 auto;
   max-width: 80rem;
+  padding-top: 3rem;
 }
 
 .main-content {

@@ -33,8 +33,8 @@ export const ProjectsPage = () => {
       <HeaderV2 />
       <Layout>
         <main className={"main-container"}>
-          <section>
-            <article className={"main-content flex space-between margin-top-2"}>
+          <section className={"main-content"}>
+            <article className={"flex space-between"}>
               <h1 className={"boxed"}>
                 {pageDataLoading ? "loading..." : title}
               </h1>

@@ -13,8 +13,8 @@ export const ArticlesPage = () => {
           <ProjectTagNav />
           {pageData && (
             <main className={"main-container"}>
-              <section className={"main-content padding-top-3"}>
-                <h1 className={"boxed"}>Articles</h1>
+              <section className={"main-content"}>
+                <h1 className={"boxed"}>articles</h1>
                 {pageData.map((data, index) => (
                   <article key={index}>
                     <h3>{data.article_name}</h3>
