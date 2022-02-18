@@ -65,11 +65,13 @@ export const ProjectsPage = () => {
               </div>
             </article>
           </section>
+          <section className={"main-content"}>
           {pageDataLoading && (
             <div className="flex flex-center">
               <Spinner />
             </div>
           )}
+          </section>
           {!pageDataLoading && (
             <>
               <ProjectsLayout projects={searchResults} />
