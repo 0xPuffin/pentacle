@@ -18,7 +18,7 @@ export const ArticlesPage = () => {
                 {pageData.map((data, index) => (
                   <article key={index}>
                     <h3>{data.article_name}</h3>
-                    <a href={"data.article_url"}>{data.article_url}</a>
+                    <a href={data.article_url}>{data.article_url}</a>
                   </article>
                 ))}
               </section>
