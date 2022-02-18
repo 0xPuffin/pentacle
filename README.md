@@ -76,7 +76,7 @@ test('renders a message', () => {
 })
 ```
 
-## All commits need to be signed
+## all commits need to be signed
 
 https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification
 
