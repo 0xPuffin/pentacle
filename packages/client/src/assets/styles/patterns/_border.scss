@@ -3,3 +3,9 @@
   border-style: solid;
   padding-bottom: .15rem;
 }
+
+@mixin border-bottom-dotted-1 {
+  border-width: 0 0 1px 0;
+  border-style: dotted;
+  padding-bottom: .15rem;
+}
