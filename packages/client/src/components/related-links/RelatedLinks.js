@@ -9,9 +9,9 @@ const RelatedLinks = () => {
   // }, [projects]);
 
   return (
-    <section className={"main-container margin-top-3"}>
-      <article className={"main-content"}>
-        <h2>articles</h2>
+    <section className={"main-content margin-top-3"}>
+      <article>
+        {/*<h2>articles</h2>*/}
       </article>
     </section>
   );
