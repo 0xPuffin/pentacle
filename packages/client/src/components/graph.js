@@ -202,9 +202,9 @@ export default function SunburstGraph({ type, colorScheme }) {
               className={"margin-left-1 fit-to-screen"}
               onClick={() => setIsFitToScreen(!isFitToScreen)}
             >
-              <span className="material-icons cursor-pointer">
-                {isFitToScreen ? "zoom_out_map" : "fit_screen"}
-              </span>
+              {/*<span className="material-icons cursor-pointer">*/}
+              {/*  {isFitToScreen ? "zoom_out_map" : "fit_screen"}*/}
+              {/*</span>*/}
             </div>
             <article className={"flex flex-center"}>
               {loading && <Spinner />}

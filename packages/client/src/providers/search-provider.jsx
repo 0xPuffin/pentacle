@@ -137,21 +137,22 @@ export function SearchProvider({ children }) {
       >
         {children}
         <input type="checkbox" defaultChecked={true} id="error-modal" className="modal-toggle"></input>
-        {error && <div className="modal">
-          <div className="modal-box px-3 py-2">
-            <h3 className="font-bold text-lg py-2">
-              Error
-            </h3>
-            <p className="py-4">
-              {error}
-            </p>
-            <div className="modal-action">
-              <button  className="btn rounded-2xl" onClick={() => clearError()}>
-                Ok
-              </button>
-            </div>
-          </div>
-        </div>}
+         {/*TODO alice this needs to work with old style pages for now */}
+        {/*{error && <div className="modal">*/}
+        {/*  <div className="modal-box px-3 py-2">*/}
+        {/*    <h3 className="font-bold text-lg py-2">*/}
+        {/*      Error*/}
+        {/*    </h3>*/}
+        {/*    <p className="py-4">*/}
+        {/*      {error}*/}
+        {/*    </p>*/}
+        {/*    <div className="modal-action">*/}
+        {/*      <button  className="btn rounded-2xl" onClick={() => clearError()}>*/}
+        {/*        Ok*/}
+        {/*      </button>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</div>}*/}
       </SearchDispatchContext.Provider>
     </SearchContext.Provider>
   );
