@@ -10,6 +10,10 @@ a:not(.text-link) {
   }
 }
 
+.text-link.underline {
+  text-decoration: underline;
+}
+
 a.text-link {
   text-decoration: none;
   @include border-bottom-dotted-1;

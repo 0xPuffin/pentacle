@@ -4,35 +4,21 @@
 
 @media (prefers-color-scheme: light) {
   @import "assets/styles/pentacle-light";
-  #pentacle {
-    //background-image: url(/assets/images/pentaBgLight.jpg);
-  }
 }
 @media (prefers-color-scheme: dark) {
   @import "assets/styles/pentacle-dark";
-  #pentacle {
-    //background-image: url(/assets/images/pentaBgDark.jpg);
-  }
 }
 [data-theme="light"] {
   @import "assets/styles/pentacle-light";
-  #pentacle {
-    //background-image: url(/assets/images/pentaBgLight.jpg);
-  }
 }
 [data-theme="dark"] {
   @import "assets/styles/pentacle-dark";
-  #pentacle {
-    //background-image: url(/assets/images/pentaBgDark.jpg);
-  }
 }
 
 [data-theme=light] input[type=checkbox],
 [data-theme=dark] input[type=checkbox] {
   -webkit-appearance: none;
 }
-
-
 
 .p-purple {
   color: rgb(59, 39, 120);
@@ -54,18 +40,6 @@
   display: inline-block;
 }
 
-.text-link.underline {
-  text-decoration: underline;
-}
-
-.margin-right-1 {
-  margin-right: 1rem;
-}
-
-.margin-top-3 {
-  margin-top: 3rem !important;
-}
-
 .line-clamp-5 {
   display: -webkit-box;
   overflow: hidden;
@@ -80,38 +54,15 @@
   -webkit-box-orient: vertical;
 }
 
-.padding-right-2 {
-  padding-right: 2rem;
-}
-
-.margin-bottom-2 {
-  margin-bottom: 2rem;
-}
-
-.padding-y-3 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 .flex-mobile {
   display: flex;
   row-gap: 0;
   column-gap: 0.5rem;
 }
 
-
-
 .header-content,
 .footer-content,
 .main-content,
 .nav-content {
   box-sizing: border-box;
-}
-
-nav {
-  overflow-y: unset !important;
-}
-
-.padding-left-0-5 {
-  padding-left: .5rem;
 }
