@@ -52,7 +52,7 @@ export const ProjectsLayout = ({projects = []}) => {
                      {/*<TagDescription/>*/}
                     {/* TODO: use intersection observer to do next/prev button */}
                         <div className={"flex-mobile"}>
-                            {projects.map((project, index) => (<article className={"p-card"} key={index} id={`item-${index}`}>
+                            {projects.map((project, index) => (<article key={index} id={`item-${index}`}>
                                     <ProjectSummary{...project} onClick={() => changeProjectDetails(projects[index])}/>
                                 </article>))}
                         </div>
