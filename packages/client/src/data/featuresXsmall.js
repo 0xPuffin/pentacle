@@ -12,9 +12,9 @@ export const features = [
     icon: "launch",
   },
   {
-    title: "ETH Denver Feb 2022",
-    text: "Applications now open for the most fun Ethereum hackathon",
-    link: "https://www.ethdenver.com/",
+    title: "The daily ape",
+    text: "Links from Darren's telegram channel",
+    link: "https://thedailyape.notion.site/thedailyape/The-Daily-Ape-c96c0b6727c0433a962e897ef43efb7e",
     icon: "launch",
   },
   {

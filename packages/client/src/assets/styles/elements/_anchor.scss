@@ -1,12 +1,12 @@
 @import "../patterns/border";
 
-a {
+a:not(.text-link) {
   text-decoration: none;
   //@include border-bottom-dotted-1;
   cursor: pointer;
   color: _color(body-text);
   &:hover, &.active {
-    @include border-bottom-1;
+    //@include border-bottom-1;
   }
 }
 
