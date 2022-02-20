@@ -16,7 +16,7 @@ a:not(.text-link) {
 
 a.text-link {
   text-decoration: none;
-  @include border-bottom-dotted-1;
+  @include border-bottom-1;
   &:hover {
     @include border-bottom-1;
     h1,
