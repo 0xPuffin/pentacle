@@ -47,7 +47,7 @@ export const ProjectsLayout = ({projects = []}) => {
     }
 
     return (<>
-            <section className={"main-content padding-bottom-1 overflow-x-scroll strip-padding-left"}>
+            <section className={"main-content padding-bottom-1 overflow-x-scroll"}>
                 <div>
                      {/*<TagDescription/>*/}
                     {/* TODO: use intersection observer to do next/prev button */}
