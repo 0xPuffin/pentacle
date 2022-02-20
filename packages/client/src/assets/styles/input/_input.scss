@@ -9,21 +9,21 @@ input {
     border-width: 0 0 1px 0;
     padding: 0.5rem 0.75rem;
     font-size: _font(size-regular);
-    width: 15rem;
+    width: 25rem;
     color: _color(body-text);
     background-color: transparent;
     text-align: center;
     max-width: 35rem;
 
     &::placeholder {
-      color: _color(body-text);
+      color: _color(secondary);
     }
 
     &:focus {
       outline: none;
       border-color: _color(secondary);
       &::placeholder {
-        color: _color(tertiary-30);
+        color: _color(secondary-30);
       }
     }
   }
