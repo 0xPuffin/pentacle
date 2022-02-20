@@ -5,6 +5,6 @@ import { About } from "../pages/about";
 import { BrowserRouter as Router } from "react-router-dom";
 
 test("renders a message", () => {
-  // const {container, getByText} = render(<Router><About /></Router>)
-  // expect(container.firstChild).toHaveClass(`p-about`)
+  const {container} = render(<Router><About /></Router>)
+  expect(container.firstChild).toHaveClass(`p-about`)
 });

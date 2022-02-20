@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import HeaderSimple from "../components/header-simple";
 
 test("renders a message", () => {
-  const { container, getByText } = render(
+  const { container } = render(
     <Router>
       <HeaderSimple />
     </Router>

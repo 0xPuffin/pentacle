@@ -5,7 +5,7 @@ import Header from "../components/header/Header";
 import { BrowserRouter as Router } from "react-router-dom";
 
 test("renders a message", () => {
-  const { container, getByText } = render(
+  const { container} = render(
     <Router>
       <Header />
     </Router>

@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Footer from "../components/footer/Footer";
 
 test("It displays the footer", () => {
-  const { container, getByText } = render(
+  const { container} = render(
     <Router>
       <Footer />
     </Router>

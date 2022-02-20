@@ -1,10 +1,10 @@
 import "@testing-library/jest-dom";
-import React from "react";
+import {test} from "@jest/globals";
 
-// const render = require('@testing-library/react');
+const render = require('@testing-library/react');
 const Footer = require("../components/footer/Footer");
 
 test("it renders the footer", () => {
-  // const { container } = render(Footer);
-  // expect(container.contains('footer')).toBe(true)
+  const { container } = render(Footer);
+  expect(container.contains('footer')).toBe(true)
 });
