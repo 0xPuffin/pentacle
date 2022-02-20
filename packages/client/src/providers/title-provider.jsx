@@ -17,9 +17,11 @@ export function TitleProvider({ children }) {
 
   useEffect(() => {
     if (activeCategory === 'projects' && activeSection === 'projects') {
+    // if (activeSection === 'projects') {
       setTitle('projects');
     } else {
       setTitle(activeCategory ? `${activeSection} / ${activeCategory}` : activeSection)
+      // setTitle('events')
     }
   }, [activeCategory]);
 

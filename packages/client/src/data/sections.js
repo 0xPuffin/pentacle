@@ -1,1 +1,1 @@
-export const SECTIONS = ["projects", "articles"];
+export const SECTIONS = ["projects", "events"];

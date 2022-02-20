@@ -1,4 +1,5 @@
 export const CATEGORIES = [
+  "projects",
   "analytics",
   "exchanges",
   "defi",
