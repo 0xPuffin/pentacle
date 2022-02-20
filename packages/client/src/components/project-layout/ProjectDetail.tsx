@@ -30,7 +30,7 @@ const ProjectDetail = ({
             <h2>{token_image_url && (<img alt={project_name} src={token_image_url} className={"width-1"}/>)}{" "}
                 {project_name} {ticker && `(${ticker})`}{" "}
             </h2>
-            {usdValue && <h3 className={"align-right"}>{usdValue.toLocaleString()}</h3>}
+            {usdValue && <h3>{usdValue.toLocaleString()}</h3>}
         </article>
         <article className={"flex"}>
             <div className={"flex flex-start"}>

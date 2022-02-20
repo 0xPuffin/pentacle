@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from "react";
 import ProjectDetail from "./ProjectDetail";
 import ProjectSummary from "./ProjectSummary";
-import TagDescription from "../tag-description/TagDescription";
 // import TagDescription from "../tag-description/TagDescription";
 
 export const ProjectsLayout = ({projects = []}) => {
@@ -50,7 +49,7 @@ export const ProjectsLayout = ({projects = []}) => {
     return (<>
             <section className={"main-content padding-bottom-1 overflow-x-scroll"}>
                 <div className="flex-mobile">
-                     <TagDescription/>
+                     {/*<TagDescription/>*/}
                     {/* TODO: use intersection observer to do next/prev button */}
                         <div className={"flex-mobile"}>
                             {projects.map((project, index) => (<article className={"p-card"} key={index} id={`item-${index}`}>
