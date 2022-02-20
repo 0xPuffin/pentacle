@@ -55,6 +55,9 @@ h3 {
     text-transform: unset;
     &::first-letter {text-transform: unset};
   }
+  &.lowercase {
+    &::first-letter {text-transform: lowercase};
+  }
 }
 
 h4 {
