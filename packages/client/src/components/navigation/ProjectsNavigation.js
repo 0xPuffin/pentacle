@@ -16,12 +16,7 @@ function ProjectsNavigation() {
             <ul tabIndex="0" className="menu dropdown-content bg-base-100">
               {SECTIONS.map((section, index) => (
                 <li key={index} style={{ marginRight: 0 }}>
-                  <NavLink
-                    to={`/${section}`}
-                    onClick={() => {
-                      setIsOpen(false);
-                    }}
-                  >
+                  <NavLink to={`/${section}`} onClick={() => {setIsOpen(false);}}>
                     {section}
                   </NavLink>
                 </li>

@@ -2,13 +2,13 @@ import React, {useContext} from "react";
 import Layout from "../../components/layouts/layout";
 import {EventsTagNav} from "../../components/tags/events-tag-nav";
 import {SearchContext} from "../../providers/search-provider";
-import HeaderV2 from "../../components/header-v2/HeaderV2";
+import Header from "../../components/header/Header";
 
 export function EventsPage() {
     const {pageData} = useContext(SearchContext);
 
     return (<>
-        <HeaderV2/>
+        <Header/>
         <Layout>
             {pageData && (<main className={"main-container"}>
                 <section className={"main-content"}>

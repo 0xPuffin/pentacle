@@ -9,7 +9,7 @@ import {TitleContext} from "../../providers/title-provider";
 import {useLocation} from "react-router-dom";
 import ProjectsNavigation from "../../components/navigation/ProjectsNavigation";
 import Spinner from "../../components/spinner";
-import HeaderV2 from "../../components/header-v2/HeaderV2";
+import Header from "../../components/header/Header";
 
 export const ProjectsPage = () => {
     const {searchResults, pageDataLoading, search} = useContext(SearchContext);
@@ -24,7 +24,7 @@ export const ProjectsPage = () => {
     const hasNoRelatedLinks = ["/projects", "/projects/decentralised-exchange", "/projects/insurance",];
 
     return (<>
-            <HeaderV2/>
+            <Header />
             <Layout>
                 <main className={"main-container"}>
                     <section className={"main-content"}>

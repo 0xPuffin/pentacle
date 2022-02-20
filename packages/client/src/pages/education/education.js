@@ -1,14 +1,14 @@
 import React, {useContext} from "react";
 import Layout from "../../components/layouts/layout";
-import HeaderV2 from "../../components/header-v2/HeaderV2";
 import {EducationTagNav} from "../../components/tags/education-tag-nav";
 import {SearchContext} from "../../providers/search-provider";
+import Header from "../../components/header/Header";
 
 export function EducationPage() {
     const {pageData} = useContext(SearchContext);
 
     return (<>
-        <HeaderV2/>
+        <Header/>
         <Layout>
 
             {pageData && (<main className={"main-container"}>
