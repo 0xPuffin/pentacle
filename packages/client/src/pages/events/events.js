@@ -20,7 +20,7 @@ export function EventsPage() {
                         <h3>{data.event_name}</h3>
                         <p>{data.start} - {data.finish}</p>
                         <p>{data.location}</p>
-                        <p><a className={"text-link"} href={data.event_url}>{data.event_url}</a></p>
+                        <p><a className={"text-link"} href={`http://${data.event_url}`}>{data.event_url}</a></p>
                         <p>{data.twitter}</p>
                         <p>{data.start}</p>
                     </article>))}
