@@ -71,9 +71,11 @@
     display: flex;
     row-gap: 0;
     column-gap: 0.75rem;
+    flex-wrap: wrap;
 
     &.column {
       flex-direction: column;
+      flex-wrap: nowrap;
     }
 
     &.flex-center {

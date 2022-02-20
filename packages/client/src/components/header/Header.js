@@ -10,10 +10,11 @@ const Header = () => {
             </div>
             <nav className={"flex flex-end"}>
                 <ul className={"hello"}>
-                    <li><NavLink to="/projects" className={"text-link"}>projects</NavLink> (beta)</li>
+                    <li>(beta)</li>
+                    <li><NavLink to="/projects">projects</NavLink></li>
                     {/*<li><NavLink to="/education">education</NavLink></li>*/}
                     {/*<li><NavLink to="/articles">articles</NavLink></li>*/}
-                    {/*<li><NavLink to="/events">events</NavLink></li>*/}
+                    <li><NavLink to="/events">events</NavLink></li>
                 </ul>
             </nav>
         </article>
