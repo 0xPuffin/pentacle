@@ -12,8 +12,8 @@ export const features = [
     icon: "launch",
   },
   {
-    title: "The daily ape",
-    text: "Links from Darren's telegram channel",
+    title: "The Daily Ape",
+    text: "Aggregation of the top tweets, stories and developments in DeFi and beyond",
     link: "https://thedailyape.notion.site/thedailyape/The-Daily-Ape-c96c0b6727c0433a962e897ef43efb7e",
     icon: "launch",
   },
