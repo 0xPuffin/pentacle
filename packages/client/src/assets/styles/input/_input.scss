@@ -12,7 +12,7 @@ input {
     color: _color(body-text);
     background-color: transparent;
     text-align: center;
-    width: 35rem;
+    max-width: 35rem;
 
     &::placeholder {
       color: _color(body-text);

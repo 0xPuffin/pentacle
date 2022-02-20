@@ -26,7 +26,7 @@ const FeaturesXsmlLayout = () => {
                   "flex column align-center align-space-between height-100 boxed"
                 }
               >
-                <h3 className={"boxed"}>{feature.title}</h3>
+                <h3 className={"boxed no-transform"}>{feature.title}</h3>
                 <p>{feature.text}</p>
                 <div className={"shield-container align-items-center"}>
                   <span className={`shield ${feature.tag}`}>{feature.tag}</span>

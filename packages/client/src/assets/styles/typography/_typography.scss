@@ -43,13 +43,17 @@ h2 {
 h3 {
   font-family: _font(family-bold);
   line-height: 1.5rem;
+  text-transform: lowercase;
   &::first-letter {text-transform: uppercase};
   font-size: 1.25rem;
   padding: 1rem 0 0 0;
-  text-transform: lowercase;
   &.boxed {
     padding: 0rem 0 .75rem 0;
     margin: 0;
+  }
+  &.no-transform {
+    text-transform: unset;
+    &::first-letter {text-transform: unset};
   }
 }
 
