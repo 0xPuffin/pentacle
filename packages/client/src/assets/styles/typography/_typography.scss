@@ -80,7 +80,7 @@ input {
 
 p {
   color: _color(body-text);
-  font-size: 0.925rem;
+  font-size: _font(size-default);
   line-height: 1.25rem;
 }
 
