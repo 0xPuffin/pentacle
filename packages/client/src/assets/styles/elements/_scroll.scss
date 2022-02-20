@@ -1,28 +1,22 @@
-/* Custom Scrollbar */
-/* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: .75rem;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
-  background: #22272e;
-  border-radius: 25px;
+  background: _color(tertiary-30);
+  border-radius: 1.5rem;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #474d5c;
-  border-radius: 25px;
+  background: _color(tertiary);
+  border-radius: 1.5rem;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #3a404c;
-  border-radius: 25px;
+  background: _color(tertiary);
+  border-radius: 1.5rem;
 }
 
-/* Corner */
 ::-webkit-scrollbar-corner {
-  background: #3a404c;
+  background: _color(tertiary);
 }
