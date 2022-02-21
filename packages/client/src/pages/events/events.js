@@ -22,7 +22,6 @@ export function EventsPage() {
                         <p>{data.location}</p>
                         <p><a className={"text-link"} href={`https://${data.event_url}`} target={"_blank"} rel="noopener noreferrer">{data.event_url}</a></p>
                         <p>{data.twitter}</p>
-                        <p>{data.start}</p>
                     </div>))}
                     </article>
                 </section>

@@ -1,39 +1,39 @@
-event_id,event_name,start,finish,location,event_url,event_twitter,event_telegram
-1,NFTHack,14 January 2022,16 January 2022,Online,nft.ethglobal.com,ethglobal,-
-2,NFT Paris,22 January 2022,22 January 2022,"Paris, FR",nftparis.xyz,nft_paris,-
-3,DeFi Security Summit,22 January 2022,23 January 2022,"Stanford, USA",defisecuritysummit.org,-,https://t.me/+DEoAJOniBEAxNjE0
-4,Stanford SBC,24 January 2022,26 January 2022,"Stanford, USA",eventbrite.com/e/sbc-2022-tickets,- ,-
-5,ETHDenver,11 February 2022,20 February 2022,"Denver, USA",ethdenver.com,EthereumDenver,ETHDenver
-6,SchellingPoint,17 February 2022,17 February 2022,"Denver, USA",schellingpoint.gitcoin.co,- ,EX2vtzI0earU2LER
-7,ETHRio,14 March 2022,17 March 2022,"Rio de Janiero, BR",ETHRio.org,eth_rio,ETHRio
-8,DeFiCon,25 March 2022,26 March 2022,"NYC, USA",deficon.nyc,defi_conference,HqS326hNG0wxMGUx
-9,ETHDubai,30 March 2022,31 March 2022,"Dubai, UAE",ethdubaiconf.org,ETHDubaiConf,5hfCs5S9PzlmNzM0
-10,ETHBarcelona,end of Q122,end of Q122,"Barcelona, ESP",ETHBarcelona.com,eth_barcelona,ethbarcelona
-11,Non Fungible Conference,4 April 2022,5 April 2022,"Lisbon, PRT",nonfungibleconference.com,-,-
-12,DevConnect,18 April 2022,25 April 2022,"Amsterdam, NL",Devconnect.org,EFDevconnect,-
-13,ETHAmsterdam,22 April 2022,24 April 2022,"Amsterdam, NL",amsterdam.ethglobal.com,ethglobal,-
-14,HackMoney, May 2022, May 2022,Online,defi.ethglobal.com,ethglobal,-
-15,Spaghett.ETH,3 May 2022,8 May 2022,"Milan, ITA",spaghett-eth.com,SpaghettEth,spag
-16,Permissionless,17 May 2022,19 May 2022,"Florida, USA",blockworks.co/events/permissionless/,Blockworks_,-
-17,NFT Berlin,June 2022,June 2022,"Berlin, DE",-,NFTBERLINteam,-
-18,ETH SF,2 June 2022,5 June 2022,"San Francisco, USA",-,-,-
-19,Consensus,9 June 2022,12 June 2022,"Austin, TX, USA",events.coindesk.com/consensus2022,CoinDesk,
-20,ETHPrague,10 June 2022,12 June 2022,"Prague, CZ",ethprague.com,EthPrague,ethprague
-21,ETHMontreal,14 June 2022,23 June 2022,"Montreal, CAN",-,-,-
-22,NFT NYC,21 June 2022,23 June 2022,"NYC, USA",nft.nyc,NFT_NYC,https://t.me/joinchat/ZKy4Ny0R0Z0wZTlh
-23,ETHNewYork,24 June 2022,26 June 2022,"NYC, USA",nyc.ethglobal.com,ethglobal,-
-24,EthPARIS, July 2022, July 2022,"Paris, FR",-,EthPARIS,-
-25,HackFS, July 2022, July 2022,Online,fs.ethglobal.com,ethglobal,-
-26,BlockchainweekFr,18 July 2022,22 July 2022,"Paris, FR",-,-,-
-27,EthCC,19 July 2022,21 July 2022,"Paris, FR",ethcc.io,ethcc,-
-28,ETHMexicoCity,19 August 2022,21 August 2022,"Mexico City, MEX",-,ethglobal,-
-29,ETHOnline, September 2022, September 2022,Online,online.ethglobal.com,ethglobal,-
-30,ETHKenya,September 2022,September 2022,Kenya,-,-,-
-31,ETHSanFrancisco,4 November 2022,6 November 2022,"San Francisco, USA",-,ethglobal,-
-32,ETHTaipei,2 December 2022,4 December 2022,"Taipei, TWN",-,eth_taipei,-
-33,ETHWarsaw,TBD,Q2 2022,"Warsaw, POL",-,-,-
-34,ETHKyiv,TBD,Q2 2022,"Kiev, Ukraine",-,-,-
-35,Liscon,TBD,Q3-Q4 2022,"Lisbon, PRT",liscon.org,0xliscon,liscon2021
-36,ETHLisbon,TBD,Q3-Q4 2022,"Lisbon, PRT",-,ETHLisbon,-
-37,ETHBogota,TBD,Q4 2022,"Bogota, COL",bogota.ethglobal.com,ethglobal,-
-38,DevCon,TBD,Q4 2022,"Bogota, COL",devcon.org,EFDevcon,-
+event_id,event_name,start_date,start,finish,location,event_url,event_twitter,event_telegram
+1,NFTHack,2022-Jan-14,"Friday, 14 January 2022","Sunday, 16 January 2022",Online,nft.ethglobal.com,ethglobal,
+2,NFT Paris,2022-Jan-22,"Saturday, 22 January 2022","Saturday, 22 January 2022","Paris, FR",nftparis.xyz,nft_paris,
+3,DeFi Security Summit,2022-Jan-22,"Saturday, 22 January 2022","Sunday, 23 January 2022","Stanford, USA",defisecuritysummit.org,,https://t.me/+DEoAJOniBEAxNjE0
+4,Stanford SBC,2022-Jan-24,"Monday, 24 January 2022","Wednesday, 26 January 2022","Stanford, USA",eventbrite.com/e/sbc-2022-tickets,,
+5,ETHDenver,2022-Feb-11,"Friday, 11 February 2022","Sunday, 20 February 2022","Denver, USA",ethdenver.com,EthereumDenver,ETHDenver
+6,SchellingPoint,2022-Feb-17,"Thursday, 17 February 2022","Thursday, 17 February 2022","Denver, USA",schellingpoint.gitcoin.co,,EX2vtzI0earU2LER
+7,ETHRio,2022-Mar-14,"Monday, 14 March 2022","Thursday, 17 March 2022","Rio de Janiero, BR",ETHRio.org,eth_rio,ETHRio
+8,DeFiCon,2022-Mar-25,"Friday, 25 March 2022","Saturday, 26 March 2022","NYC, USA",deficon.nyc,defi_conference,HqS326hNG0wxMGUx
+9,ETHDubai,2022-Mar-30,"Wednesday, 30 March 2022","Thursday, 31 March 2022","Dubai, UAE",ethdubaiconf.org,ETHDubaiConf,5hfCs5S9PzlmNzM0
+10,ETHBarcelona,end of Q122,end of Q122,end of Q122,"Barcelona, ESP",ETHBarcelona.com,eth_barcelona,ethbarcelona
+11,Non Fungible Conference,2022-Apr-4,"Monday, 4 April 2022","Tuesday, 5 April 2022","Lisbon, PRT",nonfungibleconference.com,,
+12,DevConnect,2022-Apr-18,"Monday, 18 April 2022","Monday, 25 April 2022","Amsterdam, NL",Devconnect.org,EFDevconnect,
+13,ETHAmsterdam,2022-Apr-22,"Friday, 22 April 2022","Sunday, 24 April 2022","Amsterdam, NL",amsterdam.ethglobal.com,ethglobal,
+14,HackMoney,2022-May-1,"Sunday, 1 May 2022","Sunday, 1 May 2022",Online,defi.ethglobal.com,ethglobal,
+15,Spaghett.ETH,2022-May-3,"Tuesday, 3 May 2022","Sunday, 8 May 2022","Milan, ITA",spaghett-eth.com,SpaghettEth,spag
+16,Permissionless,2022-May-17,"Tuesday, 17 May 2022","Thursday, 19 May 2022","Florida, USA",blockworks.co/events/permissionless/,Blockworks_,
+17,NFT Berlin,2022-Jun-1,"Wednesday, 1 June 2022","Wednesday, 1 June 2022","Berlin, DE",,NFTBERLINteam,
+18,ETH SF,2022-Jun-2,"Thursday, 2 June 2022","Sunday, 5 June 2022","San Francisco, USA",,,
+19,Consensus,2022-Jun-9,"Thursday, 9 June 2022","Sunday, 12 June 2022","Austin, TX, USA",events.coindesk.com/consensus2022,CoinDesk,
+20,ETHPrague,2022-Jun-10,"Friday, 10 June 2022","Sunday, 12 June 2022","Prague, CZ",ethprague.com,EthPrague,ethprague
+21,ETHMontreal,2022-Jun-14,"Tuesday, 14 June 2022","Thursday, 23 June 2022","Montreal, CAN",,,
+22,NFT NYC,2022-Jun-21,"Tuesday, 21 June 2022","Thursday, 23 June 2022","NYC, USA",nft.nyc,NFT_NYC,https://t.me/joinchat/ZKy4Ny0R0Z0wZTlh
+23,ETHNewYork,2022-Jun-24,"Friday, 24 June 2022","Sunday, 26 June 2022","NYC, USA",nyc.ethglobal.com,ethglobal,
+24,EthPARIS,2022-Jul-1,"Friday, 1 July 2022","Friday, 1 July 2022","Paris, FR",,EthPARIS,
+25,HackFS,2022-Jul-1,"Friday, 1 July 2022","Friday, 1 July 2022",Online,fs.ethglobal.com,ethglobal,
+26,BlockchainweekFr,2022-Jul-18,"Monday, 18 July 2022","Friday, 22 July 2022","Paris, FR",,,
+27,EthCC,2022-Jul-19,"Tuesday, 19 July 2022","Thursday, 21 July 2022","Paris, FR",ethcc.io,ethcc,
+28,ETHMexicoCity,2022-Aug-19,"Friday, 19 August 2022","Sunday, 21 August 2022","Mexico City, MEX",,ethglobal,
+29,ETHOnline,2022-Sep-1,"Thursday, 1 September 2022","Thursday, 1 September 2022",Online,online.ethglobal.com,ethglobal,
+30,ETHKenya,2022-Sep-1,"Thursday, 1 September 2022","Thursday, 1 September 2022",Kenya,,,
+31,ETHSanFrancisco,2022-Nov-4,"Friday, 4 November 2022","Sunday, 6 November 2022","San Francisco, USA",,ethglobal,
+32,ETHTaipei,2022-Dec-2,"Friday, 2 December 2022","Sunday, 4 December 2022","Taipei, TWN",,eth_taipei,
+33,ETHWarsaw,TBD,TBD,Q2 2022,"Warsaw, POL",,,
+34,ETHKyiv,TBD,TBD,Q2 2022,"Kiev, Ukraine",,,
+35,Liscon,TBD,TBD,Q3-Q4 2022,"Lisbon, PRT",liscon.org,0xliscon,liscon2021
+36,ETHLisbon,TBD,TBD,Q3-Q4 2022,"Lisbon, PRT",,ETHLisbon,
+37,ETHBogota,TBD,TBD,Q4 2022,"Bogota, COL",bogota.ethglobal.com,ethglobal,
+38,DevCon,TBD,TBD,Q4 2022,"Bogota, COL",devcon.org,EFDevcon,

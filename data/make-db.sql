@@ -74,6 +74,7 @@ CREATE TABLE event
 (
     event_id       serial primary key,
     event_name     varchar(4000),
+    start_date     varchar(4000),
     start          varchar(4000),
     finish         varchar(4000),
     location       varchar(4000),

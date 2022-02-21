@@ -7,6 +7,7 @@ async function getMultiple(page = 1) {
   const rows = await db.query(
     "SELECT event.event_id, " +
       "event.event_name, " +
+      "event.start_date, " +
       "event.start, " +
       "event.finish, " +
       "event.location, " +
@@ -20,7 +21,7 @@ async function getMultiple(page = 1) {
       "JOIN tag " +
       "ON tag.tag_id = event_tag.tag_id " +
       "WHERE tag.name = 'event' " +
-      "ORDER BY event.start ASC " +
+      "ORDER BY event.start_date ASC " +
       "OFFSET $1 LIMIT $2",
     [offset, config.listPerPage]
   );
