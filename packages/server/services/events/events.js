@@ -19,7 +19,7 @@ async function getMultiple(page = 1) {
       "ON event.event_id = event_tag.event_id " +
       "JOIN tag " +
       "ON tag.tag_id = event_tag.tag_id " +
-      "WHERE tag.name = 'event' " +
+      // "WHERE tag.name = 'event' " +
       "ORDER BY event.start ASC " +
       "OFFSET $1 LIMIT $2",
     [offset, config.listPerPage]
