@@ -13,6 +13,7 @@ async function getMultiple(page = 1) {
       "event.event_url, " +
       "event.event_twitter, " +
       "event.event_telegram " +
+      "tag.name AS tag_name " +
       "FROM event " +
       "JOIN event_tag " +
       "ON event.event_id = event_tag.event_id " +
