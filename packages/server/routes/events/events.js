@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const projects = require("../../services/events/eth-events");
+const projects = require("../../services/events/events");
 
 router.get("/", async function (req, res, next) {
   try {

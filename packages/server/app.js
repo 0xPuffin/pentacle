@@ -5,7 +5,7 @@ const logger = require("morgan");
 const indexRouter = require("./routes/projects/projects");
 const articlesRouter = require("./routes/articles/articles");
 const educationRouter = require("./routes/education/education");
-const eventsRouter = require("./routes/events/eth-events");
+const eventsRouter = require("./routes/events/events");
 
 const projectsRouter = require("./routes/projects/projects");
 const projectsAnalyticsRouter = require("./routes/projects/analytics");

@@ -1,66 +1,83 @@
 article_id,title,article_url
-0,How to Trade for Cheaper using DEX Aggregators,https://unmaskcrypto.com/learnings/dex-aggregator
-1,What Is an Automated Market Maker (AMM)?,https://academy.binance.com/en/articles/what-is-an-automated-market-maker-amm
-2,Tips for Trading on Uniswap,https://unmaskcrypto.com/learnings/trading-uniswap
-3,What Are Automated Market Makers?,https://www.gemini.com/cryptopedia/amm-what-are-automated-market-makers
-4,How AMM Works?,https://investotrend.com/how-amm-works/
-5,Uniswap v3 Core whitepaper,https://uniswap.org/whitepaper-v3.pdf
-6,Uniswap v2 Core whitepaper,https://uniswap.org/whitepaper.pdf
-7,Automated Market Makers and Decentralized Exchanges: a DeFi Primer,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3722714
-8,UNISWAP-V2 CONTRACT WALK-THROUGH,https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/
-9,SoK: Oracles from the Ground Truth to Market Manipulation,https://arxiv.org/abs/2106.00667
-10,Blockchain Oracle Design Patterns,https://arxiv.org/abs/2106.09349
-11,Foundational Oracle Patterns: Connecting Blockchain to the Off-chain World,https://arxiv.org/abs/2007.14946
-12,A First Look into DeFi Oracles,https://arxiv.org/abs/2005.04377
-13,Byzantine fault Wikipedia,https://en.wikipedia.org/wiki/Byzantine_fault
-14,What Is Yield Farming in Decentralized Finance (DeFi)?,https://academy.binance.com/en/articles/what-is-yield-farming-in-decentralized-finance-defi#what-started-the-yield-farming-boom
-15,Lending and Borrowing with Compound and Aave,https://thedefiant.io/lending-and-borrowing-with-compound-and-aave/
-16,"DeFi lending and borrowing, explained",https://cointelegraph.com/explained/defi-lending-and-borrowing-explained
-17,DYOR: Alchemix by 0xdef1,https://dyor.fi/alcx
-18,Uniswap V3 Fee Calculator by Flipside,https://uniswapv3.flipsidecrypto.com/
-19,Uniswap V3: A Quant Framework to model yield farming returns,https://medium.com/@DeFiScientist/uniswap-v3-a-quant-framework-to-model-yield-farming-returns-941a1600425e
-20,Impermanent Loss Calculator for Evodex & Uniswap,https://chitty27.pythonanywhere.com/
-21,Uniswap V3 Strategy Simulator,https://defi-lab.xyz/uniswapv3simulator
-22,DeFi: In Simple Photos and How to Make Your First Transaction!,https://defieducation.substack.com/p/defi-in-simple-photos-and-how-to
-23,Uniswap: Impermanent Loss and Risk Profile of a Liquidity Provider,https://arxiv.org/abs/2106.14404
-24,Uniswap v3: The Universal AMM,https://www.paradigm.xyz/2021/06/uniswap-v3-the-universal-amm/
-25,Uniswap V3 LP Tokens as Perpetual Put and Call Options,https://lambert-guillaume.medium.com/uniswap-v3-lp-tokens-as-perpetual-put-and-call-options-5b66219db827
-26,Impermanent Loss Explained,https://academy.binance.com/en/articles/impermanent-loss-explained
-27,What is an Options Contract,https://insights.deribit.com/education/what-is-an-options-contract/
-28,How Does a Centralized Cryptocurrency Exchange Work?,https://unmaskcrypto.com/learnings/cex-exchange
-29,What Is Margin Trading?,https://academy.binance.com/en/articles/what-is-margin-trading
-30,DeFi Indexes,https://defiprime.com/defi-index
-31,Options Wikipedia,https://en.wikipedia.org/wiki/Option_(finance)
-32,What are Options Contracts Binance,https://academy.binance.com/en/articles/what-are-options-contracts
-33,Primer on basic option strategies - Deribit position builder,https://insights.deribit.com/market-research/deribit-position-builder-primer-on-basic-option-strategies/
-34,SoK: Decentralized Exchanges (DEX) withAutomated Market Maker (AMM) protocols,https://arxiv.org/pdf/2103.12732.pdf
-35,Oracles from the Ground Truth to Market Manipulation,https://arxiv.org/pdf/2106.00667.pdf
-36,CIA Officer - twitter thread,https://twitter.com/officer_cia/status/1418018953742409738
-37,A Quick Introduction to Yield Farming,https://unmaskcrypto.com/learnings/yield-farming
-38,"Where does yield come from, anyway?",https://juliankoh.medium.com/where-does-yield-come-from-anyway-fc818c114bd5
-39,Nick Chong thread on yield,https://twitter.com/n2ckchong/status/1390494848478683136
-40,What is 0x,https://www.youtube.com/watch?v=c04eIt3FQ5I
-41,Decentralised exchanges,https://www.wikiwand.com/en/Decentralized_exchange
-42,What is a decentralised exchange,https://academy.binance.com/en/articles/what-is-a-decentralized-exchange-dex
-43,dydx,https://www.youtube.com/watch?v=PGE1uoiZTmM
-44,what are the risks of defi lending? ,https://ethereum.stackexchange.com/questions/92272/what-are-the-risks-of-defi-lending
-45,aave whitepaper,https://github.com/aave/protocol-v2/blob/master/aave-v2-whitepaper.pdf
-46,compound whitepaper,https://compound.finance/documents/Compound.Whitepaper.pdf
-47,vicyn impermanent loss calculator,https://vicyyn.com/
-48,UNISWAP: Impermanent Loss and Risk Profile of a Liquidity Provider,https://arxiv.org/pdf/2106.14404.pdf
-49,How to approach crypto – Essential tips (Ledger),https://www.ledger.com/academy/how-to-approach-crypto
-50,Self-Custody: How to be your own bank (Ledger),https://www.ledger.com/academy/tips-to-trust-yourself-in-becoming-your-own-bank
-51,"Not your keys, not your coins (Ledger)",https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters
-52,What is a cryptocurrency? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-cryptocurrency
-53,What is a Blockchain? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-a-blockchain
-54,What is Bitcoin? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-bitcoin
-55,What is a Stablecoin? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-a-stablecoin
-56,What are the Key Properties of Bitcoin?,https://nakamoto.com/what-are-the-key-properties-of-bitcoin/
-57,What is Ethereum?,https://ethereum.org/en/what-is-ethereum/
-58,What are Automated Market Makers? (Gemini),https://www.gemini.com/cryptopedia/amm-what-are-automated-market-makers
-59,What is an Automated Market Maker? (Binance),https://academy.binance.com/en/articles/what-is-an-automated-market-maker-amm
-60,What is an Automated Market Maker? (Coinmarketcap),https://coinmarketcap.com/alexandria/glossary/automated-market-maker-amm
-61,"A Mathematical View of Automated Market Maker (AMM) Algorithms and Its Future
+1,How to Trade for Cheaper using DEX Aggregators,https://unmaskcrypto.com/learnings/dex-aggregator
+2,What Is an Automated Market Maker (AMM)?,https://academy.binance.com/en/articles/what-is-an-automated-market-maker-amm
+3,Tips for Trading on Uniswap,https://unmaskcrypto.com/learnings/trading-uniswap
+4,What Are Automated Market Makers?,https://www.gemini.com/cryptopedia/amm-what-are-automated-market-makers
+5,How AMM Works?,https://investotrend.com/how-amm-works/
+6,Uniswap v3 Core whitepaper,https://uniswap.org/whitepaper-v3.pdf
+7,Uniswap v2 Core whitepaper,https://uniswap.org/whitepaper.pdf
+8,Automated Market Makers and Decentralized Exchanges: a DeFi Primer,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3722714
+9,UNISWAP-V2 CONTRACT WALK-THROUGH,https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/
+10,SoK: Oracles from the Ground Truth to Market Manipulation,https://arxiv.org/abs/2106.00667
+11,Blockchain Oracle Design Patterns,https://arxiv.org/abs/2106.09349
+12,Foundational Oracle Patterns: Connecting Blockchain to the Off-chain World,https://arxiv.org/abs/2007.14946
+13,A First Look into DeFi Oracles,https://arxiv.org/abs/2005.04377
+14,Byzantine fault Wikipedia,https://en.wikipedia.org/wiki/Byzantine_fault
+15,What Is Yield Farming in Decentralized Finance (DeFi)?,https://academy.binance.com/en/articles/what-is-yield-farming-in-decentralized-finance-defi#what-started-the-yield-farming-boom
+16,Lending and Borrowing with Compound and Aave,https://thedefiant.io/lending-and-borrowing-with-compound-and-aave/
+17,"DeFi lending and borrowing, explained",https://cointelegraph.com/explained/defi-lending-and-borrowing-explained
+18,DYOR: Alchemix by 0xdef1,https://dyor.fi/alcx
+19,Uniswap V3 Fee Calculator by Flipside,https://uniswapv3.flipsidecrypto.com/
+20,Uniswap V3: A Quant Framework to model yield farming returns,https://medium.com/@DeFiScientist/uniswap-v3-a-quant-framework-to-model-yield-farming-returns-941a1600425e
+21,Impermanent Loss Calculator for Evodex & Uniswap,https://chitty27.pythonanywhere.com/
+22,Uniswap V3 Strategy Simulator,https://defi-lab.xyz/uniswapv3simulator
+23,DeFi: In Simple Photos and How to Make Your First Transaction!,https://defieducation.substack.com/p/defi-in-simple-photos-and-how-to
+24,Uniswap: Impermanent Loss and Risk Profile of a Liquidity Provider,https://arxiv.org/abs/2106.14404
+25,Uniswap v3: The Universal AMM,https://www.paradigm.xyz/2021/06/uniswap-v3-the-universal-amm/
+26,Uniswap V3 LP Tokens as Perpetual Put and Call Options,https://lambert-guillaume.medium.com/uniswap-v3-lp-tokens-as-perpetual-put-and-call-options-5b66219db827
+27,Impermanent Loss Explained,https://academy.binance.com/en/articles/impermanent-loss-explained
+28,What is an Options Contract,https://insights.deribit.com/education/what-is-an-options-contract/
+29,How Does a Centralized Cryptocurrency Exchange Work?,https://unmaskcrypto.com/learnings/cex-exchange
+30,What Is Margin Trading?,https://academy.binance.com/en/articles/what-is-margin-trading
+31,DeFi Indexes,https://defiprime.com/defi-index
+32,Options Wikipedia,https://en.wikipedia.org/wiki/Option_(finance)
+33,What are Options Contracts Binance,https://academy.binance.com/en/articles/what-are-options-contracts
+34,Primer on basic option strategies - Deribit position builder,https://insights.deribit.com/market-research/deribit-position-builder-primer-on-basic-option-strategies/
+35,SoK: Decentralized Exchanges (DEX) withAutomated Market Maker (AMM) protocols,https://arxiv.org/pdf/2103.12732.pdf
+36,Oracles from the Ground Truth to Market Manipulation,https://arxiv.org/pdf/2106.00667.pdf
+37,CIA Officer - twitter thread,https://twitter.com/officer_cia/status/1418018953742409738
+38,A Quick Introduction to Yield Farming,https://unmaskcrypto.com/learnings/yield-farming
+39,"Where does yield come from, anyway?",https://juliankoh.medium.com/where-does-yield-come-from-anyway-fc818c114bd5
+40,Nick Chong thread on yield,https://twitter.com/n2ckchong/status/1390494848478683136
+41,What is 0x,https://www.youtube.com/watch?v=c04eIt3FQ5I
+42,Decentralised exchanges,https://www.wikiwand.com/en/Decentralized_exchange
+43,What is a decentralised exchange,https://academy.binance.com/en/articles/what-is-a-decentralized-exchange-dex
+44,dydx,https://www.youtube.com/watch?v=PGE1uoiZTmM
+45,what are the risks of defi lending? ,https://ethereum.stackexchange.com/questions/92272/what-are-the-risks-of-defi-lending
+46,aave whitepaper,https://github.com/aave/protocol-v2/blob/master/aave-v2-whitepaper.pdf
+47,compound whitepaper,https://compound.finance/documents/Compound.Whitepaper.pdf
+48,vicyn impermanent loss calculator,https://vicyyn.com/
+49,UNISWAP: Impermanent Loss and Risk Profile of a Liquidity Provider,https://arxiv.org/pdf/2106.14404.pdf
+50,MINER EXTRACTABLE VALUE (MEV),https://ethereum.org/en/developers/docs/mev/
+51,Flashbots: Frontrunning the MEV Crisis,https://medium.com/flashbots/frontrunning-the-mev-crisis-40629a613752
+52,flashbots github,https://github.com/flashbots/pm
+53,How to approach crypto – Essential tips (Ledger),https://www.ledger.com/academy/how-to-approach-crypto
+54,Self-Custody: How to be your own bank (Ledger),https://www.ledger.com/academy/tips-to-trust-yourself-in-becoming-your-own-bank
+55,"Not your keys, not your coins (Ledger)",https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters
+56,What is a cryptocurrency? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-cryptocurrency
+57,What is a Blockchain? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-a-blockchain
+58,What is Bitcoin? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-bitcoin
+59,What is a Stablecoin? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-a-stablecoin
+60,What are the Key Properties of Bitcoin?,https://nakamoto.com/what-are-the-key-properties-of-bitcoin/
+61,What is Ethereum?,https://ethereum.org/en/what-is-ethereum/
+62,What are Automated Market Makers? (Gemini),https://www.gemini.com/cryptopedia/amm-what-are-automated-market-makers
+63,What is an Automated Market Maker? (Binance),https://academy.binance.com/en/articles/what-is-an-automated-market-maker-amm
+64,What is an Automated Market Maker? (Coinmarketcap),https://coinmarketcap.com/alexandria/glossary/automated-market-maker-amm
+65,"A Mathematical View of Automated Market Maker (AMM) Algorithms and Its Future
 ",https://medium.com/anchordao-lab/automated-market-maker-amm-algorithms-and-its-future-f2d5e6cc624a
-62,What is Staking? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-staking
-63,Uniswap math desmos thread (Dan Robinson),https://twitter.com/danrobinson/status/1429972775511408651
+66,What is Staking? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-staking
+67,Uniswap math desmos thread (Dan Robinson),https://twitter.com/danrobinson/status/1429972775511408651
+68,CoinMarketCap Crypto Glossary,https://coinmarketcap.com/alexandria/glossary
+69,The Crypto Climate Revolution,https://medium.com/@themantis/the-crypto-climate-revolution-why-a-technology-condemned-by-environmentalists-may-become-a-key-e9ea7313587d
+70,How to make a jump from Web2 hacking to Web3 hacking,https://twitter.com/adrianhetman/status/1475550508354093072
+71,Yul (and Some Solidity) Optimizations and Tricks,https://hackmd.io/@gn56kcRBQc6mOi7LCgbv1g/rJez8O8st
+72,Layer 2 rollups,https://ethereum.org/en/developers/docs/scaling/layer-2-rollups/
+73,defi derivatives,https://github.com/0xperp/defi-derivatives
+74,How to survive in crypto,https://www.youtube.com/watch?v=udgu2O3MZ-Q
+75,Known Physical Bitcoin Attacks,https://github.com/jlopp/physical-bitcoin-attacks/blob/master/README.md
+76,Yearn DeFi glossary,https://docs.yearn.finance/resources/defi-glossary
+77,Casual code review of metamask's crypto,https://blog.cryptographyengineering.com/2022/01/14/an-extremely-casual-code-review-of-metamasks-crypto/
+78,A thread on punk sandwiches,https://twitter.com/bertcmiller/status/1482086447775580161
+79,Kuro's bridging spreadsheet,https://docs.google.com/spreadsheets/d/1jYZOfU2R3PdzRmnY9Nfc4pzerX_YSInNdyhtSj_3oWY/htmlview
+80,Assessing Risk in Decentralized Finance,https://www.moodysanalytics.com/articles/2021/block_by_block_assessing_risk_in_decentralized_finance
+81,"What is risk, who bears risk, and how could we think about risk in DeFi?",https://twitter.com/nope_its_lily/status/1483556375028387840

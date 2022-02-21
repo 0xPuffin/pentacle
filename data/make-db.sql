@@ -7,6 +7,7 @@ DROP TABLE education_tag;
 DROP TABLE event;
 DROP TABLE event_tag;
 DROP TABLE tag;
+
 CREATE TABLE project
 (
     project_id      serial primary key,
