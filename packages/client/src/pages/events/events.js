@@ -18,7 +18,7 @@ export function EventsPage() {
                     <article className={"flex margin-top-2"}>
                     {pageData.map((data, index) => (<div className={"p-card margin-bottom-1"} key={index}>
                         <h3 className={"boxed lowercase"}>{data.event_name}</h3>
-                        <p>{data.start} - {data.finish}</p>
+                        <p>{data.start} -<br/> {data.finish}</p>
                         <p>{data.location}</p>
                         <p><a className={"text-link"} href={`https://${data.event_url}`} target={"_blank"} rel="noopener noreferrer">{data.event_url}</a></p>
                         <p>{data.twitter}</p>
