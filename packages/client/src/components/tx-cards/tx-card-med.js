@@ -54,12 +54,7 @@ const TxCardMed = ({ jsonUrl, hackerAddress }) => {
       {filteredChat.map(
         (item, i) =>
           item.message !== "[2m(unintelligible)[0m" && (
-            <a
-              key={i}
-              href={`https://etherscan.io/tx/${item.hash}`}
-              target={"_blank"}
-              rel="noopener noreferrer"
-            >
+            <a key={i} href={`https://etherscan.io/tx/${item.hash}`} target={"_blank"} rel="noopener noreferrer">
               <div className="box feature light link box-padding margin-bottom-1">
                 <div
                   className={

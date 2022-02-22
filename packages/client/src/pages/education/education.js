@@ -20,16 +20,17 @@ export function EducationPage() {
                     {pageData.map((data, index) => (
                         <article className={"margin-bottom-2 readability-max-width"} key={index}>
                             <h2>{data.education_name}</h2>
-                            <div className={"placeholder margin-bottom-1 margin-top-1"}>
-                                image thingy in here
-                            </div>
-                            <h3>What</h3>
+                            <p>by <a href={"https://twitter.com/noidtwo"} target={"_blank"} rel="noopener noreferrer">@noidtwo</a></p>
+                            {/*<div className={"placeholder margin-bottom-1 margin-top-1"}>*/}
+                            {/*    image thingy in here*/}
+                            {/*</div>*/}
+                            <h3 className={"lowercase"}>what</h3>
                             <p className={"large"}>{data.what}</p>
-                            <h3>Why</h3>
+                            <h3 className={"lowercase"}>why</h3>
                             <p className={"large"}>{data.why}</p>
-                            <h3>Reward</h3>
+                            <h3 className={"lowercase"}>reward</h3>
                             <p className={"large"}>{data.reward}</p>
-                            <h3>Risk</h3>
+                            <h3 className={"lowercase"}>risk</h3>
                             <p className={"large"}>{data.risk}</p>
                         </article>))}
                 </section>

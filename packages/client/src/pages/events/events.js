@@ -12,7 +12,8 @@ export function EventsPage() {
             {pageData && (<main className={"main-container"}>
                 <section className={"main-content"}>
                     <article className={"flex space-between"}>
-                        <h1 className={"boxed"}>events</h1>
+                        <div><h1 className={"boxed"}>events</h1>
+                        <p>credit <a href={"https://twitter.com/NathanSexer"} target={"_blank"} rel="noopener noreferrer">@NathanSexer</a></p></div>
                         {/*<EventsTagNav/>*/}
                     </article>
                     <article className={"flex margin-top-2"}>

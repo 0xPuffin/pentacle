@@ -11,13 +11,14 @@ async function getMultiple(page = 1) {
       "education.what, " +
       "education.why, " +
       "education.risk, " +
-      "education.reward " +
+      "education.reward, " +
+      "tag.name AS tag_name " +
       "FROM education " +
       "JOIN education_tag " +
       "ON education.education_id = education_tag.education_id " +
       "JOIN tag " +
       "ON tag.tag_id = education_tag.tag_id " +
-      // "WHERE tag.name = 'amm' " +
+      "WHERE tag.name = 'education' " +
       "ORDER BY education.name ASC " +
       "OFFSET $1 LIMIT $2",
     [offset, config.listPerPage]
