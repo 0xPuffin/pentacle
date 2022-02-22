@@ -48,8 +48,8 @@ export const About = () => {
           </article>
 
           <article className={"box feature dark box-padding"}>
-            <h2>Roadmap 2021</h2>
-            <h3>Q1</h3>
+            <h2>Roadmap</h2>
+            <h3>Q1 - 2021</h3>
             <ul>
               <li>Build MVP Ethereum and Solana interactive ecosystems</li>
               <li>Form data-gathering team and define data set</li>
@@ -60,12 +60,12 @@ export const About = () => {
               <li>Pentacle 2.0 begins</li>
               <li>New product design is developed</li>
             </ul>
-            <h3 className={"margin-top-1"}>Q3</h3>
+            <h3 className={"margin-top-1"}>Q3 - Q4</h3>
             <ul>
               <li>Develop new branding and design direction</li>
               <li>Build new front end</li>
             </ul>
-            <h3 className={"margin-top-1"}>Q4</h3>
+            <h3 className={"margin-top-1"}>Q1 2022</h3>
             <ul>
               <li>Pentacle 2.0 released</li>
               <li>Begin work on browser plugin</li>
