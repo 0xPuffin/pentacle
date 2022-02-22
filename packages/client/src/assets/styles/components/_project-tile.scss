@@ -13,6 +13,10 @@
   width: 9rem;
   cursor: pointer;
 
+  &.small {
+    height: 1.5rem;
+  }
+
   &.inverse {
     background-color: _color(primary);
     border: 2px solid _color(primary);
