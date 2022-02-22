@@ -1,8 +1,9 @@
 import React, {useContext} from "react";
 import Layout from "../../components/layouts/layout";
-import {EducationTagNav} from "../../components/tags/education-tag-nav";
+// import {EducationTagNav} from "../../components/tags/education-tag-nav";
 import {SearchContext} from "../../providers/search-provider";
 import Header from "../../components/header/Header";
+import EducationNavigation from "../../components/navigation/EducationNavigation";
 
 export function EducationPage() {
     const {pageData} = useContext(SearchContext);
@@ -15,7 +16,8 @@ export function EducationPage() {
                 <section className={"main-content"}>
                     <article className={"flex space-between"}>
                         <h1 className={"boxed"}>education</h1>
-                        <EducationTagNav/>
+                        {/*<EducationTagNav/>*/}
+                        <EducationNavigation/>
                     </article>
                     {pageData.map((data, index) => (
                         <article className={"margin-bottom-2 readability-max-width"} key={index}>
