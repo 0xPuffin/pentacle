@@ -60,7 +60,7 @@ export const About = () => {
               <li>Pentacle 2.0 begins</li>
               <li>New product design is developed</li>
             </ul>
-            <h3 className={"margin-top-1"}>Q3 - Q4</h3>
+            <h3 className={"margin-top-1"}>Q4</h3>
             <ul>
               <li>Develop new branding and design direction</li>
               <li>Build new front end</li>
