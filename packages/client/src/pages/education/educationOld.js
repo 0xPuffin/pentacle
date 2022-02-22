@@ -1,12 +1,11 @@
 import React, {useContext} from "react";
 import Layout from "../../components/layouts/layout";
-// import RelatedLinks from "../../components/related-links/RelatedLinks";
+// import {EducationTagNav} from "../../components/tags/education-tag-nav";
 import {SearchContext} from "../../providers/search-provider";
 import Header from "../../components/header/Header";
 import EducationNavigation from "../../components/navigation/EducationNavigation";
 
-export const EducationPage = () => {
-
+export function EducationPage() {
     const {pageData} = useContext(SearchContext);
 
     return (<>
@@ -23,7 +22,10 @@ export const EducationPage = () => {
                     {pageData.map((data, index) => (
                         <article className={"margin-bottom-2 readability-max-width"} key={index}>
                             <h2>{data.education_name}</h2>
-                            <p>by <a className={"text-link"} href={"https://twitter.com/noidtwo"} target={"_blank"} rel="noopener noreferrer">@noidtwo</a></p>
+                            <p>by <a href={"https://twitter.com/noidtwo"} target={"_blank"} rel="noopener noreferrer">@noidtwo</a></p>
+                            {/*<div className={"placeholder margin-bottom-1 margin-top-1"}>*/}
+                            {/*    image thingy in here*/}
+                            {/*</div>*/}
                             <h3 className={"lowercase"}>what</h3>
                             <p className={"large"}>{data.what}</p>
                             <h3 className={"lowercase"}>why</h3>

@@ -2,9 +2,7 @@ import React, {useContext} from "react";
 import Layout from "../../components/layouts/layout";
 import {ProjectsLayout} from "../../components/project-layout/ProjectsLayout";
 import RelatedLinks from "../../components/related-links/RelatedLinks";
-import {
-    SearchContext, SearchDispatchContext,
-} from "../../providers/search-provider";
+import {SearchContext, SearchDispatchContext} from "../../providers/search-provider";
 import {TitleContext} from "../../providers/title-provider";
 import {useLocation} from "react-router-dom";
 import ProjectsNavigation from "../../components/navigation/ProjectsNavigation";

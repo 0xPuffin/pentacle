@@ -9,10 +9,10 @@ class Footer extends Component {
                 <div className={"flex flex-start align-items-center"}>
                     © {new Date().getFullYear()} pentacle
                     {/*<a href={"https://github.com/pentacledotai"} target={"_blank"} rel="noopener noreferrer">GitHub</a>*/}
-                    <Link to="/about">About</Link>
-                    <Link to="/terms">Terms</Link>
+                    <Link to="/about">about</Link>
+                    <Link to="/terms">terms</Link>
                     <a href={"https://twitter.com/pentaclexyz"} target={"_blank"}
-                       rel="noopener noreferrer">Twitter</a>
+                       rel="noopener noreferrer">twitter</a>
                 </div>
                 <ThemeSwitcher/>
             </article>
