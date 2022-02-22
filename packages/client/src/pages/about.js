@@ -49,7 +49,7 @@ export const About = () => {
 
           <article className={"box feature dark box-padding"}>
             <h2>Roadmap</h2>
-            <h3>Q1 - 2021</h3>
+            <h3>Q1 2021</h3>
             <ul>
               <li>Build MVP Ethereum and Solana interactive ecosystems</li>
               <li>Form data-gathering team and define data set</li>
