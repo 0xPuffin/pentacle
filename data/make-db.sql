@@ -93,7 +93,7 @@ CREATE TABLE skill
 (
     skill_id       serial primary key,
     title          varchar(4000),
-    text           varchar(10000)
+    text           text
 );
 CREATE TABLE skill_tag
 (

@@ -1,16 +1,16 @@
 import React from "react";
 
 type Props = {
-    skill_name: string;
-    text: string;
+    skill_title: string;
+    skill_text: string;
 };
 
-const SkillDetail = ({skill_name, text}: Props) => {
+const SkillDetail = ({skill_title, skill_text}: Props) => {
     return (<section className={"main-content margin-top-2"}>
         <article className={"margin-bottom-2 readability-max-width"}>
-            <h2>{skill_name}</h2>
+            <h2>{skill_title}</h2>
             <p>by <a href={"https://twitter.com/knowerofmarkets"} target={"_blank"} rel="noopener noreferrer">@knowerofmarkets</a></p>
-            <p className={"large"}>{text}</p>
+            <p className={"large"}>{skill_text}</p>
         </article>
     </section>);
 };
