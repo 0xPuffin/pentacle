@@ -5,18 +5,17 @@ const config = require("../../config");
 async function getMultiple(page = 1) {
   const offset = helper.getOffset(page, config.listPerPage);
   const rows = await db.query(
-    // "SELECT * " +
     "SELECT skill.skill_id, " +
       "skill.title AS skill_title, " +
-      "skill.text, " +
+      "skill.text AS skill_text, " +
       "tag.name AS tag_name " +
       "FROM skill " +
       "JOIN skill_tag " +
       "ON skill.skill_id = skill_tag.skill_id " +
       "JOIN tag " +
       "ON tag.tag_id = skill_tag.tag_id " +
-      "WHERE tag.name = 'skill' " +
-      "ORDER BY skill.title ASC " +
+      // "WHERE tag.name = 'skill' " +
+      // "ORDER BY skill.title ASC " +
       "OFFSET $1 LIMIT $2",
     [offset, config.listPerPage]
   );
