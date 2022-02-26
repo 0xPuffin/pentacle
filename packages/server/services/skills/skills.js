@@ -9,10 +9,9 @@ async function getMultiple(page = 1) {
       "skill.title AS skill_title, " +
       "skill.text AS skill_text, " +
       "tag.name AS tag_name " +
-      "UPDATE skill " +
-      // "SET skill.text = E(skill.text) " +
-      "SET skill.text = (skill.text, '\n', '\r') " +
       "FROM skill " +
+      "UPDATE skill " +
+      "SET skill.text = (skill.text, '\n', '\r') " +
       "JOIN skill_tag " +
       "ON skill.skill_id = skill_tag.skill_id " +
       "JOIN tag " +
