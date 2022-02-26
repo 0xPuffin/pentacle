@@ -6,6 +6,7 @@ const indexRouter = require("./routes/projects/projects");
 const articlesRouter = require("./routes/articles/articles");
 const educationRouter = require("./routes/education/education");
 const eventsRouter = require("./routes/events/events");
+const skillsRouter = require("./routes/skills/skills");
 
 const projectsRouter = require("./routes/projects/projects");
 const projectsAnalyticsRouter = require("./routes/projects/analytics");
@@ -60,6 +61,7 @@ app.use("/", indexRouter);
 app.use("/articles/articles", articlesRouter);
 app.use("/education/education", educationRouter);
 app.use("/events/events", eventsRouter);
+app.use("/skills/skills", skillsRouter);
 
 app.use("/projects/projects", projectsRouter);
 app.use("/projects/analytics", projectsAnalyticsRouter);
