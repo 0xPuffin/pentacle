@@ -23,3 +23,10 @@ export const EDUCATION_CATEGORIES = [
   "stake",
   "xyk"
 ];
+
+export const SKILL_CATEGORIES = [
+  "beginner",
+  "coinbase mom",
+  "defi virgin",
+  "degen"
+];

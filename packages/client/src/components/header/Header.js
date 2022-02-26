@@ -13,6 +13,7 @@ const Header = () => {
                     <li>(beta)</li>
                     <li><NavLink to="/projects/projects">projects</NavLink></li>
                     <li><NavLink to="/education">education</NavLink></li>
+                    <li><NavLink to="/skills">skills</NavLink></li>
                     {/*<li><NavLink to="/articles">articles</NavLink></li>*/}
                     <li><NavLink to="/events">events</NavLink></li>
                 </ul>

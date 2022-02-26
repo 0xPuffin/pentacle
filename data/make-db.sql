@@ -6,6 +6,8 @@ DROP TABLE education;
 DROP TABLE education_tag;
 DROP TABLE event;
 DROP TABLE event_tag;
+DROP TABLE skill;
+DROP TABLE skill_tag;
 DROP TABLE tag;
 
 CREATE TABLE project
@@ -87,6 +89,17 @@ CREATE TABLE event_tag
     event_id int,
     tag_id   int
 );
+CREATE TABLE skill
+(
+    skill_id       serial primary key,
+    title          varchar(4000),
+    text           varchar(40000)
+);
+CREATE TABLE skill_tag
+(
+    skill_id int,
+    tag_id   int
+);
 COPY project FROM '/Users/pentaclexyz/projects/pentacle/data/project-no-tags.csv' delimiter ',' CSV HEADER;
 COPY project_tag FROM '/Users/pentaclexyz/projects/pentacle/data/project_tags.csv' delimiter ',' CSV HEADER;
 COPY tag FROM '/Users/pentaclexyz/projects/pentacle/data/tags.csv' delimiter ',' CSV HEADER;
@@ -96,3 +109,6 @@ COPY education FROM '/Users/pentaclexyz/projects/pentacle/data/education-no-tags
 COPY education_tag FROM '/Users/pentaclexyz/projects/pentacle/data/education_tags.csv' delimiter ',' CSV HEADER;
 COPY event FROM '/Users/pentaclexyz/projects/pentacle/data/event-no-tags.csv' delimiter ',' CSV HEADER;
 COPY event_tag FROM '/Users/pentaclexyz/projects/pentacle/data/event_tags.csv' delimiter ',' CSV HEADER;
+COPY skill FROM '/Users/pentaclexyz/projects/pentacle/data/skill-no-tags.csv' delimiter ',' CSV HEADER;
+COPY skill_tag FROM '/Users/pentaclexyz/projects/pentacle/data/skill_tags.csv' delimiter ',' CSV HEADER;
+

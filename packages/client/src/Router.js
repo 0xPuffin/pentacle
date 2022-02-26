@@ -12,6 +12,7 @@ import { EducationPage } from "./pages/education/education";
 import { EventsPage } from "./pages/events/events";
 import { ProjectsPage } from "./pages/projects/projects";
 import { ArticlesPage } from "./pages/articles/articles";
+import { SkillsPage } from "./pages/skills/skills";
 
 import EthEcosystemDefi from "./pages/eth-ecosystem/eth-ecosystem-defi";
 import EthEcosystemRetail from "./pages/eth-ecosystem/eth-ecosystem-retail";
@@ -39,6 +40,8 @@ export const Router = () => {
           <Route path={`/events/:category`} element={<EventsPage />} />
           <Route path={`/articles`} element={<ArticlesPage />} />
           <Route path={`/articles/:category`} element={<ArticlesPage />} />
+          <Route path={`/skills`} element={<SkillsPage />} />
+          <Route path={`/skills/:category`} element={<SkillsPage />} />
 
           <Route path="/solana" element={<SolEcosystem />} />
           <Route path="/ethereum" element={<EthEcosystemDefi />} />
