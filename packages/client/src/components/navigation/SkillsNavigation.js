@@ -3,7 +3,7 @@ import { SearchContext, SearchDispatchContext } from "../../providers/search-pro
 import { NavLink } from "react-router-dom";
 import {SKILL_CATEGORIES} from "../../data/categories";
 
-function EducationNavigation() {
+function SkillsNavigation() {
   const { activeSection } = useContext(SearchContext);
   const { setActiveCategory } = useContext(SearchDispatchContext);
   return (
@@ -19,4 +19,4 @@ function EducationNavigation() {
   );
 }
 
-export default EducationNavigation;
+export default SkillsNavigation;

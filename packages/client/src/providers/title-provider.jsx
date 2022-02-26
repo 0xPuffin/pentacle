@@ -13,7 +13,7 @@ export const TitleContext = createContext(initVal);
 export function TitleProvider({ children }) {
   const [title, setTitle] = useState("");
   // const location = useLocation();
-  const {activeCategory, activeSection} = useContext(SearchContext);
+  const {activeSection, activeCategory} = useContext(SearchContext);
 
   useEffect(() => {
     if (activeCategory === 'projects' && activeSection === 'projects') {
@@ -21,7 +21,6 @@ export function TitleProvider({ children }) {
       setTitle('projects');
     } else {
       setTitle(activeCategory ? `${activeSection} / ${activeCategory}` : activeSection)
-      // setTitle('events')
     }
   }, [activeCategory]);
 

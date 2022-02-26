@@ -6,7 +6,7 @@ async function getMultiple(page = 1) {
   const offset = helper.getOffset(page, config.listPerPage);
   const rows = await db.query(
     // "SELECT * " +
-    "SELECT skill.skill, " +
+    "SELECT skill.skill_id, " +
       "skill.title AS skill_title, " +
       "skill.text, " +
       "tag.name AS tag_name " +

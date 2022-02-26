@@ -29,7 +29,8 @@ export const SkillsPage = () => {
             {pageData && (<main className={"main-container"}>
                 <section className={"main-content"}>
                     <article className={"flex space-between"}>
-                        <h1>{pageDataLoading ? "loading..." : title}</h1>
+                        {/*<h1>{pageDataLoading ? "loading..." : title}</h1>*/}
+                        <h1>{title}</h1>
                     </article>
                 </section>
                 {!pageDataLoading && (<>
