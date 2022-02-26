@@ -16,7 +16,7 @@ async function getMultiple(page = 1) {
       "ON tag.tag_id = skill_tag.tag_id " +
       "WHERE tag.name = 'skill' " +
       "UPDATE skill " +
-      "SET skill.text = E'skill.text' " +
+      "SET skill.text = E(skill.text) " +
       "REPLACE (skill.text, '\n', '\r') " +
       "ORDER BY skill.title ASC " +
       "OFFSET $1 LIMIT $2",
