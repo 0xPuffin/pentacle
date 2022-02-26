@@ -9,8 +9,6 @@ async function getMultiple(page = 1) {
       "skill.title AS skill_title, " +
       "skill.text AS skill_text, " +
       "tag.name AS tag_name " +
-      "UPDATE skill " +
-      "SET text = REPLACE(text, '\n', '\r') " +
       "FROM skill " +
       "JOIN skill_tag " +
       "ON skill.skill_id = skill_tag.skill_id " +
@@ -18,6 +16,8 @@ async function getMultiple(page = 1) {
       "ON tag.tag_id = skill_tag.tag_id " +
       "WHERE tag.name = 'skill' " +
       "ORDER BY skill.title ASC " +
+      "UPDATE skill " +
+      "SET text = REPLACE(text, '\n', '\r') " +
       "OFFSET $1 LIMIT $2",
     [offset, config.listPerPage]
   );
