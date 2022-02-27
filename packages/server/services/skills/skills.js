@@ -11,7 +11,6 @@ async function getMultiple(page = 1) {
       "tag.name AS tag_name " +
       "REPLACE(skill.text, '\\n', '\n') " +
       "FROM skill " +
-      "WHERE skill.text IS NOT NULL " +
       "JOIN skill_tag " +
       "ON skill.skill_id = skill_tag.skill_id " +
       "JOIN tag " +
