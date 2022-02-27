@@ -9,7 +9,7 @@ async function getMultiple(page = 1) {
       "skill.title AS skill_title, " +
       "skill.text AS skill_text, " +
       "tag.name AS tag_name, " +
-      "REPLACE(skill.text, '\\n', '\n') " +
+      "SET skill.text = REPLACE(skill.text, '\\n', '\n') " +
       "FROM skill " +
       "JOIN skill_tag " +
       "ON skill.skill_id = skill_tag.skill_id " +
