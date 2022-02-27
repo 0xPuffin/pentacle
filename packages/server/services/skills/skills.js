@@ -15,7 +15,7 @@ async function getMultiple(page = 1) {
       "ON skill.skill_id = skill_tag.skill_id " +
       "JOIN tag " +
       "ON tag.tag_id = skill_tag.tag_id " +
-      "WHERE tag.name = 'skill' AND skill.text NOT NULL" +
+      "WHERE tag.name = 'skill' AND skill.text IS NOT NULL" +
       "ORDER BY skill.title ASC " +
       "OFFSET $1 LIMIT $2",
     [offset, config.listPerPage]
