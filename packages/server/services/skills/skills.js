@@ -8,7 +8,7 @@ async function getMultiple(page = 1) {
     "SELECT skill.skill_id, " +
       "skill.title AS skill_title, " +
       "skill.text AS skill_text, " +
-      "tag.name AS tag_name, " +
+      "tag.name AS tag_name " +
       "FROM skill " +
       "JOIN skill_tag " +
       "ON skill.skill_id = skill_tag.skill_id " +
