@@ -34,6 +34,6 @@ export const SkillsLayout = ({projects = []}) => {
                 </div>
             </section>
 
-            <SkillDetail {...projectDetail}/>
-        </>);
+        <SkillDetail {...projectDetail}/>
+    </>);
 };
