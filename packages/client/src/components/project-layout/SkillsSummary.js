@@ -1,8 +1,8 @@
 import React from "react";
 
-const SkillSummary = ({skill_name, onClick}) => {
+const SkillSummary = ({skill_title, onClick}) => {
     return (<article className={"p-card small"}  onClick={onClick}>
-        <h3 className={"boxed lowercase"}>{skill_name}</h3>
+        <h2 className={"small boxed lowercase"}>{skill_title}</h2>
         {/*<p className={"length-300"}>{description}</p>*/}
     </article>);
 };

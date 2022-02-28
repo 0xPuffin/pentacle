@@ -15,7 +15,7 @@ export function EducationPage() {
             {pageData && (<main className={"main-container"}>
                 <section className={"main-content"}>
                     <article className={"flex space-between"}>
-                        <h1 className={"boxed"}>education</h1>
+                        <h1>education</h1>
                         {/*<EducationTagNav/>*/}
                         <EducationNavigation/>
                     </article>

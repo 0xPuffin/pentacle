@@ -12,7 +12,7 @@ export const ArticlesPage = () => {
                 {pageData && (<main className={"main-container"}>
                         <section className={"main-content"}>
                             <article className={"flex space-between"}>
-                                <h1 className={"boxed"}>articles</h1>
+                                <h1>articles</h1>
                                 <ArticlesTagNav/>
                             </article>
                             {pageData.map((data, index) => (<article key={index}>

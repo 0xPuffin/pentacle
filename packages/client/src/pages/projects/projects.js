@@ -27,8 +27,8 @@ export const ProjectsPage = () => {
                 <main className={"main-container"}>
                     <section className={"main-content"}>
                         <article className={"flex space-between"}>
-                            {/*<h1 className={"boxed"}>{pageDataLoading ? "loading..." : title}</h1>*/}
-                            <h1 className={"boxed"}>{title}</h1>
+                            {/*<h1>{pageDataLoading ? "loading..." : title}</h1>*/}
+                            <h1>{title}</h1>
                             <ProjectsNavigation/>
                         </article>
                         <article className={"margin-y-3 flex-center"}>
