@@ -100,7 +100,7 @@ CREATE TABLE skill_tag
     skill_id int,
     tag_id   int
 );
-COPY project FROM '/Users/pentaclexyz/projects/pentacle/data/project-no-tags.csv' delimiter ',' CSV HEADER;
+COPY project FROM '/Users/pentaclexyz/projects/pentacle/data/eth-projects-no-tags.csv' delimiter ',' CSV HEADER;
 COPY project_tag FROM '/Users/pentaclexyz/projects/pentacle/data/project_tags.csv' delimiter ',' CSV HEADER;
 COPY tag FROM '/Users/pentaclexyz/projects/pentacle/data/tags.csv' delimiter ',' CSV HEADER;
 COPY article FROM '/Users/pentaclexyz/projects/pentacle/data/article-no-tags.csv' delimiter ',' CSV HEADER;
