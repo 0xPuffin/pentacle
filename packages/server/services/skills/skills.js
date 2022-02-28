@@ -5,13 +5,10 @@ const config = require("../../config");
 async function getMultiple(page = 1) {
   const offset = helper.getOffset(page, config.listPerPage);
   const rows = await db.query(
-      "SELECT skill.skill_id, " +
-      "skill.title AS skill_title, " +
-      "skill.text AS skill_text, " +
-      "tag.name AS tag_name, " +
+      "SELECT skill.skill_id, skill.title AS skill_title, skill.text AS skill_text, tag.name AS tag_name " +
       "REPLACE(skill.text, '\\n', '\n') " +
       "FROM skill " +
-      "WHERE skill.text IS NOT NULL, " +
+      "WHERE skill.text IS NOT NULL " +
       "JOIN skill_tag " +
       "ON skill.skill_id = skill_tag.skill_id " +
       "JOIN tag " +
