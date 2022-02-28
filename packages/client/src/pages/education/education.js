@@ -1,6 +1,5 @@
 import React, {useContext} from "react";
 import {SearchContext} from "../../providers/search-provider";
-import {TitleContext} from "../../providers/title-provider";
 
 import Layout from "../../components/layouts/layout";
 import Header from "../../components/header/Header";
@@ -12,8 +11,6 @@ export const EducationPage = () => {
 
     const {pageData} = useContext(SearchContext);
     const {searchResults, pageDataLoading} = useContext(SearchContext);
-    // const {setSearchString, handleClear} = useContext(SearchDispatchContext);
-    const {title} = useContext(TitleContext);
     const location = useLocation();
 
     // const handleChange = (event) => {
@@ -30,7 +27,7 @@ export const EducationPage = () => {
                 <section className={"main-content"}>
                     <article className={"flex space-between"}>
                         {/*<h1>{pageDataLoading ? "loading..." : title}</h1>*/}
-                        <h1>{title}</h1>
+                        <h1>education</h1>
                         {/*<EducationTagNav/>*/}
                         {/*<EducationNavigation/>*/}
                     </article>

@@ -3,7 +3,6 @@ import Layout from "../../components/layouts/layout";
 import {ProjectsLayout} from "../../components/project-layout/ProjectsLayout";
 import RelatedLinks from "../../components/related-links/RelatedLinks";
 import {SearchContext, SearchDispatchContext} from "../../providers/search-provider";
-import {TitleContext} from "../../providers/title-provider";
 import {useLocation} from "react-router-dom";
 import ProjectsNavigation from "../../components/navigation/ProjectsNavigation";
 import Spinner from "../../components/spinner";
@@ -12,7 +11,6 @@ import Header from "../../components/header/Header";
 export const ProjectsPage = () => {
     const {searchResults, pageDataLoading, search} = useContext(SearchContext);
     const {setSearchString, handleClear} = useContext(SearchDispatchContext);
-    const {title} = useContext(TitleContext);
     const location = useLocation();
 
     const handleChange = (event) => {
@@ -27,8 +25,7 @@ export const ProjectsPage = () => {
                 <main className={"main-container"}>
                     <section className={"main-content"}>
                         <article className={"flex space-between"}>
-                            {/*<h1>{pageDataLoading ? "loading..." : title}</h1>*/}
-                            <h1>{title}</h1>
+                            <h1>projects</h1>
                             <ProjectsNavigation/>
                         </article>
                         <article className={"margin-y-3 flex-center"}>

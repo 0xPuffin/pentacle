@@ -108,8 +108,7 @@ export function SearchProvider({ children }) {
 
   return (
     <SearchContext.Provider
-      value={{
-        activeCategory,
+      value={{activeCategory,
         search: searchString,
         tags,
         tagsLoading,
