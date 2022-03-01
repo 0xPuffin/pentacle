@@ -135,7 +135,7 @@ export function SearchProvider({ children }) {
         }}
       >
         {children}
-        <input type="checkbox" defaultChecked={true} id="error-modal" className="modal-toggle"></input>
+        {/*<input type="checkbox" defaultChecked={true} id="error-modal" className="modal-toggle"></input>*/}
          {/*TODO alice this needs to work with old style pages for now */}
         {/*{error && <div className="modal">*/}
         {/*  <div className="modal-box px-3 py-2">*/}
