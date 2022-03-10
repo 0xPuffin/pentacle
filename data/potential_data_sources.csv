@@ -1,35 +1,35 @@
-Title,Link
-ethereum events,https://docs.google.com/spreadsheets/d/1NEu_FCc1hnGAuRgPmbXXpf0h2lCrCOlMKbbFEqgkVDQ/edit#gid=0
-crypto resources,https://docs.google.com/spreadsheets/d/1Rmzzb66AuelWgdn5EOsXxMRd4y62ANBg_-ThxbaIID0/edit#gid=1601968372
-DAOs,https://docs.google.com/spreadsheets/d/18XN5ZYDknVyyx_YqbCsrMnSq2VDsIqrOKxzTTiBPy9g/htmlview#
-lotus gang sol links,https://lotusgang.notion.site/Useful-Links-5b916f40ad2e48bc8f313d004e14d734
-exchanges,https://www.coingecko.com/en/exchanges
-bridges,https://docs.google.com/spreadsheets/d/1jYZOfU2R3PdzRmnY9Nfc4pzerX_YSInNdyhtSj_3oWY/htmlview
-near data,https://github.com/near/ecosystem/tree/main/entities
-cosmos,https://cosmos.network/ecosystem/apps
-cosmos chains,https://github.com/cosmos/chain-registry
-avalanche,https://ecosystem.avax.network/marketplace?tag=
-avalanche - projects gh,https://github.com/ava-labs/ecosystem-projects/tree/main/projects
-uniswap,https://uniswap.org/ecosystem
-the graph - everest,https://everest.link/projects/
-ens ecosystem,https://ens.domains/#home-ecosystem
-llama data,https://defillama.com/docs/api
-maker,https://makerdao.com/en/ecosystem
-fantom,https://projects.fantom.network/
-nexus,https://app.nexusmutual.io/cover
-darren lau how to defi map,https://docs.google.com/spreadsheets/d/1utF8d0DyctzT3AuKKOQiRPhBrOx_a6edy169JZybrjg/edit#gid=0
-uma,https://projects.umaproject.org/
-supposedly new nfts,https://docs.google.com/spreadsheets/d/1hnBELzLS7T3Vj7NiHs552KxJWuvW1UfkKszkWECucuU/edit#gid=0
-nft standards,https://www.nftstandards.wtf/NFT+Standards+Wiki+-+READ.me
-list of ct favourite devs,https://mobile.twitter.com/i/lists/1462840327526625287/members
-bad things,https://docs.google.com/spreadsheets/d/1ZEEAmXjpN8kL9BvITg9GKu-dbeUra6c14YLpLkCp5Zo/edit#gid=1288445756
-This list highlights the accomplishments and disclosed vulnerabilities of the top white hat security experts in DeFi.,https://github.com/sirhashalot/SCV-List
-CIA officer nft security collection,https://graph.org/NFT-security-01-28
-list of security tools,https://twitter.com/officer_cia/status/1470815697064402946
-list of security tools,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3769774
-daily ape - mev,https://thedailyape.notion.site/MEV-8713cb4c2df24f8483a02135d657a221
-blockchain onboarding,https://docs.google.com/spreadsheets/d/13f7RYobHL5PFVKVtOJw_QugpXyJqkVpjhxRNg6XGt0k/edit#gid=0
-some giant thing in notion,https://flax-cub-ef8.notion.site/Crypto-Hub-2022-a1c654ccf3df4f488df03d84d9e228c0
-hive one - influential CT,https://hive.one
-various,https://docs.google.com/spreadsheets/d/1HLs8fAVNzru_yaLikB-VHaMRo2Gk5rdtsLvalSBIsnk/edit#gid=0
-sha 256 algorithm,https://sha256algorithm.com/
+Title,Link,Scraped
+ethereum events,https://docs.google.com/spreadsheets/d/1NEu_FCc1hnGAuRgPmbXXpf0h2lCrCOlMKbbFEqgkVDQ/edit#gid=0,TRUE
+crypto resources,https://docs.google.com/spreadsheets/d/1Rmzzb66AuelWgdn5EOsXxMRd4y62ANBg_-ThxbaIID0/edit#gid=1601968372,FALSE
+DAOs,https://docs.google.com/spreadsheets/d/18XN5ZYDknVyyx_YqbCsrMnSq2VDsIqrOKxzTTiBPy9g/htmlview#,FALSE
+lotus gang sol links,https://lotusgang.notion.site/Useful-Links-5b916f40ad2e48bc8f313d004e14d734,FALSE
+exchanges,https://www.coingecko.com/en/exchanges,FALSE
+bridges,https://docs.google.com/spreadsheets/d/1jYZOfU2R3PdzRmnY9Nfc4pzerX_YSInNdyhtSj_3oWY/htmlview,FALSE
+near data,https://github.com/near/ecosystem/tree/main/entities,FALSE
+cosmos,https://cosmos.network/ecosystem/apps,TRUE
+cosmos chains,https://github.com/cosmos/chain-registry,FALSE
+avalanche,https://ecosystem.avax.network/marketplace?tag=,FALSE
+avalanche - projects gh,https://github.com/ava-labs/ecosystem-projects/tree/main/projects,FALSE
+uniswap,https://uniswap.org/ecosystem,FALSE
+the graph - everest,https://everest.link/projects/,FALSE
+ens ecosystem,https://ens.domains/#home-ecosystem,FALSE
+llama data,https://defillama.com/docs/api,FALSE
+maker,https://makerdao.com/en/ecosystem,FALSE
+fantom,https://projects.fantom.network/,FALSE
+nexus,https://app.nexusmutual.io/cover,FALSE
+darren lau how to defi map,https://docs.google.com/spreadsheets/d/1utF8d0DyctzT3AuKKOQiRPhBrOx_a6edy169JZybrjg/edit#gid=0,FALSE
+uma,https://projects.umaproject.org/,FALSE
+supposedly new nfts,https://docs.google.com/spreadsheets/d/1hnBELzLS7T3Vj7NiHs552KxJWuvW1UfkKszkWECucuU/edit#gid=0,FALSE
+nft standards,https://www.nftstandards.wtf/NFT+Standards+Wiki+-+READ.me,FALSE
+list of ct favourite devs,https://mobile.twitter.com/i/lists/1462840327526625287/members,FALSE
+bad things,https://docs.google.com/spreadsheets/d/1ZEEAmXjpN8kL9BvITg9GKu-dbeUra6c14YLpLkCp5Zo/edit#gid=1288445756,FALSE
+This list highlights the accomplishments and disclosed vulnerabilities of the top white hat security experts in DeFi.,https://github.com/sirhashalot/SCV-List,FALSE
+CIA officer nft security collection,https://graph.org/NFT-security-01-28,FALSE
+list of security tools,https://twitter.com/officer_cia/status/1470815697064402946,FALSE
+list of security tools,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3769774,FALSE
+daily ape - mev,https://thedailyape.notion.site/MEV-8713cb4c2df24f8483a02135d657a221,FALSE
+blockchain onboarding,https://docs.google.com/spreadsheets/d/13f7RYobHL5PFVKVtOJw_QugpXyJqkVpjhxRNg6XGt0k/edit#gid=0,FALSE
+some giant thing in notion,https://flax-cub-ef8.notion.site/Crypto-Hub-2022-a1c654ccf3df4f488df03d84d9e228c0,FALSE
+hive one - influential CT,https://hive.one,FALSE
+various,https://docs.google.com/spreadsheets/d/1HLs8fAVNzru_yaLikB-VHaMRo2Gk5rdtsLvalSBIsnk/edit#gid=0,FALSE
+sha 256 algorithm,https://sha256algorithm.com/,FALSE
