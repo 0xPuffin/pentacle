@@ -12,12 +12,12 @@ export const TopLevel = ({ projects }) => {
   return (
     <>
       <Header />
-      <nav>
-        <article className={"nav-content overflow-x-scroll"}>
+      <nav className={"margin-top-2"}>
+        <ul className={"nav-content overflow-x-scroll"}>
           {projects.map((project, index) => (
-            <a className={"text-link padding-right-2"} key={index} onClick={() => setProjectDetail(projects[index])}>{project.project_name}</a>
+            <li key={index}><a className={"text-link padding-right-2"} onClick={() => setProjectDetail(projects[index])}>{project.name}</a></li>
           ))}
-        </article>
+        </ul>
       </nav>
       <Projects projects={projectDetail} />
     </>
