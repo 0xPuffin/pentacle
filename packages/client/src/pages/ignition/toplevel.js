@@ -15,13 +15,7 @@ export const TopLevel = ({ projects }) => {
       <nav>
         <article className={"nav-content overflow-x-scroll"}>
           {projects.map((project, index) => (
-            <a
-              className={"text-link padding-right-2"}
-              key={index}
-              onClick={() => setProjectDetail(projects[index])}
-            >
-              {project.project_name}
-            </a>
+            <a className={"text-link padding-right-2"} key={index} onClick={() => setProjectDetail(projects[index])}>{project.project_name}</a>
           ))}
         </article>
       </nav>
