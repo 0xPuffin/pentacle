@@ -17,6 +17,7 @@ a:not(.text-link) {
 a.text-link {
   text-decoration: none;
   color: _color(link);
+  cursor: pointer;
   @include border-bottom-1;
   &:hover {
     @include border-bottom-1;
