@@ -1,13 +1,11 @@
 @import "../patterns/border";
 
-nav {
-  box-sizing: border-box;
+.navigation {
+  text-align: center;
   font-size: _font(size-medium);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-transform: lowercase;
-  overflow-y: unset !important;
+  font-weight: unset;
+  line-height: 1.25rem;
+  padding: .75rem 0;
 
   ul {
     //margin: 0;
@@ -17,17 +15,19 @@ nav {
   li {
     display: inline-block;
     list-style: none;
-    margin-right: 1.5rem;
+    margin-right: 1.25rem;
 
     &:last-of-type {
       margin-right: 0;
     }
 
     a {
-      color: _color(body-text);
-
+      color: _color(nav-link);
       &:hover, &.active {
         @include border-bottom-1;
+      }
+      &.lowercase {
+        text-transform: lowercase;
       }
     }
   }

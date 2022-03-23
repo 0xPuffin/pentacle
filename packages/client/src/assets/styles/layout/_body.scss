@@ -8,9 +8,6 @@ body {
   width: 100%;
   min-width: _breakpoint(step-min);
   background-color: _color(body-bg);
-  //background-size: cover;
-  //background-repeat: no-repeat;
-  //height: 100vh;
 }
 
 @media screen and (max-width: _breakpoint(step-one)) {

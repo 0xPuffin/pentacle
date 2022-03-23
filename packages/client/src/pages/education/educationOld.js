@@ -22,6 +22,7 @@ export function EducationPage() {
                     {pageData.map((data, index) => (
                         <article className={"margin-bottom-2 readability-max-width"} key={index}>
                             <h2>{data.education_name}</h2>
+                            <p>by <a href={"https://twitter.com/noidtwo"} target={"_blank"} rel="noopener noreferrer">@noidtwo</a></p>
                             {/*<div className={"placeholder margin-bottom-1 margin-top-1"}>*/}
                             {/*    image thingy in here*/}
                             {/*</div>*/}

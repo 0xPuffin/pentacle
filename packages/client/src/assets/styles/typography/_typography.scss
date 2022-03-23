@@ -18,10 +18,10 @@ h4 {
 }
 
 h1 {
-  font-family: _font(family-bold);
+  font-family: _font(ramillas-medium);
+  color: _color(body-text-inv);
   font-size: 2rem;
-  padding-top: 0;
-  padding-bottom: 2rem;
+  padding: 0;
   letter-spacing: -0.05rem;
   &.boxed {
     padding: 0.5rem 0 0.25rem 0;
@@ -48,11 +48,11 @@ h2 {
 }
 
 h3 {
-  font-family: _font(family-bold);
+  font-family: _font(ramillas-medium);
   line-height: 1.5rem;
   text-transform: lowercase;
   &::first-letter {text-transform: uppercase};
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   padding: 1.5rem 0 .75rem 0;
   &.boxed {
     padding: 0rem 0 .75rem 0;
@@ -91,6 +91,9 @@ input {
 p {
   color: _color(body-text);
   line-height: 1.4rem;
+  &.inv {
+    color: _color(body-text-inv);
+  }
 }
 
 p + p {
@@ -121,16 +124,20 @@ p + p {
   color: _color(white);
 }
 
-//@media screen and (min-width: _breakpoint(step-one)) {
-//  h1 {
-//    font-size: 1.5rem;
-//    padding-top: 1rem;
-//    padding-bottom: 1rem;
-//  }
-//
-//  h2 {
-//    font-size: 1.35rem;
-//    padding-top: 1rem;
-//    padding-bottom: 1rem;
-//  }
-//}
+.body-text {
+  color: _color(body-text);
+}
+
+.body-text-inv {
+  color: _color(body-text-inv) !important;
+}
+
+@media screen and (max-width: _breakpoint(step-one)) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  h2 {
+    font-size: 1.15rem;
+    line-height: 1.35rem;
+  }
+}

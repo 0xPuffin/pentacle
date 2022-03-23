@@ -1,12 +1,46 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 0.5rem 1rem;
-}
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-gap: 1.5rem;
 
-@media screen and (max-width: _breakpoint(step-one)) {
-  .grid {
+  @media screen and (max-width: _breakpoint(step-two)) {
     padding: 0 1rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  @media screen and (max-width: _breakpoint(step-one)) {
+    padding: 0 1rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 1rem;
+  }
+
+  @media screen and (max-width: _breakpoint(step-min)) {
+    padding: 0 1rem;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  &.event {
+
+    h2 {
+      font-size: 1.25rem;
+    }
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    @media screen and (max-width: _breakpoint(step-two)) {
+      padding: 0 1rem;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    @media screen and (max-width: _breakpoint(step-one)) {
+      padding: 0 1rem;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-gap: 1rem;
+    }
+
+    @media screen and (max-width: 500px) {
+      padding: 0 1rem;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
   }
 }

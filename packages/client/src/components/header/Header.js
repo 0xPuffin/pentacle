@@ -1,24 +1,11 @@
 import React from "react";
 import HeaderLogo from "../header-logo/HeaderLogo";
-import {NavLink} from "react-router-dom";
+import ProjectsNavigation from "../navigation/ProjectsNavigation";
 
 const Header = () => {
     return (<header className={"p-header"}>
-        <article className="header-content flex justify-end align-items-center">
-            <div>
-                <HeaderLogo/>
-            </div>
-            <nav className={"flex flex-end"}>
-                <ul className={"hello"}>
-                    <li>(beta)</li>
-                    <li><NavLink to="/projects/projects">projects</NavLink></li>
-                    <li><NavLink to="/education">education</NavLink></li>
-                    <li><NavLink to="/skills">skills</NavLink></li>
-                    {/*<li><NavLink to="/articles">articles</NavLink></li>*/}
-                    <li><NavLink to="/events">events</NavLink></li>
-                </ul>
-            </nav>
-        </article>
+        <HeaderLogo/>
+        <ProjectsNavigation/>
     </header>);
 };
 

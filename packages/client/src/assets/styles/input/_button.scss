@@ -2,7 +2,7 @@ button.project-button {
   background-color: _color(secondary);
   border: none;
   border-radius: 1rem;
-  color: _color(body-text-inverse);
+  color: _color(body-text);
   cursor: pointer;
   font-family: _font(family-bold);
   letter-spacing: 0.0125rem;
@@ -41,6 +41,7 @@ button {
     color: _color(button-text-primary);
     &.active {
       background: _color(secondary);
+      color: _color(body-text);
     }
   }
 
@@ -50,13 +51,13 @@ button {
 
     &.active {
       background: _color(secondary);
-      color: _color(body-text-inv);
+      color: _color(body-text);
     }
   }
 
   &.secondary {
     background-color: _color(secondary);
-    color: _color(body-text-inv);
+    color: _color(body-text);
     span.material-icons {
       color: _color(body-text-inv) !important;
     }
@@ -92,7 +93,7 @@ table button {
 }
 
 button + button {
-  margin-left: 0.5rem;
+  margin-right: 0.35rem;
 }
 
 @media only screen and (min-width: _breakpoint(step-two)) {

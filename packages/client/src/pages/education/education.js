@@ -22,12 +22,11 @@ export const EducationPage = () => {
     return (<>
         <Header/>
         <Layout>
-
             {pageData && (<main className={"main-container"}>
                 <section className={"main-content"}>
-                    <article className={"flex space-between"}>
+                    <article className={"flex space-between margin-bottom-1"}>
                         {/*<h1>{pageDataLoading ? "loading..." : title}</h1>*/}
-                        <h1>education</h1>
+                        <h1>Glossary</h1>
                         {/*<EducationTagNav/>*/}
                         {/*<EducationNavigation/>*/}
                     </article>

@@ -18,11 +18,28 @@ svg g g text a {
 }
 
 .main-container {
-  margin: 0 auto;
-  max-width: 80rem;
+  //margin: 0 auto;
+  //max-width: 80rem;
   padding-top: 2rem;
+  height: calc(80vh - 4rem);
 }
 
 .main-content {
-  max-width: unset !important;
+  margin: 0 auto;
+  max-width: 80rem;
+}
+
+.main-content-wide {
+  background-color: _color(tertiary);
+  height: 100%;
+}
+
+@media screen and (max-width: _breakpoint(step-two)) {
+  .main-container {
+    padding-top: 1rem;
+    height: calc(80vh - 4rem);
+    .main-content:last-child {
+      padding-bottom: 5rem;
+    }
+  }
 }

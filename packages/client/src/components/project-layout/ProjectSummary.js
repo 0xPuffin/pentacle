@@ -1,8 +1,8 @@
 import React from "react";
 
 const ProjectSummary = ({project_name, description, onClick}) => {
-    return (<article className={"p-card"}  onClick={onClick}>
-        <h3 className={"boxed"}>{project_name}</h3>
+    return (<article className={"p-card intermediate"}  onClick={onClick}>
+        <h2>{project_name}</h2>
         <p className={"length-300"}>{description}</p>
     </article>);
 };

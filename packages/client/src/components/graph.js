@@ -171,20 +171,8 @@ export default function SunburstGraph({ type, colorScheme }) {
           </div>
           <div className={"align-center flex justify-end align-items-center"}>
             <div className={"fieldset inline boxed"}>
-              <label
-                aria-labelledby={"search"}
-                className={"display-none"}
-                htmlFor={"search"}
-              >
-                Search
-              </label>
-              <input
-                id="search"
-                type="text"
-                placeholder="Search"
-                ref={inputRef}
-                onChange={(e) => filter(e.target.value)}
-              />
+              <label aria-labelledby={"search"} className={"display-none"} htmlFor={"search"}>Search</label>
+              <input id="search" type="text" placeholder="filter by project name" ref={inputRef} onChange={(e) => filter(e.target.value)}/>
               {/*<input className={"padding-left-0-75"} type="reset" value="Clear"*/}
               {/*       onClick={e => filter('')}/>*/}
             </div>
