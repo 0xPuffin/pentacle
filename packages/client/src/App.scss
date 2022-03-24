@@ -2,18 +2,20 @@
 //@tailwind components;
 //@tailwind utilities;
 
-@media (prefers-color-scheme: light) {
-  @import "assets/styles/pentacle-light";
-}
-@media (prefers-color-scheme: dark) {
-  @import "assets/styles/pentacle-dark";
-}
-[data-theme="light"] {
-  @import "assets/styles/pentacle-light";
-}
-[data-theme="dark"] {
-  @import "assets/styles/pentacle-dark";
-}
+@import "assets/styles/pentacle-light";
+
+//@media (prefers-color-scheme: light) {
+//  @import "assets/styles/pentacle-light";
+//}
+//@media (prefers-color-scheme: dark) {
+//  @import "assets/styles/pentacle-dark";
+//}
+//[data-theme="light"] {
+//  @import "assets/styles/pentacle-light";
+//}
+//[data-theme="dark"] {
+//  @import "assets/styles/pentacle-dark";
+//}
 
 [data-theme=light] input[type=checkbox],
 [data-theme=dark] input[type=checkbox] {
