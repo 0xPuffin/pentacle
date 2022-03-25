@@ -36,6 +36,7 @@ const cors = require("cors");
 const allowedOrigins = [
   "http://localhost:3000",
   "https://pentacle.xyz",
+  "https://pentacle.ai",
   "https://pentacle-client-staging.herokuapp.com",
   "https://pentacle-client.herokuapp.com"
 ];
