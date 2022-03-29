@@ -47,7 +47,7 @@ app.use(
       // allow requests with no origin
       // (like mobile apps or curl requests)
       if (!origin) return callback(null, true);
-      if (origin.startsWith('https://deploy-preview-')) {
+      if (origin.startsWith('https://deploy-preview-') && origin.endsWith('pentacle.netlify.app')) {
         return callback(null, true);
       }
       if (allowedOrigins.indexOf(origin) === -1) {
