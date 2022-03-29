@@ -57,7 +57,7 @@ export const ProjectsPage = () => {
                         <Spinner />
                     </div>)}
                 </section>
-                {!searchResults.length && (
+                {!searchResults.length && !pageDataLoading && (
                     <div className="tw-text-center ">Sorry, no data found!</div>
                 )}
                 {!pageDataLoading && (<>
