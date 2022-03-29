@@ -8,7 +8,7 @@ const prod = {
       rejectUnauthorized: false
     }
   },
-  listPerPage: env.LIST_PER_PAGE || 200,
+  listPerPage: env.LIST_PER_PAGE || 500,
 };
 
 const dev = {
@@ -16,7 +16,7 @@ const dev = {
     connectionString: process.env.DATABASE_URL,
     ssl: false
   },
-  listPerPage: env.LIST_PER_PAGE || 200,
+  listPerPage: env.LIST_PER_PAGE || 500,
 };
 
 const config = process.env.NODE_ENV === 'production' ? prod : dev;
