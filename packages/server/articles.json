@@ -1,0 +1,1005 @@
+{
+  "data": [
+    {
+      "article_id": 1,
+      "article_name": "How to Trade for Cheaper using DEX Aggregators",
+      "article_url": "https://unmaskcrypto.com/learnings/dex-aggregator"
+    },
+    {
+      "article_id": 2,
+      "article_name": "What Is an Automated Market Maker (AMM)?",
+      "article_url": "https://academy.binance.com/en/articles/what-is-an-automated-market-maker-amm"
+    },
+    {
+      "article_id": 3,
+      "article_name": "Tips for Trading on Uniswap",
+      "article_url": "https://unmaskcrypto.com/learnings/trading-uniswap"
+    },
+    {
+      "article_id": 4,
+      "article_name": "What Are Automated Market Makers?",
+      "article_url": "https://www.gemini.com/cryptopedia/amm-what-are-automated-market-makers"
+    },
+    {
+      "article_id": 5,
+      "article_name": "How AMM Works?",
+      "article_url": "https://investotrend.com/how-amm-works/"
+    },
+    {
+      "article_id": 6,
+      "article_name": "Uniswap v3 Core whitepaper",
+      "article_url": "https://uniswap.org/whitepaper-v3.pdf"
+    },
+    {
+      "article_id": 7,
+      "article_name": "Uniswap v2 Core whitepaper",
+      "article_url": "https://uniswap.org/whitepaper.pdf"
+    },
+    {
+      "article_id": 8,
+      "article_name": "Automated Market Makers and Decentralized Exchanges: a DeFi Primer",
+      "article_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3722714"
+    },
+    {
+      "article_id": 9,
+      "article_name": "UNISWAP-V2 CONTRACT WALK-THROUGH",
+      "article_url": "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/"
+    },
+    {
+      "article_id": 10,
+      "article_name": "SoK: Oracles from the Ground Truth to Market Manipulation",
+      "article_url": "https://arxiv.org/abs/2106.00667"
+    },
+    {
+      "article_id": 11,
+      "article_name": "Blockchain Oracle Design Patterns",
+      "article_url": "https://arxiv.org/abs/2106.09349"
+    },
+    {
+      "article_id": 12,
+      "article_name": "Foundational Oracle Patterns: Connecting Blockchain to the Off-chain World",
+      "article_url": "https://arxiv.org/abs/2007.14946"
+    },
+    {
+      "article_id": 13,
+      "article_name": "A First Look into DeFi Oracles",
+      "article_url": "https://arxiv.org/abs/2005.04377"
+    },
+    {
+      "article_id": 14,
+      "article_name": "Byzantine fault Wikipedia",
+      "article_url": "https://en.wikipedia.org/wiki/Byzantine_fault"
+    },
+    {
+      "article_id": 15,
+      "article_name": "What Is Yield Farming in Decentralized Finance (DeFi)?",
+      "article_url": "https://academy.binance.com/en/articles/what-is-yield-farming-in-decentralized-finance-defi#what-started-the-yield-farming-boom"
+    },
+    {
+      "article_id": 16,
+      "article_name": "Lending and Borrowing with Compound and Aave",
+      "article_url": "https://thedefiant.io/lending-and-borrowing-with-compound-and-aave/"
+    },
+    {
+      "article_id": 17,
+      "article_name": "DeFi lending and borrowing, explained",
+      "article_url": "https://cointelegraph.com/explained/defi-lending-and-borrowing-explained"
+    },
+    {
+      "article_id": 18,
+      "article_name": "DYOR: Alchemix by 0xdef1",
+      "article_url": "https://dyor.fi/alcx"
+    },
+    {
+      "article_id": 19,
+      "article_name": "Uniswap V3 Fee Calculator by Flipside",
+      "article_url": "https://uniswapv3.flipsidecrypto.com/"
+    },
+    {
+      "article_id": 20,
+      "article_name": "Uniswap V3: A Quant Framework to model yield farming returns",
+      "article_url": "https://medium.com/@DeFiScientist/uniswap-v3-a-quant-framework-to-model-yield-farming-returns-941a1600425e"
+    },
+    {
+      "article_id": 21,
+      "article_name": "Impermanent Loss Calculator for Evodex & Uniswap",
+      "article_url": "https://chitty27.pythonanywhere.com/"
+    },
+    {
+      "article_id": 22,
+      "article_name": "Uniswap V3 Strategy Simulator",
+      "article_url": "https://defi-lab.xyz/uniswapv3simulator"
+    },
+    {
+      "article_id": 23,
+      "article_name": "DeFi: In Simple Photos and How to Make Your First Transaction!",
+      "article_url": "https://defieducation.substack.com/p/defi-in-simple-photos-and-how-to"
+    },
+    {
+      "article_id": 24,
+      "article_name": "Uniswap: Impermanent Loss and Risk Profile of a Liquidity Provider",
+      "article_url": "https://arxiv.org/abs/2106.14404"
+    },
+    {
+      "article_id": 25,
+      "article_name": "Uniswap v3: The Universal AMM",
+      "article_url": "https://www.paradigm.xyz/2021/06/uniswap-v3-the-universal-amm/"
+    },
+    {
+      "article_id": 26,
+      "article_name": "Uniswap V3 LP Tokens as Perpetual Put and Call Options",
+      "article_url": "https://lambert-guillaume.medium.com/uniswap-v3-lp-tokens-as-perpetual-put-and-call-options-5b66219db827"
+    },
+    {
+      "article_id": 27,
+      "article_name": "Impermanent Loss Explained",
+      "article_url": "https://academy.binance.com/en/articles/impermanent-loss-explained"
+    },
+    {
+      "article_id": 28,
+      "article_name": "What is an Options Contract",
+      "article_url": "https://insights.deribit.com/education/what-is-an-options-contract/"
+    },
+    {
+      "article_id": 29,
+      "article_name": "How Does a Centralized Cryptocurrency Exchange Work?",
+      "article_url": "https://unmaskcrypto.com/learnings/cex-exchange"
+    },
+    {
+      "article_id": 30,
+      "article_name": "What Is Margin Trading?",
+      "article_url": "https://academy.binance.com/en/articles/what-is-margin-trading"
+    },
+    {
+      "article_id": 31,
+      "article_name": "DeFi Indexes",
+      "article_url": "https://defiprime.com/defi-index"
+    },
+    {
+      "article_id": 32,
+      "article_name": "Options Wikipedia",
+      "article_url": "https://en.wikipedia.org/wiki/Option_(finance)"
+    },
+    {
+      "article_id": 33,
+      "article_name": "What are Options Contracts Binance",
+      "article_url": "https://academy.binance.com/en/articles/what-are-options-contracts"
+    },
+    {
+      "article_id": 34,
+      "article_name": "Primer on basic option strategies - Deribit position builder",
+      "article_url": "https://insights.deribit.com/market-research/deribit-position-builder-primer-on-basic-option-strategies/"
+    },
+    {
+      "article_id": 35,
+      "article_name": "SoK: Decentralized Exchanges (DEX) withAutomated Market Maker (AMM) protocols",
+      "article_url": "https://arxiv.org/pdf/2103.12732.pdf"
+    },
+    {
+      "article_id": 45,
+      "article_name": "what are the risks of defi lending? ",
+      "article_url": "https://ethereum.stackexchange.com/questions/92272/what-are-the-risks-of-defi-lending"
+    },
+    {
+      "article_id": 46,
+      "article_name": "aave whitepaper",
+      "article_url": "https://github.com/aave/protocol-v2/blob/master/aave-v2-whitepaper.pdf"
+    },
+    {
+      "article_id": 47,
+      "article_name": "compound whitepaper",
+      "article_url": "https://compound.finance/documents/Compound.Whitepaper.pdf"
+    },
+    {
+      "article_id": 48,
+      "article_name": "vicyn impermanent loss calculator",
+      "article_url": "https://vicyyn.com/"
+    },
+    {
+      "article_id": 49,
+      "article_name": "UNISWAP: Impermanent Loss and Risk Profile of a Liquidity Provider",
+      "article_url": "https://arxiv.org/pdf/2106.14404.pdf"
+    },
+    {
+      "article_id": 53,
+      "article_name": "How to approach crypto – Essential tips (Ledger)",
+      "article_url": "https://www.ledger.com/academy/how-to-approach-crypto"
+    },
+    {
+      "article_id": 54,
+      "article_name": "Self-Custody: How to be your own bank (Ledger)",
+      "article_url": "https://www.ledger.com/academy/tips-to-trust-yourself-in-becoming-your-own-bank"
+    },
+    {
+      "article_id": 55,
+      "article_name": "Not your keys, not your coins (Ledger)",
+      "article_url": "https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters"
+    },
+    {
+      "article_id": 56,
+      "article_name": "What is a cryptocurrency? (Coinbase)",
+      "article_url": "https://www.coinbase.com/learn/crypto-basics/what-is-cryptocurrency"
+    },
+    {
+      "article_id": 57,
+      "article_name": "What is a Blockchain? (Coinbase)",
+      "article_url": "https://www.coinbase.com/learn/crypto-basics/what-is-a-blockchain"
+    },
+    {
+      "article_id": 58,
+      "article_name": "What is Bitcoin? (Coinbase)",
+      "article_url": "https://www.coinbase.com/learn/crypto-basics/what-is-bitcoin"
+    },
+    {
+      "article_id": 59,
+      "article_name": "What is a Stablecoin? (Coinbase)",
+      "article_url": "https://www.coinbase.com/learn/crypto-basics/what-is-a-stablecoin"
+    },
+    {
+      "article_id": 60,
+      "article_name": "What are the Key Properties of Bitcoin?",
+      "article_url": "https://nakamoto.com/what-are-the-key-properties-of-bitcoin/"
+    },
+    {
+      "article_id": 61,
+      "article_name": "What is Ethereum?",
+      "article_url": "https://ethereum.org/en/what-is-ethereum/"
+    },
+    {
+      "article_id": 62,
+      "article_name": "What are Automated Market Makers? (Gemini)",
+      "article_url": "https://www.gemini.com/cryptopedia/amm-what-are-automated-market-makers"
+    },
+    {
+      "article_id": 63,
+      "article_name": "What is an Automated Market Maker? (Binance)",
+      "article_url": "https://academy.binance.com/en/articles/what-is-an-automated-market-maker-amm"
+    },
+    {
+      "article_id": 64,
+      "article_name": "What is an Automated Market Maker? (Coinmarketcap)",
+      "article_url": "https://coinmarketcap.com/alexandria/glossary/automated-market-maker-amm"
+    },
+    {
+      "article_id": 65,
+      "article_name": "A Mathematical View of Automated Market Maker (AMM) Algorithms and Its Future\n",
+      "article_url": "https://medium.com/anchordao-lab/automated-market-maker-amm-algorithms-and-its-future-f2d5e6cc624a"
+    },
+    {
+      "article_id": 70,
+      "article_name": "How to make a jump from Web2 hacking to Web3 hacking",
+      "article_url": "https://twitter.com/adrianhetman/status/1475550508354093072"
+    },
+    {
+      "article_id": 71,
+      "article_name": "Yul (and Some Solidity) Optimizations and Tricks",
+      "article_url": "https://hackmd.io/@gn56kcRBQc6mOi7LCgbv1g/rJez8O8st"
+    },
+    {
+      "article_id": 75,
+      "article_name": "Known Physical Bitcoin Attacks",
+      "article_url": "https://github.com/jlopp/physical-bitcoin-attacks/blob/master/README.md"
+    },
+    {
+      "article_id": 76,
+      "article_name": "Yearn DeFi glossary",
+      "article_url": "https://docs.yearn.finance/resources/defi-glossary"
+    },
+    {
+      "article_id": 77,
+      "article_name": "Casual code review of metamask's crypto",
+      "article_url": "https://blog.cryptographyengineering.com/2022/01/14/an-extremely-casual-code-review-of-metamasks-crypto/"
+    },
+    {
+      "article_id": 78,
+      "article_name": "A thread on punk sandwiches",
+      "article_url": "https://twitter.com/bertcmiller/status/1482086447775580161"
+    },
+    {
+      "article_id": 1,
+      "article_name": "How to Trade for Cheaper using DEX Aggregators",
+      "article_url": "https://unmaskcrypto.com/learnings/dex-aggregator"
+    },
+    {
+      "article_id": 2,
+      "article_name": "What Is an Automated Market Maker (AMM)?",
+      "article_url": "https://academy.binance.com/en/articles/what-is-an-automated-market-maker-amm"
+    },
+    {
+      "article_id": 3,
+      "article_name": "Tips for Trading on Uniswap",
+      "article_url": "https://unmaskcrypto.com/learnings/trading-uniswap"
+    },
+    {
+      "article_id": 4,
+      "article_name": "What Are Automated Market Makers?",
+      "article_url": "https://www.gemini.com/cryptopedia/amm-what-are-automated-market-makers"
+    },
+    {
+      "article_id": 5,
+      "article_name": "How AMM Works?",
+      "article_url": "https://investotrend.com/how-amm-works/"
+    },
+    {
+      "article_id": 6,
+      "article_name": "Uniswap v3 Core whitepaper",
+      "article_url": "https://uniswap.org/whitepaper-v3.pdf"
+    },
+    {
+      "article_id": 7,
+      "article_name": "Uniswap v2 Core whitepaper",
+      "article_url": "https://uniswap.org/whitepaper.pdf"
+    },
+    {
+      "article_id": 8,
+      "article_name": "Automated Market Makers and Decentralized Exchanges: a DeFi Primer",
+      "article_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3722714"
+    },
+    {
+      "article_id": 9,
+      "article_name": "UNISWAP-V2 CONTRACT WALK-THROUGH",
+      "article_url": "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/"
+    },
+    {
+      "article_id": 15,
+      "article_name": "What Is Yield Farming in Decentralized Finance (DeFi)?",
+      "article_url": "https://academy.binance.com/en/articles/what-is-yield-farming-in-decentralized-finance-defi#what-started-the-yield-farming-boom"
+    },
+    {
+      "article_id": 16,
+      "article_name": "Lending and Borrowing with Compound and Aave",
+      "article_url": "https://thedefiant.io/lending-and-borrowing-with-compound-and-aave/"
+    },
+    {
+      "article_id": 17,
+      "article_name": "DeFi lending and borrowing, explained",
+      "article_url": "https://cointelegraph.com/explained/defi-lending-and-borrowing-explained"
+    },
+    {
+      "article_id": 18,
+      "article_name": "DYOR: Alchemix by 0xdef1",
+      "article_url": "https://dyor.fi/alcx"
+    },
+    {
+      "article_id": 19,
+      "article_name": "Uniswap V3 Fee Calculator by Flipside",
+      "article_url": "https://uniswapv3.flipsidecrypto.com/"
+    },
+    {
+      "article_id": 20,
+      "article_name": "Uniswap V3: A Quant Framework to model yield farming returns",
+      "article_url": "https://medium.com/@DeFiScientist/uniswap-v3-a-quant-framework-to-model-yield-farming-returns-941a1600425e"
+    },
+    {
+      "article_id": 22,
+      "article_name": "Uniswap V3 Strategy Simulator",
+      "article_url": "https://defi-lab.xyz/uniswapv3simulator"
+    },
+    {
+      "article_id": 23,
+      "article_name": "DeFi: In Simple Photos and How to Make Your First Transaction!",
+      "article_url": "https://defieducation.substack.com/p/defi-in-simple-photos-and-how-to"
+    },
+    {
+      "article_id": 24,
+      "article_name": "Uniswap: Impermanent Loss and Risk Profile of a Liquidity Provider",
+      "article_url": "https://arxiv.org/abs/2106.14404"
+    },
+    {
+      "article_id": 25,
+      "article_name": "Uniswap v3: The Universal AMM",
+      "article_url": "https://www.paradigm.xyz/2021/06/uniswap-v3-the-universal-amm/"
+    },
+    {
+      "article_id": 26,
+      "article_name": "Uniswap V3 LP Tokens as Perpetual Put and Call Options",
+      "article_url": "https://lambert-guillaume.medium.com/uniswap-v3-lp-tokens-as-perpetual-put-and-call-options-5b66219db827"
+    },
+    {
+      "article_id": 27,
+      "article_name": "Impermanent Loss Explained",
+      "article_url": "https://academy.binance.com/en/articles/impermanent-loss-explained"
+    },
+    {
+      "article_id": 28,
+      "article_name": "What is an Options Contract",
+      "article_url": "https://insights.deribit.com/education/what-is-an-options-contract/"
+    },
+    {
+      "article_id": 29,
+      "article_name": "How Does a Centralized Cryptocurrency Exchange Work?",
+      "article_url": "https://unmaskcrypto.com/learnings/cex-exchange"
+    },
+    {
+      "article_id": 30,
+      "article_name": "What Is Margin Trading?",
+      "article_url": "https://academy.binance.com/en/articles/what-is-margin-trading"
+    },
+    {
+      "article_id": 31,
+      "article_name": "DeFi Indexes",
+      "article_url": "https://defiprime.com/defi-index"
+    },
+    {
+      "article_id": 32,
+      "article_name": "Options Wikipedia",
+      "article_url": "https://en.wikipedia.org/wiki/Option_(finance)"
+    },
+    {
+      "article_id": 33,
+      "article_name": "What are Options Contracts Binance",
+      "article_url": "https://academy.binance.com/en/articles/what-are-options-contracts"
+    },
+    {
+      "article_id": 52,
+      "article_name": "flashbots github",
+      "article_url": "https://github.com/flashbots/pm"
+    },
+    {
+      "article_id": 78,
+      "article_name": "A thread on punk sandwiches",
+      "article_url": "https://twitter.com/bertcmiller/status/1482086447775580161"
+    },
+    {
+      "article_id": 80,
+      "article_name": "Assessing Risk in Decentralized Finance",
+      "article_url": "https://www.moodysanalytics.com/articles/2021/block_by_block_assessing_risk_in_decentralized_finance"
+    },
+    {
+      "article_id": 81,
+      "article_name": "What is risk, who bears risk, and how could we think about risk in DeFi?",
+      "article_url": "https://twitter.com/nope_its_lily/status/1483556375028387840"
+    },
+    {
+      "article_id": 1,
+      "article_name": "How to Trade for Cheaper using DEX Aggregators",
+      "article_url": "https://unmaskcrypto.com/learnings/dex-aggregator"
+    },
+    {
+      "article_id": 2,
+      "article_name": "What Is an Automated Market Maker (AMM)?",
+      "article_url": "https://academy.binance.com/en/articles/what-is-an-automated-market-maker-amm"
+    },
+    {
+      "article_id": 3,
+      "article_name": "Tips for Trading on Uniswap",
+      "article_url": "https://unmaskcrypto.com/learnings/trading-uniswap"
+    },
+    {
+      "article_id": 4,
+      "article_name": "What Are Automated Market Makers?",
+      "article_url": "https://www.gemini.com/cryptopedia/amm-what-are-automated-market-makers"
+    },
+    {
+      "article_id": 5,
+      "article_name": "How AMM Works?",
+      "article_url": "https://investotrend.com/how-amm-works/"
+    },
+    {
+      "article_id": 6,
+      "article_name": "Uniswap v3 Core whitepaper",
+      "article_url": "https://uniswap.org/whitepaper-v3.pdf"
+    },
+    {
+      "article_id": 7,
+      "article_name": "Uniswap v2 Core whitepaper",
+      "article_url": "https://uniswap.org/whitepaper.pdf"
+    },
+    {
+      "article_id": 8,
+      "article_name": "Automated Market Makers and Decentralized Exchanges: a DeFi Primer",
+      "article_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3722714"
+    },
+    {
+      "article_id": 9,
+      "article_name": "UNISWAP-V2 CONTRACT WALK-THROUGH",
+      "article_url": "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/"
+    },
+    {
+      "article_id": 10,
+      "article_name": "SoK: Oracles from the Ground Truth to Market Manipulation",
+      "article_url": "https://arxiv.org/abs/2106.00667"
+    },
+    {
+      "article_id": 11,
+      "article_name": "Blockchain Oracle Design Patterns",
+      "article_url": "https://arxiv.org/abs/2106.09349"
+    },
+    {
+      "article_id": 12,
+      "article_name": "Foundational Oracle Patterns: Connecting Blockchain to the Off-chain World",
+      "article_url": "https://arxiv.org/abs/2007.14946"
+    },
+    {
+      "article_id": 13,
+      "article_name": "A First Look into DeFi Oracles",
+      "article_url": "https://arxiv.org/abs/2005.04377"
+    },
+    {
+      "article_id": 14,
+      "article_name": "Byzantine fault Wikipedia",
+      "article_url": "https://en.wikipedia.org/wiki/Byzantine_fault"
+    },
+    {
+      "article_id": 15,
+      "article_name": "What Is Yield Farming in Decentralized Finance (DeFi)?",
+      "article_url": "https://academy.binance.com/en/articles/what-is-yield-farming-in-decentralized-finance-defi#what-started-the-yield-farming-boom"
+    },
+    {
+      "article_id": 16,
+      "article_name": "Lending and Borrowing with Compound and Aave",
+      "article_url": "https://thedefiant.io/lending-and-borrowing-with-compound-and-aave/"
+    },
+    {
+      "article_id": 17,
+      "article_name": "DeFi lending and borrowing, explained",
+      "article_url": "https://cointelegraph.com/explained/defi-lending-and-borrowing-explained"
+    },
+    {
+      "article_id": 18,
+      "article_name": "DYOR: Alchemix by 0xdef1",
+      "article_url": "https://dyor.fi/alcx"
+    },
+    {
+      "article_id": 19,
+      "article_name": "Uniswap V3 Fee Calculator by Flipside",
+      "article_url": "https://uniswapv3.flipsidecrypto.com/"
+    },
+    {
+      "article_id": 20,
+      "article_name": "Uniswap V3: A Quant Framework to model yield farming returns",
+      "article_url": "https://medium.com/@DeFiScientist/uniswap-v3-a-quant-framework-to-model-yield-farming-returns-941a1600425e"
+    },
+    {
+      "article_id": 21,
+      "article_name": "Impermanent Loss Calculator for Evodex & Uniswap",
+      "article_url": "https://chitty27.pythonanywhere.com/"
+    },
+    {
+      "article_id": 22,
+      "article_name": "Uniswap V3 Strategy Simulator",
+      "article_url": "https://defi-lab.xyz/uniswapv3simulator"
+    },
+    {
+      "article_id": 23,
+      "article_name": "DeFi: In Simple Photos and How to Make Your First Transaction!",
+      "article_url": "https://defieducation.substack.com/p/defi-in-simple-photos-and-how-to"
+    },
+    {
+      "article_id": 24,
+      "article_name": "Uniswap: Impermanent Loss and Risk Profile of a Liquidity Provider",
+      "article_url": "https://arxiv.org/abs/2106.14404"
+    },
+    {
+      "article_id": 25,
+      "article_name": "Uniswap v3: The Universal AMM",
+      "article_url": "https://www.paradigm.xyz/2021/06/uniswap-v3-the-universal-amm/"
+    },
+    {
+      "article_id": 26,
+      "article_name": "Uniswap V3 LP Tokens as Perpetual Put and Call Options",
+      "article_url": "https://lambert-guillaume.medium.com/uniswap-v3-lp-tokens-as-perpetual-put-and-call-options-5b66219db827"
+    },
+    {
+      "article_id": 27,
+      "article_name": "Impermanent Loss Explained",
+      "article_url": "https://academy.binance.com/en/articles/impermanent-loss-explained"
+    },
+    {
+      "article_id": 28,
+      "article_name": "What is an Options Contract",
+      "article_url": "https://insights.deribit.com/education/what-is-an-options-contract/"
+    },
+    {
+      "article_id": 29,
+      "article_name": "How Does a Centralized Cryptocurrency Exchange Work?",
+      "article_url": "https://unmaskcrypto.com/learnings/cex-exchange"
+    },
+    {
+      "article_id": 30,
+      "article_name": "What Is Margin Trading?",
+      "article_url": "https://academy.binance.com/en/articles/what-is-margin-trading"
+    },
+    {
+      "article_id": 31,
+      "article_name": "DeFi Indexes",
+      "article_url": "https://defiprime.com/defi-index"
+    },
+    {
+      "article_id": 32,
+      "article_name": "Options Wikipedia",
+      "article_url": "https://en.wikipedia.org/wiki/Option_(finance)"
+    },
+    {
+      "article_id": 33,
+      "article_name": "What are Options Contracts Binance",
+      "article_url": "https://academy.binance.com/en/articles/what-are-options-contracts"
+    },
+    {
+      "article_id": 34,
+      "article_name": "Primer on basic option strategies - Deribit position builder",
+      "article_url": "https://insights.deribit.com/market-research/deribit-position-builder-primer-on-basic-option-strategies/"
+    },
+    {
+      "article_id": 35,
+      "article_name": "SoK: Decentralized Exchanges (DEX) withAutomated Market Maker (AMM) protocols",
+      "article_url": "https://arxiv.org/pdf/2103.12732.pdf"
+    },
+    {
+      "article_id": 36,
+      "article_name": "Oracles from the Ground Truth to Market Manipulation",
+      "article_url": "https://arxiv.org/pdf/2106.00667.pdf"
+    },
+    {
+      "article_id": 37,
+      "article_name": "CIA Officer - twitter thread",
+      "article_url": "https://twitter.com/officer_cia/status/1418018953742409738"
+    },
+    {
+      "article_id": 38,
+      "article_name": "A Quick Introduction to Yield Farming",
+      "article_url": "https://unmaskcrypto.com/learnings/yield-farming"
+    },
+    {
+      "article_id": 39,
+      "article_name": "Where does yield come from, anyway?",
+      "article_url": "https://juliankoh.medium.com/where-does-yield-come-from-anyway-fc818c114bd5"
+    },
+    {
+      "article_id": 40,
+      "article_name": "Nick Chong thread on yield",
+      "article_url": "https://twitter.com/n2ckchong/status/1390494848478683136"
+    },
+    {
+      "article_id": 41,
+      "article_name": "What is 0x",
+      "article_url": "https://www.youtube.com/watch?v=c04eIt3FQ5I"
+    },
+    {
+      "article_id": 42,
+      "article_name": "Decentralised exchanges",
+      "article_url": "https://www.wikiwand.com/en/Decentralized_exchange"
+    },
+    {
+      "article_id": 43,
+      "article_name": "What is a decentralised exchange",
+      "article_url": "https://academy.binance.com/en/articles/what-is-a-decentralized-exchange-dex"
+    },
+    {
+      "article_id": 44,
+      "article_name": "dydx",
+      "article_url": "https://www.youtube.com/watch?v=PGE1uoiZTmM"
+    },
+    {
+      "article_id": 45,
+      "article_name": "what are the risks of defi lending? ",
+      "article_url": "https://ethereum.stackexchange.com/questions/92272/what-are-the-risks-of-defi-lending"
+    },
+    {
+      "article_id": 46,
+      "article_name": "aave whitepaper",
+      "article_url": "https://github.com/aave/protocol-v2/blob/master/aave-v2-whitepaper.pdf"
+    },
+    {
+      "article_id": 47,
+      "article_name": "compound whitepaper",
+      "article_url": "https://compound.finance/documents/Compound.Whitepaper.pdf"
+    },
+    {
+      "article_id": 49,
+      "article_name": "UNISWAP: Impermanent Loss and Risk Profile of a Liquidity Provider",
+      "article_url": "https://arxiv.org/pdf/2106.14404.pdf"
+    },
+    {
+      "article_id": 50,
+      "article_name": "MINER EXTRACTABLE VALUE (MEV)",
+      "article_url": "https://ethereum.org/en/developers/docs/mev/"
+    },
+    {
+      "article_id": 51,
+      "article_name": "Flashbots: Frontrunning the MEV Crisis",
+      "article_url": "https://medium.com/flashbots/frontrunning-the-mev-crisis-40629a613752"
+    },
+    {
+      "article_id": 70,
+      "article_name": "How to make a jump from Web2 hacking to Web3 hacking",
+      "article_url": "https://twitter.com/adrianhetman/status/1475550508354093072"
+    },
+    {
+      "article_id": 71,
+      "article_name": "Yul (and Some Solidity) Optimizations and Tricks",
+      "article_url": "https://hackmd.io/@gn56kcRBQc6mOi7LCgbv1g/rJez8O8st"
+    },
+    {
+      "article_id": 72,
+      "article_name": "Layer 2 rollups",
+      "article_url": "https://ethereum.org/en/developers/docs/scaling/layer-2-rollups/"
+    },
+    {
+      "article_id": 74,
+      "article_name": "How to survive in crypto",
+      "article_url": "https://www.youtube.com/watch?v=udgu2O3MZ-Q"
+    },
+    {
+      "article_id": 78,
+      "article_name": "A thread on punk sandwiches",
+      "article_url": "https://twitter.com/bertcmiller/status/1482086447775580161"
+    },
+    {
+      "article_id": 80,
+      "article_name": "Assessing Risk in Decentralized Finance",
+      "article_url": "https://www.moodysanalytics.com/articles/2021/block_by_block_assessing_risk_in_decentralized_finance"
+    },
+    {
+      "article_id": 81,
+      "article_name": "What is risk, who bears risk, and how could we think about risk in DeFi?",
+      "article_url": "https://twitter.com/nope_its_lily/status/1483556375028387840"
+    },
+    {
+      "article_id": 1,
+      "article_name": "How to Trade for Cheaper using DEX Aggregators",
+      "article_url": "https://unmaskcrypto.com/learnings/dex-aggregator"
+    },
+    {
+      "article_id": 2,
+      "article_name": "What Is an Automated Market Maker (AMM)?",
+      "article_url": "https://academy.binance.com/en/articles/what-is-an-automated-market-maker-amm"
+    },
+    {
+      "article_id": 3,
+      "article_name": "Tips for Trading on Uniswap",
+      "article_url": "https://unmaskcrypto.com/learnings/trading-uniswap"
+    },
+    {
+      "article_id": 4,
+      "article_name": "What Are Automated Market Makers?",
+      "article_url": "https://www.gemini.com/cryptopedia/amm-what-are-automated-market-makers"
+    },
+    {
+      "article_id": 5,
+      "article_name": "How AMM Works?",
+      "article_url": "https://investotrend.com/how-amm-works/"
+    },
+    {
+      "article_id": 6,
+      "article_name": "Uniswap v3 Core whitepaper",
+      "article_url": "https://uniswap.org/whitepaper-v3.pdf"
+    },
+    {
+      "article_id": 7,
+      "article_name": "Uniswap v2 Core whitepaper",
+      "article_url": "https://uniswap.org/whitepaper.pdf"
+    },
+    {
+      "article_id": 8,
+      "article_name": "Automated Market Makers and Decentralized Exchanges: a DeFi Primer",
+      "article_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3722714"
+    },
+    {
+      "article_id": 9,
+      "article_name": "UNISWAP-V2 CONTRACT WALK-THROUGH",
+      "article_url": "https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/"
+    },
+    {
+      "article_id": 10,
+      "article_name": "SoK: Oracles from the Ground Truth to Market Manipulation",
+      "article_url": "https://arxiv.org/abs/2106.00667"
+    },
+    {
+      "article_id": 11,
+      "article_name": "Blockchain Oracle Design Patterns",
+      "article_url": "https://arxiv.org/abs/2106.09349"
+    },
+    {
+      "article_id": 12,
+      "article_name": "Foundational Oracle Patterns: Connecting Blockchain to the Off-chain World",
+      "article_url": "https://arxiv.org/abs/2007.14946"
+    },
+    {
+      "article_id": 13,
+      "article_name": "A First Look into DeFi Oracles",
+      "article_url": "https://arxiv.org/abs/2005.04377"
+    },
+    {
+      "article_id": 14,
+      "article_name": "Byzantine fault Wikipedia",
+      "article_url": "https://en.wikipedia.org/wiki/Byzantine_fault"
+    },
+    {
+      "article_id": 15,
+      "article_name": "What Is Yield Farming in Decentralized Finance (DeFi)?",
+      "article_url": "https://academy.binance.com/en/articles/what-is-yield-farming-in-decentralized-finance-defi#what-started-the-yield-farming-boom"
+    },
+    {
+      "article_id": 16,
+      "article_name": "Lending and Borrowing with Compound and Aave",
+      "article_url": "https://thedefiant.io/lending-and-borrowing-with-compound-and-aave/"
+    },
+    {
+      "article_id": 17,
+      "article_name": "DeFi lending and borrowing, explained",
+      "article_url": "https://cointelegraph.com/explained/defi-lending-and-borrowing-explained"
+    },
+    {
+      "article_id": 18,
+      "article_name": "DYOR: Alchemix by 0xdef1",
+      "article_url": "https://dyor.fi/alcx"
+    },
+    {
+      "article_id": 19,
+      "article_name": "Uniswap V3 Fee Calculator by Flipside",
+      "article_url": "https://uniswapv3.flipsidecrypto.com/"
+    },
+    {
+      "article_id": 20,
+      "article_name": "Uniswap V3: A Quant Framework to model yield farming returns",
+      "article_url": "https://medium.com/@DeFiScientist/uniswap-v3-a-quant-framework-to-model-yield-farming-returns-941a1600425e"
+    },
+    {
+      "article_id": 21,
+      "article_name": "Impermanent Loss Calculator for Evodex & Uniswap",
+      "article_url": "https://chitty27.pythonanywhere.com/"
+    },
+    {
+      "article_id": 22,
+      "article_name": "Uniswap V3 Strategy Simulator",
+      "article_url": "https://defi-lab.xyz/uniswapv3simulator"
+    },
+    {
+      "article_id": 23,
+      "article_name": "DeFi: In Simple Photos and How to Make Your First Transaction!",
+      "article_url": "https://defieducation.substack.com/p/defi-in-simple-photos-and-how-to"
+    },
+    {
+      "article_id": 24,
+      "article_name": "Uniswap: Impermanent Loss and Risk Profile of a Liquidity Provider",
+      "article_url": "https://arxiv.org/abs/2106.14404"
+    },
+    {
+      "article_id": 25,
+      "article_name": "Uniswap v3: The Universal AMM",
+      "article_url": "https://www.paradigm.xyz/2021/06/uniswap-v3-the-universal-amm/"
+    },
+    {
+      "article_id": 26,
+      "article_name": "Uniswap V3 LP Tokens as Perpetual Put and Call Options",
+      "article_url": "https://lambert-guillaume.medium.com/uniswap-v3-lp-tokens-as-perpetual-put-and-call-options-5b66219db827"
+    },
+    {
+      "article_id": 27,
+      "article_name": "Impermanent Loss Explained",
+      "article_url": "https://academy.binance.com/en/articles/impermanent-loss-explained"
+    },
+    {
+      "article_id": 28,
+      "article_name": "What is an Options Contract",
+      "article_url": "https://insights.deribit.com/education/what-is-an-options-contract/"
+    },
+    {
+      "article_id": 29,
+      "article_name": "How Does a Centralized Cryptocurrency Exchange Work?",
+      "article_url": "https://unmaskcrypto.com/learnings/cex-exchange"
+    },
+    {
+      "article_id": 30,
+      "article_name": "What Is Margin Trading?",
+      "article_url": "https://academy.binance.com/en/articles/what-is-margin-trading"
+    },
+    {
+      "article_id": 31,
+      "article_name": "DeFi Indexes",
+      "article_url": "https://defiprime.com/defi-index"
+    },
+    {
+      "article_id": 32,
+      "article_name": "Options Wikipedia",
+      "article_url": "https://en.wikipedia.org/wiki/Option_(finance)"
+    },
+    {
+      "article_id": 33,
+      "article_name": "What are Options Contracts Binance",
+      "article_url": "https://academy.binance.com/en/articles/what-are-options-contracts"
+    },
+    {
+      "article_id": 34,
+      "article_name": "Primer on basic option strategies - Deribit position builder",
+      "article_url": "https://insights.deribit.com/market-research/deribit-position-builder-primer-on-basic-option-strategies/"
+    },
+    {
+      "article_id": 35,
+      "article_name": "SoK: Decentralized Exchanges (DEX) withAutomated Market Maker (AMM) protocols",
+      "article_url": "https://arxiv.org/pdf/2103.12732.pdf"
+    },
+    {
+      "article_id": 36,
+      "article_name": "Oracles from the Ground Truth to Market Manipulation",
+      "article_url": "https://arxiv.org/pdf/2106.00667.pdf"
+    },
+    {
+      "article_id": 37,
+      "article_name": "CIA Officer - twitter thread",
+      "article_url": "https://twitter.com/officer_cia/status/1418018953742409738"
+    },
+    {
+      "article_id": 38,
+      "article_name": "A Quick Introduction to Yield Farming",
+      "article_url": "https://unmaskcrypto.com/learnings/yield-farming"
+    },
+    {
+      "article_id": 39,
+      "article_name": "Where does yield come from, anyway?",
+      "article_url": "https://juliankoh.medium.com/where-does-yield-come-from-anyway-fc818c114bd5"
+    },
+    {
+      "article_id": 40,
+      "article_name": "Nick Chong thread on yield",
+      "article_url": "https://twitter.com/n2ckchong/status/1390494848478683136"
+    },
+    {
+      "article_id": 41,
+      "article_name": "What is 0x",
+      "article_url": "https://www.youtube.com/watch?v=c04eIt3FQ5I"
+    },
+    {
+      "article_id": 42,
+      "article_name": "Decentralised exchanges",
+      "article_url": "https://www.wikiwand.com/en/Decentralized_exchange"
+    },
+    {
+      "article_id": 43,
+      "article_name": "What is a decentralised exchange",
+      "article_url": "https://academy.binance.com/en/articles/what-is-a-decentralized-exchange-dex"
+    },
+    {
+      "article_id": 44,
+      "article_name": "dydx",
+      "article_url": "https://www.youtube.com/watch?v=PGE1uoiZTmM"
+    },
+    {
+      "article_id": 45,
+      "article_name": "what are the risks of defi lending? ",
+      "article_url": "https://ethereum.stackexchange.com/questions/92272/what-are-the-risks-of-defi-lending"
+    },
+    {
+      "article_id": 46,
+      "article_name": "aave whitepaper",
+      "article_url": "https://github.com/aave/protocol-v2/blob/master/aave-v2-whitepaper.pdf"
+    },
+    {
+      "article_id": 47,
+      "article_name": "compound whitepaper",
+      "article_url": "https://compound.finance/documents/Compound.Whitepaper.pdf"
+    },
+    {
+      "article_id": 48,
+      "article_name": "vicyn impermanent loss calculator",
+      "article_url": "https://vicyyn.com/"
+    },
+    {
+      "article_id": 49,
+      "article_name": "UNISWAP: Impermanent Loss and Risk Profile of a Liquidity Provider",
+      "article_url": "https://arxiv.org/pdf/2106.14404.pdf"
+    },
+    {
+      "article_id": 50,
+      "article_name": "MINER EXTRACTABLE VALUE (MEV)",
+      "article_url": "https://ethereum.org/en/developers/docs/mev/"
+    },
+    {
+      "article_id": 51,
+      "article_name": "Flashbots: Frontrunning the MEV Crisis",
+      "article_url": "https://medium.com/flashbots/frontrunning-the-mev-crisis-40629a613752"
+    },
+    {
+      "article_id": 52,
+      "article_name": "flashbots github",
+      "article_url": "https://github.com/flashbots/pm"
+    },
+    {
+      "article_id": 53,
+      "article_name": "How to approach crypto – Essential tips (Ledger)",
+      "article_url": "https://www.ledger.com/academy/how-to-approach-crypto"
+    }
+  ],
+  "meta": { "page": 1 }
+}

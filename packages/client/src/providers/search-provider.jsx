@@ -9,6 +9,8 @@ const initVal = {
   error: null,
   tags: [],
   selectedTags: [],
+  relatedArticles: [],
+  selectedProject: null,
 };
 
 export const SearchDispatchContext = createContext({
@@ -16,9 +18,9 @@ export const SearchDispatchContext = createContext({
   setCategory: () => {},
   setSearchString: () => {},
   clearError: () => {},
-  setTags: () => {},
   handleClear: () => {},
   setSelectedTags: () => {},
+  setSelectedProject: () => {},
 });
 
 export const SearchContext = createContext(initVal);
@@ -47,6 +49,10 @@ export function SearchProvider({ children }) {
   const [activeTag, setActiveTag] = useState("");
   const [loadedKeys, setLoadedKeys] = useState([]);
 
+  const [allRelatedArticles, setAllRelatedArticles] = useState([]);
+  const [relatedArticles, setRelatedArticles] = useState([]);
+  const [selectedProject, setSelectedProject] = useState();
+
   const clearError = () => setError(null);
 
   useEffect(() => {
@@ -54,6 +60,63 @@ export function SearchProvider({ children }) {
     setActiveSection(section);
     setActiveCategory(location.pathname.split("/")[2]);
   }, [location.pathname]);
+
+  useEffect(() => {
+    (async () => {
+      const response = await fetch(`${BASE_URI}/articles/articles`).then(
+        (res) => res.json()
+      );
+      const reduced = response.data.reduce((acc, curr) => {
+        const existing = acc.find((e) => e.article_id === curr.article_id);
+        const { tag_name } = curr;
+        if (!existing) {
+          acc.push({
+            ...curr,
+            tags: [tag_name],
+          });
+        } else {
+          existing.tags.push(tag_name);
+        }
+        return acc;
+      }, []);
+      setRelatedArticles(reduced);
+    })();
+  }, []);
+
+  useEffect(() => {
+    (async () => {
+      if (selectedProject) {
+        setRelatedArticles(
+          allRelatedArticles.filter((article) =>
+            article.tags.includes(selectedProject.tag_name)
+          )
+        );
+      }
+    })();
+  }, [selectedProject]);
+
+  useEffect(() => {
+    (async () => {
+      const response = await fetch(`${BASE_URI}/articles/articles`).then(
+        (res) => res.json()
+      );
+      const reduced = response.data.reduce((acc, curr) => {
+        const existing = acc.find((e) => e.article_id === curr.article_id);
+        const { tag_name } = curr;
+        if (!existing) {
+          acc.push({
+            ...curr,
+            tags: [tag_name],
+          });
+        } else {
+          existing.tags.push(tag_name);
+        }
+        return acc;
+      }, []);
+      setAllRelatedArticles(reduced);
+      setRelatedArticles(reduced);
+    })();
+  }, []);
 
   useEffect(() => {
     (async () => {
@@ -114,6 +177,8 @@ export function SearchProvider({ children }) {
     setSearchResults(searchResult);
   }, [searchString]);
 
+  useEffect(() => {}, []);
+
   const handleClear = () => {
     setSearchResults(pageData);
     setSearchString("");
@@ -135,6 +200,8 @@ export function SearchProvider({ children }) {
         activeSection,
         loadedKeys,
         selectedTags,
+        relatedArticles,
+        selectedProject,
       }}
     >
       <SearchDispatchContext.Provider
@@ -142,12 +209,12 @@ export function SearchProvider({ children }) {
           setSearchString,
           setActiveSection,
           setActiveCategory,
-          setTags,
           handleClear,
           setActiveTag,
           setLoadedKeys,
           clearError,
           setSelectedTags,
+          setSelectedProject,
         }}
       >
         {children}

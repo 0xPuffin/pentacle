@@ -1,14 +1,15 @@
-import React, {useState, useEffect} from "react";
+import React, {useState, useEffect, useContext} from "react";
+import { SearchContext, SearchDispatchContext } from "../../providers/search-provider";
 import ProjectDetail from "./ProjectDetail";
 import ProjectSummary from "./ProjectSummary";
-// import TagDescription from "../tag-description/TagDescription";
 
 export const ProjectsLayout = ({projects = []}) => {
-    const [projectDetail, setProjectDetail] = useState();
+    const {selectedProject} = useContext(SearchContext);
+    const {setSelectedProject} = useContext(SearchDispatchContext);
     const [usdValue, setUsdValue] = useState();
 
     useEffect(() => {
-        setProjectDetail(projects[0]);
+        setSelectedProject(projects[0]);
     }, [projects]);
 
     const fetchPrice = async (props) => {
@@ -36,14 +37,14 @@ export const ProjectsLayout = ({projects = []}) => {
         if (projects.length === 0) {
             return <article>Loading...</article>;
         } else {
-            setProjectDetail(projects[0]);
             fetchPrice(projects[0]);
+            setSelectedProject(projects[0]);
         }
     }, [projects]);
 
     function changeProjectDetails(props) {
-        setProjectDetail(props);
         fetchPrice(props);
+        setSelectedProject(props);
     }
 
     return (<>
@@ -58,8 +59,8 @@ export const ProjectsLayout = ({projects = []}) => {
                         </div>
                 </div>
             </section>
-            {projectDetail && (
-                <ProjectDetail {...projectDetail} usdValue={usdValue}/>
+            {selectedProject && (
+                <ProjectDetail {...selectedProject} usdValue={usdValue}/>
             )}
         </>);
 };
