@@ -8,6 +8,7 @@ const initVal = {
   search: "",
   error: null,
   tags: [],
+  selectedTags: []
 };
 
 export const SearchDispatchContext = createContext({
@@ -17,6 +18,7 @@ export const SearchDispatchContext = createContext({
   clearError: () => {},
   setTags: () => {},
   handleClear: () => {},
+  setSelectedTags: () => {}
 });
 
 export const SearchContext = createContext(initVal);
@@ -36,6 +38,7 @@ export function SearchProvider({ children }) {
 
   const [activeSection, setActiveSection] = useState("");
   const [activeCategory, setActiveCategory] = useState("");
+  const [selectedTags, setSelectedTags]= useState([]);
 
   const [tags, setTags] = useState([]);
   const [tagsLoading, setTagsLoading] = useState(true);
@@ -120,6 +123,7 @@ export function SearchProvider({ children }) {
         activeTag,
         activeSection,
         loadedKeys,
+        selectedTags
       }}
     >
       <SearchDispatchContext.Provider
@@ -132,6 +136,7 @@ export function SearchProvider({ children }) {
           setActiveTag,
           setLoadedKeys,
           clearError,
+          setSelectedTags
         }}
       >
         {children}
