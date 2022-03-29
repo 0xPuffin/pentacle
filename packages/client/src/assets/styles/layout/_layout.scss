@@ -14,3 +14,15 @@ nav {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+
+@media screen and (max-width: _breakpoint(step-two)) {
+  .header-content,
+  .footer-content,
+  .main-content,
+  .nav-content {
+    margin: 0 auto;
+    max-width: 80rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+}

@@ -1,17 +1,47 @@
-//.p-card {
-//  background-color: transparent;
-//  padding: 1rem;
-//  margin-right: 1.25rem;
-//  word-wrap: break-word;
-//  flex: 0 0 10rem;
-//  cursor: pointer;
-//
-//  h3 {
-//    padding-top: 0;
-//    padding-bottom: 2rem;
-//  }
-//
-//  p {
-//    font-size: 0.8175rem;
-//  }
-//}
+.card-large {
+  border-radius: 1rem;
+  background-color: pink;
+  padding: 1.5rem;
+  height: 10rem;
+
+  &.content {
+    display: flex;
+    flex-grow: 1;
+    align-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  h2 {
+    font-family: ramillas-medium;
+    font-size: 1.5rem;
+    padding: 0;
+    letter-spacing: -.025rem;
+    width: 100%;
+  }
+
+  p {
+    line-height: 1.15rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  @media screen and (min-width: _breakpoint(step-one)) {
+    h2 {
+      font-size: 1.5rem;
+    }
+    p {
+      -webkit-line-clamp: 4;
+    }
+  }
+
+  @media screen and (min-width: _breakpoint(step-two)) {
+    h2 {
+      font-size: 1.65rem;
+    }
+    p {
+      font-size: .8rem;
+    }
+  }
+}

@@ -13,6 +13,18 @@ $font-path: "../../fonts";
   src: url("#{$font-path}/matter/Matter-Regular.woff2") format("woff");
 }
 
+//@font-face {
+//  font-family: "ramillas-bold";
+//  src: url("#{$font-path}/ramillas/ramillas-bold.woff") format("woff2");
+//  src: url("#{$font-path}/ramillas/ramillas-bold.woff2") format("woff");
+//}
+
+@font-face {
+  font-family: "ramillas-medium";
+  src: url("#{$font-path}/ramillas/ramillas-medium.woff") format("woff2");
+  src: url("#{$font-path}/ramillas/ramillas-medium.woff2") format("woff");
+}
+
 @font-face {
   font-family: "priori-regular";
   src: url("#{$font-path}/priori/PrioriSansOT-Regular.otf") format("opentype");

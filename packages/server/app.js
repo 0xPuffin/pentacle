@@ -17,6 +17,7 @@ const projectsExchangesRouter = require("./routes/projects/exchanges");
 const projectsInsuranceRouter = require("./routes/projects/insurance");
 const projectsJobsRouter = require("./routes/projects/jobs");
 const projectsNftRouter = require("./routes/projects/nft");
+const projectsSecurityRouter = require("./routes/projects/security");
 const projectsYieldRouter = require("./routes/projects/yield");
 
 const educationTagsRouter = require("./routes/education/tags");
@@ -35,6 +36,7 @@ const cors = require("cors");
 const allowedOrigins = [
   "http://localhost:3000",
   "https://pentacle.xyz",
+  "https://pentacle.ai",
   "https://pentacle-client-staging.herokuapp.com",
   "https://pentacle-client.herokuapp.com"
 ];
@@ -72,6 +74,7 @@ app.use("/projects/exchanges", projectsExchangesRouter);
 app.use("/projects/insurance", projectsInsuranceRouter);
 app.use("/projects/jobs", projectsJobsRouter);
 app.use("/projects/nft", projectsNftRouter);
+app.use("/projects/security", projectsSecurityRouter);
 app.use("/projects/yield", projectsYieldRouter);
 
 app.use("/events/tags", eventsTagsRouter);

@@ -10,9 +10,8 @@ const Projects = ({ projects }) => {
   }, [projects]);
 
   return (
-    <main>
-      <section className={"main-container"}>
-        <article className={"overflow-x-scroll padding-y-3 main-content"}>
+    <main className={"main-container"}>
+        <article className={"overflow-x-scroll overflow-y-hidden padding-bottom-1 main-content"}>
           <article className={"flex-mobile stretch"}>
             {projects.children.map((project, index) => (
               <ProjectTile
@@ -23,7 +22,6 @@ const Projects = ({ projects }) => {
             ))}
           </article>
         </article>
-      </section>
       <Project projectDetailLower={projectDetail} />
     </main>
   );

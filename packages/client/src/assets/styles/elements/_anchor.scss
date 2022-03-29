@@ -16,7 +16,10 @@ a:not(.text-link) {
 
 a.text-link {
   text-decoration: none;
-  color: _color(link);
+  color: _color(body-text);
+  &.inv {
+    color: _color(body-text);
+  }
   @include border-bottom-1;
   &:hover {
     @include border-bottom-1;

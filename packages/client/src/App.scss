@@ -2,18 +2,20 @@
 //@tailwind components;
 //@tailwind utilities;
 
-@media (prefers-color-scheme: light) {
-  @import "assets/styles/pentacle-light";
-}
-@media (prefers-color-scheme: dark) {
-  @import "assets/styles/pentacle-dark";
-}
-[data-theme="light"] {
-  @import "assets/styles/pentacle-light";
-}
-[data-theme="dark"] {
-  @import "assets/styles/pentacle-dark";
-}
+@import "assets/styles/pentacle-light";
+
+//@media (prefers-color-scheme: light) {
+//  @import "assets/styles/pentacle-light";
+//}
+//@media (prefers-color-scheme: dark) {
+//  @import "assets/styles/pentacle-dark";
+//}
+//[data-theme="light"] {
+//  @import "assets/styles/pentacle-light";
+//}
+//[data-theme="dark"] {
+//  @import "assets/styles/pentacle-dark";
+//}
 
 [data-theme=light] input[type=checkbox],
 [data-theme=dark] input[type=checkbox] {
@@ -65,4 +67,20 @@
 .main-content,
 .nav-content {
   box-sizing: border-box;
+}
+
+
+
+.beginner {
+  background-color: #FAEADE;
+}
+.intermediate {
+  background-color: #EDE4DF;
+}
+.advanced {
+  background-color: #EDF3DF;
+}
+
+.vertical-align-center {
+  vertical-align: middle !important;
 }

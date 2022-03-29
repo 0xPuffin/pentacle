@@ -1,13 +1,14 @@
 export const CATEGORIES = [
-  "projects",
+  // "projects",
   "analytics",
   "exchanges",
   "defi",
   "developer",
   "education",
-  "insurance",
+  // "insurance",
   "jobs",
   "nft",
+  "security",
   "yield",
 ];
 

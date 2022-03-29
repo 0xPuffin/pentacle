@@ -58,6 +58,7 @@ CREATE TABLE article_tag
     article_id int,
     tag_id     int
 );
+
 CREATE TABLE education
 (
     education_id serial primary key,
@@ -65,7 +66,12 @@ CREATE TABLE education
     what         varchar(4000),
     why          varchar(4000),
     risk         varchar(4000),
-    reward       varchar(4000)
+    reward       varchar(4000),
+    link1        varchar(4000),
+    link2        varchar(4000),
+    link3        varchar(4000),
+    link4        varchar(4000),
+    link5        varchar(4000)
 );
 CREATE TABLE education_tag
 (
@@ -91,9 +97,9 @@ CREATE TABLE event_tag
 );
 CREATE TABLE skill
 (
-    skill_id       serial primary key,
-    title          varchar(4000),
-    text           text
+    skill_id serial primary key,
+    title    varchar(4000),
+    text     text
 );
 CREATE TABLE skill_tag
 (

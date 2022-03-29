@@ -1,24 +1,74 @@
 [
   {
-    "title": "Sol DeFi",
-    "text": "High-performance blockchain, with a growing ecosystem",
-    "buttonText": "Visit the Solana Solar System",
-    "link": "/solana",
-    "logoUrl": "https://pentacle.xyz/images/solana-img.gif",
-    "logoClass": "max-height-10",
-    "logoAlt": "Solana logo",
-    "protocol": "solana",
-    "bgImgClass": "sol-bg"
+    "title": "Buy and trade crypto",
+    "text": "Centralised and decentralised exchanges where you can buy and trade and tokens",
+    "link": "/projects/exchanges",
+    "class": "beginner"
   },
   {
-    "title": "Eth DeFi",
-    "text": "The second-largest cryptocurrency, and most actively used blockchain",
-    "buttonText": "Explore the Ethereum Universe",
-    "link": "/ethereum",
-    "logoUrl": "https://pentacle.xyz/images/eth-img.gif",
-    "logoClass": "max-height-10",
-    "logoAlt": "Ethereum logo",
-    "protocol": "ethereum",
-    "bgImgClass": "eth-bg"
+    "title": "Learn about crypto",
+    "text": "All the crypto learning sites you’ll ever need",
+    "link": "/projects/education",
+    "class": "beginner"
+  },
+  {
+    "title": "Crypto explained",
+    "text": "The what, why, rewards and risks of crypto, in plain english by @noidtwo",
+    "link": "/education",
+    "class": "beginner"
+  },
+  {
+    "title": "Crypto skills",
+    "text": "Up-skill yourself step-by-step, in our series by @knowerofmarkets",
+    "link": "/skills",
+    "class": "beginner"
+  },
+  {
+    "title": "Solana DeFi",
+    "text": "Discover wallets, NFTs, analytics, exchanges built on solana",
+    "link": "/solana",
+    "class": "intermediate"
+  },
+  {
+    "title": "DeFi",
+    "text": "Financial protocols built on decentralized blockchains including decentralised exchanges and yield protocols",
+    "link": "/projects/defi",
+    "class": "intermediate"
+  },
+  {
+    "title": "NFTs",
+    "text": "Wondering where to look for NFT projects, or calculate rarity? Begin here",
+    "link": "/projects/nft",
+    "class": "intermediate"
+  },
+  {
+    "title": "Analytics",
+    "text": "Find out where to find the best data-driven analysis of crypto projects",
+    "link": "/projects/analytics",
+    "class": "intermediate"
+  },
+  {
+    "title": "Solana ignition",
+    "text": "Projects from the ignition hackathon including DeFi, NFT and infra",
+    "link": "/ignition",
+    "class": "advanced"
+  },
+  {
+    "title": "Crypto jobs",
+    "text": "As a booming new industry, crypto offers many new job opportunities. Find them here",
+    "link": "/projects/jobs",
+    "class": "advanced"
+  },
+  {
+    "title": "Developer resources",
+    "text": "Sites and tools to help you build your own applications or contribute to existing ones within crypto",
+    "link": "/projects/developer",
+    "class": "advanced"
+  },
+  {
+    "title": "Events",
+    "text": "Worldwide events for hackers, crypto fans and NFT artists",
+    "link": "events",
+    "class": "advanced"
   }
 ]

@@ -21,6 +21,8 @@ async function getMultiple(page = 1) {
       "project.discord_url, " +
       "project.telegram_url, " +
       "project.medium_url, " +
+      "project.llama_url, " +
+      "project.dune_url, " +
       "project.chain1, " +
       "project.chain2, " +
       "tag.name AS tag_name " +

@@ -7,13 +7,14 @@ async function getMultiple(page = 1) {
   const rows = await db.query(
     "SELECT article.article_id, " +
       "article.title AS article_name, " +
-      "article.article_url " +
+      "article.article_url, " +
+      "tag.name AS tag_name " +
       "FROM article " +
       "JOIN article_tag " +
       "ON article.article_id = article_tag.article_id " +
       "JOIN tag " +
       "ON tag.tag_id = article_tag.tag_id " +
-      // "WHERE tag.name = 'amm' " +
+      // "WHERE tag.name = 'link' " +
       // "ORDER BY article.title ASC "+
       "OFFSET $1 LIMIT $2",
     [offset, config.listPerPage]
@@ -27,12 +28,12 @@ async function getMultiple(page = 1) {
   };
 }
 
-function validateCreate(education) {
+function validateCreate(article) {
   let messages = [];
 
-  console.log(education);
+  console.log(article);
 
-  if (!education) {
+  if (!article) {
     messages.push("No object is provided");
   }
 
@@ -44,14 +45,14 @@ function validateCreate(education) {
   }
 }
 
-async function create(education) {
-  validateCreate(education);
+async function create(article) {
+  validateCreate(article);
 
   const result = await db.query(
-    "INSERT INTO education(name) VALUES (bob) RETURNING *",
-    [education.name]
+    "INSERT INTO article(name) VALUES (bob) RETURNING *",
+    [article.name]
   );
-  let message = "Error in creating education";
+  let message = "Error in creating article";
 
   if (result.length) {
     message = "Project created successfully";
