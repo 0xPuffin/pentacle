@@ -6,6 +6,7 @@ import ProjectSummary from "./ProjectSummary";
 export const ProjectsLayout = ({projects = []}) => {
     const [projectDetail, setProjectDetail] = useState();
     const [usdValue, setUsdValue] = useState();
+    const [activeProjectId, setActiveProjectId] = useState();
 
     useEffect(() => {
         setProjectDetail(projects[0]);
@@ -42,6 +43,7 @@ export const ProjectsLayout = ({projects = []}) => {
     }, [projects]);
 
     function changeProjectDetails(props) {
+        setActiveProjectId(props.project_id);
         setProjectDetail(props);
         fetchPrice(props);
     }
@@ -53,7 +55,7 @@ export const ProjectsLayout = ({projects = []}) => {
                     {/* TODO: use intersection observer to do next/prev button */}
                         <div className={"flex-mobile"}>
                             {projects.map((project, index) => (<article key={index} id={`item-${index}`}>
-                                    <ProjectSummary{...project} onClick={() => changeProjectDetails(projects[index])}/>
+                                    <ProjectSummary{...project} onClick={() => changeProjectDetails(projects[index])} active={projects[index].project_id === activeProjectId}/>
                                 </article>))}
                         </div>
                 </div>
