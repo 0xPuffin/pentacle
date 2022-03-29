@@ -26,7 +26,7 @@ export const ProjectsPage = () => {
         <Layout>
             <main className={"main-container"}>
                 <section className={"main-content"}>
-                    <div className={"fieldset align-center margin-bottom-2 tw-flex tw-justify-between tw-items-center tw-gap-6"} style={{flexWrap: 'wrap'}}>
+                    <div className={"fieldset align-center margin-bottom-2 tw-flex tw-flex-col lg:tw-flex-row tw-justify-between tw-items-center tw-gap-6"} style={{flexWrap: 'wrap'}}>
                         <div>
                             <label aria-labelledby={"search"} className={"display-none"} htmlFor={"search"}>Search</label>
                             <input id="search" type="text" placeholder="filter by project name" value={search}
