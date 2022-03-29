@@ -8,7 +8,7 @@ const initVal = {
   search: "",
   error: null,
   tags: [],
-  selectedTags: []
+  selectedTags: [],
 };
 
 export const SearchDispatchContext = createContext({
@@ -18,7 +18,7 @@ export const SearchDispatchContext = createContext({
   clearError: () => {},
   setTags: () => {},
   handleClear: () => {},
-  setSelectedTags: () => {}
+  setSelectedTags: () => {},
 });
 
 export const SearchContext = createContext(initVal);
@@ -38,7 +38,7 @@ export function SearchProvider({ children }) {
 
   const [activeSection, setActiveSection] = useState("");
   const [activeCategory, setActiveCategory] = useState("");
-  const [selectedTags, setSelectedTags]= useState([]);
+  const [selectedTags, setSelectedTags] = useState([]);
 
   const [tags, setTags] = useState([]);
   const [tagsLoading, setTagsLoading] = useState(true);
@@ -71,6 +71,16 @@ export function SearchProvider({ children }) {
       }
     })();
   }, []);
+
+  useEffect(() => {
+    if (selectedTags.length) {
+      setSearchResults(
+        searchResults.filter((res) => selectedTags.includes(res.tag_name))
+      );
+    } else {
+      setSearchResults(pageData);
+    }
+  }, [selectedTags]);
 
   useEffect(() => {
     if (activeSection) {
@@ -111,7 +121,8 @@ export function SearchProvider({ children }) {
 
   return (
     <SearchContext.Provider
-      value={{activeCategory,
+      value={{
+        activeCategory,
         search: searchString,
         tags,
         tagsLoading,
@@ -123,7 +134,7 @@ export function SearchProvider({ children }) {
         activeTag,
         activeSection,
         loadedKeys,
-        selectedTags
+        selectedTags,
       }}
     >
       <SearchDispatchContext.Provider
@@ -136,12 +147,12 @@ export function SearchProvider({ children }) {
           setActiveTag,
           setLoadedKeys,
           clearError,
-          setSelectedTags
+          setSelectedTags,
         }}
       >
         {children}
         {/*<input type="checkbox" defaultChecked={true} id="error-modal" className="modal-toggle"></input>*/}
-         {/*TODO alice this needs to work with old style pages for now */}
+        {/*TODO alice this needs to work with old style pages for now */}
         {/*{error && <div className="modal">*/}
         {/*  <div className="modal-box px-3 py-2">*/}
         {/*    <h3 className="font-bold text-lg py-2">*/}

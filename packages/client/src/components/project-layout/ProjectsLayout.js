@@ -58,6 +58,8 @@ export const ProjectsLayout = ({projects = []}) => {
                         </div>
                 </div>
             </section>
-            <ProjectDetail {...projectDetail} usdValue={usdValue}/>
+            {projectDetail && (
+                <ProjectDetail {...projectDetail} usdValue={usdValue}/>
+            )}
         </>);
 };

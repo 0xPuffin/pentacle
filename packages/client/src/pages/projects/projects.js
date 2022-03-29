@@ -47,7 +47,7 @@ export const ProjectsPage = () => {
                                     placeholder: styles => ({ ...styles, color: 'white' }),
                                     indicatorsContainer: styles => ({ ...styles, color: 'white' }),
                                 }}
-                                onChange={e => setSelectedTags(e)}
+                                onChange={selectedOptions => setSelectedTags(selectedOptions.map(option => option.value))}
                             />
                         </div>
                     </div>
@@ -57,6 +57,9 @@ export const ProjectsPage = () => {
                         <Spinner />
                     </div>)}
                 </section>
+                {!searchResults.length && (
+                    <div className="tw-text-center ">Sorry, no data found!</div>
+                )}
                 {!pageDataLoading && (<>
                     <ProjectsLayout projects={searchResults} />
                     {!hasNoRelatedLinks.includes(location.pathname) && (<RelatedLinks />)}
