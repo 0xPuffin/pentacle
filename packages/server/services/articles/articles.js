@@ -13,7 +13,7 @@ async function getMultiple(page = 1) {
       "ON article.article_id = article_tag.article_id " +
       "JOIN tag " +
       "ON tag.tag_id = article_tag.tag_id " +
-      "WHERE tag.name = 'article' " +
+      "WHERE tag.name = 'link' " +
       "ORDER BY article.title ASC "+
       "OFFSET $1 LIMIT $2",
     [offset, config.listPerPage]
