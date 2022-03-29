@@ -7,7 +7,8 @@ async function getMultiple(page = 1) {
   const rows = await db.query(
     "SELECT article.article_id, " +
       "article.title AS article_name, " +
-      "article.article_url " +
+      "article.article_url, " +
+      "tag.name AS tag_name " +
       "FROM article " +
       "JOIN article_tag " +
       "ON article.article_id = article_tag.article_id " +
