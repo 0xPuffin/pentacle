@@ -1,11 +1,8 @@
 import React from "react";
 import Layout from "../components/layout";
-import Header from "../components/header/Header";
 
 export const Terms = () => {
   return (
-    <div>
-      <Header />
       <Layout>
         <section className={"editorial-content one-col"}>
           <article className={"box feature dark box-padding"}>
@@ -65,6 +62,5 @@ export const Terms = () => {
           </article>
         </section>
       </Layout>
-    </div>
   );
 };
