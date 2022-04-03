@@ -5,9 +5,9 @@ type Props = {
 };
 
 const SkillDetail = ({skill_title, replace}: Props) => {
-    return (<section className={"main-content-wide margin-top-1"}>
-        <div className={"main-content"}>
-            {replace && <article className={"margin-bottom-2 readability-max-width padding-top-1"}>
+    return (<section className={"main-content"}>
+        <div className={""}>
+            {replace && <article className={"margin-bottom-2 readability-max-width"}>
                 <h2>{skill_title}</h2>
                 <p className={"margin-bottom-2"}>by <a className={"text-link"}
                                                        href={"https://twitter.com/knowerofmarkets"} target={"_blank"}

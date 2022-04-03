@@ -18,17 +18,15 @@ export const ArticlesPage = () => {
     return (<>
         <Header/>
         <Layout>
-            {pageData && (<main className={"main-container"}>
-                <section className={"main-content"}>
-                    <article className={"flex space-between margin-bottom-1"}>
+            {pageData && (<>
+                    <article className={"main-header"}>
                         <h1>Articles</h1>
                     </article>
-                </section>
                 {!pageDataLoading && (<>
                     <ArticlesLayout projects={searchResults}/>
                     {!hasNoRelatedLinks.includes(location.pathname) && (<RelatedLinks/>)}
                 </>)}
-            </main>)}
+            </>)}
         </Layout>
     </>);
 }

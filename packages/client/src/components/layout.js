@@ -1,16 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Header from "./header/Header";
+import Footer from "./footer/Footer";
 
-const Layout = ({ children }) => (
-  <main>
-    <section className={"main-container"}>
-      <article className={"main-content"}>{children}</article>
-    </section>
-  </main>
-);
+const Layout = ({children}) => (<>
+    <Header/>
+    <main>{children}</main>
+    <Footer/>
+    </>);
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+    children: PropTypes.node.isRequired,
 };
 
 export default Layout;

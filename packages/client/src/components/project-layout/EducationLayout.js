@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import EducationDetail from "./EducationDetail";
 import EducationSummary from "./EducationSummary";
+import CarouselContainer from "../carousel/CarouselContainer";
 
 export const EducationLayout = ({projects = []}) => {
     const [projectDetail, setProjectDetail] = useState();
@@ -22,18 +23,12 @@ export const EducationLayout = ({projects = []}) => {
     }
 
     return (<>
-            <section className={"main-content padding-bottom-1 overflow-x-scroll"}>
-                <div>
-                     {/*<TagDescription/>*/}
-                    {/* TODO: use intersection observer to do next/prev button */}
-                        <div className={"flex-mobile"}>
-                            {projects.map((project, index) => (<article key={index} id={`item-${index}`}>
-                                    <EducationSummary{...project} onClick={() => changeProjectDetails(projects[index])}/>
-                                </article>))}
-                        </div>
-                </div>
-            </section>
+        <CarouselContainer>
+            {projects.map((project, index) => (<article key={index} id={`item-${index}`}>
+                <EducationSummary{...project} onClick={() => changeProjectDetails(projects[index])}/>
+            </article>))}
+        </CarouselContainer>
 
-            <EducationDetail {...projectDetail}/>
-        </>);
+        <EducationDetail {...projectDetail}/>
+    </>);
 };

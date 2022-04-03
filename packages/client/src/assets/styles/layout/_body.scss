@@ -7,7 +7,7 @@ body {
   margin: 0;
   width: 100%;
   min-width: _breakpoint(step-min);
-  background-color: _color(body-bg);
+  background-color: _color(tertiary);
 }
 
 @media screen and (max-width: _breakpoint(step-one)) {

@@ -34,9 +34,9 @@ const ProjectDetail = ({
     const devLinks = github_url || whitepaper_url || docs_url || contract_url
     const tags = tag1 || tag2 || tag3 || tag4
 
-    return (<section className={"main-content-wide margin-top-1"}>
+    return (<section className={"main-content"}>
         <div className={"main-content"}>
-            <article className={"flex flex-start flex-mobile padding-top-2 margin-bottom-1"}>
+            <article className={"flex flex-start flex-mobile padding-top-1 margin-bottom-1"}>
                 <h1 className={"body-text"}>{token_image_url && (
                     <img alt={project_name} src={token_image_url} className={"width-1"}/>)}{" "}
                     {project_name} {ticker && `(${ticker})`}{" "}

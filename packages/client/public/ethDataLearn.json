@@ -179,7 +179,7 @@
         {
           "name": "Crypto art data",
           "img": "",
-          "description": "Crypto Art Data is a platform that aggredates multiple datasets and creates indicators about the NFT space. As well as this, it also showcases some of the most expensive NFTs across multiple platforms",
+          "description": "Crypto Art Data is a platform that aggregates multiple datasets and creates indicators about the NFT space. As well as this, it also showcases some of the most expensive NFTs across multiple platforms",
           "value": 10,
           "url": "https://cryptoart.io/data"
         },
@@ -214,7 +214,7 @@
         {
           "name": "Dune analytics",
           "img": "",
-          "description": "Dune Analytics is a platform that aggredates multiple datasets and creates indicators about protocols in the DeFi space.",
+          "description": "Dune Analytics is a platform that aggregates multiple datasets and creates indicators about protocols in the DeFi space.",
           "value": 10,
           "url": "https://duneanalytics.com/"
         },
@@ -251,7 +251,7 @@
         {
           "name": "Messari",
           "img": "https://pbs.twimg.com/profile_images/1085325338685640704/TNls9ggU_400x400.jpg",
-          "description": "Messari is a platform that aggredates multiple datasets and creates dashboards for users to explore information about asset prices, DeFi statistics, research papers and more.",
+          "description": "Messari is a platform that aggregates multiple datasets and creates dashboards for users to explore information about asset prices, DeFi statistics, research papers and more.",
           "value": 10,
           "url": "https://messari.io/"
         },
@@ -265,7 +265,7 @@
         {
           "name": "Santiment",
           "img": "",
-          "description": "Santiment is a platform that aggredates multiple datasets and creates dashboards for users to explore information about the cryptocurrency space.",
+          "description": "Santiment is a platform that aggregates multiple datasets and creates dashboards for users to explore information about the cryptocurrency space.",
           "value": 10,
           "url": "https://app.santiment.net/"
         },
