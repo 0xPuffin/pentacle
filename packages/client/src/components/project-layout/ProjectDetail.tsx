@@ -2,14 +2,37 @@ import React from "react";
 import Button from "../project-elements/ProjectButton";
 
 type Props = {
-    project_name: string; ticker: string; tag_name: string; website_url: string; webapp_url: string; discord_url: string; twitter_url: string; twitter: string; telegram_url: string; medium_url: string; contract_url: string; coingecko_url: string; llama_url: string; dune_url: string; whitepaper_url: string; github_url: string; docs_url: string; description: string; token_image_url: string; usdValue: string;
+    project_name: string; ticker: string; tag_name: string; website_url: string; webapp_url: string; discord_url: string; twitter_url: string; twitter: string; telegram_url: string; medium_url: string; contract_url: string; coingecko_url: string; llama_url: string; dune_url: string; whitepaper_url: string; github_url: string; docs_url: string; description: string; token_image_url: string; usdValue: string; tag1: string; tag2: string; tag3: string; tag4: string;
 };
 
-const ProjectDetail = ({usdValue, project_name, ticker, website_url, webapp_url, description, twitter_url, discord_url, telegram_url, medium_url, contract_url, coingecko_url, whitepaper_url, github_url, docs_url, token_image_url, llama_url, dune_url,
+const ProjectDetail = ({
+                           usdValue,
+                           project_name,
+                           ticker,
+                           website_url,
+                           webapp_url,
+                           description,
+                           twitter_url,
+                           discord_url,
+                           telegram_url,
+                           medium_url,
+                           contract_url,
+                           coingecko_url,
+                           whitepaper_url,
+                           github_url,
+                           docs_url,
+                           token_image_url,
+                           llama_url,
+                           dune_url,
+                           tag1,
+                           tag2,
+                           tag3,
+                           tag4
                        }: Props) => {
     const analyticsLinks = llama_url || dune_url || coingecko_url
     const socialLinks = twitter_url || discord_url || telegram_url || medium_url
-    const devLinks = github_url || whitepaper_url || docs_url ||contract_url
+    const devLinks = github_url || whitepaper_url || docs_url || contract_url
+    const tags = tag1 || tag2 || tag3 || tag4
 
     return (<section className={"main-content-wide margin-top-1"}>
         <div className={"main-content"}>
@@ -55,6 +78,15 @@ const ProjectDetail = ({usdValue, project_name, ticker, website_url, webapp_url,
                     {whitepaper_url && (<Button url={whitepaper_url} title="whitepaper"/>)}
                     {docs_url && <Button url={docs_url} title="docs"/>}
                     {contract_url && (<Button url={contract_url} title="contract"/>)}
+                </div>
+            </article>)}
+            {tags && (<article>
+                <h3>tags</h3>
+                <div className={"flex flex-start flex-mobile flex-wrap"}>
+                    {tag1 && (<Button url={tag1} title={tag1}/>)}
+                    {tag2 && (<Button url={tag2} title={tag2}/>)}
+                    {tag3 && <Button url={tag3} title={tag3}/>}
+                    {tag4 && (<Button url={tag4} title={tag4}/>)}
                 </div>
             </article>)}
         </div>

@@ -8,7 +8,6 @@ article_id,title,article_url,tag1,tag2,tag3,tag4,tag5
 7,Uniswap v2 Core whitepaper,https://uniswap.org/whitepaper.pdf,amm,dex,advanced,whitepaper,link
 8,Automated Market Makers and Decentralized Exchanges: a DeFi Primer,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3722714,amm,dex,advanced,whitepaper,link
 9,UNISWAP-V2 CONTRACT WALK-THROUGH,https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/,amm,dex,intermediate,tutorial,link
-10,SoK: Oracles from the Ground Truth to Market Manipulation,https://arxiv.org/abs/2106.00667,oracle,,advanced,whitepaper,link
 11,Blockchain Oracle Design Patterns,https://arxiv.org/abs/2106.09349,oracle,,advanced,whitepaper,link
 12,Foundational Oracle Patterns: Connecting Blockchain to the Off-chain World,https://arxiv.org/abs/2007.14946,oracle,,advanced,whitepaper,link
 13,A First Look into DeFi Oracles,https://arxiv.org/abs/2005.04377,oracle,,advanced,whitepaper,link
@@ -32,18 +31,18 @@ article_id,title,article_url,tag1,tag2,tag3,tag4,tag5
 31,DeFi Indexes,https://defiprime.com/defi-index,index,portfolio,intermediate,article,link
 32,Options Wikipedia,https://en.wikipedia.org/wiki/Option_(finance),options,risk-management,intermediate,article,link
 33,What are Options Contracts Binance,https://academy.binance.com/en/articles/what-are-options-contracts,options,centralised-exchange,intermediate,article,link
-34,Primer on basic option strategies - Deribit position builder,https://insights.deribit.com/market-research/deribit-position-builder-primer-on-basic-option-strategies/,options,,intermediate,article,link
-35,SoK: Decentralized Exchanges (DEX) withAutomated Market Maker (AMM) protocols,https://arxiv.org/pdf/2103.12732.pdf,amm,,advanced,whitepaper,link
+34,Primer on basic option strategies - Deribit position builder,https://insights.deribit.com/market-research/deribit-position-builder-primer-on-basic-option-strategies/,options,trading,intermediate,article,link
+35,SoK: Decentralized Exchanges (DEX) withAutomated Market Maker (AMM) protocols,https://arxiv.org/pdf/2103.12732.pdf,amm,dex,advanced,whitepaper,link
 36,Oracles from the Ground Truth to Market Manipulation,https://arxiv.org/pdf/2106.00667.pdf,oracles,,advanced,whitepaper,link
-37,CIA Officer - twitter thread,https://twitter.com/officer_cia/status/1418018953742409738,oracles,,,tweet,link
-38,A Quick Introduction to Yield Farming,https://unmaskcrypto.com/learnings/yield-farming,Yield,,,article,link
-39,"Where does yield come from, anyway?",https://juliankoh.medium.com/where-does-yield-come-from-anyway-fc818c114bd5,Yield,,,article,link
-40,Nick Chong thread on yield,https://twitter.com/n2ckchong/status/1390494848478683136,Yield,,,tweet,link
-41,What is 0x,https://www.youtube.com/watch?v=c04eIt3FQ5I,DEX,,,video,link
-42,Decentralised exchanges,https://www.wikiwand.com/en/Decentralized_exchange,DEX,,,wikipedia,link
-43,What is a decentralised exchange,https://academy.binance.com/en/articles/what-is-a-decentralized-exchange-dex,DEX,,,article,link
-44,dydx,https://www.youtube.com/watch?v=PGE1uoiZTmM,DEX,,,video,link
-45,what are the risks of defi lending? ,https://ethereum.stackexchange.com/questions/92272/what-are-the-risks-of-defi-lending,lending,,,article,link
+37,CIA Officer - twitter thread,https://twitter.com/officer_cia/status/1418018953742409738,oracles,,intermediate,tweet,link
+38,A Quick Introduction to Yield Farming,https://unmaskcrypto.com/learnings/yield-farming,Yield,defi,intermediate,article,link
+39,"Where does yield come from, anyway?",https://juliankoh.medium.com/where-does-yield-come-from-anyway-fc818c114bd5,Yield,defi,intermediate,article,link
+40,Nick Chong thread on yield,https://twitter.com/n2ckchong/status/1390494848478683136,Yield,defi,,tweet,link
+41,What is 0x,https://www.youtube.com/watch?v=c04eIt3FQ5I,DEX,trading,,video,link
+42,Decentralised exchanges,https://www.wikiwand.com/en/Decentralized_exchange,DEX,trading,intermediate,wikipedia,link
+43,What is a decentralised exchange,https://academy.binance.com/en/articles/what-is-a-decentralized-exchange-dex,DEX,trading,beginner,article,link
+44,dydx,https://www.youtube.com/watch?v=PGE1uoiZTmM,DEX,trading,intermediate,video,link
+45,what are the risks of defi lending? ,https://ethereum.stackexchange.com/questions/92272/what-are-the-risks-of-defi-lending,lending,,intermediate,article,link
 46,aave whitepaper,https://github.com/aave/protocol-v2/blob/master/aave-v2-whitepaper.pdf,lending,,advanced,whitepaper,link
 47,compound whitepaper,https://compound.finance/documents/Compound.Whitepaper.pdf,lending,,advanced,whitepaper,link
 48,vicyn impermanent loss calculator,https://vicyyn.com/,lending,,,tool,link
@@ -51,35 +50,35 @@ article_id,title,article_url,tag1,tag2,tag3,tag4,tag5
 50,MINER EXTRACTABLE VALUE (MEV),https://ethereum.org/en/developers/docs/mev/,mev,,,article,link
 51,Flashbots: Frontrunning the MEV Crisis,https://medium.com/flashbots/frontrunning-the-mev-crisis-40629a613752,mev,,,article,link
 52,flashbots github,https://github.com/flashbots/pm,mev,developer,,github,link
-53,How to approach crypto – Essential tips (Ledger),https://www.ledger.com/academy/how-to-approach-crypto,hold,,,,link
-54,Self-Custody: How to be your own bank (Ledger),https://www.ledger.com/academy/tips-to-trust-yourself-in-becoming-your-own-bank,hold,,,,link
-55,"Not your keys, not your coins (Ledger)",https://www.ledger.com/academy/not-your-keys-not-your-coins-wwhy-it-matters,hold,,,,link
-56,What is a cryptocurrency? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-cryptocurrency,hold,,,,link
-57,What is a Blockchain? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-a-blockchain,hold,,,,link
-58,What is Bitcoin? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-bitcoin,hold,,,,link
-59,What is a Stablecoin? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-a-stablecoin,hold,,,,link
-60,What are the Key Properties of Bitcoin?,https://nakamoto.com/what-are-the-key-properties-of-bitcoin/,hold,,,,link
-61,What is Ethereum?,https://ethereum.org/en/what-is-ethereum/,hold,,,,link
+53,How to approach crypto – Essential tips (Ledger),https://www.ledger.com/academy/how-to-approach-crypto,education,,,,link
+54,Self-Custody: How to be your own bank (Ledger),https://www.ledger.com/academy/tips-to-trust-yourself-in-becoming-your-own-bank,education,security,,,link
+55,"Not your keys, not your coins (Ledger)",https://www.ledger.com/academy/not-your-keys-not-your-coins-wwhy-it-matters,education,security,,,link
+56,What is a cryptocurrency? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-cryptocurrency,education,,,,link
+57,What is a Blockchain? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-a-blockchain,education,,,,link
+58,What is Bitcoin? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-bitcoin,education,,,,link
+59,What is a Stablecoin? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-a-stablecoin,education,,,,link
+60,What are the Key Properties of Bitcoin?,https://nakamoto.com/what-are-the-key-properties-of-bitcoin/,education,,,,link
+61,What is Ethereum?,https://ethereum.org/en/what-is-ethereum/,education,ethereum,,,link
 62,What are Automated Market Makers? (Gemini),https://www.gemini.com/cryptopedia/amm-what-are-automated-market-makers,amm,,,,link
 63,What is an Automated Market Maker? (Binance),https://academy.binance.com/en/articles/what-is-an-automated-market-maker-amm,amm,,,,link
 64,What is an Automated Market Maker? (Coinmarketcap),https://coinmarketcap.com/alexandria/glossary/automated-market-maker-amm,amm,,,,link
 65,"A Mathematical View of Automated Market Maker (AMM) Algorithms and Its Future",https://medium.com/anchordao-lab/automated-market-maker-amm-algorithms-and-its-future-f2d5e6cc624a,amm,,,,link
-66,What is Staking? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-staking,staking,,,,link
-67,Uniswap math desmos thread (Dan Robinson),https://twitter.com/danrobinson/status/1429972775511408651,,,,,link
-68,CoinMarketCap Crypto Glossary,https://coinmarketcap.com/alexandria/glossary,,,,,link
+66,What is Staking? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-staking,staking,education,,,link
+67,Uniswap math desmos thread (Dan Robinson),https://twitter.com/danrobinson/status/1429972775511408651,amm,,,,link
+68,CoinMarketCap Crypto Glossary,https://coinmarketcap.com/alexandria/glossary,education,,,,link
 69,The Crypto Climate Revolution,https://medium.com/@themantis/the-crypto-climate-revolution-why-a-technology-condemned-by-environmentalists-may-become-a-key-e9ea7313587d,,,,,link
 70,How to make a jump from Web2 hacking to Web3 hacking,https://twitter.com/adrianhetman/status/1475550508354093072,developer,beginner,intermediate,tweet,link
-71,Yul (and Some Solidity) Optimizations and Tricks,https://hackmd.io/@gn56kcRBQc6mOi7LCgbv1g/rJez8O8st,developer,yul,solidity,article,link
+71,Yul (and Some Solidity) Optimizations and Tricks,https://hackmd.io/@gn56kcRBQc6mOi7LCgbv1g/rJez8O8st,developer,solidity,yul,article,link
 72,Layer 2 rollups,https://ethereum.org/en/developers/docs/scaling/layer-2-rollups/,layer 2,rollups,intermediate,article,link
-73,defi derivatives,https://github.com/0xperp/defi-derivatives,,,,,link
-74,How to survive in crypto,https://www.youtube.com/watch?v=udgu2O3MZ-Q,,,,video,link
+73,defi derivatives,https://github.com/0xperp/defi-derivatives,defi,derivatives,,,link
+74,How to survive in crypto,https://www.youtube.com/watch?v=udgu2O3MZ-Q,security,eduction,,video,link
 75,Known Physical Bitcoin Attacks,https://github.com/jlopp/physical-bitcoin-attacks/blob/master/README.md,security,bad-things,,github,link
 76,Yearn DeFi glossary,https://docs.yearn.finance/resources/defi-glossary,defi,,,,link
 77,Casual code review of metamask's crypto,https://blog.cryptographyengineering.com/2022/01/14/an-extremely-casual-code-review-of-metamasks-crypto/,security,,,,link
 78,A thread on punk sandwiches,https://twitter.com/bertcmiller/status/1482086447775580161,nft,security,,tweet,link
-79,Kuro's bridging spreadsheet,https://docs.google.com/spreadsheets/d/1jYZOfU2R3PdzRmnY9Nfc4pzerX_YSInNdyhtSj_3oWY/htmlview,,,,,link
+79,Kuro's bridging spreadsheet,https://docs.google.com/spreadsheets/d/1jYZOfU2R3PdzRmnY9Nfc4pzerX_YSInNdyhtSj_3oWY/htmlview,layer 2,bridging,,,link
 80,Assessing Risk in Decentralized Finance,https://www.moodysanalytics.com/articles/2021/block_by_block_assessing_risk_in_decentralized_finance,risk,defi,,article,link
 81,"What is risk, who bears risk, and how could we think about risk in DeFi?",https://twitter.com/nope_its_lily/status/1483556375028387840,risk,defi,,tweet,link
-82,Uniswap: A Good Deal for Liquidity Providers?,https://pintail.medium.com/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2,,,,,link
+82,Uniswap: A Good Deal for Liquidity Providers?,https://pintail.medium.com/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2,amm,lp,,,link
 83,an AMM koan,https://twitter.com/_Dave__White_/status/1318307774674006016,amm,lp,divergence-loss,tweet,link
 84,impermanent loss calculator,https://dailydefi.org/tools/impermanent-loss-calculator/,amm,lp,divergence-loss,tool,link
