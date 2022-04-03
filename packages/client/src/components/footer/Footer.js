@@ -9,6 +9,7 @@ class Footer extends Component {
                     <Link to="/education">glossary</Link>
                     <Link to="/skills">skills</Link>
                     <Link to="/events">events</Link>
+                    <Link to="/articles">articles</Link>
                     {/*<ThemeSwitcher/>*/}
                 </div>
                 <div className={"flex flex-start"}>
