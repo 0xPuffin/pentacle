@@ -12,7 +12,7 @@ const SkillDetail = ({skill_title, replace}: Props) => {
                 <p className={"margin-bottom-2"}>by <a className={"text-link"}
                                                        href={"https://twitter.com/knowerofmarkets"} target={"_blank"}
                                                        rel="noopener noreferrer">@knowerofmarkets</a></p>
-                <p className={"large"} style={{whiteSpace: "pre-wrap"}}>{replace}</p>
+                <p className={"large"} style={{whiteSpace: "pre-line"}}>{replace}</p>
             </article>}
         </div>
     </section>);
