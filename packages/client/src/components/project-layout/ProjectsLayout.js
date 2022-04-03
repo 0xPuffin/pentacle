@@ -49,17 +49,16 @@ export const ProjectsLayout = ({projects = []}) => {
     }
 
     return (<>
-            <section className={"main-content padding-bottom-1 overflow-x-scroll overflow-y-hidden"}>
-                <div>
-                     {/*<TagDescription/>*/}
-                    {/* TODO: use intersection observer to do next/prev button */}
-                        <div className={"flex-mobile"}>
-                            {projects.map((project, index) => (<article key={index} id={`item-${index}`}>
-                                    <ProjectSummary{...project} onClick={() => changeProjectDetails(projects[index])} active={projects[index].project_id === activeProjectId}/>
-                                </article>))}
-                        </div>
+        <section className={"main-content padding-bottom-1 overflow-x-scroll overflow-y-hidden"}>
+            <div>
+                <div className={"flex-mobile"}>
+                    {projects.map((project, index) => (<article key={index} id={`item-${index}`}>
+                        <ProjectSummary{...project} onClick={() => changeProjectDetails(projects[index])}
+                                       active={projects[index].project_id === activeProjectId}/>
+                    </article>))}
                 </div>
-            </section>
-            <ProjectDetail {...projectDetail} usdValue={usdValue}/>
-        </>);
+            </div>
+        </section>
+        <ProjectDetail {...projectDetail} usdValue={usdValue}/>
+    </>);
 };

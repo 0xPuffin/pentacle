@@ -12,6 +12,19 @@ export const CATEGORIES = [
   "yield",
 ];
 
+export const ARTICLE_CATEGORIES = [
+  "education",
+  "amm",
+  "divergence-loss",
+  "hold",
+  "layer-2",
+  "lending",
+  "leverage",
+  "liquidity",
+  "stake",
+  "xyk"
+];
+
 export const EDUCATION_CATEGORIES = [
   "education",
   "amm",

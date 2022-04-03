@@ -1,5 +1,5 @@
 article_id,title,article_url,tag1,tag2,tag3,tag4,tag5
-1,How to Trade for Cheaper using DEX Aggregators,https://unmaskcrypto.com/learnings/dex-aggregator,dex,aggregator,beginner,tutorial,link
+1,How to trade for less using DEX Aggregators,https://unmaskcrypto.com/learnings/dex-aggregator,aggregator,dex,beginner,tutorial,link
 2,What Is an Automated Market Maker (AMM)?,https://academy.binance.com/en/articles/what-is-an-automated-market-maker-amm,amm,dex,intermediate,article,link
 3,Tips for Trading on Uniswap,https://unmaskcrypto.com/learnings/trading-uniswap,amm,dex,beginner,article,link
 4,What Are Automated Market Makers?,https://www.gemini.com/cryptopedia/amm-what-are-automated-market-makers,amm,dex,beginner,article,link
@@ -53,7 +53,7 @@ article_id,title,article_url,tag1,tag2,tag3,tag4,tag5
 52,flashbots github,https://github.com/flashbots/pm,mev,developer,,github,link
 53,How to approach crypto – Essential tips (Ledger),https://www.ledger.com/academy/how-to-approach-crypto,hold,,,,link
 54,Self-Custody: How to be your own bank (Ledger),https://www.ledger.com/academy/tips-to-trust-yourself-in-becoming-your-own-bank,hold,,,,link
-55,"Not your keys, not your coins (Ledger)",https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters,hold,,,,link
+55,"Not your keys, not your coins (Ledger)",https://www.ledger.com/academy/not-your-keys-not-your-coins-wwhy-it-matters,hold,,,,link
 56,What is a cryptocurrency? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-cryptocurrency,hold,,,,link
 57,What is a Blockchain? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-a-blockchain,hold,,,,link
 58,What is Bitcoin? (Coinbase),https://www.coinbase.com/learn/crypto-basics/what-is-bitcoin,hold,,,,link
@@ -82,4 +82,4 @@ article_id,title,article_url,tag1,tag2,tag3,tag4,tag5
 81,"What is risk, who bears risk, and how could we think about risk in DeFi?",https://twitter.com/nope_its_lily/status/1483556375028387840,risk,defi,,tweet,link
 82,Uniswap: A Good Deal for Liquidity Providers?,https://pintail.medium.com/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2,,,,,link
 83,an AMM koan,https://twitter.com/_Dave__White_/status/1318307774674006016,amm,lp,divergence-loss,tweet,link
-84,vimpermanent loss calculator,https://dailydefi.org/tools/impermanent-loss-calculator/,amm,lp,divergence-loss,tool,link
+84,impermanent loss calculator,https://dailydefi.org/tools/impermanent-loss-calculator/,amm,lp,divergence-loss,tool,link

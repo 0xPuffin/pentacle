@@ -11,24 +11,16 @@ export const SkillsPage = () => {
 
     const {pageData} = useContext(SearchContext);
     const {searchResults, pageDataLoading} = useContext(SearchContext);
-    // const {setSearchString, handleClear} = useContext(SearchDispatchContext);
-    // const {title} = useContext(TitleContext);
     const location = useLocation();
-
-    // const handleChange = (event) => {
-    //     setSearchString(event.target.value);
-    // };
 
     const hasNoRelatedLinks = ["/skills", "/skills/degen"];
 
     return (<>
         <Header/>
         <Layout>
-
             {pageData && (<main className={"main-container"}>
                 <section className={"main-content"}>
                     <article className={"flex space-between margin-bottom-1"}>
-                        {/*<h1>{pageDataLoading ? "loading..." : title}</h1>*/}
                         <h1>Skills</h1>
                     </article>
                 </section>

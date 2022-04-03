@@ -6,6 +6,7 @@ import {SearchContext, SearchDispatchContext} from "../../providers/search-provi
 import {useLocation} from "react-router-dom";
 import Spinner from "../../components/spinner";
 import Header from "../../components/header/Header";
+// import {ProjectTagNav} from "../../components/tags/project-tag-nav";
 
 export const ProjectsPage = () => {
     const {searchResults, pageDataLoading, search} = useContext(SearchContext);
@@ -20,6 +21,7 @@ export const ProjectsPage = () => {
 
     return (<>
         <Header/>
+        {/*<ProjectTagNav/>*/}
         <Layout>
             <main className={"main-container"}>
                 <section className={"main-content"}>

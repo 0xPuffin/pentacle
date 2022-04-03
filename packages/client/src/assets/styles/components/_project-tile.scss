@@ -1,6 +1,3 @@
-.projects {
-}
-
 .p-card {
   //background-color: _color(bg-box-dim);
   padding: 1rem 1rem;
@@ -12,6 +9,19 @@
   height: 12rem;
   width: 9rem;
   cursor: pointer;
+
+  &.wide {
+    width: unset;
+    max-width: 35rem;
+    height: unset;
+    h3 {
+      padding-top: 0;
+    }
+    a {
+      line-height: 1.5rem;
+    }
+  }
+
 
   &.beginner {
     background-color: #FAEADE;
