@@ -4,9 +4,9 @@ import Layout from "../components/layout";
 export const Terms = () => {
   return (
       <Layout>
-        <section className={"editorial-content one-col"}>
+        <article className={"main-header align-center"}><h1>Terms of use</h1></article>
+        <section className={"editorial-content one-col padding-top-1"}>
           <article className={"box feature dark box-padding"}>
-            <h1>Terms of use</h1>
             <h2>Links to other sites</h2>
             <p>
               This Site may contain links to other independent third-party Web
