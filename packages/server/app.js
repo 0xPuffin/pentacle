@@ -9,6 +9,7 @@ const eventsRouter = require("./routes/events/events");
 const skillsRouter = require("./routes/skills/skills");
 
 const projectsRouter = require("./routes/projects/projects");
+const projectsAllRouter = require("./routes/projects/all");
 const projectsAnalyticsRouter = require("./routes/projects/analytics");
 const projectsDefiRouter = require("./routes/projects/defi");
 const projectsDeveloperRouter = require("./routes/projects/developer");
@@ -67,6 +68,7 @@ app.use("/events/events", eventsRouter);
 app.use("/skills/skills", skillsRouter);
 
 app.use("/projects/projects", projectsRouter);
+app.use("/projects/all", projectsAllRouter);
 app.use("/projects/analytics", projectsAnalyticsRouter);
 app.use("/projects/defi", projectsDefiRouter);
 app.use("/projects/developer", projectsDeveloperRouter);
