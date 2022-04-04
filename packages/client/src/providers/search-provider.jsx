@@ -43,10 +43,10 @@ export function SearchProvider({ children }) {
   const [selectedTags, setSelectedTags] = useState([]);
 
   const [tags, setTags] = useState([]);
+  const [availableTags, setAvailableTags] = useState([]);
   const [tagsLoading, setTagsLoading] = useState(true);
 
   const [error, setError] = useState(null);
-  const [activeTag, setActiveTag] = useState("");
   const [loadedKeys, setLoadedKeys] = useState([]);
 
   const [allRelatedArticles, setAllRelatedArticles] = useState([]);
@@ -57,8 +57,9 @@ export function SearchProvider({ children }) {
 
   useEffect(() => {
     const section = location.pathname.split("/")[1] || "projects";
+    const category = location.pathname.split("/")[2];
     setActiveSection(section);
-    setActiveCategory(location.pathname.split("/")[2]);
+    setActiveCategory(category);
   }, [location.pathname]);
 
   useEffect(() => {
@@ -138,7 +139,7 @@ export function SearchProvider({ children }) {
   useEffect(() => {
     if (selectedTags.length) {
       setSearchResults(
-        searchResults.filter((res) => selectedTags.includes(res.tag_name))
+        searchResults.filter((res) => selectedTags.some(tag => res.tags.includes(tag)))
       );
     } else {
       setSearchResults(pageData);
@@ -146,7 +147,7 @@ export function SearchProvider({ children }) {
   }, [selectedTags]);
 
   useEffect(() => {
-    if (activeSection) {
+    if (activeSection && tags.length) {
       (async () => {
         setPageDataLoading(true);
         try {
@@ -154,13 +155,48 @@ export function SearchProvider({ children }) {
           const url =
             activeSection && activeCategory
               ? BASE_URI + "/" + activeSection + "/" + activeCategory
-              : BASE_URI + "/" + activeSection + "/" + activeSection;
+              : BASE_URI + "/" + activeSection + "/all";
           const response = await fetch(url);
-          const res = await response.json();
+          const res = (await response.json()).data;
+
+          const deduped = Object.values(
+            res.reduce((acc, curr) => {
+              const cache = acc[curr.project_name];
+              if (cache) {
+                cache.tags.push(curr.tag_name);
+              } else {
+                const { tag_name, ...rest } = curr;
+                acc[curr.project_name] = {
+                  ...rest,
+                  tags: [tag_name],
+                };
+              }
+              return acc;
+            }, {})
+          );
+          const avTags = [
+            ...deduped.reduce((acc, curr) => {
+              curr.tags.forEach((tag) => acc.add(tag));
+              return acc;
+            }, new Set()),
+          ];
 
           setPageDataLoading(false);
-          setSearchResults(res.data);
-          setPageData(res.data);
+          setSearchResults(deduped);
+          setPageData(deduped);
+          setAvailableTags(
+            tags
+              .filter((t) => avTags.includes(t.name))
+              .sort((a, b) => {
+                if (a.name.toLowerCase() < b.name.toLowerCase()) {
+                  return -1;
+                }
+                if (a.name.toLowerCase() > b.name.toLowerCase()) {
+                  return 1;
+                }
+                return 0;
+              })
+          );
         } catch (error) {
           setPageDataLoading(false);
           setError(error.message); // TODO
@@ -168,7 +204,7 @@ export function SearchProvider({ children }) {
         }
       })();
     }
-  }, [activeSection, activeCategory]);
+  }, [activeSection, activeCategory, tags]);
 
   useEffect(() => {
     const searchResult = pageData.filter((project) =>
@@ -196,9 +232,9 @@ export function SearchProvider({ children }) {
         pageDataLoading,
         searchResults,
         error,
-        activeTag,
         activeSection,
         loadedKeys,
+        availableTags,
         selectedTags,
         relatedArticles,
         selectedProject,
@@ -210,7 +246,6 @@ export function SearchProvider({ children }) {
           setActiveSection,
           setActiveCategory,
           handleClear,
-          setActiveTag,
           setLoadedKeys,
           clearError,
           setSelectedTags,

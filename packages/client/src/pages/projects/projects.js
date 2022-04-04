@@ -13,9 +13,7 @@ export const ProjectsPage = () => {
     const { searchResults, pageDataLoading, search, availableTags } = useContext(SearchContext);
     const { setSearchString, handleClear, setSelectedTags } = useContext(SearchDispatchContext);
     const location = useLocation();
-    // const [vals, setVals] = useState([]);
-
-const handleChange = (event) => {
+    const handleChange = (event) => {
         setSearchString(event.target.value);
     };
 
@@ -36,7 +34,7 @@ const handleChange = (event) => {
 
                         <div style={{ color: 'black', textAlign: 'left' }}>
                             <Select
-                                options={tags.map(t => ({ value: t.name, label: t.name }))}
+                                options={availableTags.map(t => ({ value: t.name, label: t.name }))}
                                 isClearable
                                 isMulti
                                 placeholder="Tags"
