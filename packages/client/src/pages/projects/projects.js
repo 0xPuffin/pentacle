@@ -10,12 +10,12 @@ import Select from 'react-select'
 
 
 export const ProjectsPage = () => {
-    const { searchResults, pageDataLoading, search, tags } = useContext(SearchContext);
+    const { searchResults, pageDataLoading, search, availableTags } = useContext(SearchContext);
     const { setSearchString, handleClear, setSelectedTags } = useContext(SearchDispatchContext);
     const location = useLocation();
     // const [vals, setVals] = useState([]);
 
-    const handleChange = (event) => {
+const handleChange = (event) => {
         setSearchString(event.target.value);
     };
 
