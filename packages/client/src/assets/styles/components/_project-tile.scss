@@ -1,8 +1,4 @@
-.projects {
-}
-
 .p-card {
-  //background-color: _color(bg-box-dim);
   padding: 1rem 1rem;
   margin-right: .5rem;
   word-wrap: break-word;
@@ -12,6 +8,19 @@
   height: 12rem;
   width: 9rem;
   cursor: pointer;
+
+  &.wide {
+    width: unset;
+    max-width: 35rem;
+    height: unset;
+    h3 {
+      padding: 0 0 .25rem;
+    }
+    a {
+      line-height: 1.5rem;
+    }
+  }
+
 
   &.beginner {
     background-color: #FAEADE;
@@ -23,7 +32,7 @@
     background-color: #EDF3DF;
   }
 
-  &.active {
+  &.active, &:hover {
     border: 3px solid _color(border-box);
   }
 

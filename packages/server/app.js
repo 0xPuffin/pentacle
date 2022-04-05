@@ -9,6 +9,7 @@ const eventsRouter = require("./routes/events/events");
 const skillsRouter = require("./routes/skills/skills");
 
 const projectsRouter = require("./routes/projects/projects");
+const projectsAllRouter = require("./routes/projects/all");
 const projectsAnalyticsRouter = require("./routes/projects/analytics");
 const projectsDefiRouter = require("./routes/projects/defi");
 const projectsDeveloperRouter = require("./routes/projects/developer");
@@ -20,6 +21,7 @@ const projectsNftRouter = require("./routes/projects/nft");
 const projectsSecurityRouter = require("./routes/projects/security");
 const projectsYieldRouter = require("./routes/projects/yield");
 
+const articlesTagsRouter = require("./routes/articles/tags");
 const educationTagsRouter = require("./routes/education/tags");
 const eventsTagsRouter = require("./routes/events/tags");
 const projectsTagsRouter = require("./routes/projects/tags");
@@ -66,6 +68,7 @@ app.use("/events/events", eventsRouter);
 app.use("/skills/skills", skillsRouter);
 
 app.use("/projects/projects", projectsRouter);
+app.use("/projects/all", projectsAllRouter);
 app.use("/projects/analytics", projectsAnalyticsRouter);
 app.use("/projects/defi", projectsDefiRouter);
 app.use("/projects/developer", projectsDeveloperRouter);
@@ -77,6 +80,7 @@ app.use("/projects/nft", projectsNftRouter);
 app.use("/projects/security", projectsSecurityRouter);
 app.use("/projects/yield", projectsYieldRouter);
 
+app.use("/articles/tags", articlesTagsRouter);
 app.use("/events/tags", eventsTagsRouter);
 app.use("/education/tags", educationTagsRouter);
 app.use("/projects/tags", projectsTagsRouter);

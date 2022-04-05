@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import SkillDetail from "./SkillDetail";
 import SkillsSummary from "./SkillsSummary";
+import CarouselContainer from "../carousel/CarouselContainer";
 
 export const SkillsLayout = ({projects = []}) => {
     const [projectDetail, setProjectDetail] = useState();
@@ -22,17 +23,11 @@ export const SkillsLayout = ({projects = []}) => {
     }
 
     return (<>
-            <section className={"main-content padding-bottom-1 overflow-x-scroll"}>
-                <div>
-                     {/*<TagDescription/>*/}
-                    {/* TODO: use intersection observer to do next/prev button */}
-                        <div className={"flex-mobile"}>
-                            {projects.map((project, index) => (<article key={index} id={`item-${index}`}>
-                                    <SkillsSummary{...project} onClick={() => changeProjectDetails(projects[index])}/>
-                                </article>))}
-                        </div>
-                </div>
-            </section>
+        <CarouselContainer>
+            {projects.map((project, index) => (<article key={index} id={`item-${index}`}>
+                <SkillsSummary{...project} onClick={() => changeProjectDetails(projects[index])}/>
+            </article>))}
+        </CarouselContainer>
 
         <SkillDetail {...projectDetail}/>
     </>);

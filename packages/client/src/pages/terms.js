@@ -1,15 +1,12 @@
 import React from "react";
 import Layout from "../components/layout";
-import Header from "../components/header/Header";
 
 export const Terms = () => {
   return (
-    <div>
-      <Header />
       <Layout>
-        <section className={"editorial-content one-col"}>
+        <article className={"main-header align-center"}><h1>Terms of use</h1></article>
+        <section className={"editorial-content one-col padding-top-1"}>
           <article className={"box feature dark box-padding"}>
-            <h1>Terms of use</h1>
             <h2>Links to other sites</h2>
             <p>
               This Site may contain links to other independent third-party Web
@@ -65,6 +62,5 @@ export const Terms = () => {
           </article>
         </section>
       </Layout>
-    </div>
   );
 };

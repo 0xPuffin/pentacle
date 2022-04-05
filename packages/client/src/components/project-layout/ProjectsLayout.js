@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import ProjectDetail from "./ProjectDetail";
 import ProjectSummary from "./ProjectSummary";
+import CarouselContainer from "../carousel/CarouselContainer";
 // import TagDescription from "../tag-description/TagDescription";
 
 export const ProjectsLayout = ({projects = []}) => {
@@ -49,17 +50,12 @@ export const ProjectsLayout = ({projects = []}) => {
     }
 
     return (<>
-            <section className={"main-content padding-bottom-1 overflow-x-scroll overflow-y-hidden"}>
-                <div>
-                     {/*<TagDescription/>*/}
-                    {/* TODO: use intersection observer to do next/prev button */}
-                        <div className={"flex-mobile"}>
-                            {projects.map((project, index) => (<article key={index} id={`item-${index}`}>
-                                    <ProjectSummary{...project} onClick={() => changeProjectDetails(projects[index])} active={projects[index].project_id === activeProjectId}/>
-                                </article>))}
-                        </div>
-                </div>
-            </section>
-            <ProjectDetail {...projectDetail} usdValue={usdValue}/>
-        </>);
+        <CarouselContainer>
+                {projects.map((project, index) => (<article key={index} id={`item-${index}`}>
+                    <ProjectSummary{...project} onClick={() => changeProjectDetails(projects[index])}
+                                   active={projects[index].project_id === activeProjectId}/>
+                </article>))}
+        </CarouselContainer>
+        <ProjectDetail {...projectDetail} usdValue={usdValue}/>
+    </>);
 };
