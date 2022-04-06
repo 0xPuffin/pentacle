@@ -182,7 +182,7 @@ export default function SunburstGraph({ type, colorScheme }) {
 
       <main>
         <section className={"main-container"}>
-          <article className={"main-content"} ref={filterRef}>
+          <article className={"main-content padding-top-1"} ref={filterRef}>
             <div className={"flex flex-align-center"}>
               {categories && categories.map(button)}
             </div>

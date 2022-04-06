@@ -29,6 +29,9 @@
       &.lowercase {
         text-transform: lowercase;
       }
+      &.inverse {
+        color: _color(nav-link-inv);
+      }
     }
   }
 }

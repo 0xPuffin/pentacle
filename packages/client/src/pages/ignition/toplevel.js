@@ -10,14 +10,14 @@ export const TopLevel = ({projects}) => {
     }, [projects]);
 
     return (<>
-            <Header/>
-            <nav className={"navigation"}>
-                <ul>
-                    {projects.map((project, index) => (<li key={index}><a className={"lowercase"}
-                                                                          onClick={() => setProjectDetail(projects[index])}>{project.name}</a>
-                        </li>))}
-                </ul>
-            </nav>
-            <Projects projects={projectDetail}/>
-        </>);
+        <Header/>
+        <nav className={"navigation"}>
+            <ul>
+                {projects.map((project, index) => (<li key={index} className={"margin-y-1"}><a className={"lowercase inverse"}
+                                                                      onClick={() => setProjectDetail(projects[index])}>{project.name}</a>
+                </li>))}
+            </ul>
+        </nav>
+        <Projects projects={projectDetail}/>
+    </>);
 };
