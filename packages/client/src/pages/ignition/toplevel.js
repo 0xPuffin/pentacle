@@ -12,8 +12,8 @@ export const TopLevel = ({projects}) => {
     return (<>
         <Header/>
         <nav className={"navigation"}>
-            <ul>
-                {projects.map((project, index) => (<li key={index} className={"margin-y-1"}><a className={"lowercase inverse"}
+            <ul className={"margin-y-1"}>
+                {projects.map((project, index) => (<li key={index}><a className={"lowercase inverse"}
                                                                       onClick={() => setProjectDetail(projects[index])}>{project.name}</a>
                 </li>))}
             </ul>
