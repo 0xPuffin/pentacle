@@ -1,7 +1,7 @@
 [
   {
     "title": "Buy and trade crypto",
-    "text": "Centralised and decentralised exchanges where you can buy and trade and tokens",
+    "text": "Centralised and decentralised exchanges where you can buy and trade tokens",
     "link": "/projects/exchanges",
     "class": "beginner"
   },
@@ -25,13 +25,13 @@
   },
   {
     "title": "Solana DeFi",
-    "text": "Discover wallets, NFTs, analytics, exchanges built on solana",
+    "text": "Discover wallets, NFTs, analytics, and exchanges built on solana",
     "link": "/solana",
     "class": "intermediate"
   },
   {
     "title": "DeFi",
-    "text": "Financial protocols built on decentralized blockchains including decentralised exchanges and yield protocols",
+    "text": "Financial protocols built on decentralised blockchains including decentralised exchanges and yield protocols",
     "link": "/projects/defi",
     "class": "intermediate"
   },
@@ -49,7 +49,7 @@
   },
   {
     "title": "Solana ignition",
-    "text": "Projects from the ignition hackathon including DeFi, NFT and infra",
+    "text": "Projects from the ignition hackathon including DeFi, NFTs and infra",
     "link": "/ignition",
     "class": "advanced"
   },
