@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Project from "./lowerlevel";
 import ProjectTile from "./project-tile";
+import CarouselContainer from "../../components/carousel/CarouselContainer";
 
 const Projects = ({ projects }) => {
   const [projectDetail, setProjectDetail] = useState(projects.children[0]);
@@ -10,9 +11,8 @@ const Projects = ({ projects }) => {
   }, [projects]);
 
   return (
-    <main className={"main-container"}>
-        <article className={"overflow-x-scroll overflow-y-hidden padding-bottom-1 main-content"}>
-          <article className={"flex-mobile stretch"}>
+    <>
+        <CarouselContainer>
             {projects.children.map((project, index) => (
               <ProjectTile
                 key={index}
@@ -20,10 +20,9 @@ const Projects = ({ projects }) => {
                 onClick={() => setProjectDetail(projects.children[index])}
               />
             ))}
-          </article>
-        </article>
+        </CarouselContainer>
       <Project projectDetailLower={projectDetail} />
-    </main>
+    </>
   );
 };
 
