@@ -83,3 +83,4 @@ resource_id,resource_title,resource_url,author,tag1,tag2,tag3,tag4,tag5
 82,Uniswap: A Good Deal for Liquidity Providers?,https://pintail.medium.com/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2,,,,,,link,
 83,an AMM koan,https://twitter.com/_Dave__White_/status/1318307774674006016,,amm,lp,divergence-loss,tweet,link,
 84,vimpermanent loss calculator,https://dailydefi.org/tools/impermanent-loss-calculator/,,amm,lp,divergence-loss,tool,link,
+85,CoinScouts,"CoinScouts is a crypto database. It's a community-driven one-stop platform for finding, analyzing, and discussing cryptocurrencies. Using their filters, you can DYOR with just a few clicks",https://coinscouts.io,https://twitter.com/Coinscouts,analytics,education,aggregator,metrics,insight
