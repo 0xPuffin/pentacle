@@ -3,7 +3,6 @@
     <script-file value="$PROJECT_DIR$/data/make-db.sql" />
     <script-mode>FILE</script-mode>
     <data-source id="ed104e97-2d42-4a39-b2b7-de50ed8f3371" namespace="database/&quot;postgres&quot;" />
-    <data-source id="ed104e97-2d42-4a39-b2b7-de50ed8f3371" namespace="database/&quot;pentaclexyz&quot;" />
     <method v="2" />
   </configuration>
 </component>
