@@ -117,4 +117,3 @@ COPY event FROM '/Users/pentaclexyz/projects/pentacle/data/event-no-tags.csv' de
 COPY event_tag FROM '/Users/pentaclexyz/projects/pentacle/data/event_tags.csv' delimiter ',' CSV HEADER;
 COPY skill FROM '/Users/pentaclexyz/projects/pentacle/data/skill-no-tags.csv' delimiter ',' CSV HEADER;
 COPY skill_tag FROM '/Users/pentaclexyz/projects/pentacle/data/skill_tags.csv' delimiter ',' CSV HEADER;
-

@@ -6,67 +6,67 @@ tag_id,name,description
 5,arbitrage,Arbitrage is the trading style of quickly buying and selling the same coin on different markets in order to profit from the price difference with low risk
 6,asset-management,
 7,bridge,
-8,cex,Centralized Exchanges where people can exchange their crypto
-9,centralised-exchange,Centralized Exchanges where people can exchange their crypto
+8,centralised-exchange,Centralized Exchanges where people can exchange their crypto
+9,cex,Centralized Exchanges where people can exchange their crypto
 10,dao,Decentralized Autonomous Organisation
 11,dapp,dApps are computer applications that run on decentralized networks such as Ethereum or Solana
 12,decentralised-exchange,Decentralized Exchanges are protocols built on blockchains that allow people to trade crypto using Automated Market Makers
 13,defi,"Decentralized Finance, a broad term used for financial protocols built on decentralized blockchains"
-13,defi-tool,
-14,dev-learning,
-15,dev-tools,
-16,developer,Sites and tools to help you build your own applications or contribute to existing ones within crypto
-17,dex,Decentralized Exchanges are protocols built on blockchains that allow people to trade crypto using Automated Market Makers
+14,defi-tool,
+15,dev-learning,
+16,dev-tools,
+17,developer,Sites and tools to help you build your own applications or contribute to existing ones within crypto
+18,dex,Decentralized Exchanges are protocols built on blockchains that allow people to trade crypto using Automated Market Makers
 19,divergence-loss,"Also known as impermanent loss, a potential risk of supplying liquidity of coins whose prices diverge over time"
-18,education,General educative content
-19,event,
-20,fiat-onramp,Exchanges and wallets where you are able to buy crypto
-23,gas,"In context of Ethereum and similar dApp networks, gas refers to the cost to perform a transaction on the network."
-21,hardware,
-22,identity,
-23,index,
-24,infrastructure,
-28,insight,"Educative but perhaps opinionated pieces written by experts, about current market structure or various protocols"
-25,insurance,Find ways to insure your cryptocurrency
-30,jobs,"As a booming new industry, crypto offers many new job opportunities. Find them here"
-26,lending,Lending and borrowing go hand in hand and are one of the main financial primitives
-27,leverage,Leverage allows traders to borrow money from the exchange in order to amplify the potential gains or losses
-33,liquidity,"Liquidity is the abundance of a cryptocurrency in a market - the more liquid a coin is, the easier it is to buy or sell it without affecting its price"
-28,layer-2,A layer-2 network is a secondary protocol built on top of an existing blockchain in order to improve its scaling capabilities
-29,LP,Short for Liquidity Provider or Liquidity Provision
-36,margin,"Margin trading essentially means exchanging coins with borrowed money, with the goal of amplified gains or losses."
-30,metrics,Places to find information about various crypto protocols and ways to compare them
-31,merch,Crypto clothing and paraphenalia
-32,metaverse,Fancy word for the internet
-33,news,Articles related to current events and news in the world of crypto
-41,nft,"Unlike regular cryptocurrencies, Non Fungible Tokens are each unique and distinct, commonly used to store art and other images"
-42,options,"Options are complex financial derivatives, commonly used for accessing leverage or hedging investments"
-34,order,An order is an instruction sent to an exchange to buy or sell crypto - either immediately or given some condition
-35,oracle,Oracles are the eyes of blockchains; they send information from the outside world to the applications built on them
-45,pool,"A DeFi-native financial primitive, a liquidity pool is essentially a contract holding several people's coins"
-36,portfolio,Tools to help you keep track of your crypto holdings
-47,protocol ,"Protocols are basic sets of rules that allow data to be shared between computers. For cryptocurrencies, they establish the structure of the blockchain — the distributed database that allows digital money to be securely exchanged on the internet."
-37,risk-management,
-38,security,Tools and articles to help you keep your crypto safe
-50,smart-contract,"A smart contract is a function or program that runs on a blockchain, most often Ethereum"
-51,stablecoin,"A stablecoin is a cryptocurrency that has a stable value, typically tied to the US dollar"
-39,trading,
-40,transaction,A transaction is a transfer of value between addresses on a blockchain
-41,stake,Lock up your crypto for future rewards - like a savings account
-42,wallet,Wallets are used to store crypto and interact with decentralized applications on blockchains
-43,xyk,A prevalent market making formula popularised by Uniswap
-57,yield,"In the context of finance, yield measures return for investments/deposits over a set amount of time, expressed as a percentage"
-44,hold,
-45,stake,
-46,video,
-47,article,
-48,whitepaper,
-49,tweet,
-50,widget,
-51,tutorial,
-52,wikipedia,
-53,solana,
-54,ethereum,
-55,project,
-56,skill,
-57,link,
+20,education,General educative content
+21,ethereum,
+22,event,
+23,fiat-onramp,Exchanges and wallets where you are able to buy crypto
+24,gas,"In context of Ethereum and similar dApp networks, gas refers to the cost to perform a transaction on the network."
+25,hardware,
+26,hold,
+27,identity,
+28,index,
+29,infrastructure,
+30,insight,"Educative but perhaps opinionated pieces written by experts, about current market structure or various protocols"
+31,insurance,Find ways to insure your cryptocurrency
+32,jobs,"As a booming new industry, crypto offers many new job opportunities. Find them here"
+33,layer-2,A layer-2 network is a secondary protocol built on top of an existing blockchain in order to improve its scaling capabilities
+34,lending,Lending and borrowing go hand in hand and are one of the main financial primitives
+35,leverage,Leverage allows traders to borrow money from the exchange in order to amplify the potential gains or losses
+36,liquidity,"Liquidity is the abundance of a cryptocurrency in a market - the more liquid a coin is, the easier it is to buy or sell it without affecting its price"
+37,LP,Short for Liquidity Provider or Liquidity Provision
+38,margin,"Margin trading essentially means exchanging coins with borrowed money, with the goal of amplified gains or losses."
+39,merch,Crypto clothing and paraphenalia
+40,metaverse,Fancy word for the internet
+41,metrics,Places to find information about various crypto protocols and ways to compare them
+42,news,Articles related to current events and news in the world of crypto
+43,nft,"Unlike regular cryptocurrencies, Non Fungible Tokens are each unique and distinct, commonly used to store art and other images"
+44,options,"Options are complex financial derivatives, commonly used for accessing leverage or hedging investments"
+45,oracle,Oracles are the eyes of blockchains; they send information from the outside world to the applications built on them
+46,order,An order is an instruction sent to an exchange to buy or sell crypto - either immediately or given some condition
+47,pool,"A DeFi-native financial primitive, a liquidity pool is essentially a contract holding several people's coins"
+48,portfolio,Tools to help you keep track of your crypto holdings
+49,project,
+50,protocol ,"Protocols are basic sets of rules that allow data to be shared between computers. For cryptocurrencies, they establish the structure of the blockchain — the distributed database that allows digital money to be securely exchanged on the internet."
+51,risk-management,
+52,security,Tools and articles to help you keep your crypto safe
+53,smart-contract,"A smart contract is a function or program that runs on a blockchain, most often Ethereum"
+54,solana,
+55,stablecoin,"A stablecoin is a cryptocurrency that has a stable value, typically tied to the US dollar"
+56,stake,Lock up your crypto for future rewards - like a savings account
+57,stake,
+58,trading,
+59,transaction,A transaction is a transfer of value between addresses on a blockchain
+60,wallet,Wallets are used to store crypto and interact with decentralized applications on blockchains
+61,xyk,A prevalent market making formula popularised by Uniswap
+62,yield,"In the context of finance, yield measures return for investments/deposits over a set amount of time, expressed as a percentage"
+63,skill,
+64,link,
+65,video,
+66,article,
+67,whitepaper,
+68,tweet,
+69,widget,
+70,tutorial,
+71,wikipedia,
