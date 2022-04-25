@@ -896,6 +896,11 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
+"@rari-capital/solmate@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@rari-capital/solmate/-/solmate-6.2.0.tgz#4f70dc236606c27ec2cb1b4261dd830235d01fe4"
+  integrity sha512-g94F+Ra9ixyJyNgvnOIufNjUz488uEG0nxIEEtJ7+g+tA1XGUupRB2kB5b+VO7WYO26RNOVD2fW6xE4e14iWpg==
+
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"

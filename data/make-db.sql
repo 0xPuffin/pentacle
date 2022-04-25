@@ -107,13 +107,13 @@ CREATE TABLE skill_tag
     tag_id   int
 );
 COPY project FROM '/Users/pentaclexyz/projects/pentacle/data/eth-projects-no-tags.csv' delimiter ',' CSV HEADER;
-COPY project_tag FROM '/Users/pentaclexyz/projects/pentacle/data/project_tags.csv' delimiter ',' CSV HEADER;
+COPY project_tag FROM '/Users/pentaclexyz/projects/pentacle/data/eth-eth-project-tags.csv' delimiter ',' CSV HEADER;
 COPY tag FROM '/Users/pentaclexyz/projects/pentacle/data/tags.csv' delimiter ',' CSV HEADER;
 COPY article FROM '/Users/pentaclexyz/projects/pentacle/data/article-no-tags.csv' delimiter ',' CSV HEADER;
-COPY article_tag FROM '/Users/pentaclexyz/projects/pentacle/data/article_tags.csv' delimiter ',' CSV HEADER;
+COPY article_tag FROM '/Users/pentaclexyz/projects/pentacle/data/article-tags.csv' delimiter ',' CSV HEADER;
 COPY education FROM '/Users/pentaclexyz/projects/pentacle/data/education-no-tags.csv' delimiter ',' CSV HEADER;
-COPY education_tag FROM '/Users/pentaclexyz/projects/pentacle/data/education_tags.csv' delimiter ',' CSV HEADER;
+COPY education_tag FROM '/Users/pentaclexyz/projects/pentacle/data/education-tags.csv' delimiter ',' CSV HEADER;
 COPY event FROM '/Users/pentaclexyz/projects/pentacle/data/event-no-tags.csv' delimiter ',' CSV HEADER;
-COPY event_tag FROM '/Users/pentaclexyz/projects/pentacle/data/event_tags.csv' delimiter ',' CSV HEADER;
+COPY event_tag FROM '/Users/pentaclexyz/projects/pentacle/data/event-tags.csv' delimiter ',' CSV HEADER;
 COPY skill FROM '/Users/pentaclexyz/projects/pentacle/data/skill-no-tags.csv' delimiter ',' CSV HEADER;
-COPY skill_tag FROM '/Users/pentaclexyz/projects/pentacle/data/skill_tags.csv' delimiter ',' CSV HEADER;
+COPY skill_tag FROM '/Users/pentaclexyz/projects/pentacle/data/skill-tags.csv' delimiter ',' CSV HEADER;

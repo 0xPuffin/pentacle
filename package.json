@@ -26,5 +26,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "@rari-capital/solmate": "^6.2.0"
   }
 }

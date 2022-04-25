@@ -27,4 +27,4 @@ new_df = pd.concat([df1, df2], axis=0, sort=False)
 new_df['tag_id'] = new_df['tag_id'].astype(int)
 
 print(new_df)
-new_df.to_csv('../education_tags.csv')
+new_df.to_csv('../education-tags.csv')
